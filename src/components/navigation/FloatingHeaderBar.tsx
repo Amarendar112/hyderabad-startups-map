@@ -55,7 +55,7 @@ export default function FloatingHeaderBar({
           <img
             src="/logo.png"
             alt="Hyderabad Startup Map Logo"
-            className="w-7 h-7 sm:w-8 sm:h-8 object-contain"
+            className="w-9 h-9 sm:w-10 sm:h-10 object-contain drop-shadow-sm"
           />
           <span className="font-extrabold text-sm sm:text-base tracking-tight text-gray-900 whitespace-nowrap hidden xs:block">
             Hyd <span className="text-orange-600 font-semibold sm:hidden">Map</span>

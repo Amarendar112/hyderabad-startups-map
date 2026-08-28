@@ -31,7 +31,7 @@ export default function Header({
           <img
             src="/logo.png"
             alt="Hyderabad Startup Map Logo"
-            className="w-10 h-10 object-contain group-hover:scale-105 transition-transform"
+            className="w-12 h-12 object-contain group-hover:scale-105 transition-transform drop-shadow-md"
           />
           <div>
             <div className="flex items-center gap-1.5">
