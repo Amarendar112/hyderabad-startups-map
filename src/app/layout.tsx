@@ -63,12 +63,52 @@ export const viewport = {
   userScalable: true,
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://hyderabadstartupsmap.com/#website",
+      "url": "https://hyderabadstartupsmap.com/",
+      "name": "Hyderabad Startup Map",
+      "description":
+        "Explore Hyderabad's startup ecosystem with an interactive map. Discover startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
+      "publisher": {
+        "@id": "https://hyderabadstartupsmap.com/#organization",
+      },
+      "inLanguage": "en-US",
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://hyderabadstartupsmap.com/#organization",
+      "name": "Hyderabad Startup Map",
+      "url": "https://hyderabadstartupsmap.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://hyderabadstartupsmap.com/logo.png",
+      },
+      "description":
+        "Interactive directory and ecosystem map for Hyderabad startups, founders, funding, incubators, and innovation hubs.",
+    },
+  ],
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>{children}</body>
     </html>
   );
