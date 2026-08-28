@@ -61,27 +61,28 @@ export default function LeafletMap({
     }
   };
 
-  // Helper to get tile configuration based on selected style (Reliable open tile servers)
+  // Helper to get tile configuration using authenticated CARTO basemaps
   const getTileConfig = (style: 'light' | 'dark' | 'satellite') => {
+    const CARTO_KEY = 'cb1_2c85_1_890e19bc626c26223bd8f571';
     switch (style) {
       case 'light':
         return {
-          url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          subdomains: 'abc',
-          maxZoom: 19,
+          url: `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=${CARTO_KEY}`,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+          subdomains: 'abcd',
+          maxZoom: 20,
         };
       case 'dark':
         return {
-          url: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
-          attribution: '&copy; Esri, HERE, Garmin, USGS, NGA, EPA',
-          subdomains: 'abc',
-          maxZoom: 19,
+          url: `https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=${CARTO_KEY}`,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+          subdomains: 'abcd',
+          maxZoom: 20,
         };
       case 'satellite':
         return {
           url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-          attribution: '&copy; Esri',
+          attribution: '&copy; Esri, Maxar, Earthstar Geographics',
           subdomains: 'abc',
           maxZoom: 19,
         };
