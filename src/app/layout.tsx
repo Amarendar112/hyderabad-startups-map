@@ -13,8 +13,47 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hyderabad Startup Map — Explore 650+ Startups",
-  description: "Discover, explore and connect with 650+ verified startups, incubators and investors in Hyderabad's tech ecosystem.",
+  metadataBase: new URL("https://hyderabadstartupsmap.com"),
+  title: "Hyderabad Startup Map – Startups, Founders & Funding",
+  description:
+    "Explore Hyderabad's startup ecosystem with an interactive map. Discover startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
+  keywords: [
+    "Hyderabad Startup Map",
+    "Hyderabad Startups",
+    "Hyderabad Founders",
+    "T-Hub Hyderabad",
+    "HITEC City Startups",
+    "Hyderabad Tech Ecosystem",
+    "Hyderabad Venture Capital",
+    "Hyderabad Incubators",
+  ],
+  openGraph: {
+    title: "Hyderabad Startup Map – Startups, Founders & Funding",
+    description:
+      "Explore Hyderabad's startup ecosystem with an interactive map. Discover startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
+    url: "https://hyderabadstartupsmap.com",
+    siteName: "Hyderabad Startup Map",
+    images: [
+      {
+        url: "/logo.png",
+        width: 800,
+        height: 800,
+        alt: "Hyderabad Startup Map Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hyderabad Startup Map – Startups, Founders & Funding",
+    description:
+      "Explore Hyderabad's startup ecosystem with an interactive map. Discover startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
+    images: ["/logo.png"],
+  },
+  alternates: {
+    canonical: "https://hyderabadstartupsmap.com",
+  },
 };
 
 export const viewport = {
