@@ -3,7 +3,7 @@
 import React from 'react';
 import { Startup } from '@/types/startup';
 import { MapPin, Briefcase, Star, GitCompare, CheckCircle2, Sparkles, ExternalLink, ArrowRight } from 'lucide-react';
-import { getCompanyLogoUrl } from '@/utils/logo';
+import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 
 interface StartupCardProps {
   startup: Startup;
@@ -55,10 +55,7 @@ export default function StartupCard({
                 src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
                 alt={startup.name}
                 className="w-12 h-12 rounded-xl object-contain bg-white border border-slate-700 p-1 shadow-md group-hover:scale-105 transition-transform"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).onerror = null;
-                  (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
-                }}
+                onError={(e) => handleLogoError(e, startup.name)}
               />
               {startup.verified && (
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 bg-slate-950 rounded-full absolute -bottom-1 -right-1" />

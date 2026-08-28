@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Startup } from '@/types/startup';
-import { getCompanyLogoUrl } from '@/utils/logo';
+import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 import {
   X,
   ExternalLink,
@@ -72,10 +72,7 @@ export default function StartupDetailModal({
                 src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
                 alt={startup.name}
                 className="w-16 h-16 rounded-2xl object-contain bg-white border-2 border-indigo-500/40 p-1 shadow-lg"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).onerror = null;
-                  (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
-                }}
+                onError={(e) => handleLogoError(e, startup.name)}
               />
               <div>
                 <div className="flex items-center gap-2">

@@ -54,7 +54,11 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
   alternates: {
-    canonical: "https://hyderabadstartupsmap.com",
+    canonical: "https://hyderabadstartupsmap.com/",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

@@ -3,7 +3,7 @@
 import React from 'react';
 import { Startup } from '@/types/startup';
 import { MapPin, Briefcase, Star, GitCompare, CheckCircle2, ArrowRight } from 'lucide-react';
-import { getCompanyLogoUrl } from '@/utils/logo';
+import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 
 interface StartupListProps {
   startups: Startup[];
@@ -58,10 +58,7 @@ export default function StartupList({
                         src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
                         alt={startup.name}
                         className="w-10 h-10 rounded-xl object-contain bg-white border border-slate-700 p-1"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).onerror = null;
-                          (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
-                        }}
+                        onError={(e) => handleLogoError(e, startup.name)}
                       />
                       <div>
                         <div className="flex items-center gap-1.5">

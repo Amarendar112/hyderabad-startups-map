@@ -22,8 +22,7 @@ export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl
   }
 
   if (domain && domain.length > 0) {
-    // Clearbit Logo API: returns high-quality company logos, gracefully handles
-    // unknown domains (returns a blank/transparent image rather than a 404).
+    // Clearbit Logo API: returns high-quality logos.
     return `https://logo.clearbit.com/${domain}`;
   }
 
@@ -31,3 +30,20 @@ export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl
   return `https://ui-avatars.com/api/?name=${displayName}&background=6366f1&color=fff&bold=true`;
 }
 
+/**
+ * Returns a guaranteed-working ui-avatars fallback URL for a startup name.
+ * Use this as the final fallback in onError handlers.
+ */
+export function getLogoFallbackUrl(name: string): string {
+  return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=6366f1&color=fff&bold=true&size=128`;
+}
+
+/**
+ * React onError handler for startup logo <img> tags.
+ * Tries ui-avatars as final fallback so broken images never show.
+ */
+export function handleLogoError(e: React.SyntheticEvent<HTMLImageElement>, name: string): void {
+  const img = e.target as HTMLImageElement;
+  img.onerror = null; // prevent infinite loop
+  img.src = getLogoFallbackUrl(name);
+}
