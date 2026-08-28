@@ -29,19 +29,16 @@ export default function SeoContent() {
       {/* Primary H1 — required for homepage SEO */}
       <h1>Hyderabad Startup Map</h1>
 
-      {/* Ecosystem overview paragraph */}
+      {/* Requirement 4: Homepage Introduction */}
       <p>
-        Hyderabad Startup Map is an interactive directory of 650+ verified startups,
-        founders, investors, and incubators across Hyderabad&apos;s thriving tech
-        ecosystem. Explore startups by location, sector, funding stage, and more —
-        all plotted on a live map.
+        Hyderabad Startup Map is an interactive directory of Hyderabad startups. Explore 650+ startups across Hyderabad, discover companies by sector and location, and find information about founders, funding, investors, incubators and the growing Hyderabad startup ecosystem.
       </p>
 
       {/* Location hubs section */}
       <section>
         <h2>Hyderabad Startup Hubs</h2>
         <p>
-          Hyderabad&apos;s startup activity is concentrated across several key tech corridors:
+          Discover <a href="/"><strong>Hyderabad Startups</strong></a> located across primary technology corridors and hubs:
         </p>
         <ul>
           <li>
@@ -49,108 +46,88 @@ export default function SeoContent() {
               <strong>HITEC City</strong>
             </a>{' '}
             — Hyderabad&apos;s primary IT hub, home to marquee tech parks including
-            Cyber Towers and Mindspace, housing hundreds of product and SaaS startups.
+            Cyber Towers and Mindspace, housing hundreds of tech companies.
           </li>
           <li>
             <a href="/?area=Gachibowli">
               <strong>Gachibowli</strong>
             </a>{' '}
-            — A fast-growing financial and technology district adjacent to HITEC City,
-            with strong presence of fintech, enterprise software, and deep-tech companies.
+            — A fast-growing financial and technology district adjacent to HITEC City.
           </li>
           <li>
             <a href="/?area=Madhapur">
               <strong>Madhapur</strong>
             </a>{' '}
-            — The heart of Hyderabad&apos;s startup belt, known for co-working spaces,
-            accelerators, and a dense network of early-stage startups.
+            — The heart of Hyderabad&apos;s startup belt, known for co-working spaces and accelerators.
           </li>
           <li>
             <a href="/?area=Financial+District">
               <strong>Financial District</strong>
             </a>{' '}
-            — Emerging as a premium business district with multinational offices and
-            growth-stage startups in fintech and enterprise services.
+            — Emerging as a premium business district with multinational offices and growth-stage companies.
           </li>
         </ul>
       </section>
 
       {/* Ecosystem entities section */}
       <section>
-        <h2>Hyderabad Startup Ecosystem</h2>
+        <h2><a href="/?view=ecosystem">Hyderabad Startup Ecosystem</a></h2>
         <p>
-          Hyderabad hosts one of India&apos;s most mature startup ecosystems, supported by
-          world-class incubators, accelerators, and government-backed innovation hubs.
+          Hyderabad hosts one of India&apos;s most mature startup ecosystems, supported by top <a href="/?view=ecosystem"><strong>Incubators</strong></a>, accelerators, and <a href="/?view=ecosystem"><strong>Investors</strong></a>.
         </p>
         <ul>
           <li>
-            <strong>T-Hub</strong> — India&apos;s largest startup incubator, based in
-            Hyderabad, supporting over 2,000 startups across AI, SaaS, cleantech, and
-            deep-tech verticals.
+            <strong>T-Hub</strong> — India&apos;s largest startup incubator based in Hyderabad.
           </li>
           <li>
-            <strong>TASK (Telangana Academy for Skill and Knowledge)</strong> — Connects
-            Hyderabad&apos;s talent pipeline to startup requirements.
+            <strong>TASK (Telangana Academy for Skill and Knowledge)</strong> — Supporting tech talent in Telangana.
           </li>
           <li>
-            <strong>RICH (Research and Innovation Circle of Hyderabad)</strong> — A
-            government initiative facilitating research-driven startups and deep-tech
-            innovation in the region.
+            <strong>RICH (Research and Innovation Circle of Hyderabad)</strong> — Facilitating deep-tech innovation.
           </li>
         </ul>
       </section>
 
       {/* Sector section */}
       <section>
-        <h2>Top Startup Sectors in Hyderabad</h2>
+        <h2><a href="/#sectors">Startup Sectors</a></h2>
         <p>
-          Hyderabad&apos;s startup ecosystem spans a wide range of technology sectors:
+          Explore companies across key technology sectors in Hyderabad:
         </p>
         <ul>
           <li>
             <a href="/?industry=AI+%2F+ML">
-              <strong>AI and Machine Learning</strong>
-            </a>{' '}
-            — Generative AI platforms, computer vision, NLP, and enterprise AI automation
-            startups are rapidly growing in Hyderabad.
+              <strong>AI &amp; Machine Learning</strong>
+            </a>
           </li>
           <li>
             <a href="/?industry=SaaS">
               <strong>SaaS</strong>
-            </a>{' '}
-            — A large cluster of B2B SaaS companies building vertical software for
-            healthcare, logistics, HR, and finance sectors.
+            </a>
           </li>
           <li>
             <a href="/?industry=Fintech">
-              <strong>Fintech</strong>
-            </a>{' '}
-            — Fintech startups in Hyderabad are disrupting payments, lending, insurance,
-            and wealthtech, supported by strong banking infrastructure.
+              <strong>FinTech</strong>
+            </a>
           </li>
           <li>
             <a href="/?industry=Healthtech">
-              <strong>Healthtech</strong>
-            </a>{' '}
-            — Digital health startups leveraging Hyderabad&apos;s established
-            pharmaceutical and hospital network to build scalable health platforms.
+              <strong>HealthTech</strong>
+            </a>
           </li>
           <li>
             <a href="/?industry=Edtech">
-              <strong>Edtech</strong>
-            </a>{' '}
-            — Education technology companies building online learning, upskilling, and
-            corporate training platforms out of Hyderabad.
+              <strong>EdTech</strong>
+            </a>
           </li>
         </ul>
       </section>
 
       {/* Funding section */}
       <section>
-        <h2>Startup Funding in Hyderabad</h2>
+        <h2><a href="/#funding">Startup Funding</a></h2>
         <p>
-          Hyderabad startups have attracted significant venture capital and angel
-          investment. Explore startups by their funding stage:
+          Discover startups, <a href="/#founders"><strong>Startup Founders</strong></a>, and venture investments across stages:
         </p>
         <ul>
           <li>
@@ -166,14 +143,7 @@ export default function SeoContent() {
             <a href="/?fundingStage=Series+B">Series B startups in Hyderabad</a>
           </li>
           <li>
-            <a href="/?fundingStage=Series+C%2B">
-              Series C and growth-stage startups in Hyderabad
-            </a>
-          </li>
-          <li>
-            <a href="/?fundingStage=Bootstrapped">
-              Bootstrapped startups in Hyderabad
-            </a>
+            <a href="/?fundingStage=Bootstrapped">Bootstrapped startups in Hyderabad</a>
           </li>
         </ul>
       </section>
@@ -182,11 +152,7 @@ export default function SeoContent() {
       <section>
         <h2>About Hyderabad Startup Map</h2>
         <p>
-          Hyderabad Startup Map is a free, community-driven resource for founders,
-          investors, job seekers, and ecosystem stakeholders. Our interactive map lets
-          you discover Hyderabad startups by area, industry, funding stage, and hiring
-          status — all in one place. Are you a founder? Submit your startup to get
-          listed on the map.
+          Hyderabad Startup Map is a free, community-driven resource for founders, investors, job seekers, and ecosystem stakeholders.
         </p>
       </section>
     </div>

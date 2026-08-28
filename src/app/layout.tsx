@@ -16,12 +16,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hyderabadstartupsmap.com"),
-  title: "Hyderabad Startup Map – 650+ Startups, Founders & Funding",
+  title: "Hyderabad Startup Map | 650+ Hyderabad Startups, Founders & Funding",
   description:
-    "Explore Hyderabad's startup ecosystem with an interactive map. Discover 650+ startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
+    "Explore Hyderabad's startup ecosystem with an interactive startup map. Discover 650+ Hyderabad startups, founders, funding, sectors, incubators and startup hubs.",
   keywords: [
     "Hyderabad Startup Map",
+    "Hyderabad Startups Map",
     "Hyderabad Startups",
+    "Hyderabad Startup Directory",
+    "Startup Map Hyderabad",
+    "Hyderabad Startup Ecosystem",
     "Hyderabad Founders",
     "T-Hub Hyderabad",
     "HITEC City Startups",
@@ -30,10 +34,10 @@ export const metadata: Metadata = {
     "Hyderabad Incubators",
   ],
   openGraph: {
-    title: "Hyderabad Startup Map – 650+ Startups, Founders & Funding",
+    title: "Hyderabad Startup Map | 650+ Hyderabad Startups, Founders & Funding",
     description:
-      "Explore Hyderabad's startup ecosystem with an interactive map. Discover 650+ startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
-    url: "https://hyderabadstartupsmap.com",
+      "Explore Hyderabad's startup ecosystem with an interactive startup map. Discover 650+ Hyderabad startups, founders, funding, sectors, incubators and startup hubs.",
+    url: "https://hyderabadstartupsmap.com/",
     siteName: "Hyderabad Startup Map",
     images: [
       {
@@ -48,9 +52,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hyderabad Startup Map – 650+ Startups, Founders & Funding",
+    title: "Hyderabad Startup Map | 650+ Hyderabad Startups, Founders & Funding",
     description:
-      "Explore Hyderabad's startup ecosystem with an interactive map. Discover 650+ startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
+      "Explore Hyderabad's startup ecosystem with an interactive startup map. Discover 650+ Hyderabad startups, founders, funding, sectors, incubators and startup hubs.",
     images: ["/logo.png"],
   },
   alternates: {
@@ -77,8 +81,12 @@ const jsonLd = {
       "@id": "https://hyderabadstartupsmap.com/#website",
       "url": "https://hyderabadstartupsmap.com/",
       "name": "Hyderabad Startup Map",
+      "alternateName": [
+        "Hyderabad Startups Map",
+        "Hyderabad Startup Directory"
+      ],
       "description":
-        "Explore Hyderabad's startup ecosystem with an interactive map. Discover 650+ startups, founders, funding, sectors, incubators and startup hubs across Hyderabad.",
+        "Explore Hyderabad's startup ecosystem with an interactive startup map. Discover 650+ Hyderabad startups, founders, funding, sectors, incubators and startup hubs.",
       "publisher": {
         "@id": "https://hyderabadstartupsmap.com/#organization",
       },
