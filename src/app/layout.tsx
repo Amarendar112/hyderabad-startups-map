@@ -60,6 +60,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://hyderabadstartupsmap.com/",
   },
+  icons: {
+    icon: [
+      { url: '/logo.png', type: 'image/png' },
+    ],
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
   robots: {
     index: true,
     follow: true,
