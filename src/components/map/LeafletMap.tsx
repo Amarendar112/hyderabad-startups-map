@@ -61,22 +61,19 @@ export default function LeafletMap({
     }
   };
 
-  // Helper to get tile configuration based on selected style (Uses CARTO Voyager & Dark with key)
+  // Helper to get tile configuration based on selected style (Uses CARTO Voyager & Dark)
   const getTileConfig = (style: 'light' | 'dark' | 'satellite') => {
-    const apiKey = process.env.NEXT_PUBLIC_CARTO_API_KEY || 'default_public';
-    const keyParam = `?key=${apiKey}`;
-
     switch (style) {
       case 'light':
         return {
-          url: `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png${keyParam}`,
+          url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
           subdomains: 'abcd',
           maxZoom: 20,
         };
       case 'dark':
         return {
-          url: `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png${keyParam}`,
+          url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
           subdomains: 'abcd',
           maxZoom: 20,
