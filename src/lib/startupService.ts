@@ -1,6 +1,6 @@
 import { Startup, Incubator, Investor, JobOpening, FilterState, SubmissionFormState } from '@/types/startup';
 import { INITIAL_STARTUPS, INITIAL_INCUBATORS, INITIAL_INVESTORS } from '@/data/startups';
-import { generateAllStartupJobs } from '@/utils/jobsGenerator';
+import { INITIAL_JOBS } from '@/data/jobs';
 
 const LOCAL_STORAGE_STARTUPS_KEY = 'hyd_startup_map_startups_v13';
 const LOCAL_STORAGE_FAVORITES_KEY = 'hyd_startup_map_favorites_v1';
@@ -255,10 +255,9 @@ export class StartupService {
     return INITIAL_INVESTORS;
   }
 
-  // Extract all verified Job Openings from all startups (140+ active roles with career links)
-  static getAllJobs(startups: Startup[]): JobOpening[] {
-    const list = startups && startups.length > 0 ? startups : INITIAL_STARTUPS;
-    return generateAllStartupJobs(list);
+  // Returns all hardcoded verified job openings with direct career page links
+  static getAllJobs(_startups?: Startup[]): JobOpening[] {
+    return INITIAL_JOBS;
   }
 
   // Reset to initial data
