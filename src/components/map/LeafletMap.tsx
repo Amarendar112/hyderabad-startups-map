@@ -89,32 +89,9 @@ export default function LeafletMap({
     }
   };
 
-  // Inject Leaflet CSS & Register Global Map Logo Error Handler
+  // Inject Leaflet CSS
   useEffect(() => {
     if (typeof window === 'undefined') return;
-
-    // Register global error handler for Leaflet marker img tags to avoid inline attribute JS syntax errors
-    (window as unknown as Record<string, unknown>).__handleMapPinLogoError = (
-      img: HTMLImageElement,
-      domain: string,
-      name: string
-    ) => {
-      if (!img) return;
-      const step = img.getAttribute('data-step') || '0';
-      if (step === '0' && domain) {
-        img.setAttribute('data-step', '1');
-        img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
-        return;
-      }
-      if (step === '1' && domain) {
-        img.setAttribute('data-step', '2');
-        img.src = `https://icon.horse/icon/${encodeURIComponent(domain)}`;
-        return;
-      }
-      img.onerror = null;
-      img.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=6366f1&color=fff&bold=true`;
-    };
-
     if (!document.getElementById('leaflet-css-cdn')) {
       const link = document.createElement('link');
       link.id = 'leaflet-css-cdn';
@@ -272,11 +249,9 @@ export default function LeafletMap({
           } else {
             const startup: Startup = cluster.properties.startup;
             const color = getIndustryColor(startup.industry);
-            const domain = extractDomain(startup.website) || extractDomain(startup.logoUrl);
             const logoUrl = getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl);
-            const safeDomain = (domain || '').replace(/'/g, "\\'");
-            const safeName = startup.name.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-            const onerrorAttr = `if(window.__handleMapPinLogoError)window.__handleMapPinLogoError(this,'${safeDomain}','${safeName}')`;
+            const fallbackLogo = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
+            const safeName = startup.name.replace(/"/g, '&quot;');
 
             const iconHtml = `
               <div style="position:relative;display:inline-block;cursor:pointer;">
@@ -292,7 +267,7 @@ export default function LeafletMap({
                     alt="${safeName}"
                     width="32" height="32"
                     style="width:100%;height:100%;object-fit:contain;border-radius:50%;"
-                    onerror="${onerrorAttr}"
+                    onerror="this.onerror=null;this.src='${fallbackLogo}';"
                   />
                 </div>
                 ${startup.hiring ? `<span style="position:absolute;top:-2px;right:-2px;width:10px;height:10px;background:#10B981;border:2px solid #fff;border-radius:50%;"></span>` : ''}
@@ -312,7 +287,7 @@ export default function LeafletMap({
               <div style="padding:10px;max-width:220px;font-family:sans-serif;color:#1e293b;background:#fff;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,0.15);">
                 <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
                   <div style="width:30px;height:30px;border-radius:50%;background:#fff;border:1px solid #e2e8f0;overflow:hidden;padding:2px;flex-shrink:0;">
-                    <img src="${logoUrl}" width="28" height="28" style="width:100%;height:100%;object-fit:contain;" onerror="${onerrorAttr}" />
+                    <img src="${logoUrl}" width="28" height="28" style="width:100%;height:100%;object-fit:contain;" onerror="this.onerror=null;this.src='${fallbackLogo}';" />
                   </div>
                   <div>
                     <h4 style="font-weight:700;font-size:13px;color:#0f172a;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:155px;">${startup.name}</h4>
