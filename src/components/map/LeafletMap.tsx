@@ -251,11 +251,9 @@ export default function LeafletMap({
             const startup: Startup = cluster.properties.startup;
             const color = getIndustryColor(startup.industry);
             const logoUrl = getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl);
-            const domain = extractDomain(startup.website || startup.logoUrl);
             const finalFallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
-            const secondaryFallback = domain ? `https://icons.duckduckgo.com/ip3/${domain}.ico` : finalFallback;
             const safeName = startup.name.replace(/"/g, '&quot;');
-            const onerror = `this.onerror=null;this.src='${secondaryFallback}';this.onerror=function(){this.src='${finalFallback}';};`;
+            const onerror = `this.onerror=null;this.src='${finalFallback}';`;
 
             const matchingJobs = (startup.jobOpenings && startup.jobOpenings.length > 0)
               ? startup.jobOpenings
