@@ -5,6 +5,7 @@ import { JobOpening, Startup } from '@/types/startup';
 import { Briefcase, Search, MapPin, CheckCircle2, ArrowUpRight, Building2, ExternalLink } from 'lucide-react';
 import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 import { getCareersUrl } from '@/utils/jobsGenerator';
+import { INITIAL_JOBS } from '@/data/jobs';
 
 interface JobsDirectoryProps {
   jobs: JobOpening[];
@@ -17,10 +18,12 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedCompany, setSelectedCompany] = useState<string>('All');
 
+  const activeJobs = (jobs && jobs.length > 0) ? jobs : INITIAL_JOBS;
+
   const categories = ['All', 'Engineering', 'Product', 'Design', 'Sales', 'Marketing', 'AI & Data'];
   const companyNames = ['All Companies', ...Array.from(new Set(startups.map((s) => s.name))).sort()];
 
-  const filteredJobs = jobs.filter((j) => {
+  const filteredJobs = activeJobs.filter((j) => {
     if (search.trim()) {
       const q = search.toLowerCase();
       const matchTitle = j.title.toLowerCase().includes(q);
