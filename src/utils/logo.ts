@@ -4,13 +4,36 @@ export function extractDomain(url?: string): string | null {
     const cleanUrl = url.trim();
     if (!cleanUrl) return null;
 
+    if (cleanUrl.includes('google.com/search') || cleanUrl.includes('bing.com/search')) {
+      return null;
+    }
+
     if (cleanUrl.includes('domain=')) {
       const match = cleanUrl.match(/domain=([^&]+)/);
-      if (match && match[1]) return match[1].replace(/^www\./, '');
+      if (match && match[1]) {
+        const d = match[1].replace(/^www\./, '').toLowerCase();
+        if (d.includes('google') || d.includes('bing')) return null;
+        return d;
+      }
     }
 
     const parsed = new URL(cleanUrl.startsWith('http') ? cleanUrl : `https://${cleanUrl}`);
-    return parsed.hostname.replace(/^www\./, '');
+    const host = parsed.hostname.replace(/^www\./, '').toLowerCase();
+
+    // Ignore search engine and generic non-company domains
+    if (
+      host === 'google.com' ||
+      host === 'google.co.in' ||
+      host === 'bing.com' ||
+      host === 'search.yahoo.com' ||
+      host === 'duckduckgo.com' ||
+      host === 'linkedin.com' ||
+      host === 'wikipedia.org'
+    ) {
+      return null;
+    }
+
+    return host;
   } catch {
     return null;
   }
@@ -18,7 +41,8 @@ export function extractDomain(url?: string): string | null {
 
 /**
  * Returns primary original logo URL for a startup.
- * Uses DuckDuckGo favicon API which fetches the REAL favicon directly from the company's website.
+ * Uses DuckDuckGo favicon API which fetches the REAL favicon directly from the company's domain.
+ * Never uses Google's logo or generic single placeholders.
  */
 export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
   const isGenericFaviconService = rawLogoUrl && (
@@ -36,19 +60,21 @@ export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl
     return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
   }
 
-  return getLogoFallbackUrl(name || 'S');
+  return getLogoFallbackUrl(name || 'Startup');
 }
 
 /**
- * Returns a guaranteed-working ui-avatars fallback URL for a startup name.
+ * Returns a neutral initial badge URL uniquely styled for the specific startup name.
+ * Uses slate dark background with sky blue bold initials.
  */
 export function getLogoFallbackUrl(name: string): string {
-  return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=6366f1&color=fff&bold=true&size=128`;
+  const safeName = name ? name.trim() : 'Startup';
+  return `https://ui-avatars.com/api/?name=${encodeURIComponent(safeName)}&background=1e293b&color=38bdf8&bold=true&size=128`;
 }
 
 /**
  * React onError handler for startup logo <img> tags.
- * Falls back cleanly to UI-Avatars initial badge if domain icon fails to load.
+ * Falls back cleanly to neutral initial badge if domain icon fails to load.
  */
 export function handleLogoError(
   e: React.SyntheticEvent<HTMLImageElement>,
@@ -58,5 +84,6 @@ export function handleLogoError(
   img.onerror = null;
   img.src = getLogoFallbackUrl(name);
 }
+
 
 
