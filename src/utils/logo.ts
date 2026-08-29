@@ -17,18 +17,23 @@ export function extractDomain(url?: string): string | null {
 }
 
 /**
- * Returns primary logo URL for a startup using Google S2 Favicon service (sz=128).
- * Restored to yesterday's exact working setup for company logos and favicons.
+ * Returns primary logo URL for a startup.
+ * Uses Brandfetch CDN which has real company logos for thousands of domains.
+ * Falls back to DuckDuckGo icon (which scrapes actual site favicon) then ui-avatars.
  */
 export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
-  // If raw logo URL is explicitly provided, use it
-  if (rawLogoUrl && rawLogoUrl.trim().length > 0) {
+  // Skip Google favicon URLs — they show Google's own logo for unknown domains
+  const isGoogleFavicon = rawLogoUrl && rawLogoUrl.includes('google.com/s2/favicons');
+
+  // If raw logo URL is a real image (not a favicon service), use it directly
+  if (rawLogoUrl && rawLogoUrl.trim().length > 0 && !isGoogleFavicon) {
     return rawLogoUrl.trim();
   }
 
   const domain = extractDomain(websiteUrl);
   if (domain) {
-    return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
+    // Brandfetch CDN: real brand logos scraped from official sites
+    return `https://cdn.brandfetch.io/${encodeURIComponent(domain)}/w/128/h/128?c=1idflGlRRFP7HQqe9ub`;
   }
 
   return getLogoFallbackUrl(name || 'S');
@@ -43,11 +48,22 @@ export function getLogoFallbackUrl(name: string): string {
 
 /**
  * React onError handler for startup logo <img> tags.
- * Falls back to ui-avatars if an image fails to load.
+ * Falls back: Brandfetch failed → DuckDuckGo icon → ui-avatars
  */
-export function handleLogoError(e: React.SyntheticEvent<HTMLImageElement>, name: string): void {
+export function handleLogoError(
+  e: React.SyntheticEvent<HTMLImageElement>,
+  name: string,
+  websiteUrl?: string
+): void {
   const img = e.target as HTMLImageElement;
+  const domain = extractDomain(websiteUrl) || extractDomain(img.src);
+  const currentSrc = img.src || '';
+
+  if (domain && !currentSrc.includes('duckduckgo.com') && !currentSrc.includes('ui-avatars.com')) {
+    img.src = `https://icons.duckduckgo.com/ip3/${encodeURIComponent(domain)}.ico`;
+    return;
+  }
+
   img.onerror = null;
   img.src = getLogoFallbackUrl(name);
 }
-

@@ -250,8 +250,14 @@ export default function LeafletMap({
             const startup: Startup = cluster.properties.startup;
             const color = getIndustryColor(startup.industry);
             const logoUrl = getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl);
-            const fallbackLogo = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
+            const domain = extractDomain(startup.website);
+            const ddgFallback = domain ? `https://icons.duckduckgo.com/ip3/${encodeURIComponent(domain)}.ico` : '';
+            const finalFallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
             const safeName = startup.name.replace(/"/g, '&quot;');
+            // Safe multi-step onerror: Brandfetch → DuckDuckGo → ui-avatars
+            const onerror = ddgFallback
+              ? `if(this.src.indexOf('brandfetch')>-1){this.src='${ddgFallback}'}else{this.onerror=null;this.src='${finalFallback}'}`
+              : `this.onerror=null;this.src='${finalFallback}'`;
 
             const iconHtml = `
               <div style="position:relative;display:inline-block;cursor:pointer;">
@@ -267,7 +273,7 @@ export default function LeafletMap({
                     alt="${safeName}"
                     width="32" height="32"
                     style="width:100%;height:100%;object-fit:contain;border-radius:50%;"
-                    onerror="this.onerror=null;this.src='${fallbackLogo}';"
+                    onerror="${onerror}"
                   />
                 </div>
                 ${startup.hiring ? `<span style="position:absolute;top:-2px;right:-2px;width:10px;height:10px;background:#10B981;border:2px solid #fff;border-radius:50%;"></span>` : ''}
@@ -287,7 +293,7 @@ export default function LeafletMap({
               <div style="padding:10px;max-width:220px;font-family:sans-serif;color:#1e293b;background:#fff;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,0.15);">
                 <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
                   <div style="width:30px;height:30px;border-radius:50%;background:#fff;border:1px solid #e2e8f0;overflow:hidden;padding:2px;flex-shrink:0;">
-                    <img src="${logoUrl}" width="28" height="28" style="width:100%;height:100%;object-fit:contain;" onerror="this.onerror=null;this.src='${fallbackLogo}';" />
+                    <img src="${logoUrl}" width="28" height="28" style="width:100%;height:100%;object-fit:contain;" onerror="${onerror}" />
                   </div>
                   <div>
                     <h4 style="font-weight:700;font-size:13px;color:#0f172a;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:155px;">${startup.name}</h4>
