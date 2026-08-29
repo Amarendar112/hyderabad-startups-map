@@ -151,6 +151,7 @@ export default function Home() {
         onSelectField={setSelectedField}
         selectedLevel={selectedLevel}
         onSelectLevel={setSelectedLevel}
+        jobs={allJobs}
       />
 
       {/* 2. Primary Full-Screen View Container */}

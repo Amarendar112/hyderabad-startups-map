@@ -1,9 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
-import { MapPin, Search, Map, Grid, Briefcase, SlidersHorizontal, X, Plus } from 'lucide-react';
-import { FilterState } from '@/types/startup';
+import { Search, Map, Grid, Briefcase, SlidersHorizontal, X, Plus } from 'lucide-react';
+import { FilterState, JobOpening } from '@/types/startup';
 import { HYDERABAD_AREAS } from '@/data/startups';
+import { INITIAL_JOBS } from '@/data/jobs';
 
 interface FloatingHeaderBarProps {
   filters: FilterState;
@@ -20,6 +21,7 @@ interface FloatingHeaderBarProps {
   onSelectLevel?: (level: string) => void;
   isJobMode?: boolean;
   onToggleJobMode?: (active: boolean) => void;
+  jobs?: JobOpening[];
 }
 
 export default function FloatingHeaderBar({
@@ -29,15 +31,19 @@ export default function FloatingHeaderBar({
   onViewChange,
   onOpenSubmit,
   onOpenJobs,
-  totalJobsCount = 140,
+  totalJobsCount,
   selectedField = 'All',
   onSelectField,
   selectedLevel = 'All',
   onSelectLevel,
   isJobMode = false,
   onToggleJobMode,
+  jobs = [],
 }: FloatingHeaderBarProps) {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  const activeJobsList = jobs && jobs.length > 0 ? jobs : INITIAL_JOBS;
+  const realJobsCount = totalJobsCount || activeJobsList.length;
 
   const industries = [
     'All sectors',
@@ -54,23 +60,24 @@ export default function FloatingHeaderBar({
   const areaList = ['All areas', ...HYDERABAD_AREAS.map((a) => a.name)];
   const typesList = ['All types', 'Startups', 'Incubators', 'Investors', 'Hiring Now'];
 
+  // Genuine dynamic role counts calculated directly from activeJobsList
   const fields = [
-    { label: 'Engineering', count: 221 },
-    { label: 'Data & AI', count: 62 },
-    { label: 'Product', count: 73 },
-    { label: 'Design', count: 63 },
-    { label: 'Sales & Marketing', count: 241 },
-    { label: 'Operations', count: 162 },
-    { label: 'Other', count: 168 },
+    { label: 'Engineering', count: activeJobsList.filter(j => (j.category as string) === 'Engineering').length },
+    { label: 'Data & AI', count: activeJobsList.filter(j => (j.category as string) === 'AI & Data').length },
+    { label: 'Product', count: activeJobsList.filter(j => (j.category as string) === 'Product').length },
+    { label: 'Design', count: activeJobsList.filter(j => (j.category as string) === 'Design').length },
+    { label: 'Sales & Marketing', count: activeJobsList.filter(j => (j.category as string) === 'Sales' || (j.category as string) === 'Marketing').length },
+    { label: 'Operations', count: activeJobsList.filter(j => (j.category as string) === 'Operations').length },
+    { label: 'Other', count: activeJobsList.filter(j => !['Engineering', 'AI & Data', 'Product', 'Design', 'Sales', 'Marketing', 'Operations'].includes(j.category as string)).length },
   ];
 
   const levels = [
-    { label: 'Fresher', count: 78 },
-    { label: 'Junior', count: 183 },
-    { label: 'Mid', count: 288 },
-    { label: 'Senior', count: 154 },
-    { label: 'Lead', count: 66 },
-    { label: 'Unspecified', count: 221 },
+    { label: 'Fresher', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Fresher').length },
+    { label: 'Junior', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Junior').length },
+    { label: 'Mid', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Mid-Level' || (j.experienceLevel as string) === 'Mid').length },
+    { label: 'Senior', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Senior').length },
+    { label: 'Lead', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Lead / Executive' || (j.experienceLevel as string) === 'Lead').length },
+    { label: 'Unspecified', count: activeJobsList.filter(j => !['Fresher', 'Junior', 'Mid-Level', 'Mid', 'Senior', 'Lead / Executive', 'Lead'].includes(j.experienceLevel as string)).length },
   ];
 
   const selectClass =
@@ -85,16 +92,19 @@ export default function FloatingHeaderBar({
   return (
     <header className="absolute top-2 left-2 right-2 sm:top-3 sm:left-4 sm:right-4 z-[100] bg-white/95 backdrop-blur-md rounded-2xl sm:rounded-3xl shadow-xl border border-gray-200/90 text-gray-800 transition-all font-sans">
       
-      {/* ── TOP BAR: Logo, Search Input, Dropdowns (if in Default Mode), View Toggle, Job Toggle & Submit ── */}
-      <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 px-3 py-2.5 sm:px-4 sm:py-2.5">
+      {/* ── TOP BAR: Logo (Restored /logo.png), Search, Dropdowns, View Toggle, Job Toggle & Submit ── */}
+      <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 px-3 py-2 sm:px-4 sm:py-2.5">
         
-        {/* Logo & Site Title */}
+        {/* Restored Original Logo /logo.png */}
         <div className="flex items-center gap-1.5 shrink-0">
-          <div className="w-6 h-6 rounded-full bg-rose-500 flex items-center justify-center text-white shadow-sm">
-            <MapPin className="w-3.5 h-3.5 fill-white" />
-          </div>
-          <span className="font-extrabold text-sm sm:text-base tracking-tight text-gray-900 whitespace-nowrap">
-            Hyderabad Startup Map
+          <img
+            src="/logo.png"
+            alt="Hyderabad Startup Map Logo"
+            className="w-9 h-9 sm:w-10 sm:h-10 object-contain drop-shadow-sm"
+          />
+          <span className="font-extrabold text-sm sm:text-base tracking-tight text-gray-900 whitespace-nowrap hidden xs:block">
+            Hyd <span className="text-orange-600 font-semibold sm:hidden">Map</span>
+            <span className="text-orange-600 font-semibold hidden sm:inline"> Startup Map</span>
           </span>
         </div>
 
@@ -201,7 +211,7 @@ export default function FloatingHeaderBar({
           {mobileFiltersOpen ? <X className="w-3.5 h-3.5" /> : <SlidersHorizontal className="w-3.5 h-3.5" />}
         </button>
 
-        {/* ── JOB TOGGLE BUTTON (Matching Image 1 & Image 2) ── */}
+        {/* ── JOB TOGGLE BUTTON ── */}
         <button
           onClick={handleJobButtonToggle}
           className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-extrabold transition-all shrink-0 border ${
@@ -212,7 +222,7 @@ export default function FloatingHeaderBar({
           suppressHydrationWarning
         >
           <Briefcase className={`w-3.5 h-3.5 ${isJobMode ? 'text-white' : 'text-orange-500'}`} />
-          {isJobMode ? 'Hiring' : `${totalJobsCount} jobs`}
+          {isJobMode ? 'Hiring' : `${realJobsCount} jobs`}
         </button>
 
         {/* Submit Startup Button */}
@@ -228,7 +238,7 @@ export default function FloatingHeaderBar({
         )}
       </div>
 
-      {/* ── JOB MODE FILTER ROWS: FIELD & LEVEL (Matching Image 1) ── */}
+      {/* ── JOB MODE FILTER ROWS WITH GENUINE DYNAMIC COUNTS ── */}
       {isJobMode && (
         <div className="px-3 py-2 sm:px-4 sm:py-2.5 border-t border-gray-100 space-y-2 text-xs">
           
@@ -243,7 +253,10 @@ export default function FloatingHeaderBar({
                 return (
                   <button
                     key={f.label}
-                    onClick={() => onSelectField && onSelectField(f.label)}
+                    onClick={() => {
+                      const next = isActive ? 'All' : f.label;
+                      if (onSelectField) onSelectField(next);
+                    }}
                     className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1 border ${
                       isActive
                         ? 'bg-black text-white border-black shadow-sm'
@@ -271,7 +284,10 @@ export default function FloatingHeaderBar({
                 return (
                   <button
                     key={lvl.label}
-                    onClick={() => onSelectLevel && onSelectLevel(lvl.label)}
+                    onClick={() => {
+                      const next = isActive ? 'All' : lvl.label;
+                      if (onSelectLevel) onSelectLevel(next);
+                    }}
                     className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1 border ${
                       isActive
                         ? 'bg-black text-white border-black shadow-sm'
