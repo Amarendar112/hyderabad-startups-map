@@ -6,6 +6,7 @@ import { Startup } from '@/types/startup';
 import { HYDERABAD_AREAS } from '@/data/startups';
 import { Flame } from 'lucide-react';
 import { getCompanyLogoUrl } from '@/utils/logo';
+import { INITIAL_JOBS } from '@/data/jobs';
 
 interface LeafletMapProps {
   startups: Startup[];
@@ -254,6 +255,9 @@ export default function LeafletMap({
             const safeName = startup.name.replace(/"/g, '&quot;');
             const onerror = `this.onerror=null;this.src='${finalFallback}'`;
 
+            const matchingJobs = INITIAL_JOBS.filter(j => j.startupId === startup.id || j.startupName.toLowerCase() === startup.name.toLowerCase());
+            const openRolesCount = matchingJobs.length > 0 ? matchingJobs.length : (startup.hiring ? 2 : 0);
+
             const iconHtml = `
               <div style="position:relative;display:inline-block;cursor:pointer;">
                 <div style="
@@ -271,7 +275,11 @@ export default function LeafletMap({
                     onerror="${onerror}"
                   />
                 </div>
-                ${startup.hiring ? `<span style="position:absolute;top:-2px;right:-2px;width:10px;height:10px;background:#10B981;border:2px solid #fff;border-radius:50%;"></span>` : ''}
+                ${openRolesCount > 0 ? `
+                  <span style="position:absolute;top:-4px;right:-4px;min-width:18px;height:18px;padding:0 4px;background:#FF5722;color:#fff;border:2px solid #fff;border-radius:999px;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.3);z-index:10;">
+                    ${openRolesCount}
+                  </span>
+                ` : startup.hiring ? `<span style="position:absolute;top:-2px;right:-2px;width:10px;height:10px;background:#10B981;border:2px solid #fff;border-radius:50%;"></span>` : ''}
               </div>
             `;
 
@@ -285,20 +293,25 @@ export default function LeafletMap({
             const marker = L.marker([lat, lng], { icon: customIcon });
 
             const popupHtml = `
-              <div style="padding:10px;max-width:220px;font-family:sans-serif;color:#1e293b;background:#fff;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,0.15);">
+              <div style="padding:12px;max-width:230px;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:#1e293b;background:#fff;border-radius:18px;box-shadow:0 12px 28px rgba(0,0,0,0.18);">
                 <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
-                  <div style="width:30px;height:30px;border-radius:50%;background:#fff;border:1px solid #e2e8f0;overflow:hidden;padding:2px;flex-shrink:0;">
-                    <img src="${logoUrl}" width="28" height="28" style="width:100%;height:100%;object-fit:contain;" onerror="${onerror}" />
+                  <div style="width:34px;height:34px;border-radius:50%;background:#fff;border:1.5px solid #e2e8f0;overflow:hidden;padding:2px;flex-shrink:0;">
+                    <img src="${logoUrl}" width="30" height="30" style="width:100%;height:100%;object-fit:contain;" onerror="${onerror}" />
                   </div>
-                  <div>
-                    <h4 style="font-weight:700;font-size:13px;color:#0f172a;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:155px;">${startup.name}</h4>
-                    <span style="font-size:9px;padding:2px 6px;border-radius:9999px;color:#fff;font-weight:600;background:${color};">${startup.industry}</span>
+                  <div style="overflow:hidden;">
+                    <h4 style="font-weight:800;font-size:14px;color:#0f172a;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${startup.name}</h4>
+                    <span style="font-size:9px;padding:2px 7px;border-radius:9999px;color:#fff;font-weight:700;background:${color};">${startup.industry}</span>
                   </div>
                 </div>
-                <p style="font-size:11px;color:#64748b;margin:0 0 8px;line-height:1.3;">${startup.tagline}</p>
-                <div style="display:flex;justify-content:space-between;font-size:10px;color:#64748b;border-top:1px solid #f1f5f9;padding-top:6px;font-weight:600;">
+                ${openRolesCount > 0 ? `
+                  <div style="background:#FFF3E0;color:#C2410C;border:1px solid #FFE0B2;padding:2px 8px;border-radius:999px;font-size:10px;font-weight:700;margin-bottom:6px;display:inline-block;">
+                    ${openRolesCount} open roles
+                  </div>
+                ` : ''}
+                <p style="font-size:11px;color:#64748b;margin:0 0 8px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">${startup.tagline}</p>
+                <div style="display:flex;align-items:center;justify-space-between;font-size:10px;color:#64748b;border-top:1px solid #f1f5f9;padding-top:8px;font-weight:600;">
                   <span>📍 ${startup.location.area}</span>
-                  <span style="color:#059669;font-weight:700;">${startup.totalFunding}</span>
+                  <span style="color:#F97316;font-weight:700;cursor:pointer;">View details →</span>
                 </div>
               </div>
             `;
