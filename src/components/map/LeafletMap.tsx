@@ -255,8 +255,10 @@ export default function LeafletMap({
             const safeName = startup.name.replace(/"/g, '&quot;');
             const onerror = `this.onerror=null;this.src='${finalFallback}'`;
 
-            const matchingJobs = INITIAL_JOBS.filter(j => j.startupId === startup.id || j.startupName.toLowerCase() === startup.name.toLowerCase());
-            const openRolesCount = matchingJobs.length > 0 ? matchingJobs.length : (startup.hiring ? 2 : 0);
+            const matchingJobs = (startup.jobOpenings && startup.jobOpenings.length > 0)
+              ? startup.jobOpenings
+              : INITIAL_JOBS.filter(j => j.startupId === startup.id || j.startupName.toLowerCase() === startup.name.toLowerCase());
+            const openRolesCount = matchingJobs.length;
 
             const iconHtml = `
               <div style="position:relative;display:inline-block;cursor:pointer;">
@@ -279,7 +281,7 @@ export default function LeafletMap({
                   <span style="position:absolute;top:-4px;right:-4px;min-width:18px;height:18px;padding:0 4px;background:#FF5722;color:#fff;border:2px solid #fff;border-radius:999px;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.3);z-index:10;">
                     ${openRolesCount}
                   </span>
-                ` : startup.hiring ? `<span style="position:absolute;top:-2px;right:-2px;width:10px;height:10px;background:#10B981;border:2px solid #fff;border-radius:50%;"></span>` : ''}
+                ` : ''}
               </div>
             `;
 

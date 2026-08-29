@@ -260,6 +260,24 @@ export class StartupService {
     return INITIAL_JOBS;
   }
 
+  // Update ATS Configuration & Live Jobs for a Startup
+  static updateAtsConfig(id: string, atsConfig: any, fetchedJobs?: JobOpening[]): void {
+    const startups = this.getStartups();
+    const updated = startups.map((s) => {
+      if (s.id === id) {
+        return {
+          ...s,
+          atsConfig,
+          hiring: (fetchedJobs && fetchedJobs.length > 0) || s.hiring,
+          jobOpenings: fetchedJobs && fetchedJobs.length > 0 ? fetchedJobs : s.jobOpenings,
+          updatedAt: new Date().toISOString(),
+        };
+      }
+      return s;
+    });
+    this.saveStartups(updated);
+  }
+
   // Reset to initial data
   static resetToDefault(): void {
     if (typeof window === 'undefined') return;

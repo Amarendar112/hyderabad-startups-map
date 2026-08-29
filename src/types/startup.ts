@@ -83,6 +83,16 @@ export interface JobOpening {
   postedAt: string;
 }
 
+export type AtsProvider = 'greenhouse' | 'lever' | 'ashby' | 'custom' | 'none';
+
+export interface AtsConfig {
+  provider: AtsProvider;
+  boardId: string;
+  careersUrl?: string;
+  enabled: boolean;
+  lastSyncedAt?: string;
+}
+
 export interface Startup {
   id: string;
   name: string;
@@ -113,6 +123,7 @@ export interface Startup {
   hiring: boolean;
   hiringRoles?: string[];
   jobOpenings?: JobOpening[];
+  atsConfig?: AtsConfig;
   tags: string[];
   socialLinks?: {
     twitter?: string;
