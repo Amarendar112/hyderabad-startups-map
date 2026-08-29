@@ -31,7 +31,7 @@ export default function Home() {
   const [startups, setStartups] = useState<Startup[]>(INITIAL_STARTUPS);
   const [incubators, setIncubators] = useState<Incubator[]>([]);
   const [investors, setInvestors] = useState<Investor[]>([]);
-  const [allJobs, setAllJobs] = useState<JobOpening[]>([]);
+  const [allJobs, setAllJobs] = useState<JobOpening[]>(() => StartupService.getAllJobs(INITIAL_STARTUPS));
 
   // Selection & Interactivity State
   const [selectedStartup, setSelectedStartup] = useState<Startup | null>(null);
