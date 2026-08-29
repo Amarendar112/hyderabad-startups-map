@@ -103,12 +103,12 @@ export default function LeafletMap({
       const step = img.getAttribute('data-step') || '0';
       if (step === '0' && domain) {
         img.setAttribute('data-step', '1');
-        img.src = `https://unavatar.io/${encodeURIComponent(domain)}`;
+        img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
         return;
       }
       if (step === '1' && domain) {
         img.setAttribute('data-step', '2');
-        img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
+        img.src = `https://icon.horse/icon/${encodeURIComponent(domain)}`;
         return;
       }
       img.onerror = null;
