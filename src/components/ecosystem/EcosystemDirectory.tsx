@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Incubator, Investor, Startup } from '@/types/startup';
 import { Sparkles, Landmark, Users, ExternalLink, MapPin, Award, CheckCircle2, Building, Layers } from 'lucide-react';
+import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 
 interface EcosystemDirectoryProps {
   incubators: Incubator[];
@@ -236,7 +237,12 @@ export default function EcosystemDirectory({
                     onClick={() => startup && onSelectStartup(startup)}
                     className="text-[11px] text-slate-300 hover:text-white flex items-center gap-1 font-semibold pt-1"
                   >
-                    <img src={founder.startupLogo} className="w-3.5 h-3.5 rounded object-cover" />
+                    <img
+                      src={getCompanyLogoUrl(startup?.website, founder.startupName, founder.startupLogo)}
+                      alt={founder.startupName}
+                      className="w-3.5 h-3.5 rounded object-contain bg-white p-0.5"
+                      onError={(e) => handleLogoError(e, founder.startupName)}
+                    />
                     {founder.startupName}
                   </button>
                 </div>

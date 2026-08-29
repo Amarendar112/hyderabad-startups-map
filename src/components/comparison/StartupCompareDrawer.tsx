@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Startup } from '@/types/startup';
 import { GitCompare, X, Check, Building, MapPin, DollarSign, Users, Calendar, Sparkles, ExternalLink } from 'lucide-react';
+import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 
 interface StartupCompareDrawerProps {
   compareList: Startup[];
@@ -35,9 +36,10 @@ export default function StartupCompareDrawer({
           {compareList.map((s) => (
             <div key={s.id} className="relative group">
               <img
-                src={s.logoUrl}
+                src={getCompanyLogoUrl(s.website, s.name, s.logoUrl)}
                 alt={s.name}
-                className="w-7 h-7 rounded-lg object-cover bg-white border border-slate-700"
+                className="w-7 h-7 rounded-lg object-contain bg-white border border-slate-700 p-0.5"
+                onError={(e) => handleLogoError(e, s.name)}
               />
               <button
                 onClick={() => onRemoveFromCompare(s.id)}
@@ -91,9 +93,10 @@ export default function StartupCompareDrawer({
                   {compareList.map((s) => (
                     <div key={s.id} className="space-y-2 text-center">
                       <img
-                        src={s.logoUrl}
+                        src={getCompanyLogoUrl(s.website, s.name, s.logoUrl)}
                         alt={s.name}
-                        className="w-12 h-12 rounded-2xl object-cover bg-white mx-auto border border-slate-700 p-0.5"
+                        className="w-12 h-12 rounded-2xl object-contain bg-white mx-auto border border-slate-700 p-0.5"
+                        onError={(e) => handleLogoError(e, s.name)}
                       />
                       <h3 className="font-bold text-sm text-white">{s.name}</h3>
                       <button

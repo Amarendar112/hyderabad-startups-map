@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Startup, SubmissionFormState } from '@/types/startup';
 import { StartupService } from '@/lib/startupService';
 import { ShieldCheck, CheckCircle2, XCircle, Trash2, Star, Download, Upload, RefreshCw, Check, X, Building, AlertTriangle } from 'lucide-react';
+import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 
 interface AdminDashboardProps {
   startups: Startup[];
@@ -194,7 +195,12 @@ export default function AdminDashboard({ startups, onReloadData }: AdminDashboar
                   <tr key={startup.id} className="hover:bg-slate-800/40">
                     <td className="p-4">
                       <div className="flex items-center gap-3">
-                        <img src={startup.logoUrl} className="w-8 h-8 rounded-lg object-cover bg-white" />
+                        <img
+                          src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
+                          alt={startup.name}
+                          className="w-8 h-8 rounded-lg object-contain bg-white p-0.5 border border-slate-700"
+                          onError={(e) => handleLogoError(e, startup.name)}
+                        />
                         <div>
                           <span className="font-bold text-white block">{startup.name}</span>
                           <span className="text-[10px] text-slate-400">{startup.website}</span>

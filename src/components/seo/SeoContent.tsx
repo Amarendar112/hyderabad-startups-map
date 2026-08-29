@@ -27,11 +27,11 @@ export default function SeoContent() {
       }}
     >
       {/* Primary H1 — required for homepage SEO */}
-      <h1>Hyderabad Startup Map</h1>
+      <h1>Hyderabad Startups Map</h1>
 
       {/* Requirement 4: Homepage Introduction */}
       <p>
-        Hyderabad Startup Map is an interactive directory of Hyderabad startups. Explore 650+ startups across Hyderabad, discover companies by sector and location, and find information about founders, funding, investors, incubators and the growing Hyderabad startup ecosystem.
+        Explore Hyderabad startups on an interactive map. Discover startups, founders, funding, sectors and locations across Hyderabad&apos;s growing startup ecosystem.
       </p>
 
       {/* Location hubs section */}

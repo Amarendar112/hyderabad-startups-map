@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { JobOpening, Startup } from '@/types/startup';
 import { Briefcase, Search, MapPin, DollarSign, ExternalLink, Filter, Building2, CheckCircle2, ArrowUpRight } from 'lucide-react';
+import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 
 interface JobsDirectoryProps {
   jobs: JobOpening[];
@@ -117,9 +118,10 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
                   <div className="flex items-start justify-between gap-3 mb-3">
                     <div className="flex items-center gap-3">
                       <img
-                        src={job.startupLogo}
+                        src={getCompanyLogoUrl(startup?.website, job.startupName, job.startupLogo)}
                         alt={job.startupName}
-                        className="w-11 h-11 rounded-xl object-cover bg-white border border-slate-700 p-0.5"
+                        className="w-11 h-11 rounded-xl object-contain bg-white border border-slate-700 p-0.5"
+                        onError={(e) => handleLogoError(e, job.startupName)}
                       />
                       <div>
                         <h3 className="font-bold text-base text-white group-hover:text-emerald-400 transition-colors">
@@ -190,9 +192,10 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
               >
                 <div className="flex items-center gap-3 overflow-hidden">
                   <img
-                    src={s.logoUrl}
+                    src={getCompanyLogoUrl(s.website, s.name, s.logoUrl)}
                     alt={s.name}
                     className="w-9 h-9 rounded-xl object-contain bg-white border border-slate-700 p-0.5 shrink-0"
+                    onError={(e) => handleLogoError(e, s.name)}
                   />
                   <div className="truncate">
                     <h4 className="font-bold text-xs text-white truncate">{s.name}</h4>

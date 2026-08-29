@@ -257,7 +257,12 @@ export default function StartupDetailModal({
                         onClick={() => onSelectStartup(sim)}
                         className="p-3 bg-slate-950/80 hover:bg-slate-850 border border-slate-800 rounded-xl cursor-pointer transition-all flex items-center gap-2.5"
                       >
-                        <img src={sim.logoUrl} alt={sim.name} className="w-8 h-8 rounded-lg object-cover bg-white" />
+                        <img
+                          src={getCompanyLogoUrl(sim.website, sim.name, sim.logoUrl)}
+                          alt={sim.name}
+                          className="w-8 h-8 rounded-lg object-contain bg-white p-0.5"
+                          onError={(e) => handleLogoError(e, sim.name)}
+                        />
                         <div className="overflow-hidden">
                           <h5 className="text-xs font-bold text-white truncate">{sim.name}</h5>
                           <span className="text-[10px] text-slate-400">{sim.location.area}</span>

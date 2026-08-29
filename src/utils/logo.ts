@@ -1,18 +1,29 @@
-export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
-  // Skip any Google favicon or Clearbit URLs — they return broken images for many domains
-  const isGeneratedUrl =
-    rawLogoUrl?.includes('google.com/s2/favicons') ||
-    rawLogoUrl?.includes('logo.clearbit.com') ||
-    rawLogoUrl?.includes('unavatar.io');
+export function extractDomain(url?: string): string | null {
+  if (!url) return null;
+  try {
+    const cleanUrl = url.trim();
+    if (!cleanUrl) return null;
+    const parsed = new URL(cleanUrl.startsWith('http') ? cleanUrl : `https://${cleanUrl}`);
+    return parsed.hostname.replace(/^www\./, '');
+  } catch {
+    return null;
+  }
+}
 
-  // If a direct explicit logo URL is provided (not a generated service), use it
-  if (rawLogoUrl && !isGeneratedUrl && rawLogoUrl.trim().length > 0) {
-    return rawLogoUrl;
+export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
+  // If a raw logo URL is explicitly provided, use it
+  if (rawLogoUrl && rawLogoUrl.trim().length > 0) {
+    return rawLogoUrl.trim();
   }
 
-  // Fall back to ui-avatars — always works, zero broken images
-  const displayName = encodeURIComponent(name || 'S');
-  return `https://ui-avatars.com/api/?name=${displayName}&background=6366f1&color=fff&bold=true&size=128`;
+  // If website URL is available, generate Google S2 favicon URL (sz=128)
+  const domain = extractDomain(websiteUrl);
+  if (domain) {
+    return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
+  }
+
+  // Fallback to UI avatars if neither logoUrl nor website is available
+  return getLogoFallbackUrl(name || 'S');
 }
 
 /**

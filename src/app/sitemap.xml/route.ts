@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { INITIAL_STARTUPS, HYDERABAD_AREAS } from '@/data/startups';
 
-const BASE_URL = 'https://hyderabadstartupsmap.com';
+const BASE_URL = 'https://www.hyderabadstartupsmap.com';
 
 export async function GET() {
   const lastmod = new Date().toISOString().split('T')[0];

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hyderabadstartupsmap.com/sitemap.xml
+Sitemap: https://www.hyderabadstartupsmap.com/sitemap.xml

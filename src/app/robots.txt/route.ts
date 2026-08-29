@@ -4,7 +4,7 @@ export async function GET() {
   const content = `User-agent: *
 Allow: /
 
-Sitemap: https://hyderabadstartupsmap.com/sitemap.xml`;
+Sitemap: https://www.hyderabadstartupsmap.com/sitemap.xml`;
 
   return new NextResponse(content, {
     headers: {
