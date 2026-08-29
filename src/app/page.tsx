@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Startup, FilterState, JobOpening, Incubator, Investor, SubmissionFormState } from '@/types/startup';
 import { StartupService } from '@/lib/startupService';
 import { INITIAL_STARTUPS } from '@/data/startups';
+import { INITIAL_JOBS } from '@/data/jobs';
 
 // Bangalore-Style Layout Components
 import FloatingHeaderBar from '@/components/navigation/FloatingHeaderBar';
@@ -31,7 +32,7 @@ export default function Home() {
   const [startups, setStartups] = useState<Startup[]>(INITIAL_STARTUPS);
   const [incubators, setIncubators] = useState<Incubator[]>([]);
   const [investors, setInvestors] = useState<Investor[]>([]);
-  const [allJobs, setAllJobs] = useState<JobOpening[]>(() => StartupService.getAllJobs(INITIAL_STARTUPS));
+  const [allJobs, setAllJobs] = useState<JobOpening[]>(INITIAL_JOBS);
 
   // Selection & Interactivity State
   const [selectedStartup, setSelectedStartup] = useState<Startup | null>(null);
