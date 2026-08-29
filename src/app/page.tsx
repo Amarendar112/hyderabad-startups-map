@@ -40,6 +40,11 @@ export default function Home() {
   const [favorites, setFavorites] = useState<string[]>([]);
   const [isSubmitOpen, setIsSubmitOpen] = useState(false);
 
+  // Job Mode State (Matching Bangalore Startup Map Image 1 & Image 2)
+  const [isJobMode, setIsJobMode] = useState(false);
+  const [selectedField, setSelectedField] = useState('Engineering');
+  const [selectedLevel, setSelectedLevel] = useState('All');
+
   // Filter State
   const [filters, setFilters] = useState<FilterState>({
     search: '',
@@ -69,7 +74,10 @@ export default function Home() {
   }, []);
 
   // Filtered Startups List
-  const filteredStartups = StartupService.filterStartups(startups, filters);
+  const filteredStartups = StartupService.filterStartups(startups, {
+    ...filters,
+    hiringOnly: isJobMode || filters.hiringOnly,
+  });
 
   // Favorites Handlers
   const handleToggleFavorite = (id: string) => {
@@ -106,6 +114,7 @@ export default function Home() {
 
   // Reset Filters
   const handleResetFilters = () => {
+    setIsJobMode(false);
     setFilters({
       search: '',
       industry: 'All',
@@ -132,6 +141,16 @@ export default function Home() {
         onOpenSubmit={() => setIsSubmitOpen(true)}
         onOpenJobs={() => setActiveModalTab('jobs')}
         totalStartupsCount={filteredStartups.length}
+        totalJobsCount={allJobs.length || 140}
+        isJobMode={isJobMode}
+        onToggleJobMode={(active) => {
+          setIsJobMode(active);
+          setFilters((f) => ({ ...f, hiringOnly: active }));
+        }}
+        selectedField={selectedField}
+        onSelectField={setSelectedField}
+        selectedLevel={selectedLevel}
+        onSelectLevel={setSelectedLevel}
       />
 
       {/* 2. Primary Full-Screen View Container */}

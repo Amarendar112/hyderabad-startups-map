@@ -1,8 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
-import { MapPin, Search, Map, Grid, Briefcase, SlidersHorizontal, X } from 'lucide-react';
+import { MapPin, Search, Map, Grid, Briefcase, SlidersHorizontal, X, Plus } from 'lucide-react';
 import { FilterState } from '@/types/startup';
+import { HYDERABAD_AREAS } from '@/data/startups';
 
 interface FloatingHeaderBarProps {
   filters: FilterState;
@@ -12,6 +13,13 @@ interface FloatingHeaderBarProps {
   onOpenSubmit: () => void;
   onOpenJobs?: () => void;
   totalStartupsCount: number;
+  totalJobsCount?: number;
+  selectedField?: string;
+  onSelectField?: (field: string) => void;
+  selectedLevel?: string;
+  onSelectLevel?: (level: string) => void;
+  isJobMode?: boolean;
+  onToggleJobMode?: (active: boolean) => void;
 }
 
 export default function FloatingHeaderBar({
@@ -21,10 +29,30 @@ export default function FloatingHeaderBar({
   onViewChange,
   onOpenSubmit,
   onOpenJobs,
+  totalJobsCount = 140,
+  selectedField = 'All',
+  onSelectField,
+  selectedLevel = 'All',
+  onSelectLevel,
+  isJobMode = false,
+  onToggleJobMode,
 }: FloatingHeaderBarProps) {
-  const [filtersOpen, setFiltersOpen] = useState(false);
-  const [selectedField, setSelectedField] = useState<string>('Engineering');
-  const [selectedLevel, setSelectedLevel] = useState<string>('All');
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  const industries = [
+    'All sectors',
+    'SaaS & Enterprise',
+    'AI & Machine Learning',
+    'FinTech & InsurTech',
+    'HealthTech & BioTech',
+    'DeepTech & Aerospace',
+    'CleanTech & EV',
+    'E-Commerce & Consumer',
+  ];
+
+  const fundingStages = ['All stages', 'Seed', 'Pre-Series A', 'Series A', 'Series B', 'Series B+', 'Unicorn'];
+  const areaList = ['All areas', ...HYDERABAD_AREAS.map((a) => a.name)];
+  const typesList = ['All types', 'Startups', 'Incubators', 'Investors', 'Hiring Now'];
 
   const fields = [
     { label: 'Engineering', count: 221 },
@@ -45,24 +73,23 @@ export default function FloatingHeaderBar({
     { label: 'Unspecified', count: 221 },
   ];
 
-  const handleFieldClick = (fieldLabel: string) => {
-    setSelectedField(fieldLabel);
-    if (onOpenJobs) onOpenJobs();
-  };
+  const selectClass =
+    'bg-gray-100 hover:bg-gray-200/80 border border-gray-200 text-xs font-medium text-gray-700 px-3 py-1.5 rounded-full focus:outline-none cursor-pointer transition-all w-full sm:w-auto';
 
-  const handleLevelClick = (levelLabel: string) => {
-    setSelectedLevel(levelLabel);
-    if (onOpenJobs) onOpenJobs();
+  const handleJobButtonToggle = () => {
+    const nextState = !isJobMode;
+    if (onToggleJobMode) onToggleJobMode(nextState);
+    onFilterChange({ ...filters, hiringOnly: nextState });
   };
 
   return (
     <header className="absolute top-2 left-2 right-2 sm:top-3 sm:left-4 sm:right-4 z-[100] bg-white/95 backdrop-blur-md rounded-2xl sm:rounded-3xl shadow-xl border border-gray-200/90 text-gray-800 transition-all font-sans">
       
-      {/* ── TOP ROW: Brand, Search, View Toggle, Hiring Button ── */}
-      <div className="flex items-center gap-2 px-3 py-2.5 sm:px-5 sm:py-3 border-b border-gray-100">
+      {/* ── TOP BAR: Logo, Search Input, Dropdowns (if in Default Mode), View Toggle, Job Toggle & Submit ── */}
+      <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 px-3 py-2.5 sm:px-4 sm:py-2.5">
         
-        {/* Brand Logo & Name matching Bangalore Map style */}
-        <div className="flex items-center gap-2 shrink-0">
+        {/* Logo & Site Title */}
+        <div className="flex items-center gap-1.5 shrink-0">
           <div className="w-6 h-6 rounded-full bg-rose-500 flex items-center justify-center text-white shadow-sm">
             <MapPin className="w-3.5 h-3.5 fill-white" />
           </div>
@@ -72,17 +99,74 @@ export default function FloatingHeaderBar({
         </div>
 
         {/* Global Search Bar */}
-        <div className="relative flex-1 min-w-0">
+        <div className="relative flex-1 min-w-[140px]">
           <input
             type="text"
             value={filters.search}
             onChange={(e) => onFilterChange({ ...filters, search: e.target.value })}
             placeholder="Search startups, sectors, founders..."
-            className="w-full pl-4 pr-9 py-2 bg-gray-50 border border-gray-200 focus:border-orange-500 focus:bg-white rounded-full text-xs sm:text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500/20 transition-all shadow-inner"
+            className="w-full pl-3.5 pr-8 py-1.5 bg-gray-50 border border-gray-200 focus:border-orange-500 focus:bg-white rounded-full text-xs text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500/20 transition-all"
             suppressHydrationWarning
           />
-          <Search className="absolute right-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+          <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-400 pointer-events-none" />
         </div>
+
+        {/* ── DEFAULT MODE DROPDOWNS (Matching Image 2) ── */}
+        {!isJobMode && (
+          <div className="hidden lg:flex items-center gap-1.5 shrink-0">
+            {/* Types */}
+            <select
+              value={filters.hiringOnly ? 'Hiring Now' : 'All types'}
+              onChange={(e) => {
+                const val = e.target.value;
+                onFilterChange({ ...filters, hiringOnly: val === 'Hiring Now' });
+              }}
+              className={selectClass}
+              suppressHydrationWarning
+            >
+              {typesList.map((t) => <option key={t} value={t}>{t}</option>)}
+            </select>
+
+            {/* Areas */}
+            <select
+              value={filters.area === 'All' ? 'All areas' : filters.area}
+              onChange={(e) => {
+                const val = e.target.value;
+                onFilterChange({ ...filters, area: val === 'All areas' ? 'All' : val });
+              }}
+              className={selectClass}
+              suppressHydrationWarning
+            >
+              {areaList.map((a) => <option key={a} value={a}>{a}</option>)}
+            </select>
+
+            {/* Stages */}
+            <select
+              value={filters.fundingStage === 'All' ? 'All stages' : filters.fundingStage}
+              onChange={(e) => {
+                const val = e.target.value;
+                onFilterChange({ ...filters, fundingStage: val === 'All stages' ? 'All' : val });
+              }}
+              className={selectClass}
+              suppressHydrationWarning
+            >
+              {fundingStages.map((s) => <option key={s} value={s}>{s}</option>)}
+            </select>
+
+            {/* Sectors */}
+            <select
+              value={filters.industry === 'All' ? 'All sectors' : filters.industry}
+              onChange={(e) => {
+                const val = e.target.value;
+                onFilterChange({ ...filters, industry: val === 'All sectors' ? 'All' : val });
+              }}
+              className={selectClass}
+              suppressHydrationWarning
+            >
+              {industries.map((ind) => <option key={ind} value={ind}>{ind}</option>)}
+            </select>
+          </div>
+        )}
 
         {/* View Toggle Pill */}
         <div className="flex items-center bg-gray-100 p-0.5 rounded-full border border-gray-200 text-xs shrink-0">
@@ -106,37 +190,47 @@ export default function FloatingHeaderBar({
           </button>
         </div>
 
-        {/* Mobile Filter Toggle */}
+        {/* Mobile Filters Toggle Button */}
         <button
-          onClick={() => setFiltersOpen((v) => !v)}
-          className={`flex items-center gap-1 px-2.5 py-1.5 rounded-full border text-xs font-semibold transition-all shrink-0 sm:hidden ${
-            filtersOpen
-              ? 'bg-orange-500 text-white border-orange-500'
-              : 'bg-gray-100 text-gray-600 border-gray-200'
+          onClick={() => setMobileFiltersOpen((v) => !v)}
+          className={`flex items-center gap-1 px-2.5 py-1.5 rounded-full border text-xs font-semibold transition-all shrink-0 lg:hidden ${
+            mobileFiltersOpen ? 'bg-orange-500 text-white border-orange-500' : 'bg-gray-100 text-gray-600 border-gray-200'
           }`}
           suppressHydrationWarning
         >
-          {filtersOpen ? <X className="w-3.5 h-3.5" /> : <SlidersHorizontal className="w-3.5 h-3.5" />}
+          {mobileFiltersOpen ? <X className="w-3.5 h-3.5" /> : <SlidersHorizontal className="w-3.5 h-3.5" />}
         </button>
 
-        {/* Orange Hiring Button matching Bangalore Map style */}
+        {/* ── JOB TOGGLE BUTTON (Matching Image 1 & Image 2) ── */}
         <button
-          onClick={onOpenJobs}
-          className="flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-extrabold text-white bg-orange-500 hover:bg-orange-600 active:scale-95 shadow-md shadow-orange-500/30 transition-all shrink-0"
+          onClick={handleJobButtonToggle}
+          className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-extrabold transition-all shrink-0 border ${
+            isJobMode
+              ? 'bg-orange-500 text-white border-orange-500 shadow-md shadow-orange-500/30'
+              : 'bg-white hover:bg-gray-50 text-gray-700 border-gray-300 shadow-sm'
+          }`}
           suppressHydrationWarning
         >
-          <Briefcase className="w-3.5 h-3.5" />
-          Hiring
+          <Briefcase className={`w-3.5 h-3.5 ${isJobMode ? 'text-white' : 'text-orange-500'}`} />
+          {isJobMode ? 'Hiring' : `${totalJobsCount} jobs`}
         </button>
+
+        {/* Submit Startup Button */}
+        {!isJobMode && (
+          <button
+            onClick={onOpenSubmit}
+            className="flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold text-white bg-orange-500 hover:bg-orange-600 active:scale-95 shadow-md shadow-orange-500/20 transition-all shrink-0"
+            suppressHydrationWarning
+          >
+            <Plus className="w-3.5 h-3.5 stroke-[3]" />
+            <span className="hidden sm:inline">Submit</span>
+          </button>
+        )}
       </div>
 
-      {/* ── FILTER ROWS: FIELD & LEVEL (Matching Screenshot 1) ── */}
-      <div
-        className={`overflow-hidden transition-all duration-300 ${
-          filtersOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0 sm:max-h-32 sm:opacity-100'
-        }`}
-      >
-        <div className="px-3 py-2.5 sm:px-5 sm:py-3 space-y-2 text-xs">
+      {/* ── JOB MODE FILTER ROWS: FIELD & LEVEL (Matching Image 1) ── */}
+      {isJobMode && (
+        <div className="px-3 py-2 sm:px-4 sm:py-2.5 border-t border-gray-100 space-y-2 text-xs">
           
           {/* FIELD ROW */}
           <div className="flex items-center gap-2 overflow-x-auto scrollbar-none pb-0.5">
@@ -149,11 +243,11 @@ export default function FloatingHeaderBar({
                 return (
                   <button
                     key={f.label}
-                    onClick={() => handleFieldClick(f.label)}
+                    onClick={() => onSelectField && onSelectField(f.label)}
                     className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1 border ${
                       isActive
                         ? 'bg-black text-white border-black shadow-sm'
-                        : 'bg-gray-50 hover:bg-gray-100 text-gray-600 border-gray-200'
+                        : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border-gray-200'
                     }`}
                   >
                     <span>{f.label}</span>
@@ -177,11 +271,11 @@ export default function FloatingHeaderBar({
                 return (
                   <button
                     key={lvl.label}
-                    onClick={() => handleLevelClick(lvl.label)}
+                    onClick={() => onSelectLevel && onSelectLevel(lvl.label)}
                     className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1 border ${
                       isActive
                         ? 'bg-black text-white border-black shadow-sm'
-                        : 'bg-gray-50 hover:bg-gray-100 text-gray-600 border-gray-200'
+                        : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border-gray-200'
                     }`}
                   >
                     <span>{lvl.label}</span>
@@ -195,7 +289,53 @@ export default function FloatingHeaderBar({
           </div>
 
         </div>
-      </div>
+      )}
+
+      {/* Mobile Dropdowns Drawer (in Default Mode) */}
+      {!isJobMode && mobileFiltersOpen && (
+        <div className="px-3 py-2 sm:px-4 sm:py-2.5 border-t border-gray-100 flex flex-wrap gap-2 lg:hidden">
+          <select
+            value={filters.hiringOnly ? 'Hiring Now' : 'All types'}
+            onChange={(e) => {
+              const val = e.target.value;
+              onFilterChange({ ...filters, hiringOnly: val === 'Hiring Now' });
+            }}
+            className={selectClass}
+          >
+            {typesList.map((t) => <option key={t} value={t}>{t}</option>)}
+          </select>
+          <select
+            value={filters.area === 'All' ? 'All areas' : filters.area}
+            onChange={(e) => {
+              const val = e.target.value;
+              onFilterChange({ ...filters, area: val === 'All areas' ? 'All' : val });
+            }}
+            className={selectClass}
+          >
+            {areaList.map((a) => <option key={a} value={a}>{a}</option>)}
+          </select>
+          <select
+            value={filters.fundingStage === 'All' ? 'All stages' : filters.fundingStage}
+            onChange={(e) => {
+              const val = e.target.value;
+              onFilterChange({ ...filters, fundingStage: val === 'All stages' ? 'All' : val });
+            }}
+            className={selectClass}
+          >
+            {fundingStages.map((s) => <option key={s} value={s}>{s}</option>)}
+          </select>
+          <select
+            value={filters.industry === 'All' ? 'All sectors' : filters.industry}
+            onChange={(e) => {
+              const val = e.target.value;
+              onFilterChange({ ...filters, industry: val === 'All sectors' ? 'All' : val });
+            }}
+            className={selectClass}
+          >
+            {industries.map((ind) => <option key={ind} value={ind}>{ind}</option>)}
+          </select>
+        </div>
+      )}
     </header>
   );
 }
