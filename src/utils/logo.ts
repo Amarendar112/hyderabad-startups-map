@@ -17,27 +17,26 @@ export function extractDomain(url?: string): string | null {
 }
 
 /**
- * Returns primary logo URL for a startup.
- * Uses DuckDuckGo icon API which fetches the REAL favicon from the company's own website.
- * Never returns a misleading placeholder — worst case shows a generic globe icon.
+ * Returns original company logo URL for a startup.
+ * Uses Clearbit Logo API to fetch authentic, high-resolution original brand logos.
  */
 export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
-  // Skip any favicon-service URLs — use website domain instead
-  const isFaviconService = rawLogoUrl && (
+  // If raw logo URL is a real direct image link, use it directly
+  const isGenericFaviconService = rawLogoUrl && (
     rawLogoUrl.includes('google.com/s2/favicons') ||
     rawLogoUrl.includes('brandfetch.io') ||
-    rawLogoUrl.includes('ui-avatars.com')
+    rawLogoUrl.includes('ui-avatars.com') ||
+    rawLogoUrl.includes('icons.duckduckgo.com')
   );
 
-  // If raw logo URL is a real direct image (not a favicon service), use it
-  if (rawLogoUrl && rawLogoUrl.trim().length > 0 && !isFaviconService) {
+  if (rawLogoUrl && rawLogoUrl.trim().length > 0 && !isGenericFaviconService) {
     return rawLogoUrl.trim();
   }
 
   const domain = extractDomain(websiteUrl) || extractDomain(rawLogoUrl);
   if (domain) {
-    // DuckDuckGo fetches the actual favicon from the company's own website
-    return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
+    // Clearbit provides high-resolution original company logos
+    return `https://logo.clearbit.com/${domain}`;
   }
 
   return getLogoFallbackUrl(name || 'S');
@@ -51,14 +50,25 @@ export function getLogoFallbackUrl(name: string): string {
 }
 
 /**
- * React onError handler for startup logo <img> tags.
- * Falls back to ui-avatars if DuckDuckGo icon fails to load.
+ * Multi-stage React onError handler for startup logo <img> tags.
+ * Stage 1 (Clearbit failed) -> DuckDuckGo favicon -> Stage 2 -> Branded UI Avatars badge
  */
 export function handleLogoError(
   e: React.SyntheticEvent<HTMLImageElement>,
-  name: string
+  name: string,
+  websiteUrl?: string
 ): void {
   const img = e.target as HTMLImageElement;
+  const currentSrc = img.src;
+
+  const domain = extractDomain(websiteUrl) || extractDomain(currentSrc);
+
+  if (currentSrc.includes('logo.clearbit.com') && domain) {
+    img.src = `https://icons.duckduckgo.com/ip3/${domain}.ico`;
+    return;
+  }
+
   img.onerror = null;
   img.src = getLogoFallbackUrl(name);
 }
+

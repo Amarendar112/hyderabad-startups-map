@@ -1,4 +1,4 @@
-﻿import { Startup, Incubator, Investor, JobOpening, HyderabadAreaInfo } from '@/types/startup';
+import { Startup, Incubator, Investor, JobOpening, HyderabadAreaInfo } from '@/types/startup';
 
 export const HYDERABAD_AREAS: HyderabadAreaInfo[] = [
   {
@@ -9689,7 +9689,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "?25L - ?40L",
+        "salaryRange": "₹25L - ₹40L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9703,7 +9703,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "?30L - ?50L",
+        "salaryRange": "₹30L - ₹50L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9717,7 +9717,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Mid-Level",
-        "salaryRange": "?12L - ?18L",
+        "salaryRange": "₹12L - ₹18L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9731,7 +9731,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "?18L - ?28L",
+        "salaryRange": "₹18L - ₹28L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9745,7 +9745,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Lead / Executive",
-        "salaryRange": "?40L - ?65L",
+        "salaryRange": "₹40L - ₹65L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9759,7 +9759,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "?28L - ?45L",
+        "salaryRange": "₹28L - ₹45L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9773,7 +9773,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Lead / Executive",
-        "salaryRange": "?35L - ?55L",
+        "salaryRange": "₹35L - ₹55L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9787,7 +9787,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "?25L - ?40L",
+        "salaryRange": "₹25L - ₹40L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9801,7 +9801,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "?24L - ?38L",
+        "salaryRange": "₹24L - ₹38L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       }
