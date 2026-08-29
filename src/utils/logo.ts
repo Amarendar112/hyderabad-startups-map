@@ -68,8 +68,8 @@ export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl
  * Uses slate dark background with sky blue bold initials.
  */
 export function getLogoFallbackUrl(name: string): string {
-  const safeName = name ? name.trim() : 'Startup';
-  return `https://ui-avatars.com/api/?name=${encodeURIComponent(safeName)}&background=1e293b&color=38bdf8&bold=true&size=128`;
+  const cleanName = name ? name.trim().replace(/['"]/g, '') : 'Startup';
+  return `https://ui-avatars.com/api/?name=${encodeURIComponent(cleanName)}&background=1e293b&color=38bdf8&bold=true&size=128`;
 }
 
 /**
@@ -84,6 +84,7 @@ export function handleLogoError(
   img.onerror = null;
   img.src = getLogoFallbackUrl(name);
 }
+
 
 
 

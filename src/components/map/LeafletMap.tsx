@@ -5,7 +5,7 @@ import Supercluster from 'supercluster';
 import { Startup } from '@/types/startup';
 import { HYDERABAD_AREAS } from '@/data/startups';
 import { Flame } from 'lucide-react';
-import { getCompanyLogoUrl, extractDomain } from '@/utils/logo';
+import { getCompanyLogoUrl, getLogoFallbackUrl, extractDomain } from '@/utils/logo';
 import { INITIAL_JOBS } from '@/data/jobs';
 
 interface LeafletMapProps {
@@ -251,8 +251,8 @@ export default function LeafletMap({
             const startup: Startup = cluster.properties.startup;
             const color = getIndustryColor(startup.industry);
             const logoUrl = getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl);
-            const finalFallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
-            const safeName = startup.name.replace(/"/g, '&quot;');
+            const finalFallback = getLogoFallbackUrl(startup.name);
+            const safeName = startup.name.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
             const onerror = `this.onerror=null;this.src='${finalFallback}';`;
 
             const matchingJobs = (startup.jobOpenings && startup.jobOpenings.length > 0)
