@@ -5,7 +5,7 @@ import Supercluster from 'supercluster';
 import { Startup } from '@/types/startup';
 import { HYDERABAD_AREAS } from '@/data/startups';
 import { Flame } from 'lucide-react';
-import { getCompanyLogoUrl, extractDomain, getLogoFallbackUrl } from '@/utils/logo';
+import { getCompanyLogoUrl } from '@/utils/logo';
 
 interface LeafletMapProps {
   startups: Startup[];
@@ -250,14 +250,9 @@ export default function LeafletMap({
             const startup: Startup = cluster.properties.startup;
             const color = getIndustryColor(startup.industry);
             const logoUrl = getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl);
-            const domain = extractDomain(startup.website);
-            const ddgFallback = domain ? `https://icons.duckduckgo.com/ip3/${encodeURIComponent(domain)}.ico` : '';
             const finalFallback = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
             const safeName = startup.name.replace(/"/g, '&quot;');
-            // Safe multi-step onerror: Brandfetch → DuckDuckGo → ui-avatars
-            const onerror = ddgFallback
-              ? `if(this.src.indexOf('brandfetch')>-1){this.src='${ddgFallback}'}else{this.onerror=null;this.src='${finalFallback}'}`
-              : `this.onerror=null;this.src='${finalFallback}'`;
+            const onerror = `this.onerror=null;this.src='${finalFallback}'`;
 
             const iconHtml = `
               <div style="position:relative;display:inline-block;cursor:pointer;">

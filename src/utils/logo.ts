@@ -18,22 +18,26 @@ export function extractDomain(url?: string): string | null {
 
 /**
  * Returns primary logo URL for a startup.
- * Uses Brandfetch CDN which has real company logos for thousands of domains.
- * Falls back to DuckDuckGo icon (which scrapes actual site favicon) then ui-avatars.
+ * Uses DuckDuckGo icon API which fetches the REAL favicon from the company's own website.
+ * Never returns a misleading placeholder — worst case shows a generic globe icon.
  */
 export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
-  // Skip Google favicon URLs — they show Google's own logo for unknown domains
-  const isGoogleFavicon = rawLogoUrl && rawLogoUrl.includes('google.com/s2/favicons');
+  // Skip any favicon-service URLs — use website domain instead
+  const isFaviconService = rawLogoUrl && (
+    rawLogoUrl.includes('google.com/s2/favicons') ||
+    rawLogoUrl.includes('brandfetch.io') ||
+    rawLogoUrl.includes('ui-avatars.com')
+  );
 
-  // If raw logo URL is a real image (not a favicon service), use it directly
-  if (rawLogoUrl && rawLogoUrl.trim().length > 0 && !isGoogleFavicon) {
+  // If raw logo URL is a real direct image (not a favicon service), use it
+  if (rawLogoUrl && rawLogoUrl.trim().length > 0 && !isFaviconService) {
     return rawLogoUrl.trim();
   }
 
-  const domain = extractDomain(websiteUrl);
+  const domain = extractDomain(websiteUrl) || extractDomain(rawLogoUrl);
   if (domain) {
-    // Brandfetch CDN: real brand logos scraped from official sites
-    return `https://cdn.brandfetch.io/${encodeURIComponent(domain)}/w/128/h/128?c=1idflGlRRFP7HQqe9ub`;
+    // DuckDuckGo fetches the actual favicon from the company's own website
+    return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
   }
 
   return getLogoFallbackUrl(name || 'S');
@@ -48,22 +52,13 @@ export function getLogoFallbackUrl(name: string): string {
 
 /**
  * React onError handler for startup logo <img> tags.
- * Falls back: Brandfetch failed → DuckDuckGo icon → ui-avatars
+ * Falls back to ui-avatars if DuckDuckGo icon fails to load.
  */
 export function handleLogoError(
   e: React.SyntheticEvent<HTMLImageElement>,
-  name: string,
-  websiteUrl?: string
+  name: string
 ): void {
   const img = e.target as HTMLImageElement;
-  const domain = extractDomain(websiteUrl) || extractDomain(img.src);
-  const currentSrc = img.src || '';
-
-  if (domain && !currentSrc.includes('duckduckgo.com') && !currentSrc.includes('ui-avatars.com')) {
-    img.src = `https://icons.duckduckgo.com/ip3/${encodeURIComponent(domain)}.ico`;
-    return;
-  }
-
   img.onerror = null;
   img.src = getLogoFallbackUrl(name);
 }
