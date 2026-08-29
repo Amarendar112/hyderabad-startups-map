@@ -5,7 +5,7 @@ import Supercluster from 'supercluster';
 import { Startup } from '@/types/startup';
 import { HYDERABAD_AREAS } from '@/data/startups';
 import { Flame } from 'lucide-react';
-import { getCompanyLogoUrl } from '@/utils/logo';
+import { getCompanyLogoUrl, extractDomain, getLogoFallbackUrl } from '@/utils/logo';
 
 interface LeafletMapProps {
   startups: Startup[];
@@ -249,8 +249,24 @@ export default function LeafletMap({
           } else {
             const startup: Startup = cluster.properties.startup;
             const color = getIndustryColor(startup.industry);
+            const domain = extractDomain(startup.website) || extractDomain(startup.logoUrl);
             const logoUrl = getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl);
-            const fallbackLogo = `https://ui-avatars.com/api/?name=${encodeURIComponent(startup.name)}&background=6366f1&color=fff&bold=true`;
+            const unavatarUrl = domain ? `https://unavatar.io/${encodeURIComponent(domain)}` : '';
+            const googleUrl = domain ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128` : '';
+            const fallbackLogo = getLogoFallbackUrl(startup.name);
+
+            const onerrorChain = `
+              if (!this.dataset.step && '${unavatarUrl}') {
+                this.dataset.step = '1';
+                this.src = '${unavatarUrl}';
+              } else if (this.dataset.step === '1' && '${googleUrl}') {
+                this.dataset.step = '2';
+                this.src = '${googleUrl}';
+              } else {
+                this.onerror = null;
+                this.src = '${fallbackLogo}';
+              }
+            `.replace(/\s+/g, ' ').trim();
 
             const iconHtml = `
               <div style="position:relative;display:inline-block;cursor:pointer;">
@@ -266,7 +282,7 @@ export default function LeafletMap({
                     alt="${startup.name}"
                     width="32" height="32"
                     style="width:100%;height:100%;object-fit:contain;border-radius:50%;"
-                    onerror="this.onerror=null;this.src='${fallbackLogo}';"
+                    onerror="${onerrorChain}"
                   />
                 </div>
                 ${startup.hiring ? `<span style="position:absolute;top:-2px;right:-2px;width:10px;height:10px;background:#10B981;border:2px solid #fff;border-radius:50%;"></span>` : ''}
@@ -286,7 +302,7 @@ export default function LeafletMap({
               <div style="padding:10px;max-width:220px;font-family:sans-serif;color:#1e293b;background:#fff;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,0.15);">
                 <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
                   <div style="width:30px;height:30px;border-radius:50%;background:#fff;border:1px solid #e2e8f0;overflow:hidden;padding:2px;flex-shrink:0;">
-                    <img src="${logoUrl}" width="28" height="28" style="width:100%;height:100%;object-fit:contain;" onerror="this.onerror=null;this.src='${fallbackLogo}';" />
+                    <img src="${logoUrl}" width="28" height="28" style="width:100%;height:100%;object-fit:contain;" onerror="${onerrorChain}" />
                   </div>
                   <div>
                     <h4 style="font-weight:700;font-size:13px;color:#0f172a;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:155px;">${startup.name}</h4>

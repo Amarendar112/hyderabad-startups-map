@@ -1,7 +1,7 @@
 import { Startup, Incubator, Investor, JobOpening, FilterState, SubmissionFormState } from '@/types/startup';
 import { INITIAL_STARTUPS, INITIAL_INCUBATORS, INITIAL_INVESTORS } from '@/data/startups';
 
-const LOCAL_STORAGE_STARTUPS_KEY = 'hyd_startup_map_startups_v11';
+const LOCAL_STORAGE_STARTUPS_KEY = 'hyd_startup_map_startups_v12';
 const LOCAL_STORAGE_FAVORITES_KEY = 'hyd_startup_map_favorites_v1';
 const LOCAL_STORAGE_SUBMISSIONS_KEY = 'hyd_startup_map_submissions_v1';
 
