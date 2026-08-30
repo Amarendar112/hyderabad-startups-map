@@ -14,13 +14,24 @@ export class StartupService {
     try {
       const stored = localStorage.getItem(LOCAL_STORAGE_STARTUPS_KEY);
       if (!stored) {
-        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify(INITIAL_STARTUPS));
-        return INITIAL_STARTUPS;
+        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify([]));
+        return [];
       }
-      return JSON.parse(stored);
+
+      const parsed = JSON.parse(stored);
+      if (!Array.isArray(parsed)) {
+        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify([]));
+        return [];
+      }
+
+      if (parsed.length === 0) {
+        return [];
+      }
+
+      return parsed;
     } catch (e) {
       console.error('Failed to load startups from localStorage', e);
-      return INITIAL_STARTUPS;
+      return [];
     }
   }
 
@@ -278,10 +289,18 @@ export class StartupService {
     this.saveStartups(updated);
   }
 
+  // Clear all persisted dataset and user cache so a fresh dataset can be loaded later.
+  static clearPersistedData(): void {
+    if (typeof window === 'undefined') return;
+    localStorage.removeItem(LOCAL_STORAGE_STARTUPS_KEY);
+    localStorage.removeItem(LOCAL_STORAGE_FAVORITES_KEY);
+    localStorage.removeItem(LOCAL_STORAGE_SUBMISSIONS_KEY);
+  }
+
   // Reset to initial data
   static resetToDefault(): void {
     if (typeof window === 'undefined') return;
-    localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify(INITIAL_STARTUPS));
+    localStorage.removeItem(LOCAL_STORAGE_STARTUPS_KEY);
     localStorage.removeItem(LOCAL_STORAGE_FAVORITES_KEY);
     localStorage.removeItem(LOCAL_STORAGE_SUBMISSIONS_KEY);
   }

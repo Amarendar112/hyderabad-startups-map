@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Startup, FilterState, JobOpening, Incubator, Investor, SubmissionFormState } from '@/types/startup';
 import { StartupService } from '@/lib/startupService';
 import { INITIAL_STARTUPS } from '@/data/startups';
@@ -10,7 +10,6 @@ import { INITIAL_JOBS } from '@/data/jobs';
 import FloatingHeaderBar from '@/components/navigation/FloatingHeaderBar';
 import LiveStatusBar from '@/components/navigation/LiveStatusBar';
 import ShareButton from '@/components/navigation/ShareButton';
-import LoadingScreen from '@/components/LoadingScreen';
 import LeafletMap from '@/components/map/LeafletMap';
 
 // Supplementary Views & Modals
@@ -27,9 +26,6 @@ export default function Home() {
   // View State
   const [displayView, setDisplayView] = useState<'map' | 'grid' | 'list'>('map');
   const [activeModalTab, setActiveModalTab] = useState<'none' | 'jobs' | 'ecosystem' | 'analytics' | 'admin'>('none');
-
-  // Loading state
-  const [isReady, setIsReady] = useState(true);
 
   // Datasets
   const [startups, setStartups] = useState<Startup[]>(INITIAL_STARTUPS);
@@ -55,22 +51,18 @@ export default function Home() {
     sortBy: 'featured',
   });
 
-  // Load Initial Ecosystem Data
+  // Startup data is intentionally kept empty to avoid auto-loading the default dataset.
   const loadEcosystemData = () => {
-    const loadedStartups = StartupService.getStartups();
-    setStartups(loadedStartups);
-    setIncubators(StartupService.getIncubators());
-    setInvestors(StartupService.getInvestors());
-    setAllJobs(StartupService.getAllJobs(loadedStartups));
-    setFavorites(StartupService.getFavorites());
-    // Mark as ready after data is loaded
-    setIsReady(true);
+    StartupService.clearPersistedData();
+    setStartups([]);
+    setIncubators([]);
+    setInvestors([]);
+    setAllJobs(INITIAL_JOBS);
+    setFavorites([]);
   };
 
   useEffect(() => {
-    requestAnimationFrame(() => {
-      loadEcosystemData();
-    });
+    loadEcosystemData();
   }, []);
 
   // Filtered Startups List
@@ -125,9 +117,6 @@ export default function Home() {
 
   return (
     <main className="relative h-screen w-screen overflow-hidden bg-[#f8f9fa] text-foreground font-sans">
-      {/* Loading Screen */}
-      <LoadingScreen isReady={isReady} />
-
       {/* 1. Floating Top Navigation & Filter Bar */}
       <FloatingHeaderBar
         filters={filters}
