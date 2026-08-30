@@ -17,7 +17,7 @@ interface JobsDirectoryProps {
 export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsDirectoryProps) {
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
-  const [selectedCompany, setSelectedCompany] = useState<string>('All');
+  const [selectedCompany, setSelectedCompany] = useState<string>('All Companies');
   const [activeTab, setActiveTab] = useState<'openings' | 'companies'>('openings');
 
   const activeJobs = React.useMemo(() => {
@@ -36,7 +36,12 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
   }, [jobs]);
 
   const categories = ['All', 'Engineering', 'Product', 'Design', 'Sales', 'Marketing', 'AI & Data'];
-  const companyNames = ['All Companies', ...Array.from(new Set(startups.map((s) => s.name))).sort()];
+  const companyNames = React.useMemo(() => {
+    return [
+      'All Companies',
+      ...Array.from(new Set(activeJobs.map((j) => j.startupName).filter(Boolean))).sort(),
+    ];
+  }, [activeJobs]);
 
   const normalizeName = (value: string) =>
     value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim();
@@ -84,7 +89,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
         if (!matchTitle && !matchStartup && !matchLoc) return false;
       }
 
-      if (selectedCategory !== 'All') {
+      if (selectedCategory && selectedCategory !== 'All') {
         const cat = (j.category || '').toLowerCase();
         const sel = selectedCategory.toLowerCase();
         if (sel === 'ai & data') {
@@ -94,8 +99,14 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
         }
       }
 
-      if (selectedCompany !== 'All Companies') {
-        if (normalizeName(j.startupName || '') !== normalizeName(selectedCompany)) {
+      if (selectedCompany && selectedCompany !== 'All Companies' && selectedCompany !== 'All') {
+        const normSelected = normalizeName(selectedCompany);
+        const normStartup = normalizeName(j.startupName || '');
+        if (
+          normStartup !== normSelected &&
+          !normStartup.includes(normSelected) &&
+          !normSelected.includes(normStartup)
+        ) {
           return false;
         }
       }
