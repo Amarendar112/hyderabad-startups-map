@@ -190,7 +190,7 @@ export default function FloatingHeaderBar({
             className="animate-hiring-pulse shrink-0 rounded-full border border-[#ff5a1f] bg-white px-3 py-1.5 text-xs font-semibold text-[#ff5a1f] transition hover:bg-orange-50"
             suppressHydrationWarning
           >
-            💼 {totalJobsCount.toLocaleString()} openings
+            💼 1112 openings
           </button>
 
           {/* 9. Submit */}

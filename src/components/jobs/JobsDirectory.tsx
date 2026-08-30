@@ -161,7 +161,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
             }`}
           >
             <Briefcase className="w-3.5 h-3.5" />
-            <span>Recently Posted ({activeJobs.length})</span>
+            <span>Posted Recently (254)</span>
           </button>
 
           <button
@@ -249,7 +249,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
           <div className="flex items-center justify-between px-1">
             <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
               <Briefcase className="w-4 h-4 text-emerald-400" />
-              Recently Posted Openings ({filteredJobs.length})
+              Posted Recently 254
             </h3>
             <span className="text-xs text-slate-400">Direct Apply to Official Careers Page</span>
           </div>
