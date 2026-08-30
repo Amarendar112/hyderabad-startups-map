@@ -37,7 +37,7 @@ export default function Home({
   const [startups, setStartups] = useState<Startup[]>(INITIAL_STARTUPS);
   const [incubators, setIncubators] = useState<Incubator[]>([]);
   const [investors, setInvestors] = useState<Investor[]>([]);
-  const [allJobs, setAllJobs] = useState<JobOpening[]>(INITIAL_JOBS);
+  const [allJobs, setAllJobs] = useState<JobOpening[]>(() => StartupService.getAllJobs());
 
   // Selection & Interactivity State
   const [selectedStartup, setSelectedStartup] = useState<Startup | null>(null);
@@ -161,7 +161,7 @@ export default function Home({
         onOpenSubmit={() => setIsSubmitOpen(true)}
         onOpenJobs={() => setActiveModalTab('jobs')}
         totalStartupsCount={filteredStartups.length}
-        totalJobsCount={1005}
+        totalJobsCount={allJobs.length}
       />
 
       {/* 2. Primary Full-Screen View Container */}

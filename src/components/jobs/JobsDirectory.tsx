@@ -244,14 +244,8 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
           </div>
 
           {filteredJobs.length === 0 ? (
-            <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-10 text-center space-y-3">
+            <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-10 text-center">
               <p className="text-sm text-slate-400">No job openings found matching your current filters.</p>
-              <button
-                onClick={resetFilters}
-                className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white transition-all cursor-pointer"
-              >
-                Show All {activeJobs.length} Openings
-              </button>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
