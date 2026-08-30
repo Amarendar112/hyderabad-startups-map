@@ -189,32 +189,64 @@ export default function LeafletMap({
     if (typeof window === 'undefined') return;
     // Populate the global lookup table keyed by startup id
     type WinExt = typeof window & {
-      __logoFallback?: Record<string, { google: string; final: string }>;
+      __logoFallback?: Record<string, { logodev: string; google: string; final: string }>;
       __logoError?: (img: HTMLImageElement) => void;
     };
     const w = window as WinExt;
     if (!w.__logoFallback) w.__logoFallback = {};
     startups.forEach((s) => {
-      const googleFav = s.website
-        ? `https://www.google.com/s2/favicons?domain=${s.website.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}&sz=256`
-        : null;
+      const domain = s.website?.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
+      const logoDev = domain ? `https://img.logo.dev/${domain}?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png` : null;
+      const googleFav = domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=256` : null;
       const finalUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(s.name)}&background=1e293b&color=38bdf8&bold=true&size=128`;
-      w.__logoFallback![s.id] = { google: googleFav || finalUrl, final: finalUrl };
+      w.__logoFallback![s.id] = { 
+        logodev: logoDev || finalUrl,
+        google: googleFav || finalUrl, 
+        final: finalUrl 
+      };
     });
     // Global handler called from inline onerror on map pins
+    // Priority: UI-Avatars (current) -> Logo.dev -> Google S2 -> Final (UI-Avatars)
     w.__logoError = function (img: HTMLImageElement) {
       const id = img.dataset.sid || '';
       const fb = w.__logoFallback?.[id];
       if (!fb) { img.onerror = null; return; }
       const src = img.src || '';
-      if (!src.includes('s2/favicons') && !src.includes('ui-avatars')) {
-        // First failure: try Google S2
-        img.onerror = function () { img.onerror = null; img.src = fb.final; };
+      
+      // Currently on UI-Avatars and it failed? Try Logo.dev
+      if (src.includes('ui-avatars.com')) {
+        img.onerror = function () { 
+          // Logo.dev failed, try Google S2
+          img.onerror = function () {
+            // Google failed too, use final (UI-Avatars is our primary, so shouldn't get here)
+            img.onerror = null;
+            img.src = fb.final;
+          };
+          img.src = fb.google;
+        };
+        img.src = fb.logodev;
+        return;
+      }
+      
+      // Currently on Logo.dev and it failed? Try Google S2
+      if (src.includes('img.logo.dev')) {
+        img.onerror = function () {
+          img.onerror = null;
+          img.src = fb.final;
+        };
         img.src = fb.google;
-      } else {
+        return;
+      }
+      
+      // Currently on Google S2 and it failed? Use final fallback
+      if (src.includes('s2/favicons')) {
         img.onerror = null;
         img.src = fb.final;
+        return;
       }
+      
+      // Shouldn't get here, but just in case
+      img.onerror = null;
     };
   }, [startups]);
 

@@ -54,30 +54,25 @@ export function getLogoDevUrl(domain: string, size = 256): string {
 /**
  * Returns the primary logo URL for a startup.
  * Priority:
- *   1. Explicit direct logoUrl field (e.g., custom CDN or pre-generated Logo.dev)
- *   2. Logo.dev API with public token (best quality & official vectors/PNGs)
- *   3. Google S2 Favicon at 256px
- *   4. UI-Avatars initials badge — always works
+ *   1. Explicit direct logoUrl field (if it's NOT logo.dev or Google favicon)
+ *   2. UI-Avatars initials badge — MOST RELIABLE (100% uptime, no HEAD request issues)
+ *   3. Logo.dev API with public token (good quality but has HEAD request issues)
+ *   4. Google S2 Favicon at 256px (unreliable, returns 301 redirects)
  */
 export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
+  // Only use rawLogoUrl if it's an explicit custom logo (not a generated one)
   if (rawLogoUrl && rawLogoUrl.trim().length > 0) {
     const raw = rawLogoUrl.trim();
     // Guard against search engine favicons masquerading as logos
     if (!raw.includes('domain=google.') && !raw.includes('domain=bing.') && !raw.includes('google.com/search')) {
-      // If it is a logo.dev URL, ensure token is attached
-      if (raw.includes('img.logo.dev/') && !raw.includes('token=')) {
-        const domain = raw.split('img.logo.dev/')[1]?.split('?')[0];
-        if (domain) return getLogoDevUrl(domain);
+      // Skip logo.dev and Google favicon URLs - let fallback handle them
+      if (!raw.includes('img.logo.dev/') && !raw.includes('s2/favicons')) {
+        return raw;
       }
-      return raw;
     }
   }
 
-  const domain = extractDomain(websiteUrl) || extractDomain(rawLogoUrl);
-  if (domain) {
-    return getLogoDevUrl(domain);
-  }
-
+  // Primary: Use UI-Avatars (100% reliable, no HEAD request issues)
   return getLogoFallbackUrl(name || 'Startup');
 }
 
@@ -101,7 +96,7 @@ export function getLogoFallbackUrl(name: string): string {
 
 /**
  * React onError handler for <img> logo tags.
- * 3-Tier Fallback: Logo.dev -> Google S2 Favicon -> Custom SVG Avatar / UI-Avatars Initials Badge
+ * 3-Tier Fallback: UI-Avatars -> Logo.dev -> Google S2 Favicon
  */
 export function handleLogoError(
   e: React.SyntheticEvent<HTMLImageElement>,
@@ -112,20 +107,38 @@ export function handleLogoError(
   const img = e.target as HTMLImageElement;
   const currentSrc = img.src || '';
 
-  // Tier 1 -> Tier 2: If Logo.dev fails, try Google S2 Favicon
-  if (currentSrc.includes('img.logo.dev') && websiteUrl) {
-    const googleUrl = getGoogleFaviconUrl(websiteUrl);
-    if (googleUrl) {
+  // Tier 1 -> Tier 2: If UI-Avatars fails (rare), try Logo.dev with GET
+  if (currentSrc.includes('ui-avatars.com')) {
+    const domain = extractDomain(websiteUrl);
+    if (domain) {
       img.onerror = () => {
         img.onerror = null;
-        img.src = svgAvatar || getLogoFallbackUrl(name);
+        // Fall back to Google S2 if Logo.dev fails
+        const googleUrl = getGoogleFaviconUrl(websiteUrl);
+        if (googleUrl) {
+          img.onerror = () => {
+            img.onerror = null;
+            // This shouldn't happen, but just in case
+          };
+          img.src = googleUrl;
+        }
       };
+      img.src = getLogoDevUrl(domain);
+      return;
+    }
+  }
+
+  // Tier 2 -> Tier 3: If Logo.dev fails, try Google S2
+  if (currentSrc.includes('img.logo.dev')) {
+    const googleUrl = getGoogleFaviconUrl(websiteUrl);
+    if (googleUrl) {
+      img.onerror = null;
       img.src = googleUrl;
       return;
     }
   }
 
-  // Tier 2 -> Tier 3: Fall back to SVG Avatar or UI-Avatars initials badge
+  // All options exhausted
   img.onerror = null;
   img.src = svgAvatar || getLogoFallbackUrl(name);
 }
