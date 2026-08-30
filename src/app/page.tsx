@@ -51,14 +51,13 @@ export default function Home() {
     sortBy: 'featured',
   });
 
-  // Startup data is intentionally kept empty to avoid auto-loading the default dataset.
   const loadEcosystemData = () => {
-    StartupService.clearPersistedData();
-    setStartups([]);
-    setIncubators([]);
-    setInvestors([]);
-    setAllJobs(INITIAL_JOBS);
-    setFavorites([]);
+    const seededStartups = StartupService.getStartups();
+    setStartups(seededStartups);
+    setIncubators(StartupService.getIncubators());
+    setInvestors(StartupService.getInvestors());
+    setAllJobs(StartupService.getAllJobs(seededStartups));
+    setFavorites(StartupService.getFavorites());
   };
 
   useEffect(() => {

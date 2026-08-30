@@ -60,19 +60,39 @@ export function getLogoDevUrl(domain: string, size = 256): string {
  *   4. Google S2 Favicon at 256px (unreliable, returns 301 redirects)
  */
 export function getCompanyLogoUrl(websiteUrl?: string, name?: string, rawLogoUrl?: string): string {
-  // Only use rawLogoUrl if it's an explicit custom logo (not a generated one)
-  if (rawLogoUrl && rawLogoUrl.trim().length > 0) {
-    const raw = rawLogoUrl.trim();
-    // Guard against search engine favicons masquerading as logos
-    if (!raw.includes('domain=google.') && !raw.includes('domain=bing.') && !raw.includes('google.com/search')) {
-      // Skip logo.dev and Google favicon URLs - let fallback handle them
-      if (!raw.includes('img.logo.dev/') && !raw.includes('s2/favicons')) {
-        return raw;
+  const raw = rawLogoUrl?.trim();
+  if (raw) {
+    try {
+      // Preserve explicitly supplied company logos from the dataset.
+      // This includes direct brand urls, logo.dev URLs, and favicon URLs when they were provided intentionally.
+      if (raw.startsWith('data:image/')) return raw;
+
+      const normalized = raw.startsWith('http') ? raw : `https://${raw}`;
+      const parsed = new URL(normalized);
+
+      if (parsed.protocol === 'http:' || parsed.protocol === 'https:') {
+        const host = parsed.hostname.toLowerCase();
+        const isSearchEngine =
+          host.includes('google.com') ||
+          host.includes('bing.com') ||
+          host.includes('yahoo.com') ||
+          host.includes('duckduckgo.com') ||
+          host.includes('search');
+
+        if (!isSearchEngine) {
+          return normalized;
+        }
       }
+    } catch {
+      // Ignore malformed URLs and continue to safe fallbacks.
     }
   }
 
-  // Primary: Use UI-Avatars (100% reliable, no HEAD request issues)
+  const domain = extractDomain(websiteUrl);
+  if (domain) {
+    return getLogoDevUrl(domain, 256);
+  }
+
   return getLogoFallbackUrl(name || 'Startup');
 }
 

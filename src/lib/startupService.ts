@@ -14,24 +14,25 @@ export class StartupService {
     try {
       const stored = localStorage.getItem(LOCAL_STORAGE_STARTUPS_KEY);
       if (!stored) {
-        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify([]));
-        return [];
+        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify(INITIAL_STARTUPS));
+        return INITIAL_STARTUPS;
       }
 
       const parsed = JSON.parse(stored);
       if (!Array.isArray(parsed)) {
-        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify([]));
-        return [];
+        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify(INITIAL_STARTUPS));
+        return INITIAL_STARTUPS;
       }
 
       if (parsed.length === 0) {
-        return [];
+        localStorage.setItem(LOCAL_STORAGE_STARTUPS_KEY, JSON.stringify(INITIAL_STARTUPS));
+        return INITIAL_STARTUPS;
       }
 
       return parsed;
     } catch (e) {
       console.error('Failed to load startups from localStorage', e);
-      return [];
+      return INITIAL_STARTUPS;
     }
   }
 
