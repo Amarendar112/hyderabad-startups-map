@@ -29,7 +29,7 @@ export default function Home() {
   const [activeModalTab, setActiveModalTab] = useState<'none' | 'jobs' | 'ecosystem' | 'analytics' | 'admin'>('none');
 
   // Loading state
-  const [isReady, setIsReady] = useState(false);
+  const [isReady, setIsReady] = useState(true);
 
   // Datasets
   const [startups, setStartups] = useState<Startup[]>(INITIAL_STARTUPS);
