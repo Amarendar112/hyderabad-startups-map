@@ -92,7 +92,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "highperformr-ai",
     "tagline": "AI-driven social media management and employee advocacy for B2B tech.",
     "description": "HighPerformr is an AI-first social media management and employee advocacy platform built specifically for B2B companies, growth marketing teams, and founder-led sales.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/highperformr.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://highperformr.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "B2B Social AI",
@@ -134,7 +134,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "incubationHub": "T-Hub 2.0",
     "createdAt": "2026-08-20",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdmYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mapmygenome",
@@ -142,7 +143,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mapmygenome",
     "tagline": "Personalized genomics & preventive health insights for life.",
     "description": "MapmyGenome is a leading molecular diagnostics company providing DNA testing, personal genomics solutions, and genetic counseling services to help people lead healthier lives.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mapmygenome.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://mapmygenome.in",
     "industry": "HealthTech & BioTech",
     "subCategory": "Personal Genomics & Diagnostics",
@@ -178,7 +179,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-20",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "oneimpression",
@@ -186,7 +188,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "oneimpression",
     "tagline": "Global influencer marketing platform driving creator economy campaigns.",
     "description": "OneImpression is an AI-powered global influencer marketing platform connecting leading consumer brands with creator communities for automated campaign execution.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/oneimpression.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://oneimpression.ai",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Creator Economy & Marketing Tech",
@@ -225,7 +227,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-20",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNjgzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "blinkit-hyd",
@@ -233,7 +236,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "blinkit-hyd",
     "tagline": "Quick-commerce fulfillment platform delivering groceries in under 10 minutes.",
     "description": "Blinkit operates ultra-fast quick commerce dark stores across Hyderabad, powering instant delivery of fresh groceries, electronics, and daily essentials.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/blinkit.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://blinkit.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Quick Commerce & Logistics",
@@ -273,7 +276,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-20",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzgzYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aadyainfotechs",
@@ -281,7 +285,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aadyainfotechs",
     "tagline": "Bespoke web application development, CMS solutions, and digital transformation consulting",
     "description": "Aadya Infotechs is a software engineering and web development company based in Hyderabad. The firm designs and develops responsive business websites, custom CMS applications, e-commerce storefronts, and provides full-cycle digital IT support for small to mid-sized businesses.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/aadyainfotechs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://aadyainfotechs.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -308,7 +312,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOTZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "adonmo",
@@ -316,7 +321,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "adonmo",
     "tagline": "Contextual digital out-of-home (DOOH) advertising network and dynamic screen platform",
     "description": "AdOnMo is a leading ad-tech and digital out-of-home (DOOH) media platform. The company operates a hyper-targeted, internet-connected screen network deployed across residential elevators, corporate parks, and outdoor transit environments, using proprietary hardware, real-time analytics, and programmatic ad-tech to deliver dynamic, context-aware digital campaigns.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/adonmo.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://adonmo.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Media & Entertainment",
@@ -343,7 +348,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "adya-ai",
@@ -351,7 +357,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "adya-ai",
     "tagline": "Enterprise AI orchestration and ONDC digital commerce infrastructure platform",
     "description": "Adya.ai (by Shayr Omnichannel) is an enterprise AI and open-commerce technology provider. As an official Technology Solution Provider (TSP) for the Open Network for Digital Commerce (ONDC), Adya provides full-stack AI orchestration, conversational commerce copilots, catalog synchronization, and buyer-seller network adapters that allow large enterprises, banks, and retailers to launch and manage decentralized digital commerce operations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/adya.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://adya.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -378,7 +384,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2EzYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aganitha",
@@ -386,7 +393,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aganitha",
     "tagline": "Generative AI, in-silico drug discovery, multiscale computational biology, and chemistry workflows",
     "description": "Aganitha is an in-silico generative AI and computational biology company. Operating out of Hyderabad and the US, Aganitha collaborates with global biopharma and life sciences leaders to accelerate drug discovery and development. The platform integrates deep learning, structural biology, quantum chemistry simulations, and multi-omics data to optimize small molecules, design therapeutics, and discover novel biologic targets.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/aganitha.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://aganitha.ai",
     "industry": "HealthTech & BioTech",
     "subCategory": "BioTech",
@@ -413,7 +420,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNzYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "algohire-ai",
@@ -421,7 +429,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "algohire-ai",
     "tagline": "AI-powered recruitment workflow automation, algorithmic candidate screening, and talent discovery engine",
     "description": "AlgoHire (Algohire Technologies) is an AI-native recruitment intelligence and hiring automation platform. Designed for high-volume staffing agencies and talent teams, AlgoHire deploys algorithmic candidate matching, intelligent resume parsing, automated pre-screening assessments, and interview scheduling workflows to eliminate hiring bias and reduce screening cycles by up to 70%.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/algohire.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://algohire.ai",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -448,7 +456,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzkzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "alpine-intellect",
@@ -456,7 +465,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "alpine-intellect",
     "tagline": "AI-powered platform for code generation, developer productivity, and engineering visibility",
     "description": "Alpine Intellect (developed by AlpineCode) is an enterprise AI code automation and engineering intelligence platform. Designed to accelerate software development lifecycles, Alpine Intellect integrates directly with IDEs and version control workflows to provide automated code generation, intelligent refactoring, real-time collaboration, and delivery velocity analytics for engineering teams.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/thealpinecode.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://thealpinecode.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -483,7 +492,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxM2MzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "antariksh-technology-ventures",
@@ -491,7 +501,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "antariksh-technology-ventures",
     "tagline": "Aerospace system engineering, embedded telemetry solutions, and space technology research",
     "description": "Antariksh Technology Ventures (Antariksh Technology Ventures (OPC) Private Limited) is an aerospace, deep-tech, and defense engineering consultancy based in Hyderabad. The venture designs embedded telemetry systems, sensor monitoring modules, and specialized avionics hardware architectures.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/antarikshtech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://antarikshtech.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "SpaceTech",
@@ -518,7 +528,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "apollo-micro-systems",
@@ -526,7 +537,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "apollo-micro-systems",
     "tagline": "Indigenous defense electronics, ruggedized avionics systems, and mission-critical embedded hardware",
     "description": "Apollo Micro Systems (Apollo Micro Systems Limited) is a publicly listed defense electronics and aerospace engineering company headquartered in Hyderabad. The company designs, develops, and manufactures custom ruggedized embedded hardware, weapon system electronics, telemetry subsystems, torpedo homing systems, and avionics packages for the Ministry of Defence, DRDO, Indian Armed Forces, and space programs.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/apollo-micro.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://apollo-micro.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -553,7 +564,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aragen-life-sciences",
@@ -561,7 +573,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aragen-life-sciences",
     "tagline": "Global contract research, development, and manufacturing organization (CRDMO) for biopharma",
     "description": "Aragen Life Sciences (Aragen Life Sciences Limited, formerly GVK BIO) is a global contract research, development, and manufacturing organization (CRDMO) headquartered in Hyderabad. Partnering with global pharmaceutical, biotech, and agrochemical enterprises, Aragen provides end-to-end drug discovery, preclinical development, biological testing, and cGMP commercial manufacturing across small and large molecule therapeutic programs.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/aragen.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://aragen.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -588,7 +600,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM3YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "archanainfosolutions",
@@ -596,7 +609,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "archanainfosolutions",
     "tagline": "Custom web application development, enterprise portals, and digital transformation services",
     "description": "Archana Infosolutions is an IT services and custom software development agency based in Hyderabad. The firm builds scalable web portals, dynamic content management systems, e-commerce applications, and digital business solutions for SMBs and commercial clients.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/archanainfosolutions.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://archanainfosolutions.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -623,7 +636,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2EzMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "arkle-energy",
@@ -631,7 +645,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "arkle-energy",
     "tagline": "Vanadium redox flow batteries, long-duration energy storage (LDES), and grid-scale clean tech",
     "description": "Arkle Energy (Arkle Energy Solutions) is a deep-tech clean energy and storage hardware company based in Hyderabad. The company develops economical, modular Vanadium Redox Flow Battery (VRFB) systems engineered for Long Duration Energy Storage (LDES). Featuring a decoupled power-to-energy architecture and a 20-to-25-year operational lifecycle with zero capacity degradation, Arkle's flow batteries deliver safe, non-flammable energy buffering for renewable grid integration, independent power producers (IPPs), and commercial microgrids.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/arkleenergy.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://arkleenergy.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -658,7 +672,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzU1MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "artus-ai",
@@ -666,7 +681,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "artus-ai",
     "tagline": "AI-native product management platform, agentic requirement mapping, and software architecture validation",
     "description": "Artus AI is an intelligent product planning and AI-native product management platform. Built to bridge the gap between business intent and software execution, Artus deploys specialized multi-agent AI systems (acting as autonomous business analysts, UI/UX designers, and systems architects) that validate feature feasibility, surface requirement gaps, estimate engineering effort, and generate execution-ready technical specifications.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/artusai.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://artusai.co",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -693,7 +708,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "asbl",
@@ -701,7 +717,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "asbl",
     "tagline": "Tech-driven, customer-centric high-rise residential communities and proptech development",
     "description": "ASBL (Ashoka Builders India) is a technology-first real estate and proptech developer. Founded by Ajitesh Korupolu, ASBL leverages indigenous construction-tech monitoring (via Inncircles Technologies), precision project management software, and customer-centric architectural design to deliver large-scale high-rise gated communities across Hyderabad's prime tech corridors.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/asbl.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://asbl.in",
     "industry": "E-Commerce & Consumer",
     "subCategory": "PropTech",
@@ -728,7 +744,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM3YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "asset-telematics",
@@ -736,7 +753,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "asset-telematics",
     "tagline": "IoT fleet telematics, GPS vehicle tracking, cold-chain monitoring, and transit management platform",
     "description": "Asset Telematics is an IoT fleet management, vehicle telematics, and intelligent transit systems platform. Operating under its flagship platform 'Trio', Asset Telematics delivers real-time GPS fleet tracking, automated route optimization, fuel management, temperature sensors for cold chains, and student safety transit solutions for logistics providers, public transport bodies, and corporate fleets.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/assettelematics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://assettelematics.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Logistics",
@@ -763,7 +780,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aurita-bikes",
@@ -771,7 +789,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aurita-bikes",
     "tagline": "Smart, modular electric utility bicycles and swappable battery micro-mobility solutions",
     "description": "Aurita Bikes (by Elon Motors Engineering) is a clean-mobility startup designing high-efficiency electric utility cycles and modular battery systems. Incubated under the AIC T-Hub EV Mobility cohort, the company engineers durable, low-maintenance electric two-wheelers (such as the Tempest, Typhoon, and Tornado series) purpose-built for commercial last-mile delivery and daily urban commutes.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/auritabikes.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://auritabikes.com",
     "industry": "CleanTech & EV",
     "subCategory": "CleanTech / EV",
@@ -798,7 +816,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc2MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "autocracy-machinery",
@@ -806,7 +825,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "autocracy-machinery",
     "tagline": "Indigenous specialty trenching, infrastructure, and agricultural utility machinery manufacturing",
     "description": "Autocracy Machinery is an industrial engineering startup that designs and manufactures indigenously built specialty machinery and tractor attachments. Its product lineup spans precision trenchers, aquatic weed harvesters, tractor-mounted forklifts, solar EPC utility machinery, and cable-laying equipment tailored for infrastructure, telecom, water management, and agriculture.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/autocracymachinery.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://autocracymachinery.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Manufacturing",
@@ -833,7 +852,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzY0YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "banyan-nation",
@@ -841,7 +861,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "banyan-nation",
     "tagline": "Circular economy pioneer producing virgin-grade recycled plastics and closed-loop waste supply chain tech",
     "description": "Banyan Nation (ManiKarthik Ecocycle Private Limited) is a circular economy and clean-tech company headquartered in Hyderabad. The company leverages proprietary IoT-enabled waste supply chain tracking and advanced mechanical recycling polymer washes to convert post-consumer plastics into high-quality, virgin-grade recycled granules (Better Plastic) used by top FMCG brands and automotive manufacturers.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/banyannation.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://banyannation.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -868,7 +888,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc2MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "barelogics",
@@ -876,7 +897,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "barelogics",
     "tagline": "Cloud-native enterprise software engineering, microservices, and backend system architecture",
     "description": "BareLogics (Barelogics Technologies) is a cloud architecture and backend engineering firm based in Hyderabad. The company designs resilient microservices architectures, custom enterprise workflow software, scalable database systems, and integration middleware for digital platforms.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/barelogics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://barelogics.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Developer Tools",
@@ -903,7 +924,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzN2RiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bespoke-ai-stylist",
@@ -911,7 +933,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bespoke-ai-stylist",
     "tagline": "AI-powered digital wardrobe organizer, virtual try-on studio, and hyper-personalized outfit planner",
     "description": "BeSpoke AI Stylist is an AI-native fashion technology and personalized styling platform. Designed to solve wardrobe decision fatigue and optimize fashion discovery, BeSpoke allows consumers to digitize their closets, generate contextual outfit recommendations based on weather, calendar schedules, and personal aesthetics, and preview outfits through AI virtual try-on engines before purchasing or dressing up.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bespokeaistylist.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bespokeaistylist.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -938,7 +960,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNmUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "betalectic",
@@ -946,7 +969,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "betalectic",
     "tagline": "Agile software product studio, custom full-stack web engineering, and mobile app development",
     "description": "Betalectic (Betalectic IT Solutions Private Limited) is a technology engineering studio and digital product development company based in Hyderabad. Betalectic collaborates with startups and product teams to engineer scalable microservices backends, responsive web applications, and intuitive cross-platform mobile apps.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/betalectic.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://betalectic.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -973,7 +996,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNDJiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "beyondtech",
@@ -981,7 +1005,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "beyondtech",
     "tagline": "Enterprise digital transformation, full-stack web solutions, and custom IT consulting",
     "description": "BeyondTech is a digital engineering and technology services agency based in Hyderabad. The firm assists growing enterprises in modernizing legacy architectures, building custom web platforms, designing intuitive UI/UX systems, and managing cloud workloads.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/beyondtech.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://beyondtech.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -1008,7 +1032,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bhanzu",
@@ -1016,7 +1041,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bhanzu",
     "tagline": "Cognitive math-learning platform and curriculum for K-12 students",
     "description": "Bhanzu is an edtech platform founded by the 'World's Fastest Human Calculator', Neelakantha Bhanu Prakash. It offers a proprietary, experiential math curriculum designed to eliminate math anxiety, foster cognitive abilities, and build foundational number sense and speed-math capabilities for global school students.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bhanzu.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bhanzu.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -1043,7 +1068,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzY0MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bharat-biotech",
@@ -1051,7 +1077,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bharat-biotech",
     "tagline": "Pioneering vaccine innovation, biotherapeutics, and global infectious disease immunization solutions",
     "description": "Bharat Biotech (Bharat Biotech International Limited) is a clinical-stage biotechnology and vaccine manufacturing company headquartered in Genome Valley, Hyderabad. Globally recognized for developing indigenous vaccines including Covaxin, Typbar TCV, ROTAVAC, and iNCOVACC, the company holds over 145 global patents and delivers billions of vaccine doses to over 125 countries worldwide.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bharatbiotech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bharatbiotech.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "BioTech",
@@ -1078,7 +1104,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNDAzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bioreform",
@@ -1086,7 +1113,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bioreform",
     "tagline": "Eco-friendly, 100% biodegradable and compostable plant-based biopolymer packaging solutions",
     "description": "BioReform is a sustainable biomaterials and climate-tech startup manufacturing 100% eco-friendly, biodegradable, and compostable alternatives to single-use plastics. Incubated at AIC T-Hub, the company produces certified plant-starch-based bags and packaging materials that decompose naturally within 180 days without leaving microplastic residues.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bioreform.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bioreform.in",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -1113,7 +1140,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzllMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "blinkit",
@@ -1121,7 +1149,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "blinkit",
     "tagline": "Instant 10-minute quick-commerce delivery platform",
     "description": "Blinkit is India's leading quick-commerce service, delivering groceries, fresh produce, electronics, beauty products, and daily essentials in 10 minutes through an extensive network of local dark stores. Originally founded as Grofers, the company rebranded to Blinkit in December 2021 before being acquired by Zomato in 2022.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/blinkit.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://blinkit.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "E-commerce",
@@ -1152,7 +1180,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "jobOpenings": [],
     "socialLinks": {
       "linkedin": "https://www.linkedin.com/company/blinkit"
-    }
+    },
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTliMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bluecopa",
@@ -1160,7 +1189,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bluecopa",
     "tagline": "AI-native finance operations management, continuous book close, and autonomous CFO intelligence platform",
     "description": "Bluecopa (Asset10 Software) is an AI-native financial operations (FinOps) and business observability platform built for modern CFOs and finance teams. Founded by serial entrepreneurs behind Tuplejump (acquired by Apple) and Optotax (acquired by Open Money), Bluecopa unifies fragmented ERPs, billing, and transactional databases to automate account reconciliation, continuous month-end book closure, and variance analysis in real time.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bluecopa.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bluecopa.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -1187,7 +1216,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNjZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bluj-aero",
@@ -1195,7 +1225,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bluj-aero",
     "tagline": "Hydrogen-electric VTOL aircraft for sustainable regional transport and cargo",
     "description": "BluJ Aero is a deeptech aerospace startup engineering long-range, zero-emission Vertical Take-Off and Landing (VTOL) aircraft powered by proprietary hydrogen-electric hybrid propulsion systems. Built on its modular VANTIS platform, BluJ's aircraft are designed to bypass traditional runway infrastructure and deliver high-speed, heavy-payload freight and regional passenger mobility.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/blujaero.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://blujaero.com",
     "industry": "CleanTech & EV",
     "subCategory": "CleanTech / EV",
@@ -1222,7 +1252,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNzkzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "botanic-healthcare",
@@ -1230,7 +1261,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "botanic-healthcare",
     "tagline": "Organic botanical extracts, certified nutraceutical ingredients, and essential herbal bio-actives",
     "description": "Botanic Healthcare (Botanic Healthcare Global Private Limited) is an export-oriented manufacturer and global supplier of certified organic botanical extracts, essential oils, and standardized active pharmaceutical ingredients (APIs). Headquartered in Hyderabad with cGMP and US-FDA compliant extraction plants, the company manufactures pure herbal extracts, phytochemicals, and nutraceutical ingredients for the global health, food, dietary supplement, and personal care industries.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/botanichealthcare.net?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://botanichealthcare.net",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -1257,7 +1288,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "brightchamps",
@@ -1265,7 +1297,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "brightchamps",
     "tagline": "Next-gen life skills, coding, AI, and financial literacy learning platform for kids (K-12)",
     "description": "BrightCHAMPS (Brightchamps Edtech Private Limited) is a global next-generation edtech company providing experiential, hands-on learning for children aged 6 to 16. The platform offers live interactive curriculum covering STEM, next-gen coding, AI, robotics, financial literacy (via Chillar/FinGlory), and communication skills across 30+ countries including Southeast Asia, the Middle East, and North America.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/brightchamps.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://brightchamps.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -1292,7 +1324,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bsitsoftware",
@@ -1300,7 +1333,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bsitsoftware",
     "tagline": "Custom enterprise software engineering, mobile application development, and cloud IT services",
     "description": "BSIT Software (BSIT Software Services Private Limited) is an IT services and custom software development company based in Hyderabad. The company builds full-stack web applications, cross-platform mobile apps, cloud backend infrastructures, and custom ERP software for mid-market and enterprise clients.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bsitsoftware.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bsitsoftware.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -1327,7 +1360,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNjhiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "buildwright",
@@ -1335,7 +1369,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "buildwright",
     "tagline": "AI-native construction management, digital takeoff intelligence, and automated project workflows",
     "description": "Buildwright (Buildwright Technologies Private Limited) is a ConTech and enterprise engineering startup based in Hyderabad. Selected as part of T-Hub's flagship Blueprint Deep Tech Fellowship cohort, Buildwright builds intelligent software solutions and digital execution systems that automate quantity takeoff, project scheduling, contractor collaboration, and site compliance workflows for commercial builders and infrastructure developers.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/buildwright.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://buildwright.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -1362,7 +1396,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "callhealth",
@@ -1370,7 +1405,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "callhealth",
     "tagline": "Integrated doorstep healthcare, digital doctor consultations, diagnostics, and home nursing",
     "description": "CallHealth (CallHealth Services Private Limited) is a digital healthcare delivery and technology platform headquartered in Hyderabad. The company integrates the entire healthcare ecosystem into an omnichannel delivery model, offering doctor teleconsultations, diagnostic sample collection at home, medicine delivery, nursing care, physiotherapy, bedside attendants, and corporate health management services.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/callhealth.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://callhealth.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -1397,7 +1432,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "chitmonks",
@@ -1405,7 +1441,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "chitmonks",
     "tagline": "Blockchain-powered digital infrastructure and operating ecosystem for registered chit funds",
     "description": "ChitMonks (by Pangean Global Services) is a fintech and blockchain infrastructure platform dedicated to digitalizing and regulating the traditional chit fund industry. Incubated at T-Hub, ChitMonks provides a decentralized trust network (ChitFunds 2.0 and ChitPe) connecting chit fund companies, state regulators, banks, and subscribers to enable automated online auctions, compliance tracking, and transparent digital collections.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/chitmonks.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://chitmonks.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -1432,7 +1468,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk4YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "chrp-india",
@@ -1440,7 +1477,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "chrp-india",
     "tagline": "AR/VR simulation learning, immersive enterprise training, and custom e-learning software",
     "description": "CHRP-INDIA (CHRP-INDIA Private Limited) is an edtech, instructional design, and immersive AR/VR simulation provider headquartered in Hyderabad. The company builds custom interactive learning software, Virtual Reality safety training simulators, mobile learning solutions, and SCORM-compliant enterprise training platforms for industrial, manufacturing, and healthcare corporations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/chrp-india.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://chrp-india.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -1467,7 +1504,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNDRiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cognefi",
@@ -1475,7 +1513,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cognefi",
     "tagline": "AI-powered financial risk analytics, automated compliance, and predictive banking intelligence",
     "description": "Cognefi is a specialized fintech intelligence and data analytics platform based in Hyderabad. The company leverages machine learning algorithms and quantitative models to automate financial risk assessment, portfolio stress testing, and regulatory compliance workflows for BFSI institutions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cognefi.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cognefi.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -1502,7 +1540,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cognida-ai",
@@ -1510,7 +1549,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cognida-ai",
     "tagline": "Enterprise AI engineering, agentic workflow acceleration, and custom data intelligence platforms",
     "description": "Cognida.ai is an enterprise AI product engineering and consulting firm. Headquartered in Hyderabad, Cognida designs and deploys production-grade generative AI systems, autonomous AI agents, machine learning pipelines, and data architectures that help enterprises modernize legacy workflows and automate decision intelligence at scale.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cognida.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cognida.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -1537,7 +1576,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhZiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cokarma",
@@ -1545,7 +1585,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cokarma",
     "tagline": "Community-driven flexible coworking spaces, private managed suites, and startup hubs",
     "description": "CoKarma (by Mor Innovative Technologies) is a premier boutique coworking and flexible workspace provider in Hyderabad. CoKarma designs and operates community-centric shared offices, enterprise managed desks, conference facilities, and private cabins tailored for early-stage startups, tech consultants, and growing remote teams across Hyderabad's key business corridors.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cokarma.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cokarma.in",
     "industry": "E-Commerce & Consumer",
     "subCategory": "PropTech",
@@ -1572,7 +1612,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "coschool",
@@ -1580,7 +1621,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "coschool",
     "tagline": "AI-powered closed-loop learning platform, personalized 24/7 AI tutor, and K-12 school intelligence",
     "description": "Coschool is an AI-powered education technology platform built for K-12 private and international schools. Founded by veteran educators behind Oakridge International Schools and People Combine, Coschool's flagship product 'SchoolAi' provides a closed-loop learning ecosystem. Powered by 'Vin', an adaptive 24/7 personal AI tutor, the platform connects homework workflows, diagnostic assessment gaps, automated lesson planning, and leadership analytics into a single dashboard.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/coschool.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://coschool.ai",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -1607,7 +1648,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cosmoserve-space",
@@ -1615,7 +1657,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cosmoserve-space",
     "tagline": "Autonomous robotic spacecraft and in-orbit servicing solutions for space debris removal",
     "description": "Cosmoserve Space is a deep-tech spacetech startup founded by former ISRO scientist Dr. Chiranjeevi Phanindra. The company develops autonomous robotic spacecraft, optical navigation systems, and soft-robotic capture mechanisms (including its Reviver and Mothercraft platforms) designed to identify, capture, and safely de-orbit defunct satellites and hazardous orbital debris.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cosmoserve.space?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cosmoserve.space",
     "industry": "DeepTech & Aerospace",
     "subCategory": "SpaceTech",
@@ -1642,7 +1684,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "country-delight",
@@ -1650,7 +1693,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "country-delight",
     "tagline": "Direct-to-consumer farm-fresh dairy, fruits, vegetables, and daily essentials subscription platform",
     "description": "Country Delight (Beejapuri Dairy) is a leading full-stack direct-to-consumer (D2C) agri-tech and consumer food platform. Operating an integrated supply chain connecting farmers directly with households, Country Delight provides doorstep subscriptions for farm-fresh milk, chemical-free dairy products, fruits, and daily kitchen staples across major Indian metropolitan hubs.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/countrydelight.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://countrydelight.in",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -1677,7 +1720,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cox-quality-technology-solutions",
@@ -1685,7 +1729,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cox-quality-technology-solutions",
     "tagline": "Enterprise software testing, automated QA validation, and full-stack software development",
     "description": "COX Quality Technology Solutions (Cox Quality Technology Solutions Private Limited) is a software testing, QA automation, and enterprise engineering consultancy headquartered in Hyderabad. The company delivers functional, automation, performance, and security testing services alongside custom web and enterprise software development.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/coxquality.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://coxquality.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -1712,15 +1756,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYWQzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "credright",
     "name": "CredRight",
     "slug": "credright",
     "tagline": "Data-driven lending and digital credit platform for nano & micro-enterprises (MSMEs)",
-    "description": "CredRight is an RBI-registered NBFC and lending-tech platform dedicated to bridging the credit gap for unserved and underserved micro-enterprises in tier-II to tier-IV India. Combining a proprietary digital underwriting engine with a 'phygital' branch network, CredRight leverages alternative data�including formal chit fund transaction histories�to deliver fast, collateral-free and secured business loans to small retail merchants and MSMEs.",
-    "logoUrl": "",
+    "description": "CredRight is an RBI-registered NBFC and lending-tech platform dedicated to bridging the credit gap for unserved and underserved micro-enterprises in tier-II to tier-IV India. Combining a proprietary digital underwriting engine with a 'phygital' branch network, CredRight leverages alternative data\u2229\u2510\u255cincluding formal chit fund transaction histories\u2229\u2510\u255cto deliver fast, collateral-free and secured business loans to small retail merchants and MSMEs.",
+    "logoUrl": "https://img.logo.dev/credright.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://credright.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -1747,7 +1792,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzYxYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cricclubs",
@@ -1755,7 +1801,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cricclubs",
     "tagline": "Global grassroots cricket league management, digital scoring, and AI-enabled live streaming platform",
     "description": "CricClubs is a sports technology and cricket league management platform. Headquartered out of T-Hub Hyderabad, CricClubs powers amateur, club, and national cricket leagues across 50+ countries with digital tools for live ball-by-ball scoring, tournament administration, video streaming, player statistics tracking, and fan engagement apps.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cricclubs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cricclubs.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -1782,7 +1828,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "crux-it-consulting-services",
@@ -1790,7 +1837,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "crux-it-consulting-services",
     "tagline": "Custom e-learning architectures, instructional design systems, and corporate training modules",
     "description": "Crux IT Consulting Services is an edtech engineering and digital learning solutions provider based in Hyderabad. The firm develops learner-centric digital courses, custom LMS platforms, multimedia instructional modules, and workforce upskilling systems for enterprise corporations and educational institutions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cruxit.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cruxit.in",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -1817,42 +1864,53 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
-    "id": "ctrls-datacenters",
+    "id": "ctrls-in",
     "name": "CtrlS Datacenters",
-    "slug": "ctrls-datacenters",
-    "tagline": "Asia's largest Rated-4 hyperscale data centers, green AI-ready cloud infrastructure, and disaster recovery hubs",
-    "description": "CtrlS Datacenters is Asia-Pacific's largest Rated-4 hyperscale data center provider. Founded and headquartered in Madhapur, Hyderabad, CtrlS builds and operates mission-critical, LEED Platinum-certified green data centers providing colocation, managed hosting, disaster recovery, private cloud, and AI-ready high-density computing infrastructure for Fortune 500 enterprises and global hyperscalers.",
-    "logoUrl": "",
+    "slug": "ctrls-in",
+    "tagline": "Asia's largest Rated-4 hyperscale datacenter provider.",
+    "description": "CtrlS Datacenters is a leading Enterprise operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
+    "logoUrl": "https://img.logo.dev/ctrls.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ctrls.com",
     "industry": "SaaS & Enterprise",
-    "subCategory": "Enterprise SaaS",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Series B",
-    "totalFunding": "Growth",
-    "foundingYear": 2018,
-    "teamSize": "Team",
+    "subCategory": "Enterprise",
+    "stage": "Established / Public",
+    "fundingStage": "Private Equity",
+    "totalFunding": "Established",
+    "totalFundingAmountUsd": 0,
+    "foundingYear": 2010,
+    "teamSize": "1,000+ employees",
     "location": {
-      "area": "Madhapur",
-      "address": "Pioneer Towers, Plot No. 16, Software Units Layout, HITEC City, Madhapur, Hyderabad, Telangana 500081",
-      "lat": 17.4475,
-      "lng": 78.3768
+      "area": "HITEC City",
+      "address": "CtrlS Building, HITEC City, Hyderabad",
+      "lat": 17.4504,
+      "lng": 78.3808
     },
     "founders": [],
     "hiring": true,
+    "hiringRoles": [
+      "Engineering Lead",
+      "Product Manager",
+      "Data Scientist"
+    ],
+    "jobOpenings": [],
     "tags": [
-      "Enterprise SaaS",
-      "Madhapur",
-      "Growth",
+      "SaaS & Enterprise",
+      "HITEC City",
+      "Enterprise",
       "Hiring"
     ],
-    "featured": false,
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/company/ctrls-datacenters"
+    },
+    "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNTFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cultnerds",
@@ -1860,7 +1918,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cultnerds",
     "tagline": "Modern creative digital studio, conversion-focused UI/UX design, and web app engineering",
     "description": "Cultnerds is a digital product studio and design consultancy based in Hyderabad. The collective crafts high-performance web applications, scalable design systems, interactive brand experiences, and custom frontend architectures for startups and fast-growing technology companies.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cultnerds.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cultnerds.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Developer Tools",
@@ -1887,7 +1945,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2ExYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cusmat-technologies",
@@ -1895,7 +1954,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cusmat-technologies",
     "tagline": "Immersive AR/VR and AI-driven industrial skilling & workforce training platform",
     "description": "Cusmat Technologies builds enterprise-grade immersive learning and workforce evaluation platforms utilizing Augmented Reality (AR), Virtual Reality (VR), and AI digital twins. Its flagship platform (SkillEdge) standardizes onboarding, safety training, and predictive skill analytics for operators and field technicians in heavy manufacturing, mining, logistics, and supply chain enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cusmat.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cusmat.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -1922,7 +1981,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM4MyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "darwinbox",
@@ -1930,7 +1990,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "darwinbox",
     "tagline": "Cloud-based HCM platform for the Asia-to-world enterprise",
     "description": "Darwinbox is a cloud HRMS platform serving 1,000+ enterprises across 130+ countries, including Adani, Mahindra, Swiggy, and Tokopedia. Its 1,000-seat global headquarters opened in Hyderabad in 2022, marking a decade of growth from a three-founder startup to an Asian-origin HCM unicorn.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/darwinbox.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://darwinbox.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -1957,42 +2017,43 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
-    "id": "deccan-ai",
+    "id": "deccan-ai-b2",
     "name": "Deccan AI",
-    "slug": "deccan-ai",
-    "tagline": "Human-verified expert datasets and evaluation for frontier AI models",
-    "description": "Deccan AI operates a human-in-the-loop data engine providing verified datasets, domain-specific SFT, RLHF preference ranking, and rigorous benchmark evaluations for frontier foundation LLMs and AI labs worldwide.",
-    "logoUrl": "",
+    "slug": "deccan-ai-b2",
+    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
+    "description": "Deccan AI is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
+    "logoUrl": "https://img.logo.dev/deccan.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://deccan.ai",
-    "industry": "AI & Machine Learning",
-    "subCategory": "AI / DeepTech",
+    "industry": "SaaS & Enterprise",
+    "subCategory": "Startup / Company candidate",
     "stage": "Growth / Scaling",
-    "fundingStage": "Series A",
-    "totalFunding": "Series A",
+    "fundingStage": "Bootstrapped",
+    "totalFunding": "Bootstrapped",
     "foundingYear": 2018,
     "teamSize": "Team",
     "location": {
-      "area": "Knowledge City / T-Hub",
-      "address": "THH-DAA-FL-047, 7th Floor, T-Hub Phase 2, Plot No 1/C, Sy No 83/1, Raidurg Panmaktha, Hyderabad, Telangana 500081",
-      "lat": 17.4334,
-      "lng": 78.3807
+      "area": "HITEC City",
+      "address": "HITEC City, Hyderabad, Telangana 500081",
+      "lat": 17.4578,
+      "lng": 78.3801
     },
     "founders": [],
     "hiring": true,
     "tags": [
-      "AI / DeepTech",
-      "Raidurg",
-      "Series A",
+      "Startup / Company candidate",
+      "HITEC City",
       "Hiring"
     ],
     "featured": false,
     "verified": true,
-    "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "createdAt": "2026-08-27",
+    "updatedAt": "2026-08-27",
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "dhruva-space",
@@ -2000,7 +2061,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "dhruva-space",
     "tagline": "Full-stack satellite platforms, launch solutions, and ground stations",
     "description": "Dhruva Space is a pioneering full-stack space-engineering venture providing modular satellite platforms (buses), satellite deployers, and Earth ground station networks (GSaaS). Winner of the National Startup Award in Space, the company delivers integrated, end-to-end infrastructure for commercial, defense, and academic space missions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/dhruvaspace.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://dhruvaspace.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "SpaceTech",
@@ -2027,7 +2088,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "diabetomics",
@@ -2035,7 +2097,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "diabetomics",
     "tagline": "Non-invasive salivary point-of-care diagnostic tests and early diabetes risk biomarkers",
     "description": "DiabetOmics (Diabetomics Medical Private Limited) is a medical diagnostics and biotechnology company with its India R&D and manufacturing base in Hyderabad. The company develops non-invasive point-of-care diagnostic devices and test kits that detect type 1 diabetes, type 2 diabetes risk, and gestational diabetes early via saliva biomarkers without requiring finger-prick blood draws.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/diabetomics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://diabetomics.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "BioTech",
@@ -2062,7 +2124,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "digi-prex",
@@ -2070,7 +2133,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "digi-prex",
     "tagline": "Subscription-based e-pharmacy and chronic disease medication management platform",
     "description": "Digi-Prex is an AI and WhatsApp-enabled e-pharmacy platform designed for patients with chronic illnesses (such as diabetes, hypertension, and cardiovascular diseases). By allowing patients to upload physical prescriptions via WhatsApp and automating monthly doorstep refills at up to 15% lower costs, it simplifies long-term adherence and chronic medication management.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/digi-prex.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://digi-prex.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -2097,7 +2160,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNmUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "docturnal",
@@ -2105,7 +2169,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "docturnal",
     "tagline": "AI-powered non-invasive acoustic screening platform for pulmonary and respiratory diseases",
     "description": "Docturnal is a medtech and healthcare AI startup developing point-of-care, non-invasive respiratory diagnostic tools. Its flagship mobile application, TimBre, captures and analyzes human cough audio signatures using machine learning and acoustic signal processing to provide rapid screening and triage for pulmonary tuberculosis (TB), chronic obstructive pulmonary disease (COPD), and asthma.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/docturnal.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://docturnal.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -2132,7 +2196,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM4OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "dodla-dairy",
@@ -2140,7 +2205,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "dodla-dairy",
     "tagline": "Integrated dairy procurement, fresh milk processing, and value-added dairy product brand",
     "description": "Dodla Dairy (Dodla Dairy Limited) is a publicly listed integrated dairy processing company headquartered in Hyderabad. Operating procurement networks across South India as well as overseas operations in Africa, Dodla processes and retails pouch milk, curd, ghee, paneer, butter, flavored milk, and ice creams under the Dodla Dairy, Dodla+, and KC+ brands.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/dodladairy.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://dodladairy.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -2167,7 +2232,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNDQzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "domimart",
@@ -2175,7 +2241,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "domimart",
     "tagline": "Hyperlocal daily grocery delivery, FMCG retail network, and seamless neighbourhood convenience",
     "description": "Domimart is a hyperlocal e-commerce and retail delivery platform based in Hyderabad. The platform connects urban households with neighborhood supermarkets and fulfillment hubs, delivering daily groceries, fresh produce, personal care items, and household essentials through rapid local fulfillment.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/domimart.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://domimart.in",
     "industry": "E-Commerce & Consumer",
     "subCategory": "E-commerce",
@@ -2202,15 +2268,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzOSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "dozee",
     "name": "Dozee",
     "slug": "dozee",
     "tagline": "AI-powered, contactless continuous remote patient monitoring and early health deterioration warning system",
-    "description": "Dozee (by Turtle Shell Technologies) is an AI-driven clinical health-tech and contactless remote patient monitoring (RPM) pioneer. Using medical-grade Ballistocardiography (BCG) sensor sheets placed under hospital or home mattresses, Dozee continuously tracks heart rate, respiration, blood pressure, and sleep patterns�transforming standard hospital beds into step-down ICUs with automated early-warning alerts.",
-    "logoUrl": "",
+    "description": "Dozee (by Turtle Shell Technologies) is an AI-driven clinical health-tech and contactless remote patient monitoring (RPM) pioneer. Using medical-grade Ballistocardiography (BCG) sensor sheets placed under hospital or home mattresses, Dozee continuously tracks heart rate, respiration, blood pressure, and sleep patterns\u2229\u2510\u255ctransforming standard hospital beds into step-down ICUs with automated early-warning alerts.",
+    "logoUrl": "https://img.logo.dev/dozee.health?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://dozee.health",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -2237,7 +2304,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxODUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "edutor-technologies",
@@ -2245,7 +2313,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "edutor-technologies",
     "tagline": "Digital textbook platform, interactive classroom learning, and LMS infrastructure for K-12 and publishers",
     "description": "Edutor Technologies is an edtech learning platform and digital publishing infrastructure provider (known for its flagship platform 'Ignitor'). The company enables educational institutions and K-12 textbook publishers to deliver interactive, device-agnostic digital curricula, assessments, and learning management systems (LMS) directly onto tablets and connected classroom screens.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ignitorlearning.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ignitorlearning.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -2272,7 +2340,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOGIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ekincare",
@@ -2280,7 +2349,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ekincare",
     "tagline": "AI-powered corporate health benefits and employee wellness platform",
     "description": "Ekincare is an integrated corporate health benefits and wellness management platform. Powered by a patent-pending health-graph engine, it aggregates scattered medical records, routine diagnostic health checks, telemedicine consultations, pharmacy delivery, and mental wellness initiatives into a unified dashboard for enterprise employers.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ekincare.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ekincare.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -2307,7 +2376,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "enaayah",
@@ -2315,7 +2385,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "enaayah",
     "tagline": "Clean D2C organic beauty essentials, botanical formulations, and conscious personal care",
     "description": "Enaayah (Enaayah Naturals) is a direct-to-consumer sustainable personal care brand founded in Hyderabad. The brand produces toxin-free, organic skincare, natural hair care, and wellness formulations utilizing traditional botanical ingredients and sustainable packaging.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/enaayah.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://enaayah.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -2342,7 +2412,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "engine-biosciences",
@@ -2350,7 +2421,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "engine-biosciences",
     "tagline": "AI and high-throughput genomics platform for target discovery and precision oncology",
     "description": "Engine Biosciences is a venture-backed biotechnology company pioneering network biology and precision medicine. The platform integrates high-throughput combinatorial CRISPR wet-lab experimentation with machine learning algorithms (NetRx and CombiGEM) to map complex gene interactions, discover novel synthetic lethality targets, and develop precision oncology therapeutics.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/enginebio.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://enginebio.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -2377,42 +2448,43 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
-    "id": "enmovil",
+    "id": "enmovil-b2",
     "name": "Enmovil",
-    "slug": "enmovil",
-    "tagline": "AI and multimodal IoT enterprise platform for supply chain & logistics optimization",
-    "description": "Enmovil is an enterprise logistics-tech and supply chain intelligence platform. Through hardware-agnostic IoT integration and AI algorithms, it delivers end-to-end multi-modal logistics tracking, yard management, consignment security, predictive ETA analysis, and transit compliance for automotive, oil & gas, FMCG, and heavy manufacturing leaders.",
-    "logoUrl": "",
+    "slug": "enmovil-b2",
+    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
+    "description": "Enmovil is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
+    "logoUrl": "https://img.logo.dev/enmovil.net?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://enmovil.net",
     "industry": "SaaS & Enterprise",
-    "subCategory": "Logistics",
+    "subCategory": "Startup / Company candidate",
     "stage": "Growth / Scaling",
-    "fundingStage": "Series A",
-    "totalFunding": "Series A",
+    "fundingStage": "Bootstrapped",
+    "totalFunding": "Bootstrapped",
     "foundingYear": 2018,
     "teamSize": "Team",
     "location": {
-      "area": "Gachibowli",
-      "address": "Regus Grandeur Offices, 8th Floor, Gachibowli, Serilingampally, Hyderabad, Telangana 500032",
-      "lat": 17.4401,
-      "lng": 78.3489
+      "area": "HITEC City",
+      "address": "HITEC City, Hyderabad, Telangana 500081",
+      "lat": 17.4453,
+      "lng": 78.3882
     },
     "founders": [],
     "hiring": true,
     "tags": [
-      "Logistics",
-      "Gachibowli",
-      "Series A",
+      "Startup / Company candidate",
+      "HITEC City",
       "Hiring"
     ],
     "featured": false,
     "verified": true,
-    "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "createdAt": "2026-08-27",
+    "updatedAt": "2026-08-27",
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOGViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "entersoftsecurity",
@@ -2420,7 +2492,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "entersoftsecurity",
     "tagline": "Offensive cybersecurity, application vulnerability assessments (VAPT), and DevSecOps compliance",
     "description": "Entersoft Security (Entersoft Information Systems Private Limited) is an application security and offensive cybersecurity firm headquartered in Hyderabad. The company provides penetration testing (VAPT), DevSecOps pipeline auditing, cloud security architecture assessments, and compliance benchmarking for fintech, healthcare, and enterprise software platforms.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/entersoftsecurity.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://entersoftsecurity.com",
     "industry": "AI & Machine Learning",
     "subCategory": "Cybersecurity",
@@ -2447,7 +2519,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "equal-identity",
@@ -2455,7 +2528,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "equal-identity",
     "tagline": "Consent-first identity verification stack, financial data sharing, and automated fraud prevention platform",
     "description": "Equal (Equal ID Private Limited) is a data privacy and digital identity verification infrastructure platform headquartered in Hyderabad. Built to enable secure, consent-driven data sharing between consumers and enterprises, Equal integrates with 50+ government databases and data sources (Aadhaar, PAN, Digilocker, Account Aggregator) to streamline KYC onboarding, employment screening, and credit underwriting for leading BFSI, retail, and tech enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/equal.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://equal.in",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -2482,7 +2555,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "esktec",
@@ -2490,7 +2564,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "esktec",
     "tagline": "Industrial IoT automation, embedded hardware design, and edge telemetry platforms",
     "description": "Esktec (Esktec Technologies) is an embedded systems engineering and IoT solutions company based in Hyderabad. Esktec designs custom sensor hardware, embedded firmware, remote telemetry gateways, and IoT dashboard architectures for industrial automation.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/esktec.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://esktec.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -2517,15 +2591,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOTRiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "eunoia-innovations",
     "name": "Eunoia Innovations",
     "slug": "eunoia-innovations",
     "tagline": "Autonomous marine robotics and unmanned surface vessels for waterbody cleanup and hydrographic surveys",
-    "description": "Eunoia Innovations is a deep-tech marine robotics and environmental sustainability startup. Incubated at AIC T-Hub, ISB D-Labs, and T-Works, the company develops indigenous Unmanned Surface Vessels (USVs)�including its deployed 'Aqua Skimmer' clean-up vessel and 'AquaScanner' survey craft�designed for automated water waste collection, real-time water quality monitoring, and hydrographic mapping.",
-    "logoUrl": "",
+    "description": "Eunoia Innovations is a deep-tech marine robotics and environmental sustainability startup. Incubated at AIC T-Hub, ISB D-Labs, and T-Works, the company develops indigenous Unmanned Surface Vessels (USVs)\u2229\u2510\u255cincluding its deployed 'Aqua Skimmer' clean-up vessel and 'AquaScanner' survey craft\u2229\u2510\u255cdesigned for automated water waste collection, real-time water quality monitoring, and hydrographic mapping.",
+    "logoUrl": "https://img.logo.dev/eunoiainnovations.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://eunoiainnovations.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -2552,7 +2627,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "evolgence",
@@ -2560,7 +2636,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "evolgence",
     "tagline": "Telecom software engineering, network protocol testing, and embedded systems consulting",
     "description": "Evolgence (Evolgence Telecom Systems Private Limited) is a specialized telecommunications and embedded engineering company headquartered in Hyderabad. The company delivers protocol stack development, 4G/5G testing frameworks, VoIP solutions, and custom embedded systems integration for global telecom operators and equipment vendors.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/evolgence.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://evolgence.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -2587,7 +2663,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNmMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "evolv28",
@@ -2595,7 +2672,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "evolv28",
     "tagline": "Non-invasive neuro-modulation wearable device for stress reduction, focus, and deep sleep",
     "description": "Evolv28 (by Aether MindTech) is a consumer health-tech and neurotechnology startup. The company develops a wearable headband device that utilizes ultra-low-frequency pulsed electromagnetic fields (micro-PEMF) to stimulate and re-align natural brainwave patterns, helping users naturally lower stress levels, enhance cognitive focus, improve sleep architecture, and deepen meditation without pharmaceuticals or invasive sensors.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/evolv28.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://evolv28.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -2622,15 +2699,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ2MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "eyva",
     "name": "Eyva",
     "slug": "eyva",
     "tagline": "Non-invasive handheld metabolic health tracker and vital monitoring gadget",
-    "description": "Eyva (by BlueSemi) is a healthtech and consumer wellness hardware venture that developed the world's first non-invasive health gadget capable of measuring six key vitals�including blood glucose trends, ECG, heart rate, SpO2, HbA1c estimates, and blood pressure patterns�in under 60 seconds simply through touch, eliminating the need for finger pricks.",
-    "logoUrl": "",
+    "description": "Eyva (by BlueSemi) is a healthtech and consumer wellness hardware venture that developed the world's first non-invasive health gadget capable of measuring six key vitals\u2229\u2510\u255cincluding blood glucose trends, ECG, heart rate, SpO2, HbA1c estimates, and blood pressure patterns\u2229\u2510\u255cin under 60 seconds simply through touch, eliminating the need for finger pricks.",
+    "logoUrl": "https://img.logo.dev/eyva.io?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://eyva.io",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -2657,7 +2735,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "flashoot",
@@ -2665,7 +2744,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "flashoot",
     "tagline": "On-demand booking platform for professional smartphone reel makers & video creators",
     "description": "Flashoot is an on-demand content creation platform that connects users, event organizers, and brands with vetted smartphone videographers and reel makers. Its network of creators shoots, edits, and delivers professionally produced short-format reels within minutes for weddings, corporate events, and social media campaigns.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/flashoot.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://flashoot.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Media & Entertainment",
@@ -2692,15 +2771,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNDZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "flyingcaps-technologies",
     "name": "FlyingCaps Technologies",
     "slug": "flyingcaps-technologies",
     "tagline": "Mobile game development, global game publishing, and generative AI creative tools studio",
-    "description": "FlyingCaps Technologies (Flyingcaps Technologies Private Limited) is a mobile game development studio, publishing house, and creative AI tools developer based in Hyderabad. The studio has launched over 10 mobile titles across casual and hyper-casual genres�amassing over 100 million downloads worldwide across global overseas markets�while also engineering consumer GenAI media applications for avatars, generative video, and image transformation.",
-    "logoUrl": "",
+    "description": "FlyingCaps Technologies (Flyingcaps Technologies Private Limited) is a mobile game development studio, publishing house, and creative AI tools developer based in Hyderabad. The studio has launched over 10 mobile titles across casual and hyper-casual genres\u2229\u2510\u255camassing over 100 million downloads worldwide across global overseas markets\u2229\u2510\u255cwhile also engineering consumer GenAI media applications for avatars, generative video, and image transformation.",
+    "logoUrl": "https://img.logo.dev/flyingcaps.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://flyingcaps.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -2727,7 +2807,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzOSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "fourth-partner-energy",
@@ -2735,7 +2816,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "fourth-partner-energy",
     "tagline": "End-to-end commercial and industrial solar and hybrid energy solutions",
     "description": "Fourth Partner Energy designs, finances, and operates distributed solar, wind-solar hybrid, and battery storage systems for commercial and industrial clients. Founded in 2010, it's one of India's largest distributed solar platforms, backed by TPG, Norfund, and IFC.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/fourthpartner.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://fourthpartner.co",
     "industry": "CleanTech & EV",
     "subCategory": "CleanTech / EV",
@@ -2762,7 +2843,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk2MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "frejun",
@@ -2770,7 +2852,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "frejun",
     "tagline": "AI-powered cloud telephony, automated outbound dialer, and conversational CRM platform",
     "description": "FreJun is an enterprise B2B SaaS and conversational voice AI startup. Incubated across CIE IIIT Hyderabad and T-Hub cohorts, FreJun provides automated cloud telephony, smart outbound auto-dialers, click-to-call integrations, and AI call transcription that seamlessly connects with enterprise CRMs (including Zoho, HubSpot, and Salesforce) to automate sales and support call logging.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/frejun.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://frejun.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -2797,7 +2879,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "freyr-energy",
@@ -2805,7 +2888,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "freyr-energy",
     "tagline": "Rooftop solar enablement platform, SunPro app ecosystem, and residential/MSME green transition financing",
     "description": "Freyr Energy (Freyr Energy Services Private Limited) is a clean-tech and rooftop solar platform headquartered in Hyderabad. Freyr Energy simplifies solar transition for homes, residential communities, and MSMEs through its proprietary SunPro digital platform, providing seamless solar system design, digital financing, automated net-metering liaisoning, and end-to-end installation monitoring.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/freyrenergy.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://freyrenergy.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -2832,7 +2915,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYTUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "frontlines-edutech",
@@ -2840,7 +2924,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "frontlines-edutech",
     "tagline": "Regional language upskilling, vernacluar tech cohorts, and off-campus career placement platform",
     "description": "Frontlines EduTech (FLM / Frontlines Media) is an upskilling and career enablement edtech platform focused on vernacular and regional tech education. Originating as a grassroots community across the Telugu states, FLM provides cohort-based full-stack web development, data analytics, and cloud engineering programs paired with mentorship, job alerts, and off-campus placement assistance for tier-2/3 engineering graduates.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/frontlinesedutech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://frontlinesedutech.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -2867,7 +2951,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRhMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gayam-motor-works",
@@ -2875,7 +2960,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gayam-motor-works",
     "tagline": "Pioneering smart electric three-wheelers, modular battery swapping systems, and urban mobility fleets",
     "description": "Gayam Motor Works (GMW, affiliated with BILITI Electric) is an indigenous electric vehicle manufacturer and clean-mobility pioneer. Incubated at T-Hub and CIE IIIT-H, GMW developed the world's first lithium-ion-powered electric autorickshaws (UrbanET and Taskman) with proprietary swappable battery tech, powering green last-mile logistics for global enterprises like Amazon, IKEA, Flipkart, and BigBasket.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/gayammotorworks.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://gayammotorworks.com",
     "industry": "CleanTech & EV",
     "subCategory": "CleanTech / EV",
@@ -2902,7 +2987,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzcwYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "geosilicon",
@@ -2910,7 +2996,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "geosilicon",
     "tagline": "VLSI semiconductor design services, ASIC physical verification, and embedded SoC architectures",
     "description": "GeoSilicon (GeoSilicon Technologies) is a semiconductor engineering and VLSI design services startup based in Hyderabad. The company delivers advanced semiconductor solutions spanning RTL design, physical design, DFT (Design for Testability), synthesis, and silicon validation for automotive, computing, and telecommunications chipsets.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/geosilicon.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://geosilicon.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -2937,7 +3023,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYWYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "geovista",
@@ -2945,7 +3032,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "geovista",
     "tagline": "Geospatial mapping software, GIS database analysis, and remote sensing intelligence platforms",
     "description": "GeoVista (GeoVista Technologies) is a geospatial software and GIS analytics company headquartered in Hyderabad. The company builds customized mapping applications, satellite imagery analysis tools, land administration systems, and location intelligence platforms for urban planning and enterprise resource mapping.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/geovista.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://geovista.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -2972,7 +3059,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ4YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "getto-india",
@@ -2980,7 +3068,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "getto-india",
     "tagline": "AI-first intent-driven fashion commerce and 60-minute hyperlocal store-to-door delivery",
     "description": "Getto (Getovity Technologies LLP) is an AI-first fashion quick-commerce platform headquartered in Hyderabad. Operating a zero-warehouse, store-partner model, Getto builds digital style profiles from selfies and live-syncs inventory with premium local retail stores across Hyderabad to curate and deliver complete occasion-ready outfits to consumers within 60 minutes.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/getto-india.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://getto-india.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -3007,7 +3095,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzgzYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "glounitech",
@@ -3015,7 +3104,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "glounitech",
     "tagline": "Cloud infrastructure consulting, IT modernization, and enterprise digital solutions",
     "description": "glouniTech (Glounitech Solutions) is an IT services and cloud architecture company based in Hyderabad. The firm provides multi-cloud migrations, enterprise application development, IT service management, and digital infrastructure engineering.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/glounitech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://glounitech.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3042,7 +3131,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOGIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gradious-technologies",
@@ -3050,7 +3140,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gradious-technologies",
     "tagline": "Industry-grade tech talent grooming, simulated workplace training, and AI automation consulting",
     "description": "Gradious Technologies is an edtech upskilling and enterprise AI workforce development platform. The company bridges the industry-academia readiness gap through simulated software engineering work environments (Gradious LEAP Platform), project-based full-stack curriculums, and enterprise AI automation consulting designed to transition learners into production-ready software engineers.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/gradious.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://gradious.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -3077,7 +3167,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "greenkogroup",
@@ -3085,7 +3176,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "greenkogroup",
     "tagline": "Leading renewable energy giant, utility-scale green hydrogen, and pumped storage power projects",
     "description": "Greenko Group (Greenko Energies Private Limited) is one of India's largest clean energy transition and renewable power companies headquartered in Hyderabad. Greenko operates utility-scale solar, wind, and hydro assets alongside multi-gigawatt-hour pumped storage plant (PSP) projects to deliver round-the-clock (RTC) green power, green hydrogen, and zero-carbon energy storage solutions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/greenkogroup.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://greenkogroup.com",
     "industry": "CleanTech & EV",
     "subCategory": "CleanTech / EV",
@@ -3112,15 +3203,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzY4YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "grene-robotics",
     "name": "Grene Robotics",
     "slug": "grene-robotics",
     "tagline": "Autonomous edge AI operating system and AI-powered counter-drone defense dome (Indrajaal)",
-    "description": "Grene Robotics is an autonomous AI and deep-tech defense systems startup. The company developed 'Indrajaal'�India's first wide-area autonomous counter-unmanned aerial vehicle (C-UAS) defense dome. Powered by its proprietary GreneOS, the system integrates radar, RF detectors, electro-optical sensors, and AI command-and-control to detect, track, and neutralize rogue drones and aerial threats in real time across vast geographic borders and critical enterprise infrastructure.",
-    "logoUrl": "",
+    "description": "Grene Robotics is an autonomous AI and deep-tech defense systems startup. The company developed 'Indrajaal'\u2229\u2510\u255cIndia's first wide-area autonomous counter-unmanned aerial vehicle (C-UAS) defense dome. Powered by its proprietary GreneOS, the system integrates radar, RF detectors, electro-optical sensors, and AI command-and-control to detect, track, and neutralize rogue drones and aerial threats in real time across vast geographic borders and critical enterprise infrastructure.",
+    "logoUrl": "https://img.logo.dev/grenerobotics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://grenerobotics.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -3147,7 +3239,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhOSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gritty-tech",
@@ -3155,7 +3248,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gritty-tech",
     "tagline": "Innovative tech solutions, custom product engineering, and digital transformation services",
     "description": "Gritty Tech is a bootstrapped technology development and product engineering firm based out of Hyderabad. The company builds custom software products, digital platforms, and technology architectures to support modern digital business workflows.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/grittytech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://grittytech.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3182,7 +3275,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM1OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hala-mobility",
@@ -3190,7 +3284,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hala-mobility",
     "tagline": "AI-driven electric vehicle-as-a-service (EVaaS) and multi-modal fleet management platform",
     "description": "Hala Mobility is an electric mobility platform and EV-as-a-Service provider. It offers end-to-end electric 2-wheeler and 3-wheeler leasing, smart charging infrastructure, battery-swapping support, and AI-enabled fleet management software for gig delivery workers, logistics operators, and daily urban commuters.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/halamobility.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://halamobility.in",
     "industry": "CleanTech & EV",
     "subCategory": "Mobility",
@@ -3217,7 +3311,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc5MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "harvested-robotics",
@@ -3225,7 +3320,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "harvested-robotics",
     "tagline": "AI-powered autonomous laser weeding robots, crop health analytics, and precision farming hardware",
     "description": "Harvested Robotics is an agricultural robotics and deep-tech hardware startup based in Hyderabad. Incubated at IIT Hyderabad (i-TIC Foundation) and T-Hub, the company manufactures autonomous, solar-powered agricultural field rovers equipped with computer vision and precision laser systems that identify and neutralize weeds without chemicals, slashing labor costs and eliminating herbicide toxicity.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/harvestedrobotics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://harvestedrobotics.com",
     "industry": "AgriTech & FoodTech",
     "subCategory": "AgriTech",
@@ -3252,7 +3347,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzVmMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hatchingapps",
@@ -3260,7 +3356,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hatchingapps",
     "tagline": "Full-cycle mobile app development studio, intuitive UI/UX design, and agile MVP incubation",
     "description": "HatchingApps (Hatchingapps Technologies) is a mobile and web app product development studio based out of Hyderabad. Specializing in iOS, Android, and Flutter applications, HatchingApps collaborates with early-stage founders and enterprises to engineer, design, and deploy scalable digital products from concept to launch.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hatchingapps.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hatchingapps.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3287,7 +3383,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNGNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "healthsignz",
@@ -3295,7 +3392,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "healthsignz",
     "tagline": "AI-driven digital health intelligence platform, clinical decision support, and personalized wellness engine",
     "description": "HealthSignz (Healthsignz Technologies Private Limited) is a digital healthtech and clinical intelligence platform headquartered in Hyderabad. Leveraging medical knowledge graphs and AI algorithms, HealthSignz integrates preventive health tracking, virtual doctor consultations, remote patient monitoring, and lifestyle wellness interventions for consumers, healthcare providers, and enterprise partners.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/healthsignz.net?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://healthsignz.net",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -3322,7 +3419,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "helex",
@@ -3330,7 +3428,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "helex",
     "tagline": "Programmable lipid nanoparticle (LNP) genetic medicines and targeted gene therapies",
     "description": "Helex is a deeptech biotechnology startup developing non-viral, targeted genomic medicines using proprietary Lipid Nanoparticle (LNP) delivery platforms and CRISPR-based precision gene-editing designs. The company's pipeline focuses on first-in-class, disease-modifying therapies for severe unmet clinical needs, including Autosomal Dominant Polycystic Kidney Disease (ADPKD) and chronic kidney diseases.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/helex.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://helex.in",
     "industry": "HealthTech & BioTech",
     "subCategory": "BioTech",
@@ -3357,42 +3455,43 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1ZiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
-    "id": "hesa",
+    "id": "hesa-b2",
     "name": "Hesa",
-    "slug": "hesa",
-    "tagline": "Phygital rural commerce, agritech, and fintech marketplace connecting brands to village micro-entrepreneurs",
-    "description": "Hesa is a unified B2B2C rural-tech and commerce platform designed to bridge the gap between urban enterprises and rural consumers across Bharat. Combining a physical on-ground network of village-level micro-entrepreneurs ('Hesaathis') with a digital platform, Hesa facilitates agri buy-sell trade, financial and insurance services, utility payments, and last-mile distribution for consumer brands.",
-    "logoUrl": "",
+    "slug": "hesa-b2",
+    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
+    "description": "Hesa is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
+    "logoUrl": "https://img.logo.dev/hesa.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hesa.co",
-    "industry": "AgriTech & FoodTech",
-    "subCategory": "AgriTech",
-    "stage": "MVP / Early Stage",
-    "fundingStage": "Seed",
-    "totalFunding": "Seed",
+    "industry": "SaaS & Enterprise",
+    "subCategory": "Startup / Company candidate",
+    "stage": "Growth / Scaling",
+    "fundingStage": "Bootstrapped",
+    "totalFunding": "Bootstrapped",
     "foundingYear": 2018,
     "teamSize": "Team",
     "location": {
       "area": "HITEC City",
-      "address": "H.No. 36-137/6 & 36-136/49, Plot No. 61 & 63, SS Mansion, 1st Floor, Defence Colony, Sainikpuri, Secunderabad, Hyderabad, Telangana 500094",
-      "lat": 17.4891,
-      "lng": 78.5492
+      "address": "HITEC City, Hyderabad, Telangana 500081",
+      "lat": 17.4503,
+      "lng": 78.3829
     },
     "founders": [],
     "hiring": true,
     "tags": [
-      "AgriTech",
-      "Others",
-      "Seed",
+      "Startup / Company candidate",
+      "HITEC City",
       "Hiring"
     ],
     "featured": false,
     "verified": true,
-    "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "createdAt": "2026-08-27",
+    "updatedAt": "2026-08-27",
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOGJiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hierarchsoft",
@@ -3400,7 +3499,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hierarchsoft",
     "tagline": "Custom enterprise ERP systems, data warehousing, and cloud migration engineering",
     "description": "Hierarchsoft (Hierarchsoft Technologies) is an enterprise software engineering and cloud consulting company headquartered in Hyderabad. The firm builds scalable database systems, analytics dashboards, custom corporate workflows, and cloud-native backends.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hierarchsoft.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hierarchsoft.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3427,7 +3526,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxODUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "highradius",
@@ -3435,7 +3535,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "highradius",
     "tagline": "AI-powered Order-to-Cash, Treasury, and Record-to-Report autonomous finance platform",
     "description": "HighRadius is an enterprise fintech and SaaS unicorn that provides autonomous software for Office of the CFO operations. Powered by its proprietary Rivana Artificial Intelligence engine and Freeda Digital Assistant, HighRadius automates complex Order-to-Cash (credit, electronic billing, cash application, deductions, collections), Treasury Management, and Record-to-Report accounting workflows for Global 2000 enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/highradius.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://highradius.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3462,7 +3562,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRlYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hitwicket",
@@ -3470,7 +3571,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hitwicket",
     "tagline": "AI-powered multiplayer cricket strategy game and esports simulation platform",
     "description": "Hitwicket is a game-tech venture and developer of multiplayer cricket strategy games. Unlike traditional swipe-and-hit simulators, Hitwicket blends cricket mechanics with tactical RPG and esports elements, allowing players to act as team managers, coaches, and tacticians while competing in global real-time matches and tournaments.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hitwicket.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hitwicket.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Gaming",
@@ -3497,15 +3598,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg5MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "homeground",
     "name": "HomeGround",
     "slug": "homeground",
     "tagline": "AI and computer-vision-powered cricket performance training and biomechanics analytics app",
-    "description": "HomeGround (by HyperTune Technologies) is an AI-driven sports-tech platform that turns any smartphone into an advanced cricket training and performance analytics studio. Using proprietary computer vision and machine learning algorithms, HomeGround captures and analyzes bowling and batting metrics�such as release speed, line, length, pitch maps, run-up biomechanics, and bat angles�eliminating the need for expensive wearable sensors or high-definition camera rigs.",
-    "logoUrl": "",
+    "description": "HomeGround (by HyperTune Technologies) is an AI-driven sports-tech platform that turns any smartphone into an advanced cricket training and performance analytics studio. Using proprietary computer vision and machine learning algorithms, HomeGround captures and analyzes bowling and batting metrics\u2229\u2510\u255csuch as release speed, line, length, pitch maps, run-up biomechanics, and bat angles\u2229\u2510\u255celiminating the need for expensive wearable sensors or high-definition camera rigs.",
+    "logoUrl": "https://img.logo.dev/homegroundapp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://homegroundapp.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -3532,7 +3634,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNWRiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hylenr",
@@ -3540,7 +3643,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hylenr",
     "tagline": "Patented Low Energy Nuclear Reactor (LENR) clean energy technology",
     "description": "HYLENR (Hylenr Technologies) is a deeptech clean energy venture developing patented Low Energy Nuclear Reactor (LENR / cold fusion) systems. By utilizing hydrogen, nickel, and palladium without radioactive fissile fuel, its compact reactors amplify input electricity into high-efficiency thermal power for space satellites, industrial heat, room heating, and decentralized power generation.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hylenr.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hylenr.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -3567,15 +3670,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTczMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "imimobile",
     "name": "IMImobile",
     "slug": "imimobile",
     "tagline": "Cloud communications software, customer interaction management (CPaaS), and omnichannel orchestration",
-    "description": "IMImobile (an integral part of Webex by Cisco, formerly IMImobile Private Limited) is an enterprise cloud communications and customer interaction platform founded in Hyderabad. The company provides CPaaS (Communications Platform as a Service) infrastructure, AI conversational bots, and omnichannel messaging orchestration�enabling global enterprises to automate customer engagement across SMS, WhatsApp, voice, RCS, and in-app chat.",
-    "logoUrl": "",
+    "description": "IMImobile (an integral part of Webex by Cisco, formerly IMImobile Private Limited) is an enterprise cloud communications and customer interaction platform founded in Hyderabad. The company provides CPaaS (Communications Platform as a Service) infrastructure, AI conversational bots, and omnichannel messaging orchestration\u2229\u2510\u255cenabling global enterprises to automate customer engagement across SMS, WhatsApp, voice, RCS, and in-app chat.",
+    "logoUrl": "https://img.logo.dev/imimobile.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://imimobile.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3602,7 +3706,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "incnut-digital",
@@ -3610,7 +3715,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "incnut-digital",
     "tagline": "Data-driven media, personalized D2C beauty, and Ayurvedic wellness ecosystem",
     "description": "IncNut Digital is a consumer media and direct-to-consumer (D2C) wellness house. The company operates globally recognized lifestyle and parenting digital media platforms (StyleCraze and MomJunction) alongside custom D2C beauty and wellness brands (SkinKraft and Vedix) that utilize proprietary skin/hair diagnostic algorithms and customized Ayurvedic formulations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/incnut.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://incnut.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -3637,7 +3742,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzU3MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "indian-eagle",
@@ -3645,7 +3751,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "indian-eagle",
     "tagline": "Online travel tech platform and airfare booking engine specializing in US-to-India flight routes",
     "description": "Indian Eagle (Indian Eagle Private Limited) is an online travel tech agency (OTA) and flight booking platform. Operating its primary global tech development and operations base in Hyderabad, Indian Eagle aggregates wholesale airline inventory and builds proprietary fare search engines that provide low-cost air tickets, customized itineraries, and travel services for the Indian diaspora traveling between North America and India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/indianeagle.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://indianeagle.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -3672,15 +3778,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOTYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "infinity-learn",
     "name": "Infinity Learn",
     "slug": "infinity-learn",
     "tagline": "AI-powered test prep platform for JEE, NEET, and K-12 foundational learning by Sri Chaitanya",
-    "description": "Infinity Learn (Infinity Learn by Sri Chaitanya) is an edtech platform headquartered in Hyderabad, backed by the Sri Chaitanya Educational Institutions. The platform blends 38+ years of pedagogical expertise with AI-driven adaptive learning systems, delivering comprehensive live test-prep courses, personalized mentorship, mock assessments, and doubt-solving engines for IIT-JEE, NEET, and CBSE/ICSE grades 6�12.",
-    "logoUrl": "",
+    "description": "Infinity Learn (Infinity Learn by Sri Chaitanya) is an edtech platform headquartered in Hyderabad, backed by the Sri Chaitanya Educational Institutions. The platform blends 38+ years of pedagogical expertise with AI-driven adaptive learning systems, delivering comprehensive live test-prep courses, personalized mentorship, mock assessments, and doubt-solving engines for IIT-JEE, NEET, and CBSE/ICSE grades 6\u2229\u2510\u255c12.",
+    "logoUrl": "https://img.logo.dev/infinitylearn.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://infinitylearn.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -3707,7 +3814,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzU1YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "infinity-square-digital-marketing-services",
@@ -3715,7 +3823,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "infinity-square-digital-marketing-services",
     "tagline": "Digital marketing agency, campaign management, and performance marketing solutions",
     "description": "Infinity Square Digital Marketing Services is a digital marketing and advertising agency based in Hyderabad. The firm provides specialized marketing strategies, email marketing campaigns, lead generation, and digital optimization services for growing business clients.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/infinitysquaredigitalmarketing.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://infinitysquaredigitalmarketing.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3742,7 +3850,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkyMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "inkprog-technologies",
@@ -3750,7 +3859,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "inkprog-technologies",
     "tagline": "Custom enterprise software engineering, mobile application development, and cloud IT services",
     "description": "INKPROG Technologies (Inkprog Technologies Private Limited) is a software development and digital transformation agency based in Hyderabad. The firm specializes in developing responsive web portals, scalable native/hybrid mobile apps, and dedicated enterprise cloud architectures.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/inkprog.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://inkprog.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -3777,15 +3886,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "inncircles",
     "name": "Inncircles",
     "slug": "inncircles",
     "tagline": "AI-powered, end-to-end construction project lifecycle and site management platform",
-    "description": "Inncircles (Inncircles Technologies) is a construction-tech and enterprise SaaS platform built for real estate developers and general contractors. The platform digitizes the complete construction lifecycle�from 3D BIM integration and real-time planning to site quality audits, subcontractor billing, cost management, and workforce tracking�eliminating delays and budget overruns.",
-    "logoUrl": "",
+    "description": "Inncircles (Inncircles Technologies) is a construction-tech and enterprise SaaS platform built for real estate developers and general contractors. The platform digitizes the complete construction lifecycle\u2229\u2510\u255cfrom 3D BIM integration and real-time planning to site quality audits, subcontractor billing, cost management, and workforce tracking\u2229\u2510\u255celiminating delays and budget overruns.",
+    "logoUrl": "https://img.logo.dev/inncircles.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://inncircles.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "PropTech",
@@ -3812,7 +3922,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "insurge-ai",
@@ -3820,7 +3931,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "insurge-ai",
     "tagline": "Autonomous AI sales engineers delivering live, voice-led, interactive product demos and lead qualification",
     "description": "Insurge AI is an AI-powered sales enablement and product-led growth platform. The platform builds autonomous AI sales engineers that conduct live, personalized visual and voice-led software demos for prospective buyers 24/7 without requiring human reps. Operating inside secure synthetic product sandboxes, Insurge AI captures buyer intent, handles objections, answers technical questions in real time, and synchronizes qualified deal intelligence into CRM pipelines.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/insurgeai.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://insurgeai.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -3847,7 +3958,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzllMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "isthara",
@@ -3855,7 +3967,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "isthara",
     "tagline": "Tech-enabled co-living spaces, smart food courts, and multi-brand dining institutional cafeterias",
     "description": "Isthara (Isthara Parks Private Limited) is a hospitality-tech, co-living, and smart food court management platform headquartered in Hyderabad. The company operates tech-enabled shared living spaces for students and working professionals, while also running digitized smart food courts and multi-brand institutional dining ecosystems across major tech hubs, educational institutions, and retail malls in India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/isthara.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://isthara.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -3882,7 +3994,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkyYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "jeh-aerospace",
@@ -3890,7 +4003,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "jeh-aerospace",
     "tagline": "Software-defined precision aerospace manufacturing, flight-critical aerostructures, and aero-engine components",
     "description": "Jeh Aerospace is a software-defined precision aerospace and defense manufacturing startup. Founded by former Tata aerospace joint venture leaders, Jeh Aerospace deploys AI-orchestrated production workflows, IoT-enabled computer numerical control (CNC) machining, and automated inspection infrastructure to manufacture AS9100-certified flight-critical aerostructures and aero-engine components, slashing supply chain turnaround times from months to weeks.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/jeh.aero?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://jeh.aero",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Manufacturing",
@@ -3917,7 +4030,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNmUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5KPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "jobiak",
@@ -3925,7 +4039,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "jobiak",
     "tagline": "AI-powered job posting optimization platform for Google for Jobs and talent acquisition",
     "description": "Jobiak (Jobiak AI Private Limited) is an AI-driven HRtech and recruitment SEO platform with core operations in Hyderabad. Jobiak enables talent acquisition teams, staffing agencies, and job boards to automatically optimize and publish job listings directly to Google for Jobs, increasing applicant conversion and direct candidate discovery without paid aggregator ads.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/jobiak.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://jobiak.ai",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -3952,15 +4066,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxM2UzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5KPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kalgudi",
     "name": "Kalgudi",
     "slug": "kalgudi",
     "tagline": "AI-driven agricultural ecosystem platform, rural supply chain digitisation, and enterprise agribusiness software",
-    "description": "Kalgudi (by Kalgudi Digital) is an agri-tech and rural commerce platform connecting the entire agricultural value chain. The platform unifies smallholder farmers, Farmer Producer Organizations (FPOs), micro-enterprises, input suppliers, and institutional buyers�enabling real-time digital market linkages, crop advisory, traceability, and streamlined rural supply chain workflows.",
-    "logoUrl": "",
+    "description": "Kalgudi (by Kalgudi Digital) is an agri-tech and rural commerce platform connecting the entire agricultural value chain. The platform unifies smallholder farmers, Farmer Producer Organizations (FPOs), micro-enterprises, input suppliers, and institutional buyers\u2229\u2510\u255cenabling real-time digital market linkages, crop advisory, traceability, and streamlined rural supply chain workflows.",
+    "logoUrl": "https://img.logo.dev/kalgudi.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kalgudi.com",
     "industry": "AgriTech & FoodTech",
     "subCategory": "AgriTech",
@@ -3987,7 +4102,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FmMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kanerika",
@@ -3995,7 +4111,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kanerika",
     "tagline": "Data orchestration, automated enterprise analytics, composable architecture, and AI-driven automation",
     "description": "Kanerika is a global digital consulting and enterprise data engineering company. Operating its core development center from Hyderabad, Kanerika specializes in automated data pipelines, composable digital architectures, business process automation (RPA), and generative AI solutions through its proprietary 'FLR' automated integration frameworks.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kanerika.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kanerika.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -4022,7 +4138,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNjgzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kdrsoftsolutions",
@@ -4030,7 +4147,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kdrsoftsolutions",
     "tagline": "Bespoke web application development, CMS portals, and digital transformation consulting",
     "description": "KDR Soft Solutions (KDR Soft Solutions Private Limited) is an IT solutions provider based out of Hyderabad. The company builds customized web applications, e-commerce platforms, database management tools, and digital workflow systems for SMBs and commercial clients.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kdrsoftsolutions.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kdrsoftsolutions.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4057,7 +4174,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "keka-hr",
@@ -4065,7 +4183,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "keka-hr",
     "tagline": "Employee-centric HRMS, automated payroll, and talent management SaaS platform",
     "description": "Keka is a cloud-based HRMS and payroll automation platform tailored for growing SMEs and mid-market enterprises. It streamlines end-to-end human resource workflows including payroll compliance, attendance tracking, performance management, candidate hiring, and employee engagement on a unified modern UI.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/keka.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://keka.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -4092,7 +4210,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kfin-technologies",
@@ -4100,7 +4219,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kfin-technologies",
     "tagline": "Leading cloud-native financial services platform and mission-critical investor solutions provider",
     "description": "KFin Technologies (KFin Technologies Limited, formerly Karvy Fintech) is a publicly listed financial technology and registrar platform headquartered in Hyderabad. As India's largest registrar and transfer agency (RTA) for mutual funds and alternative investment funds (AIFs), KFintech provides mission-critical SaaS solutions, investor transaction processing, wealth management infrastructure, pension recordkeeping, and global fund administration across India, Southeast Asia, and North America.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kfintech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kfintech.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -4127,7 +4246,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM1NSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kisanwala",
@@ -4135,7 +4255,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kisanwala",
     "tagline": "Omnichannel agritech platform offering quality farm inputs, crop advisory, and marketplace connectivity",
     "description": "Kisanwala (Kisanwala Agritech Private Limited) is an end-to-end agritech platform headquartered in Hyderabad. Designed to empower smallholder farmers and agri-retailers, Kisanwala delivers authentic seed and fertilizer inputs, AI-based crop health diagnostics, weather forecasting, customized agronomy guidance, and post-harvest market links via digital apps and rural partner hubs.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kisanwala.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kisanwala.com",
     "industry": "AgriTech & FoodTech",
     "subCategory": "AgriTech",
@@ -4162,7 +4282,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "klee-technologies",
@@ -4170,7 +4291,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "klee-technologies",
     "tagline": "Enterprise application engineering, scalable cloud systems, and IT modernization consulting",
     "description": "Klee Technologies is an enterprise software engineering and IT consulting services provider based in Hyderabad. The company builds customized web applications, cloud-native backend infrastructures, enterprise integrations, and API architectures for commercial clients.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kleetech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kleetech.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4197,7 +4318,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE4MyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kodertroop",
@@ -4205,7 +4327,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kodertroop",
     "tagline": "Agile software product studio, full-stack web engineering, and modern MVP incubation",
     "description": "KoderTroop (Kodertroop Technologies) is a software engineering studio and digital product lab based in Hyderabad. The team develops custom SaaS architectures, full-stack web applications, REST/GraphQL APIs, and high-performance cross-platform mobile apps for startups.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kodertroop.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kodertroop.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4232,7 +4354,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ0MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kraionyx",
@@ -4240,7 +4363,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kraionyx",
     "tagline": "Custom enterprise software engineering, scalable cloud solutions, and full-stack product development",
     "description": "Kraionyx (Kraionyx Technologies) is a software engineering and digital solutions provider based in Hyderabad. The company builds customized web architectures, enterprise workflow automations, cloud-native backend systems, and cross-platform mobile applications for growing startups and mid-market enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kraionyx.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kraionyx.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4267,7 +4390,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNmNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kritsnam",
@@ -4275,7 +4399,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kritsnam",
     "tagline": "IoT-enabled smart ultrasonic water meters, real-time water budgeting, and groundwater intelligence",
     "description": "Kritsnam Technologies is an IoT and climate-tech water intelligence company. Incubated at IIT Kanpur and headquartered in Hyderabad, Kritsnam builds precision IoT ultrasonic water meters and telemetry sensors ('Dhaara Smart') paired with real-time cloud water budgeting software. The platform enables industrial plants, commercial facilities, and utilities to monitor consumption, track groundwater withdrawal limits, and maintain statutory compliance.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kritsnam.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://kritsnam.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -4302,7 +4426,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "laalsa",
@@ -4310,7 +4435,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "laalsa",
     "tagline": "AI-powered restaurant operating system, cloud POS, direct food ordering, and dining intelligence",
     "description": "Laalsa (Laalsa Business Insights) is an AI-driven restaurant technology and food management SaaS platform. Through its connected ecosystem (including Crave POS and the Yumzy direct-ordering suite), Laalsa provides dining establishments, cloud kitchens, and food courts with automated billing, omnichannel order aggregation, table management, CRM marketing, and deep consumer taste-graph intelligence.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/laalsa.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://laalsa.com",
     "industry": "AgriTech & FoodTech",
     "subCategory": "FoodTech",
@@ -4337,7 +4462,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "landeed",
@@ -4345,7 +4471,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "landeed",
     "tagline": "AI-powered real estate title search, document retrieval, and ownership verification platform",
     "description": "Landeed is a proptech title search and due-diligence platform that simplifies property ownership verification across India. Through its mobile and web application, it allows property buyers, brokers, developers, legal advisors, and financial institutions to search, download, and verify land ownership titles, encumbrance certificates (EC), and historical deed records in seconds.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/landeed.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://landeed.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "PropTech",
@@ -4372,7 +4498,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FmYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "landlens",
@@ -4380,7 +4507,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "landlens",
     "tagline": "Downstream satellite intelligence, geospatial mapping, and automated land parcel zoning analytics",
     "description": "Landlens (SpacetoLand) is a downstream SpaceTech and geospatial intelligence platform. Selected as part of AIC T-Hub's flagship ORBIT SpaceTech Accelerator (Cohort 3), Landlens leverages high-resolution satellite imagery, multi-spectral change detection, and spatial data layers to provide automated parcel mapping, survey number overlays, lake/water body monitoring, and municipal zoning compliance analytics for real estate diligence and land governance.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/landlens.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://landlens.co",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -4407,7 +4534,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODdiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "leap-india-food-and-logistics",
@@ -4415,7 +4543,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "leap-india-food-and-logistics",
     "tagline": "Modern grain silo infrastructure, rail-linked agri-logistics, and automated food grain storage",
     "description": "Leap India Food and Logistics (Leap India Food & Logistics Private Limited) is an agri-infrastructure and grain supply chain company with corporate operations in Hyderabad. Partnering with the Food Corporation of India (FCI) and private agri-conglomerates, the company develops and operates automated steel grain silo complexes, dedicated railway sidings, and bulk pneumatic grain handling systems to eliminate food grain wastage across India's post-harvest supply chain.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/leapifl.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://leapifl.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Logistics",
@@ -4442,7 +4570,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "liquidnitro-games",
@@ -4450,7 +4579,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "liquidnitro-games",
     "tagline": "AI-driven live services and game co-production platform for global game studios",
     "description": "Liquidnitro Games is a game-tech venture founded by former Electronic Arts (EA) leadership. It partners with global AAA and mid-tier game studios to power end-to-end live services, game development, AI-enabled asset production pipelines, and multi-platform live operations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/liquidnitro.games?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://liquidnitro.games",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Gaming",
@@ -4477,7 +4606,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg1MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "litemed",
@@ -4485,7 +4615,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "litemed",
     "tagline": "Wearable photobiomodulation devices, red/near-infrared light therapy, and non-invasive pain management",
     "description": "Litemed (Litemed India Private Limited) is a healthtech and medical hardware company headquartered in Hyderabad. The company develops clinically validated, wearable photobiomodulation (PBM) devices under its flagship brand CURAPOD. Combining targeted red and near-infrared (NIR) light wavelengths, Litemed's non-invasive hardware stimulates cellular ATP production, accelerates tissue repair, reduces inflammation, and provides drug-free relief for chronic musculoskeletal pain and joint stiffness.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/litemed.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://litemed.co.in",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -4512,7 +4642,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzllYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "livo-ai",
@@ -4520,7 +4651,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "livo-ai",
     "tagline": "AI-powered robotic slide scanners, digital pathology automation, and reagent-free blood analysis",
     "description": "Livo.ai (Radoratory Technologies) is a deep-tech MedTech and digital pathology company. Founded and based in Madhapur, Hyderabad, Livo develops smart robotic microscopy devices and computer vision algorithms (such as the Livo A1000 and A700) that automate peripheral blood smear scans, pap smears, and histopathology evaluations to provide point-of-care diagnostics without manual reagent delays.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/livo.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://livo.ai",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -4547,7 +4678,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYWQzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "logy-ai",
@@ -4555,7 +4687,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "logy-ai",
     "tagline": "AI-powered oral, eye, and preventive health screening and triaging platform",
     "description": "Logy.AI (by Nex Fitzap) is an AI-driven digital health and medical diagnostics startup. The company develops certified Software as a Medical Device (SaMD) solutions that enable smartphone-based, non-invasive screenings for oral health, cataract/eye diseases, and preventative care through automated computer vision and WhatsApp chatbots.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/logy.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://logy.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -4582,7 +4714,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ0YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mahaveersoftsolutions",
@@ -4590,7 +4723,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mahaveersoftsolutions",
     "tagline": "Bespoke business software development, inventory management systems, and billing solutions",
     "description": "Mahaveer Soft Solutions is an IT software development firm based in Hyderabad. The company builds customized desktop and cloud billing software, retail inventory management systems, point-of-sale (POS) solutions, and digital accounting integrations for retailers, distributors, and SMEs.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mahaveersoft.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://mahaveersoft.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4617,7 +4750,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNTViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "makers-hive",
@@ -4625,7 +4759,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "makers-hive",
     "tagline": "Next-generation bionic prosthetics, assistive healthcare hardware, and KalArm bionic hand",
     "description": "Makers Hive (Makers Hive Innovations Private Limited) is a biomedical deep-tech startup headquartered in Hyderabad. The company develops advanced, fully functional, and affordable multi-articulating bionic hands (flagship KalArm) using proprietary embedded sensors, AI gesture engines, and custom electronics to democratize access to upper-limb prosthetics.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/makershive.io?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://makershive.io",
     "industry": "AI & Machine Learning",
     "subCategory": "Robotics",
@@ -4652,7 +4786,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxODEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "marut-drones",
@@ -4660,7 +4795,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "marut-drones",
     "tagline": "DGCA-certified agri-drones for spraying, seeding, and crop monitoring",
     "description": "Marut Drones designs and manufactures drones for agriculture, disaster response, and public health, including India's first DGCA Type Certified medium-category agri drone (AG365H). It began after founder Prem Kumar Vislawath sought a tech solution to dengue-carrying mosquito breeding grounds near his parents' Hyderabad home.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/marutdrones.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://marutdrones.com",
     "industry": "AI & Machine Learning",
     "subCategory": "Robotics",
@@ -4687,7 +4822,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "material-depot",
@@ -4695,7 +4831,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "material-depot",
     "tagline": "Digital discovery and B2B/B2C procurement marketplace for architecture and interior materials",
     "description": "Material Depot is a tech-enabled building and interior design materials marketplace. It connects architects, interior designers, contractors, and homeowners directly with manufacturers, offering a comprehensive digital catalog of over 500,000+ products (tiles, laminates, wall panels, and finishes) alongside automated mood boarding and sample delivery tools.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/materialdepot.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://materialdepot.in",
     "industry": "E-Commerce & Consumer",
     "subCategory": "E-commerce",
@@ -4722,15 +4858,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5MiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "medtotes",
     "name": "Medtotes",
     "slug": "medtotes",
     "tagline": "Hyperlocal digital platform connecting patients with diagnostic labs, home-care, and medical services",
-    "description": "Medtotes is a digital health-tech and at-home medical care aggregator platform. Incubated under AIC T-Hub, the platform provides on-demand doorstep healthcare services�including diagnostic sample collection, nurse home-visits, physiotherapy sessions, doctor teleconsultations, and medicine delivery�connecting nearby diagnostic centers and clinics directly with patients.",
-    "logoUrl": "",
+    "description": "Medtotes is a digital health-tech and at-home medical care aggregator platform. Incubated under AIC T-Hub, the platform provides on-demand doorstep healthcare services\u2229\u2510\u255cincluding diagnostic sample collection, nurse home-visits, physiotherapy sessions, doctor teleconsultations, and medicine delivery\u2229\u2510\u255cconnecting nearby diagnostic centers and clinics directly with patients.",
+    "logoUrl": "https://img.logo.dev/medtotes.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://medtotes.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -4757,7 +4894,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxM2UzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "metapointer",
@@ -4765,7 +4903,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "metapointer",
     "tagline": "Immersive digital product design, interactive frontends, and custom web applications",
     "description": "metapointer is a UI/UX design studio and frontend engineering company based in Hyderabad. The firm specializes in building high-performance modern web applications, interactive design systems, and responsive user interfaces for digital products.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/metapointer.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://metapointer.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Developer Tools",
@@ -4792,7 +4930,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOWEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "monamit",
@@ -4800,7 +4939,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "monamit",
     "tagline": "Enterprise cloud IT consulting, software engineering, and managed network solutions",
     "description": "MonaMIT (MonaMIT Technologies) is an enterprise IT consulting and software development provider based in Hyderabad. The company delivers cloud migrations, custom web applications, legacy system modernization, and ongoing managed infrastructure support.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/monamit.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://monamit.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4827,15 +4966,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "monitra-healthcare",
     "name": "Monitra Healthcare",
     "slug": "monitra-healthcare",
     "tagline": "AI-powered continuous remote cardiac monitoring and ambulatory ECG patch platform",
-    "description": "Monitra Healthcare is a clinical medtech and remote cardiac care venture that developed 'upBeat'�India's first medical-grade continuous ambulatory ECG patch ecosystem. Utilizing proprietary AI signal-processing algorithms, the platform delivers up to 14 days of uninterrupted Holter monitoring, External Loop Recording (ELR), and Mobile Cardiac Telemetry (MCT) for early detection of cardiac arrhythmias and stroke prevention.",
-    "logoUrl": "",
+    "description": "Monitra Healthcare is a clinical medtech and remote cardiac care venture that developed 'upBeat'\u2229\u2510\u255cIndia's first medical-grade continuous ambulatory ECG patch ecosystem. Utilizing proprietary AI signal-processing algorithms, the platform delivers up to 14 days of uninterrupted Holter monitoring, External Loop Recording (ELR), and Mobile Cardiac Telemetry (MCT) for early detection of cardiac arrhythmias and stroke prevention.",
+    "logoUrl": "https://img.logo.dev/monitrahealth.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://monitrahealth.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -4862,7 +5002,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "monopolyit",
@@ -4870,7 +5011,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "monopolyit",
     "tagline": "Full-cycle product engineering, cross-platform mobile development, and enterprise SaaS solutions",
     "description": "Monopoly IT (Monopoly IT Solutions) is a digital engineering agency and software product development studio based in Hyderabad. The firm builds cross-platform mobile apps, cloud-native backend systems, enterprise workflow tools, and responsive digital products.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/monopolyit.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://monopolyit.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4897,15 +5038,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNWJiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "montaigne-smart-business-solutions",
     "name": "Montaigne Smart Business Solutions",
     "slug": "montaigne-smart-business-solutions",
     "tagline": "AI-powered legaltech research assistants, website maintenance, and digital workflow systems",
-    "description": "Montaigne Smart Business Solutions (Montaigne Smart Business Solutions Private Limited) is a legaltech and digital business solutions provider based in Hyderabad. The company operates Nyayasastra�an AI assistant built for legal research, case analysis, and law learning�alongside providing custom business software development and digital transformation consulting.",
-    "logoUrl": "",
+    "description": "Montaigne Smart Business Solutions (Montaigne Smart Business Solutions Private Limited) is a legaltech and digital business solutions provider based in Hyderabad. The company operates Nyayasastra\u2229\u2510\u255can AI assistant built for legal research, case analysis, and law learning\u2229\u2510\u255calongside providing custom business software development and digital transformation consulting.",
+    "logoUrl": "https://img.logo.dev/montaigne.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://montaigne.co",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4932,7 +5074,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "msnwtech",
@@ -4940,7 +5083,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "msnwtech",
     "tagline": "Enterprise networking infrastructure, server administration, and managed IT security support",
     "description": "MSNW Tech (MSNW Technologies) is an IT infrastructure management and enterprise networking provider based in Hyderabad. The company provides structured cabling, server room deployment, firewall installations, cloud backups, and ongoing managed IT maintenance for commercial offices.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/msnwtech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://msnwtech.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -4967,7 +5110,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ4MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mtouchlabs",
@@ -4975,7 +5119,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mtouchlabs",
     "tagline": "Mobile app product engineering, UI/UX design studio, and AI-enabled cross-platform solutions",
     "description": "mTouch Labs (mTouch Labs Private Limited) is a mobile and web product engineering studio headquartered in Hyderabad. The firm builds iOS, Android, and Flutter-based mobile applications, web platforms, and custom backend systems for global startups and digital enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mtouchlabs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://mtouchlabs.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -5002,7 +5146,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk2MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "multiplier-ai",
@@ -5010,7 +5155,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "multiplier-ai",
     "tagline": "Agentic AI platform, physician intelligence data, and omnichannel commercial growth for healthcare & life sciences",
     "description": "Multiplier AI (Multiplier AI Limited) is an agentic AI and healthcare intelligence platform. Headquartered in Hyderabad, Multiplier AI builds privately deployed AI agents and patient discovery engines for global pharmaceutical giants, hospitals, and medical device manufacturers. The platform unifies deep clinical rules, doctor behavioral intelligence (DocRank.ai), and generative AI workflows to optimize HCP engagement, medical writing, and clinical outreach.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/multiplierai.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://multiplierai.co",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -5037,7 +5182,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNWYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "myelin-foundry",
@@ -5045,7 +5191,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "myelin-foundry",
     "tagline": "Edge AI platform and real-time multimodal neural network solutions for automotive, OTT, and industrial tech",
     "description": "Myelin Foundry is a deep-tech artificial intelligence startup specializing in edge AI and computer vision algorithms. Founded by former Tata Sons Group CTO Dr. Gopichand Katragadda, the company develops proprietary algorithms (Fovea Stream and Fovea Auto) that process video, voice, and sensor data directly on low-compute edge devices, delivering high-definition streaming enhancement, in-cabin automotive safety, and predictive equipment maintenance without cloud latency.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/myelinfoundry.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://myelinfoundry.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -5072,7 +5218,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdiMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "neemans",
@@ -5080,7 +5227,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "neemans",
     "tagline": "Sustainable and eco-friendly comfort footwear crafted from natural and recycled materials",
     "description": "Neeman's is a direct-to-consumer (D2C) sustainable footwear brand pioneering eco-conscious casual and athletic shoes. The brand designs and manufactures lightweight, breathable sneakers, loafers, slip-ons, and slides using sustainable materials like Australian Merino wool, recycled PET plastic bottles, castor bean oil, and natural cotton.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/neemans.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://neemans.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -5107,7 +5254,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "neemii",
@@ -5115,7 +5263,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "neemii",
     "tagline": "Sustainable personal care, botanical organic wellness, and conscious consumer lifestyle formulations",
     "description": "NEEMII (Neemii Naturals / Neemii Technologies) is a modern direct-to-consumer (D2C) sustainable personal wellness brand founded in Hyderabad. Formulating non-toxic, plant-powered botanical skincare, hair nutrition, and eco-friendly daily care essentials, Neemii merges traditional plant science with zero-waste packaging aesthetics.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/neemii.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://neemii.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -5142,7 +5290,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOWFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nephroplus",
@@ -5150,7 +5299,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nephroplus",
     "tagline": "Asia's largest network of specialized dialysis centers and comprehensive kidney care clinics",
     "description": "NephroPlus (Vikram Hospital Private Limited / Nephro Care India) is India's largest dialysis care network headquartered in Hyderabad. Operating 300+ standalone and hospital-partnered dialysis clinics across India, the Philippines, Nepal, and Uzbekistan, NephroPlus provides clinical hemodialysis, peritoneal dialysis, holiday dialysis, and comprehensive end-to-end renal disease management.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nephroplus.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://nephroplus.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -5177,7 +5326,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkwYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nexoraa",
@@ -5185,7 +5335,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nexoraa",
     "tagline": "Digital experience platforms, modern web design, and ROI-driven performance marketing systems",
     "description": "Nexoraa (Nexoraa Technologies) is a digital product design, web engineering, and brand acceleration agency headquartered in Hyderabad. Nexoraa crafts custom digital storefronts, enterprise web portals, SEO infrastructures, and automated lead generation funnels.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nexoraa.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://nexoraa.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -5212,15 +5362,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzN2ZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nowfloats",
     "name": "NowFloats",
     "slug": "nowfloats",
     "tagline": "Automated SME website creation, location-based local SEO discovery, and digital storefront platform",
-    "description": "NowFloats (Nowfloats Technologies) is a pioneer in digital enablement and discovery SaaS for small and medium enterprises (SMEs). The platform enables merchants and local businesses to create, manage, and update search-optimized dynamic websites and e-commerce storefronts directly via SMS, WhatsApp, and mobile apps�driving local business discovery and customer engagement.",
-    "logoUrl": "",
+    "description": "NowFloats (Nowfloats Technologies) is a pioneer in digital enablement and discovery SaaS for small and medium enterprises (SMEs). The platform enables merchants and local businesses to create, manage, and update search-optimized dynamic websites and e-commerce storefronts directly via SMS, WhatsApp, and mobile apps\u2229\u2510\u255cdriving local business discovery and customer engagement.",
+    "logoUrl": "https://img.logo.dev/nowfloats.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://nowfloats.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -5247,7 +5398,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nucon-aerospace",
@@ -5255,7 +5407,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nucon-aerospace",
     "tagline": "Precision control actuation systems, missile guidance sub-assemblies, and defense aerospace engineering",
     "description": "Nucon Aerospace is a defense, space, and aerospace systems manufacturer. The company designs, develops, and manufactures high-precision control actuation systems (CAS), aerodynamic fin actuators, precision servo valves, pneumatic/hydraulic control modules, and cable harness avionics deployed across indigenous missile programs, launch vehicles, and defense platforms for DRDO, ISRO, and international aerospace OEMs.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nuconaerospace.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://nuconaerospace.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -5282,7 +5434,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzN2JiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nxtwave",
@@ -5290,7 +5443,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nxtwave",
     "tagline": "India's employability-focused upskilling platform for tech careers",
     "description": "NxtWave runs CCBP 4.0 Academy and Intensive programs to make tier-2/3/4 college students and graduates job-ready for AI, full-stack, and cybersecurity careers, without requiring a conventional degree. Its three founders met while working at a Hyderabad startup incubator.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ccbp.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ccbp.in",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -5317,7 +5470,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk4MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "olectra-greentech",
@@ -5325,7 +5479,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "olectra-greentech",
     "tagline": "India's pioneer pure electric bus manufacturer and composite electrical polymer insulator supplier",
     "description": "Olectra Greentech (Olectra Greentech Limited, a MEIL Group company) is a publicly listed electric vehicle manufacturer headquartered in Hyderabad. A market leader in commercial electric mobility in India, Olectra manufactures zero-emission electric city buses, intercity coaches, and electric heavy-duty tipper trucks in technical partnership with BYD, alongside producing composite polymer power transmission insulators.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/olectra.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://olectra.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -5352,7 +5506,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzYxYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "oliva-skin-and-hair-clinic",
@@ -5360,7 +5515,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "oliva-skin-and-hair-clinic",
     "tagline": "Medico-aesthetic dermatology clinic chain, laser treatments, and trichology solutions",
     "description": "Oliva Skin & Hair Clinic (Sreyas Holistic Remedies Private Limited) is a chain of medico-aesthetic dermatology and trichology clinics headquartered in Hyderabad. Backed and majority-acquired by private equity firm Kedaara Capital alongside InvAscent, Oliva operates 25+ advanced clinical facilities across major Indian metro cities, delivering US-FDA approved laser treatments, acne scar remodeling, hair loss management, and medical-grade aesthetic procedures.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/olivaclinic.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://olivaclinic.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -5387,7 +5542,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ4YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "omni-hospitals",
@@ -5395,7 +5551,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "omni-hospitals",
     "tagline": "Tertiary healthcare chain, multi-specialty clinical centers, and integrated surgical care",
     "description": "Omni Hospitals (Incor Hospitals Private Limited) is a multi-specialty healthcare and hospital network headquartered in Hyderabad. Promoted by the INCOR Group and backed by ASK Pravi Capital, Omni Hospitals operates tertiary medical facilities across Telangana and Andhra Pradesh, providing advanced clinical care across cardiology, neurosurgery, orthopedics, emergency medicine, nephrology, and pediatric sub-specialties.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/omnihospitals.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://omnihospitals.in",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -5422,7 +5578,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOWUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "onefitplus",
@@ -5430,7 +5587,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "onefitplus",
     "tagline": "Connected smart at-home cardio equipment, interactive fitness gaming, and live workout streams",
     "description": "OneFitPlus (built under Shoora Retail and acquired by Cult.fit / Cultsport) is a connected at-home fitness and smart exercise equipment platform. The brand integrates IoT-enabled smart treadmills, indoor exercise spin bikes, and fitness telemetry with its interactive gaming and live streaming app ecosystem (OneFitPlus.Live / Cultsport), allowing users to compete in multiplayer workouts and track conditioning metrics seamlessly.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cultsport.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cultsport.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -5457,7 +5614,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxODczMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "onemoney",
@@ -5465,7 +5623,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "onemoney",
     "tagline": "India's first RBI-licensed NBFC Account Aggregator and consent-driven financial data sharing platform",
     "description": "OneMoney (by Finsec AA Solutions) is India's pioneer RBI-licensed NBFC Account Aggregator (NBFC-AA). The platform provides a secure, encrypted, and consent-driven digital data pipeline connecting Financial Information Providers (FIPs like banks, mutual funds, and insurers) with Financial Information Users (FIUs like lenders and wealth managers) for instant, paperless underwriting and wealth tracking.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/onemoney.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://onemoney.in",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -5492,7 +5650,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1NyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "onward-assist",
@@ -5500,7 +5659,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "onward-assist",
     "tagline": "AI-powered digital computational pathology and cancer diagnostics assistance platform",
     "description": "Onward Assist (by Onward Health) is a deep-tech predictive analytics and computational pathology startup. Spun out of IIIT Hyderabad, the platform builds computer-vision-based clinical decision support tools and AI pipelines that help pathologists and oncologists automate cancer biomarker scoring, tumor analysis, and diagnostic reporting.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/onwardhealth.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://onwardhealth.ai",
     "industry": "HealthTech & BioTech",
     "subCategory": "BioTech",
@@ -5527,7 +5686,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzMzViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "opstech",
@@ -5535,7 +5695,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "opstech",
     "tagline": "DevOps automation, cloud infrastructure orchestration, and site reliability engineering",
     "description": "OpsTech (OpsTech Solutions) is a cloud engineering and DevOps consultancy based in Hyderabad. The firm specializes in automating CI/CD delivery pipelines, multi-cloud Kubernetes deployments, infrastructure-as-code (IaC), and continuous security monitoring for agile product companies.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/opstech.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://opstech.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Developer Tools",
@@ -5562,7 +5722,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzMzliMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "orangeshark",
@@ -5570,7 +5731,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "orangeshark",
     "tagline": "AI-driven applicant tracking, collaborative recruitment experience platform, and bounty referral hiring",
     "description": "OrangeShark is an HR-tech and talent acquisition platform headquartered in Hyderabad. Incubated at T-Hub, OrangeShark offers an AI-powered Recruitment Experience Platform (REP) and an enterprise Applicant Tracking System (ATS) paired with an incentivized peer-referral network. The platform automates resume parsing, candidate screening, interview scheduling, and bounty referral payouts for high-growth teams.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/orangeshark.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://orangeshark.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -5597,7 +5758,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pavakah-energy",
@@ -5605,7 +5767,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pavakah-energy",
     "tagline": "Building Integrated Photovoltaics (BIPV), modular solar tech, and urban renewable infrastructure",
     "description": "Pavakah Energy (Pavakah Energy Private Limited) is a clean energy and deep-tech sustainability hardware company headquartered in Hyderabad. Inducted into T-Hub's Blueprint Deep Tech Fellowship cohort, Pavakah specializes in advanced Building Integrated Photovoltaic (BIPV) systems, modular solar architectural materials, and localized renewable power installations that convert residential and commercial building facades into clean energy generation assets.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pavakahenergy.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://pavakahenergy.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Others",
@@ -5632,7 +5794,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOWMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "payzello",
@@ -5640,7 +5803,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "payzello",
     "tagline": "AI-driven neobanking, expense automation, and multi-currency smart card platform",
     "description": "PayZello is an AI-powered consumer neobank and financial management startup. Incubated at T-Hub, PayZello pioneered India's first 3-in-1 hybrid card combining debit, credit, and forex capabilities into a single interface alongside an automated AI wealth advisor and zero-balance digital savings accounts tailored for students, young professionals, and millennials.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/payzello.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://payzello.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -5667,7 +5830,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "perceptyne",
@@ -5675,7 +5839,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "perceptyne",
     "tagline": "AI-first dual-arm robots for high-dexterity industrial manufacturing & assembly",
     "description": "Perceptyne is a deeptech robotics venture building AI-first, multi-modal articulated robots designed to perform delicate assembly and packaging tasks with human-like dexterity. Its flagship platforms (PR-34D dual-arm and PR-9D single-arm) integrate real-time computer vision, tactile multi-modal sensing, and AI-led tele-operation for automotive and electronics assembly lines.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/perceptyne.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://perceptyne.com",
     "industry": "AI & Machine Learning",
     "subCategory": "Robotics",
@@ -5702,7 +5866,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNDJiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "perspectai",
@@ -5710,7 +5875,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "perspectai",
     "tagline": "AI-driven psychometric and game-based talent assessment, video interview analytics, and HR intelligence",
     "description": "PerspectAI (Loop Reality) is an HR-tech and talent assessment platform powered by behavioral neuroscience and artificial intelligence. Incubated at T-Hub and AIC-IIITH, PerspectAI replaces traditional subjective screening with interactive game-based assessments (GBAs), speech and facial emotion telemetry in asynchronous video interviews, and multimeasure cognitive evaluations to predict job performance accurately.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/perspect.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://perspect.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -5737,7 +5902,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1NSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pi-datacenters",
@@ -5745,7 +5911,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pi-datacenters",
     "tagline": "Asia's premier Uptime Institute Tier IV certified hyperscale data center and sovereign enterprise cloud provider",
     "description": "Pi Datacenters (Pi Data Centers Private Limited) is a hyperscale data center infrastructure and enterprise cloud provider (operating under the cloud brand Harbour1). The company delivers Tier IV certified colocation, managed cloud hosting, disaster recovery as a service (DRaaS), multi-cloud orchestration, and cyber security solutions for enterprises, government agencies, and global BFSI institutions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pidatacenters.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://pidatacenters.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -5772,7 +5938,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhZiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pipra-solutions",
@@ -5780,7 +5947,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pipra-solutions",
     "tagline": "AI-powered enterprise process automation, data intelligence, and custom cloud development",
     "description": "pipra.solutions (Pipra Solutions Private Limited) is an artificial intelligence and automation technology provider based in Hyderabad. The company builds automated workflow engines, intelligent data analytics dashboards, and cloud applications tailored for streamlining enterprise business operations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pipra.solutions?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://pipra.solutions",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -5807,7 +5974,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOWMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pixelvide",
@@ -5815,7 +5983,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pixelvide",
     "tagline": "Large-scale e-governance systems, digital transformation, and mission-critical enterprise engineering",
     "description": "Pixelvide (Pixelvide Private Limited) is a technology consulting and enterprise software engineering firm based in Hyderabad. The company specializes in building state-level e-governance applications, complex digital tax/land administration platforms, and scalable public-sector workflows serving millions of citizens across government departments.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pixelvide.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://pixelvide.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -5842,15 +6010,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNDYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "plane",
     "name": "Plane",
     "slug": "plane",
     "tagline": "Open-source, extensible project management and issue-tracking software for modern engineering teams",
-    "description": "Plane is an open-source, extensible project management and issue-tracking platform built as a modular, self-hostable alternative to Jira and Linear. Backed by OSS Capital, Plane empowers engineering and product organizations to manage sprint cycles, triage backlogs, visualize roadmaps, publish documentation, and leverage AI copilots�deployable via cloud SaaS, self-hosted Docker, or air-gapped enterprise environments.",
-    "logoUrl": "",
+    "description": "Plane is an open-source, extensible project management and issue-tracking platform built as a modular, self-hostable alternative to Jira and Linear. Backed by OSS Capital, Plane empowers engineering and product organizations to manage sprint cycles, triage backlogs, visualize roadmaps, publish documentation, and leverage AI copilots\u2229\u2510\u255cdeployable via cloud SaaS, self-hosted Docker, or air-gapped enterprise environments.",
+    "logoUrl": "https://img.logo.dev/plane.so?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://plane.so",
     "industry": "SaaS & Enterprise",
     "subCategory": "Developer Tools",
@@ -5877,7 +6046,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "portea-medical",
@@ -5885,7 +6055,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "portea-medical",
     "tagline": "India's leading out-of-hospital healthcare, in-home primary care, nursing, and clinical diagnostics network",
     "description": "Portea Medical (Healthvista India) is India's largest outside-hospital healthcare provider. The platform delivers comprehensive in-home medical services spanning doctor consultations, post-operative nursing, specialized physiotherapy, chronic condition management, medical equipment rentals, and point-of-care laboratory diagnostics.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/portea.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://portea.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -5912,7 +6082,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "portl",
@@ -5920,7 +6091,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "portl",
     "tagline": "AI-powered smart home gym mirrors, digital strength training, and connected wellness hardware",
     "description": "Portl (Rainvi Technologies) is a smart fitness-tech and connected hardware startup. Portl designs and manufactures proprietary interactive fitness smart mirrors and digital strength systems ('Portl Studio' and 'Portl UltraGym') equipped with computer vision sensors and AI biofeedback engines to deliver real-time form correction, adaptive workouts, health monitoring, and on-demand interactive training at home.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/portl.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://portl.co",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -5947,7 +6118,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNjZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pure-ev",
@@ -5955,7 +6127,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pure-ev",
     "tagline": "Electric two-wheelers built on in-house lithium battery technology",
     "description": "Pure EV grew out of PuREnergy, founded by Nishanth Dongari and Rohit Vadera. Incubated at IIT Hyderabad's I-TIC, it manufactures electric scooters and motorcycles with in-house battery R&D and predictive AI driving features.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pureenergy.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://pureenergy.co.in",
     "industry": "CleanTech & EV",
     "subCategory": "CleanTech / EV",
@@ -5982,7 +6154,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNTFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "purpletalk",
@@ -5990,7 +6163,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "purpletalk",
     "tagline": "Enterprise digital transformation, mobile product engineering, custom cloud architecture, and immersive gaming studios",
     "description": "PurpleTalk (PurpleTalk India) is a global digital product engineering and enterprise technology solutions company. Founded in Hyderabad, PurpleTalk designs, architects, and scales mission-critical mobile applications, cloud backend architectures, IoT platforms, and digital experiences for Fortune 500 brands and high-growth technology companies, while operating dedicated gaming studio subsidiaries like [x]cube GAMES.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/purpletalk.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://purpletalk.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6017,7 +6190,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "qapilot",
@@ -6025,7 +6199,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "qapilot",
     "tagline": "AI-native autonomous software testing, self-healing test automation, and QA intelligence platform",
     "description": "QApilot is an AI-native autonomous test automation and quality engineering platform. Headquartered in Hyderabad, QApilot eliminates manual test scripting and brittle maintenance overhead by utilizing generative AI and visual regression models to automatically convert user stories and product flows into end-to-end resilient test suites, complete with self-healing selectors and automated execution pipelines.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/qapilot.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://qapilot.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -6052,7 +6226,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "qualizeal",
@@ -6060,7 +6235,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "qualizeal",
     "tagline": "Next-generation digital quality engineering, AI-powered automated testing, and software assurance",
     "description": "QualiZeal is a global quality engineering and digital software assurance services company. Founded by former Cigniti and AppLabs leadership, QualiZeal delivers AI-augmented test automation, performance engineering, security assurance, DevOps integration, and advisory services to help enterprises accelerate digital transformation across cloud, web, and mobile ecosystems.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/qualizeal.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://qualizeal.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6087,7 +6262,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNmFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "quanteon-solutions",
@@ -6095,7 +6271,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "quanteon-solutions",
     "tagline": "Enterprise AI systems, digital transformation, cloud-native engineering, and product incubation",
     "description": "Quanteon Solutions is an enterprise AI, digital transformation, and software engineering company. Headquartered in Hyderabad, Quanteon specializes in architecting generative AI solutions, MLOps workflows, cloud-native software engineering, and intelligent automation for global enterprises, alongside developing proprietary digital products including ReachMyDr and Mainer AI.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/quanteon.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://quanteon.co",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -6122,7 +6298,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "quantum-energy",
@@ -6130,7 +6307,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "quantum-energy",
     "tagline": "High-speed electric 2-wheelers, smart commercial fleet e-scooters, and eco-friendly urban mobility",
     "description": "Quantum Energy (Quantum Energy Private Limited, backed by the 50-year-old Marutham Group) is an electric vehicle manufacturer headquartered in Hyderabad. The company designs and manufactures high-performance, indigenous electric scooters (Plasma, Elektron, Milan, and Bziness) tailored for Indian road conditions, daily consumer commuting, and commercial last-mile delivery fleets.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/quantumenergy.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://quantumenergy.in",
     "industry": "CleanTech & EV",
     "subCategory": "CleanTech / EV",
@@ -6157,7 +6334,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "qube",
@@ -6165,7 +6343,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "qube",
     "tagline": "Digital cinema projection systems, master distribution networks, and theatrical content delivery",
     "description": "Qube Cinema is a pioneer in digital cinema technology, high-end theatrical mastering, and satellite movie distribution with extensive operations in Hyderabad. Qube delivers DCI-compliant digital cinema servers, theatre automation systems, Wire digital delivery networks, and centralized cinema management platforms.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/qubecinema.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://qubecinema.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Media & Entertainment",
@@ -6192,7 +6370,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNGMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "questbook",
@@ -6200,7 +6379,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "questbook",
     "tagline": "On-chain grants orchestration and zero-knowledge identity protocol",
     "description": "Questbook is a Web3 infrastructure and developer tooling startup building decentralized grant orchestration software and verifiable credential protocols (Reclaim Protocol). Its platform enables major blockchain ecosystems and DAOs to deploy, review, disburse, and manage ecosystem grants transparently with AI-assisted verification.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/questbook.app?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://questbook.app",
     "industry": "SaaS & Enterprise",
     "subCategory": "Developer Tools",
@@ -6227,7 +6406,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOTBiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "quixy",
@@ -6235,7 +6415,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "quixy",
     "tagline": "Advanced no-code and low-code business process management and enterprise application development platform",
     "description": "Quixy (VividMinds Technologies) is an enterprise-grade cloud-based no-code application development and business process automation (BPM) platform. Quixy empowers business users and citizen developers to build complex, customized workflow applications, automate manual processes, and integrate enterprise systems ten times faster without writing code.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/quixy.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://quixy.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6262,7 +6442,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOWMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "raghu-vamsi-aerospace",
@@ -6270,7 +6451,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "raghu-vamsi-aerospace",
     "tagline": "High-precision aerospace machining, flight-critical structural assemblies, aero-engine subsystems, and autonomous systems",
     "description": "Raghu Vamsi Aerospace Group is an aerospace, defense, and precision manufacturing conglomerate based in Hyderabad. Operating AS9100 and NADCAP-certified advanced manufacturing infrastructure, the group manufactures critical aerostructures, aero-engine components, tactical mission systems, and autonomous UAV defense platforms as a tier-1 supplier to global aerospace leaders like Boeing, GE Aerospace, Rolls-Royce (ITP Aero), and HAL.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/raghuvamsi.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://raghuvamsi.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Manufacturing",
@@ -6297,7 +6478,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkwMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rainbow-hospitals",
@@ -6305,7 +6487,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rainbow-hospitals",
     "tagline": "India's leading pediatric, perinatal, and specialized maternal healthcare hospital network",
     "description": "Rainbow Children's Hospital (Rainbow Children's Medicare Limited) is a multi-specialty pediatric, obstetrics, and gynecology hospital chain headquartered in Hyderabad. Operating 19+ hospitals and over 1,900 beds across major Indian metropolitan cities, Rainbow specializes in complex pediatric tertiary and quaternary care, neonatal intensive care (NICU), pediatric cardiology, organ transplants, and advanced maternal care.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rainbowhospitals.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://rainbowhospitals.in",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -6332,7 +6514,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rationalknowledgeservices",
@@ -6340,7 +6523,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rationalknowledgeservices",
     "tagline": "Financial research analytics, business intelligence modeling, and strategic KPO consulting",
     "description": "Rational Knowledge Services (Rational Knowledge Services Private Limited) is a specialized knowledge process outsourcing (KPO) and research consulting firm headquartered in Hyderabad. The firm delivers quantitative financial modeling, equity research support, market intelligence reports, and custom data analytics to global investment firms and corporate clients.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rationalks.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://rationalks.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6367,7 +6550,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzY4YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "reclaim-protocol",
@@ -6375,7 +6559,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "reclaim-protocol",
     "tagline": "Cryptographic zero-knowledge verification infrastructure for credentials and user data",
     "description": "Reclaim Protocol is a zero-knowledge data verification platform operated by CreatorOS. It enables users and enterprises to generate cryptographic zk-proofs of claims directly from any website or API (such as employment, education, bank balance, or loyalty status) without sharing raw passwords, personal data, or relying on easily faked screenshots.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/reclaimprotocol.org?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://reclaimprotocol.org",
     "industry": "AI & Machine Learning",
     "subCategory": "Cybersecurity",
@@ -6402,7 +6586,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "recykal",
@@ -6410,7 +6595,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "recykal",
     "tagline": "Cloud-based B2B digital marketplace and managed circularity ecosystem for waste management",
     "description": "Recykal (by Rapidue Technologies) is a pioneer in circular economy tech and digital waste commerce. Its end-to-end cloud platform connects waste generators, aggregators, recyclers, and consumer brands to facilitate transparent waste procurement, digital deposit refund systems (DRS), traceability, and Extended Producer Responsibility (EPR) compliance across plastic, paper, e-waste, and batteries.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/recykal.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://recykal.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -6437,7 +6622,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "red-health",
@@ -6445,7 +6631,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "red-health",
     "tagline": "India's largest emergency medical transportation and ambulance network",
     "description": "RED.Health (formerly StanPlus) runs a fleet of 950+ GPS-enabled ambulances and an air-ambulance service across India, aiming to be a '911 for Indian healthcare.' It was a first responder during the 2025 Maha Kumbh Mela stampede and the Bengaluru RCB victory crowd crush.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/red.health?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://red.health",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -6472,7 +6658,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rentaid",
@@ -6480,7 +6667,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rentaid",
     "tagline": "Proof-first verified rental marketplace, digital move-in condition tracking, and deposit protection",
     "description": "RentAid (Rentaid Private Limited) is a rental tech and property compliance platform headquartered in Hyderabad. Built to eliminate deposit deductions and undocumented agreements, RentAid provides verified house and flat listings, timestamped room condition photographic proof, automated rent receipts, lawyer-vetted agreements, and short-term rental (STR/Airbnb) legal compliance tooling.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rentaid.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://rentaid.in",
     "industry": "E-Commerce & Consumer",
     "subCategory": "PropTech",
@@ -6507,7 +6694,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sanaari",
@@ -6515,7 +6703,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sanaari",
     "tagline": "Custom enterprise software engineering, business cloud apps, and legacy modernization",
     "description": "Sanaari (Sanaari Software Solutions Private Limited) is an enterprise software development and digital transformation consultancy headquartered in Hyderabad. Sanaari designs scalable web systems, database management architectures, bespoke ERP modules, and cloud integrations for commercial enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sanaari.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sanaari.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6542,7 +6730,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzN2ZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sanyark-space",
@@ -6550,7 +6739,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sanyark-space",
     "tagline": "Fused PNT satellite constellations, centimeter-level sovereign navigation, and secure LEO communications",
     "description": "Sanyark Space Technologies is a deep-tech space and defense-technology startup founded by former ISRO scientists. Sanyark is developing a unified Low Earth Orbit (LEO) satellite constellation that converges resilient Positioning, Navigation, and Timing (PNT) with secure mid-bandwidth communications. Utilizing software-defined payloads, phased array antennas, and on-board edge processing, the platform delivers jam-resistant, centimeter-level precision navigation for autonomous mobility, defense platforms, aviation, and critical IoT infrastructure.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sanyark.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sanyark.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -6577,15 +6766,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "scale-jobs",
     "name": "Scale.jobs",
     "slug": "scale-jobs",
     "tagline": "AI-accelerated reverse recruiting, automated job search workflows, and human career concierge platform",
-    "description": "Scale.jobs (Scalejobs Services) is an AI-accelerated job search and reverse recruiting platform. Combining human career associates with proprietary AI automation, Scale.jobs handles the repetitive burden of job applications�customizing resumes, parsing ATS job descriptions, matching candidate criteria, and submitting tailored applications on behalf of job seekers across US and global markets.",
-    "logoUrl": "",
+    "description": "Scale.jobs (Scalejobs Services) is an AI-accelerated job search and reverse recruiting platform. Combining human career associates with proprietary AI automation, Scale.jobs handles the repetitive burden of job applications\u2229\u2510\u255ccustomizing resumes, parsing ATS job descriptions, matching candidate criteria, and submitting tailored applications on behalf of job seekers across US and global markets.",
+    "logoUrl": "https://img.logo.dev/scale.jobs?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://scale.jobs",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -6612,7 +6802,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzUxMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "semex-ai",
@@ -6620,7 +6811,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "semex-ai",
     "tagline": "Deep tech artificial intelligence and machine learning solutions for enterprise workflows",
     "description": "Semex AI is an early-stage deep tech artificial intelligence startup based in Hyderabad. Selected as part of T-Hub's flagship 'Blueprint' Deep Tech Founder Fellowship, Semex AI develops specialized machine learning systems and intelligent automation architectures aimed at enterprise workflow efficiency and commercial scale.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/t-hub.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://t-hub.co",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -6647,7 +6838,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sense-health",
@@ -6655,7 +6847,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sense-health",
     "tagline": "AI-powered wearable biosensing, portable multi-lead ECG diagnostics, and remote cardiac monitoring",
     "description": "Sense Health Technologies is a deep-tech biomedical devices and AI health-tech startup. Incubated at IIT Hyderabad (i-TIC Foundation) and part of T-Hub's deep-tech programs, Sense Health develops proprietary AI-integrated sensing systems and ultra-low-power, portable ECG diagnostic devices designed for ambulatory emergency transit, hospital ICUs, remote patient monitoring, and continuous Holter tracking.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/itic.iith.ac.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://itic.iith.ac.in",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -6682,7 +6874,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "protonx-seven-robotics",
@@ -6690,7 +6883,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "protonx-seven-robotics",
     "tagline": "Autonomous mobile robots (AMRs) and intelligent fleet automation for warehousing and industrial intra-logistics",
     "description": "Seven Robotics develops intelligent autonomous mobile robots (AMRs) and automated guided material-handling platforms (including its flagship 'Proton' and 'ProtonX' series). The company's LiDAR- and AI-guided robotic systems seamlessly integrate into warehouse, manufacturing, and healthcare environments for flexible picking, goods-to-person dispatch, and automated internal material movement without structural facility alterations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sevenrobotics.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sevenrobotics.in",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -6717,7 +6910,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "shoshin-tech",
@@ -6725,7 +6919,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "shoshin-tech",
     "tagline": "Digital learning products, holistic student well-being tools, and creative school platforms",
     "description": "Shoshin Tech (Shoshin Tech Private Limited) is an education-technology and personal well-being product studio based in Hyderabad. The company builds interactive digital platforms, creative tools, and tailored learning resources designed for K-12 schools, educators, and learners to foster holistic child development, arts, sports engagement, and mental growth.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/shoshin.tech?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://shoshin.tech",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -6752,7 +6946,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sids-farm",
@@ -6760,7 +6955,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sids-farm",
     "tagline": "Direct-to-consumer premium dairy, hormone-free milk testing, and farm-fresh subscription delivery",
     "description": "Sid's Farm is a premium direct-to-consumer (D2C) dairy and farm-fresh milk subscription brand. Founded by IIT Madras alumnus Dr. Kishore Indukuri, Sid's Farm conducts 45+ daily quality and adulteration tests (checking for zero hormones, antibiotics, and preservatives) across raw cow and buffalo milk, curd, ghee, paneer, and butter, delivering farm-tested dairy daily to households across Hyderabad and Bengaluru.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sidsfarm.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sidsfarm.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer",
@@ -6787,7 +6982,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "signalx-ai",
@@ -6795,7 +6991,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "signalx-ai",
     "tagline": "AI-powered entity due diligence, corporate risk intelligence, and automated compliance auditing",
     "description": "SignalX.ai (SignalX Private Limited) is an AI-driven entity due diligence, compliance automation, and corporate risk intelligence platform. Built for risk management professionals, compliance officers, valuation firms, and M&A legal advisors, SignalX aggregates and analyzes data across hundreds of public and regulatory registries to automate comprehensive vendor due diligence, anti-money laundering (AML) checks, forensic analysis, and promoter risk screening.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/signalx.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://signalx.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -6822,7 +7018,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOWViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "signzy",
@@ -6830,7 +7027,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "signzy",
     "tagline": "AI-powered digital identity verification, video KYC, and automated compliance infrastructure",
     "description": "Signzy is an enterprise regtech and digital trust infrastructure platform. Signzy delivers a suite of 240+ APIs and no-code workflow builders (Nebula and GO platforms) that automate digital customer onboarding, video KYC, AML watchlist screening, bank statement fraud analysis, and contract execution for global banks, fintechs, and financial institutions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/signzy.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://signzy.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -6857,7 +7054,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "silicon-business-solutions",
@@ -6865,7 +7063,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "silicon-business-solutions",
     "tagline": "Enterprise ERP integrations, custom software implementations, and IT infrastructure management",
     "description": "Silicon Business Solutions (Silicon Business Solutions Private Limited) is an enterprise software and IT systems provider based in Hyderabad. The company delivers enterprise resource planning (ERP) deployments, business process automation tools, database administration, and custom business applications.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/siliconbiz.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://siliconbiz.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6892,7 +7090,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzOSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sind-technologies",
@@ -6900,7 +7099,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sind-technologies",
     "tagline": "Custom enterprise software engineering, IT consulting, and business process automation services",
     "description": "Sind Technologies (Sind Technologies Private Limited) is an IT solutions and software engineering consultancy based in Hyderabad. The company delivers bespoke web application development, quality assurance and software testing, HR automation tools, and IT infrastructure support for commercial businesses and enterprise clients.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sindtechnologies.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sindtechnologies.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6927,7 +7126,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM1YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sioniqerp",
@@ -6935,7 +7135,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sioniqerp",
     "tagline": "Cloud ERP platform, multi-branch inventory control, and manufacturing workflow automation",
     "description": "Sioniq ERP (Sioniq Technologies) is a cloud-based enterprise resource planning software provider based in Hyderabad. The platform offers integrated business modules covering supply chain tracking, discrete manufacturing workflows, multi-warehouse inventory management, invoicing, and GST-compliant financial accounting for industrial enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sioniqerp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sioniqerp.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -6962,7 +7162,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhNSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "skyroot-aerospace",
@@ -6970,7 +7171,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "skyroot-aerospace",
     "tagline": "Building India's private launch vehicles for responsive, affordable access to space",
     "description": "Founded by former ISRO scientists Pawan Kumar Chandana and Naga Bharath Daka, Skyroot designs and manufactures small-lift launch vehicles. It was the first private Indian company to launch a suborbital rocket and was incubated at T-Hub.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/skyroot.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://skyroot.in",
     "industry": "DeepTech & Aerospace",
     "subCategory": "SpaceTech",
@@ -6997,7 +7198,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE4NyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "space-os",
@@ -7005,7 +7207,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "space-os",
     "tagline": "Sovereign space-grade operating systems, flight software frameworks, and on-orbit compute infrastructure",
     "description": "Space OS is an upstream SpaceTech and embedded deep-tech software startup. Selected as part of AIC T-Hub's flagship ORBIT SpaceTech Accelerator (Cohort 3), Space OS develops high-reliability space-grade operating systems, sovereign flight software stacks, and fault-tolerant computing architectures designed to power next-generation satellites and autonomous orbital payloads.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/t-hub.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://t-hub.co",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7032,42 +7234,43 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNlYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
-    "id": "spadeworks",
+    "id": "spadeworks-b2",
     "name": "SpadeWorks",
-    "slug": "spadeworks",
-    "tagline": "24/7 autonomous AI voice and scheduling agents for trade contractors and home service businesses",
-    "description": "SpadeWorks is an AI agent platform built specifically for trade contractors, HVAC technicians, plumbers, and home service providers. Backed by Y Combinator (W22) and headquartered in Hyderabad, SpadeWorks deploys 24/7 conversational voice AI agents that answer inbound calls, qualify leads, schedule dispatch jobs into field service software, and run automated customer follow-ups to capture missed revenue.",
-    "logoUrl": "",
+    "slug": "spadeworks-b2",
+    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
+    "description": "SpadeWorks is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
+    "logoUrl": "https://img.logo.dev/spadeworks.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://spadeworks.co",
-    "industry": "AI & Machine Learning",
-    "subCategory": "AI / DeepTech",
-    "stage": "MVP / Early Stage",
-    "fundingStage": "Seed",
-    "totalFunding": "Seed",
+    "industry": "SaaS & Enterprise",
+    "subCategory": "Startup / Company candidate",
+    "stage": "Growth / Scaling",
+    "fundingStage": "Bootstrapped",
+    "totalFunding": "Bootstrapped",
     "foundingYear": 2018,
     "teamSize": "Team",
     "location": {
-      "area": "Madhapur",
-      "address": "HITEC City / Madhapur, Hyderabad, Telangana 500081",
-      "lat": 17.4485,
-      "lng": 78.3741
+      "area": "HITEC City",
+      "address": "HITEC City, Hyderabad, Telangana 500081",
+      "lat": 17.4519,
+      "lng": 78.3837
     },
     "founders": [],
     "hiring": true,
     "tags": [
-      "AI / DeepTech",
-      "Madhapur",
-      "Seed",
+      "Startup / Company candidate",
+      "HITEC City",
       "Hiring"
     ],
     "featured": false,
     "verified": true,
-    "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "createdAt": "2026-08-27",
+    "updatedAt": "2026-08-27",
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "spicenet",
@@ -7075,7 +7278,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "spicenet",
     "tagline": "Telecommunications infrastructure, structured cabling, and enterprise fiber optic networking solutions",
     "description": "Spicenet (Spicenet Telecom Private Limited) is a network infrastructure and telecommunications engineering provider headquartered in Hyderabad. The company delivers enterprise-grade fiber deployment, structured LAN/WAN cabling, optical transport networks, wireless networking installations, and managed connectivity support for commercial campuses and telecom operators.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/spicenet.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://spicenet.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -7102,7 +7305,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzljMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sreeal",
@@ -7110,7 +7314,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sreeal",
     "tagline": "Industrial IoT telemetry sensors, intelligent process automation, and smart embedded hardware",
     "description": "SreeAL (Sreeal Technologies) is an IoT hardware and industrial automation startup based in Hyderabad. The firm engineers smart sensors, industrial remote monitoring systems, and embedded hardware controllers to facilitate predictive maintenance and factory digitization.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sreeal.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sreeal.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7137,7 +7341,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ0YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "stag-innovations",
@@ -7145,7 +7350,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "stag-innovations",
     "tagline": "Embedded electronics, IoT edge devices, and industrial product prototyping engineering",
     "description": "STAG Innovations (Stag Innovations Private Limited) is an engineering and hardware product development startup based in Hyderabad. The company specializes in turnkey hardware product design, embedded firmware, IoT sensor integration, PCB design, and intelligent automation systems for industrial and consumer smart devices.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/staginnovations.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://staginnovations.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7172,15 +7377,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "startoon-labs",
     "name": "Startoon Labs",
     "slug": "startoon-labs",
     "tagline": "USFDA-registered smart physiotherapy monitoring devices, sEMG biofeedback, and telerehabilitation diagnostics",
-    "description": "Startoon Labs is an ISO 13485-certified medical device and deep-tech healthcare startup. Founded by IIT and IIM alumni and incubated at WE-Hub and AIC-T-Hub, the company developed 'Pheezee'�a patented, USFDA-registered wearable diagnostic device that measures muscle activity (sEMG) and joint range of motion (ROM) to objectively track, document, and quantify patient recovery post neurological and musculoskeletal injuries.",
-    "logoUrl": "",
+    "description": "Startoon Labs is an ISO 13485-certified medical device and deep-tech healthcare startup. Founded by IIT and IIM alumni and incubated at WE-Hub and AIC-T-Hub, the company developed 'Pheezee'\u2229\u2510\u255ca patented, USFDA-registered wearable diagnostic device that measures muscle activity (sEMG) and joint range of motion (ROM) to objectively track, document, and quantify patient recovery post neurological and musculoskeletal injuries.",
+    "logoUrl": "https://img.logo.dev/startoonlabs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://startoonlabs.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -7207,15 +7413,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "statwig",
     "name": "StaTwig",
     "slug": "statwig",
     "tagline": "Blockchain-powered IoT cold-chain visibility, vaccine tracking, and global supply chain transparency",
-    "description": "StaTwig (Statwig Technology Services) is an IoT and blockchain-powered supply chain monitoring platform. Incubated at T-Hub and backed by the UNICEF Innovation Fund and World Economic Forum, StaTwig's flagship platform 'VaccineLedger' provides tamper-proof, real-time tracking of cold-chain life sciences, perishable food, and biopharmaceuticals�preventing temperature failures, counterfeits, and inventory spoilage.",
-    "logoUrl": "",
+    "description": "StaTwig (Statwig Technology Services) is an IoT and blockchain-powered supply chain monitoring platform. Incubated at T-Hub and backed by the UNICEF Innovation Fund and World Economic Forum, StaTwig's flagship platform 'VaccineLedger' provides tamper-proof, real-time tracking of cold-chain life sciences, perishable food, and biopharmaceuticals\u2229\u2510\u255cpreventing temperature failures, counterfeits, and inventory spoilage.",
+    "logoUrl": "https://img.logo.dev/statwig.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://statwig.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Logistics",
@@ -7242,7 +7449,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM1ZiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "stelx-dynamics",
@@ -7250,7 +7458,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "stelx-dynamics",
     "tagline": "Autonomous GPS-denied UAV systems, edge AI navigation, and defense robotics",
     "description": "StelX Dynamics is an advanced robotics and deep-tech aerospace startup. Incubated at T-Hub Hyderabad and a recipient of the Boeing BUILD innovation grant, StelX develops edge AI-enabled autonomous UAVs and planetary rovers engineered to execute surveillance, threat detection, and tactical missions in GPS-denied, jammed, or communication-restricted environments without human intervention.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/stelxdynamics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://stelxdynamics.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7277,7 +7485,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzYxYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "storyvord",
@@ -7285,7 +7494,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "storyvord",
     "tagline": "AI co-producer for automated script breakdowns, production scheduling, and global crew management",
     "description": "Storyvord is an AI-powered film production and creative project management OS. Inducted into T-Hub's flagship Blueprint Deep Tech Fellowship cohort alongside global accelerators like Startupbootcamp and SINE, Storyvord functions as an autonomous AI co-producer that cuts film pre-production workflows from weeks to minutes by automating script breakdowns, multi-country budget forecasting, location compliance, and verified crew matching for filmmakers and production houses.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/storyvord.io?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://storyvord.io",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7312,7 +7521,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "student-tribe",
@@ -7320,7 +7530,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "student-tribe",
     "tagline": "Gen Z student community, campus gig work economy, upskilling, and brand ambassador platform",
     "description": "Student Tribe (formerly StuMagz / Right Process Infotech) is a youth engagement, student community, and gig platform headquartered in Hyderabad. Connecting over a million students across 500+ campuses with brands, Student Tribe provides college students with paid brand gigs, campus ambassador roles, verified internships, hackathons, and curated skill development programs.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/studenttribe.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://studenttribe.in",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -7347,7 +7557,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOTAzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "subtl-ai",
@@ -7355,7 +7566,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "subtl-ai",
     "tagline": "Private document search, cognitive enterprise intelligence, and contextual knowledge discovery engine",
     "description": "Subtl.ai is an enterprise search and generative document intelligence platform originated out of the Language Technologies Research Centre (LTRC) at IIIT Hyderabad. The startup builds secure, on-premise neural search engines trained on private organizational documentation, allowing banks, enterprises, and research teams to extract verified answers, summarize complex policies, and automate document retrieval with zero data leakage.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/subtl.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://subtl.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7382,7 +7593,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzY4MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "successmetric",
@@ -7390,7 +7602,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "successmetric",
     "tagline": "Performance marketing analytics, growth acceleration, and automated conversion optimization",
     "description": "SuccessMetric is a performance marketing and digital analytics consultancy based in Hyderabad. The agency builds data-driven customer acquisition models, manages end-to-end paid advertising funnels across Google and Meta, and optimizes conversion rate architectures for B2B and D2C brands.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/successmetric.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://successmetric.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -7417,7 +7629,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2MSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "swipe",
@@ -7425,7 +7638,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "swipe",
     "tagline": "Simple GST billing, POS invoicing, inventory tracking, and payment collection platform for SMEs",
     "description": "Swipe (Nextspeed Technologies) is an invoicing, billing, and accounting platform built for small and medium businesses (SMBs) and freelancers in India. Backed by Y Combinator, Swipe enables merchants to generate GST-compliant invoices in under 10 seconds, dispatch bills directly via WhatsApp and SMS, automate payment reconciliation, track inventory, and file GSTR reports seamlessly.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/getswipe.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://getswipe.in",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -7452,15 +7665,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNzQzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "t-works",
     "name": "T-Works",
     "slug": "t-works",
     "tagline": "India's largest prototyping center, rapid hardware prototyping, and advanced engineering maker lab",
-    "description": "T-Works (T-Works Foundation) is an initiative of the Government of Telangana and India's largest rapid prototyping facility. Spanning a 78,000 sq. ft. campus in Hyderabad's Knowledge City, T-Works equips innovators, hardware startups, researchers, and corporates with state-of-the-art machinery�including industrial 3D printing, CNC machining, laser cutting, PCB fabrication, and testing labs�to turn hardware concepts into production-ready physical prototypes.",
-    "logoUrl": "",
+    "description": "T-Works (T-Works Foundation) is an initiative of the Government of Telangana and India's largest rapid prototyping facility. Spanning a 78,000 sq. ft. campus in Hyderabad's Knowledge City, T-Works equips innovators, hardware startups, researchers, and corporates with state-of-the-art machinery\u2229\u2510\u255cincluding industrial 3D printing, CNC machining, laser cutting, PCB fabrication, and testing labs\u2229\u2510\u255cto turn hardware concepts into production-ready physical prototypes.",
+    "logoUrl": "https://img.logo.dev/tworks.telangana.gov.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tworks.telangana.gov.in",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7487,7 +7701,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZlYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "takeme2space",
@@ -7495,7 +7710,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "takeme2space",
     "tagline": "Orbital AI laboratories, satellite buses, and in-space edge data centers",
     "description": "TakeMe2Space is a deeptech spacetech venture developing standardized satellite buses, subsystems, and orbital AI data center infrastructure. Through proprietary radiation-shielding coatings that allow commercial off-the-shelf (COTS) terrestrial processors to operate reliably in low-Earth orbit (LEO), the company enables real-time edge AI compute and accessible orbital experimentation.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tm2.space?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tm2.space",
     "industry": "DeepTech & Aerospace",
     "subCategory": "SpaceTech",
@@ -7522,7 +7737,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "teamwa",
@@ -7530,7 +7746,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "teamwa",
     "tagline": "Enterprise WhatsApp business API integrations, customer engagement, and conversational workflows",
     "description": "TeamWA is a conversational marketing and customer communication platform based in Hyderabad. The company enables businesses to automate marketing campaigns, sales funnels, and customer support via the official WhatsApp Business API, offering shared team inboxes, automated chatbots, and CRM sync.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/teamwa.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://teamwa.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -7557,7 +7773,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzN2ZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tech-cloud-erp",
@@ -7565,7 +7782,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tech-cloud-erp",
     "tagline": "Cloud ERP software suite, manufacturing process automation, and supply chain management for MSMEs",
     "description": "Tech Cloud ERP (Tech Cloud ERP Software Solutions Private Limited) is an enterprise resource planning software platform based in Hyderabad. The company builds modular, web-based cloud ERP solutions tailored for small and mid-sized manufacturing enterprises, providing real-time automation across supply chains, inventory control, production scheduling, finance, GST compliance, and multi-branch operations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/techclouderp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://techclouderp.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -7592,7 +7809,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "techbhp",
@@ -7600,7 +7818,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "techbhp",
     "tagline": "Automotive tech innovations, connected vehicle software, and smart mobility diagnostics",
     "description": "TechBHP is an automotive engineering and connected vehicle software solutions provider based in Hyderabad. The company builds telemetry tracking devices, OBD-II diagnostic integrations, smart vehicle fleet monitoring tools, and automotive software dashboards.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/techbhp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://techbhp.com",
     "industry": "CleanTech & EV",
     "subCategory": "Mobility",
@@ -7627,7 +7845,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "techvedika",
@@ -7635,7 +7854,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "techvedika",
     "tagline": "AI-native SaaS products, edge computer vision algorithms, and enterprise digital engineering",
     "description": "TechVedika is an AI solutions company and digital product engineering studio. Headquartered in Hyderabad, TechVedika builds specialized computer vision models, predictive ML algorithms, and IoT edge intelligence platforms for healthcare, retail, logistics, and manufacturing enterprises, alongside incubating proprietary SaaS platforms like SportVot and AI vision suites.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/techvedika.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://techvedika.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7662,7 +7881,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "techzert",
@@ -7670,7 +7890,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "techzert",
     "tagline": "Enterprise digital transformation, cloud application integration, and certified IT consulting",
     "description": "TechZert (Techzert Software Solutions Private Limited) is an enterprise software consulting and IT engineering company based in Hyderabad. TechZert delivers microservices architectures, cloud application development, enterprise ERP/CRM integration, and automated QA testing.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/techzert.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://techzert.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -7697,7 +7917,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOTZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tenet-diagnostics",
@@ -7705,7 +7926,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tenet-diagnostics",
     "tagline": "NABL & CAP-accredited integrated pathology, advanced radiology, and automated wellness diagnostics",
     "description": "Tenet Diagnostics (Tenet Medcorp Private Limited) is a premium diagnostic laboratory and medical imaging chain headquartered in Hyderabad. Equipped with high-throughput laboratory automation and radiology suites (3T MRI, 128 Slice CT, 3D Mammography), Tenet provides comprehensive clinical pathology, genomics testing, corporate health assessments, and doorstep sample collections.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tenetmedcorp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tenetmedcorp.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -7732,7 +7953,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNjYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tensorgo",
@@ -7740,7 +7962,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tensorgo",
     "tagline": "Low-code deep learning, computer vision, and generative AI platform for enterprise applications",
     "description": "TensorGo is an artificial intelligence and deep-tech platform specializing in generative AI, computer vision, deep learning, and natural language processing. The company builds low-code neural network deployment platforms (PaaS and APIaaS), delivering scalable AI tools for virtual try-on, automated image restoration, conversational AI, and driver safety monitoring across retail, media, and enterprise sectors.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tensorgo.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tensorgo.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7767,7 +7989,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "thecorpusgroup",
@@ -7775,7 +7998,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "thecorpusgroup",
     "tagline": "Interactive digital media platforms, smart TV streaming middleware, and OTT monetization systems",
     "description": "The Corpus Group (Corpus Operations Private Limited) is a media technology and OTT engineering solutions company headquartered in Hyderabad. Corpus develops end-to-end interactive TV ecosystems, Smart TV middleware, multi-screen OTT video streaming applications, and targeted monetization engines for broadcasters and telcos globally.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/corpus.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://corpus.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Media & Entertainment",
@@ -7802,7 +8025,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNGUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tiny-tactics",
@@ -7810,7 +8034,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tiny-tactics",
     "tagline": "Mobile game studio creating immersive casual and mid-core puzzle experiences",
     "description": "Tiny Tactics is an indie mobile game development studio building high-retention casual and mid-core games designed for long-term player engagement. The studio specializes in narrative-driven match-3 puzzles, casual simulation, and strategy mechanics tailored for a global audience.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tinytactics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tinytactics.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Gaming",
@@ -7837,7 +8061,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tohands",
@@ -7845,7 +8070,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tohands",
     "tagline": "Smart IoT-enabled calculators and billing terminals for retail shopkeepers",
     "description": "Tohands builds smart business calculators and IoT ledger hardware integrated with cloud-connected mobile software. Designed for small retailers and kirana stores, the device features dedicated Cash In / Cash Out buttons, real-time sync, and receipt printing to eliminate manual khata book errors without requiring expensive POS setups.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/smart.tohands.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://smart.tohands.in",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -7872,7 +8097,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZjYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "track3d",
@@ -7880,7 +8106,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "track3d",
     "tagline": "AI-first reality intelligence, 3D computer vision, and automated construction site progress monitoring",
     "description": "Track3D (formerly ConstructN) is an AI-first reality intelligence and construction progress tracking platform. Operating an India development and engineering center in Hyderabad alongside US headquarters, Track3D turns visual reality capture data (drones, 360 cameras, laser LiDAR scanners, and mobile feeds) into automated schedule deviations, trade partner coordination workflows, and BIM-aligned progress intelligence for general contractors and commercial asset owners.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/track3d.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://track3d.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7907,7 +8133,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNWIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tractrix-opto-dynamics",
@@ -7915,7 +8142,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tractrix-opto-dynamics",
     "tagline": "Precision electro-optical and opto-mechanical payload systems for aerospace and defense",
     "description": "Tractrix Opto Dynamics is a deep-tech aerospace and defense technology company. Incubated across Hyderabad's deep-tech network and backed by iDEX (Innovations for Defence Excellence), the company specializes in indigenous design, precision simulation, thermal imaging, and advanced prototyping of critical electro-optical and opto-mechanical assemblies for aerial surveillance, reconnaissance, and space payloads.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tractrix.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tractrix.in",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -7942,7 +8169,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjEzZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "trans-india",
@@ -7950,7 +8178,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "trans-india",
     "tagline": "Digital freight marketplace connecting truck owners with enterprise shippers and load providers",
     "description": "Trans India (operating as TransIn) is a tech-enabled freight exchange and logistics marketplace. The platform connects fleet owners, individual truckers, and transport brokers with enterprise shippers to streamline on-demand vehicle discovery, load matching, consignment tracking, and freight capacity utilization across inter-city transport corridors.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/transin.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://transin.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Logistics",
@@ -7977,7 +8205,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhNSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tride-mobility",
@@ -7985,7 +8214,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tride-mobility",
     "tagline": "Digital multi-brand EV marketplace, battery management, and smart urban mobility platform",
     "description": "TRiDE Mobility (by Tride Innovative Technologies) is an electric vehicle commerce, financing, and battery management ecosystem. Accelerated through the AIC T-Hub 'Charge' mobility program, the platform provides a unified multi-brand two-wheeler EV discovery marketplace, paperless digital financing, battery performance telemetry, and post-purchase servicing to accelerate consumer EV adoption.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tridemobility.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tridemobility.com",
     "industry": "CleanTech & EV",
     "subCategory": "Mobility",
@@ -8012,7 +8241,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2EzMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "turbohire",
@@ -8020,7 +8250,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "turbohire",
     "tagline": "AI-powered recruitment automation and talent intelligence platform",
     "description": "TurboHire is an enterprise talent acquisition platform that uses AI and NLP to transform resume repositories into structured candidate networks. Its platform automates high-volume candidate sourcing, resume screening, collaborative interview scheduling, and evaluation workflows for global enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/turbohire.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://turbohire.co",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -8047,7 +8277,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tutorac",
@@ -8055,7 +8286,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tutorac",
     "tagline": "Online live 1-on-1 tutoring and career-focused IT training marketplace",
     "description": "Tutorac is an edtech platform and global learning marketplace connecting students with vetted industry tutors and educators. It offers interactive live tutoring, specialized IT upskilling bootcamps, and comprehensive competitive exam preparation (including JEE and NEET).",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tutorac.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tutorac.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -8082,15 +8313,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdmMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tvisha",
     "name": "TVISHA",
     "slug": "tvisha",
     "tagline": "Enterprise collaboration ecosystems, custom software development, and Troop Messenger SaaS",
-    "description": "Tvisha Technologies (Tvisha Technologies Private Limited) is an enterprise software engineering and SaaS product development company headquartered in Hyderabad. Tvisha creates digital workflows, bespoke CRM/ERP platforms, and is the creator of Troop Messenger�a secured, encrypted enterprise team collaboration and instant messaging platform.",
-    "logoUrl": "",
+    "description": "Tvisha Technologies (Tvisha Technologies Private Limited) is an enterprise software engineering and SaaS product development company headquartered in Hyderabad. Tvisha creates digital workflows, bespoke CRM/ERP platforms, and is the creator of Troop Messenger\u2229\u2510\u255ca secured, encrypted enterprise team collaboration and instant messaging platform.",
+    "logoUrl": "https://img.logo.dev/tvisha.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tvisha.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -8117,7 +8349,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzhiMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ublood",
@@ -8125,7 +8358,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ublood",
     "tagline": "Real-time emergency blood donor matching app and instant community donation network",
     "description": "uBlood (uBlood Healthcare / Joolop Technologies) is a mobile-first emergency blood donor networking platform founded in Hyderabad. Designed to eliminate critical delays in locating compatible blood donors, uBlood uses geolocated matching to connect patients, hospitals, and blood banks with registered voluntary donors across India in real time.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ublood.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ublood.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -8152,7 +8385,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzUzMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5VPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "unocareer-services",
@@ -8160,7 +8394,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "unocareer-services",
     "tagline": "AI-enabled campus hiring, student employability assessments, and early career launchpad",
     "description": "UnoCareer (Unocareer Services Private Limited) is an edtech and talent recruitment enablement platform headquartered in Hyderabad. UnoCareer bridges academia and corporate hiring by providing standardized employability tests, technical skill assessments, AI-driven candidate matching, and automated campus placement drives.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/unocareer.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://unocareer.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "HRTech",
@@ -8187,7 +8421,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOTBiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5VPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "urbankisaan",
@@ -8195,7 +8430,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "urbankisaan",
     "tagline": "Soil-less vertical farms and AI-driven plant biology platforms",
     "description": "UrbanKisaan builds automated hydroponic vertical farms and proprietary plant biology foundation models. Its technology enables pesticide-free produce cultivation with 95% less water usage while leveraging controlled-environment chambers to dramatically accelerate crop breeding cycles.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/urbankisaan.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://urbankisaan.com",
     "industry": "AgriTech & FoodTech",
     "subCategory": "AgriTech",
@@ -8222,7 +8457,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjEzYyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5VPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vaave",
@@ -8230,7 +8466,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vaave",
     "tagline": "All-in-one alumni management software and engagement network for educational institutions",
     "description": "Vaave (by Coherendz India) is a cloud-based SaaS platform dedicated to building and managing institutional alumni networks. The platform helps universities, colleges, and schools automate alumni database management, organize reunions, coordinate fundraising campaigns, manage mentorship programs, and facilitate exclusive job and internship boards.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vaave.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vaave.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -8257,7 +8493,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vahn",
@@ -8265,7 +8502,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vahn",
     "tagline": "AI-driven trucking operations, automated trip sheets, and fleet fintech payments platform",
     "description": "Vahn is an enterprise mobility and logistics fintech company headquartered in Hyderabad. Inducted into T-Hub's Blueprint Deep Tech Fellowship cohort, Vahn builds an integrated mobile platform for commercial trucking fleets that centralizes diesel, toll, and trip expense payments alongside real-time vehicle telematics, automated digital trip sheets, and predictive maintenance analytics to drive fleet profitability.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vahn.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vahn.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Logistics",
@@ -8292,15 +8529,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNWZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vasista",
     "name": "Vasista",
     "slug": "vasista",
     "tagline": "DairyERP cloud platform, milk procurement automation, and end-to-end supply chain software",
-    "description": "Vasista (Vasista Enterprise Solutions Private Limited) is a vertical SaaS and agritech enterprise software provider headquartered in Hyderabad. The company builds specialized ERP and supply chain automation software tailored specifically for dairy processors, dairy cooperatives, and agri-enterprises�automating farmer milk procurement, quality testing, cold-chain logistics, and retail distribution.",
-    "logoUrl": "",
+    "description": "Vasista (Vasista Enterprise Solutions Private Limited) is a vertical SaaS and agritech enterprise software provider headquartered in Hyderabad. The company builds specialized ERP and supply chain automation software tailored specifically for dairy processors, dairy cooperatives, and agri-enterprises\u2229\u2510\u255cautomating farmer milk procurement, quality testing, cold-chain logistics, and retail distribution.",
+    "logoUrl": "https://img.logo.dev/vasista.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vasista.in",
     "industry": "AgriTech & FoodTech",
     "subCategory": "AgriTech",
@@ -8327,7 +8565,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vectorform",
@@ -8335,7 +8574,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vectorform",
     "tagline": "Digital product invention, spatial computing, and connected customer experience platforms",
     "description": "Vectorform (Vectorform India) is a global digital product innovation and design consultancy with its India engineering center in Hyderabad. Vectorform designs and develops digital products, spatial computing interfaces (AR/VR/MR), IoT software ecosystems, and interactive customer journeys for Fortune 500 brands.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vectorform.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vectorform.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -8362,7 +8601,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "velotrax",
@@ -8370,7 +8610,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "velotrax",
     "tagline": "Deep-tech space systems, satellite tracking mechanics, and orbital mobility technologies",
     "description": "Velotrax is an early-stage deep-tech SpaceTech startup. Selected as part of AIC T-Hub's flagship ORBIT SpaceTech Accelerator (Cohort 3), Velotrax develops advanced orbital dynamics, satellite mechanics, and high-velocity tracking hardware designed to advance sovereign space mobility and upstream satellite subsystems.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/t-hub.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://t-hub.co",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -8397,7 +8637,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOTRiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vembi-technologies",
@@ -8405,7 +8646,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vembi-technologies",
     "tagline": "Affordable assistive edtech, refreshable braille reading devices, and tactile learning aids for visually impaired students",
     "description": "Vembi Technologies is an assistive hardware and inclusive edtech company designing digital learning aids for visually impaired children. Incubated at IIIT Bangalore and supported by Microsoft AI4Accessibility and Vision Empower, Vembi builds patented low-cost electronic braille readers and multimodal tactile tools (such as Hexis and Iris) that provide real-time braille translation, audio feedback, and digital book navigation in regional languages.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vembi.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vembi.in",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -8432,7 +8673,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2MSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vivifi-india",
@@ -8440,7 +8682,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vivifi-india",
     "tagline": "RBI-registered fintech NBFC providing instant credit lines and digital loans (FlexSalary & FlexPay)",
     "description": "Vivifi India Finance (Vivifi India Finance Private Limited) is an RBI-registered non-banking financial company (NBFC) and digital lending fintech platform headquartered in Hyderabad. Vivifi delivers accessible credit lines and digital loan products through its flagship brands FlexSalary and FlexPay, extending unsecured sachet-sized credit lines, salary-linked advances, and flexible repayment financing to underserved and under-banked consumers across Tier-2 and Tier-3 India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vivifin.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vivifin.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -8467,7 +8709,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM4MSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vixspace",
@@ -8475,7 +8718,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vixspace",
     "tagline": "Immersive AR/VR simulations, digital twin engineering, and 3D interactive visualizations",
     "description": "Vixspace (Vixspace Technologies) is an immersive technology and digital experience studio based in Hyderabad. The company builds augmented reality, virtual reality, 3D product configurators, and real-time interactive metaverse environments for real estate, industrial training, and retail applications.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vixspace.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vixspace.com",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -8502,7 +8745,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxODMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vizen-life-sciences",
@@ -8510,7 +8754,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vizen-life-sciences",
     "tagline": "End-to-end pharmacovigilance, drug safety surveillance, and regulatory clinical data management",
     "description": "Vizen Life Sciences is a life sciences, clinical safety, and pharmacovigilance solutions provider. Based out of Hyderabad, the company specializes in global safety surveillance, aggregate reporting, signal detection, risk management plans, and clinical data management services to ensure regulatory compliance and patient safety for global biopharmaceutical and generic drug developers.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vizenlifesciences.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vizenlifesciences.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "BioTech",
@@ -8537,7 +8781,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM4YiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vogo-automotive",
@@ -8545,7 +8790,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vogo-automotive",
     "tagline": "IoT-enabled dockless two-wheeler rentals, keyless shared scooters, and urban multimodal commute",
     "description": "Vogo (Vogo Automotive, acquired by Chalo) is a dockless shared micro-mobility and self-drive two-wheeler rental platform. Using proprietary IoT hardware (the Vogo Box) attached to scooters, the app allows daily commuters to discover, unlock, and ride two-wheelers via keyless OTP/Bluetooth authentication, delivering affordable first- and last-mile connectivity across major metro stations and IT corridors.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vogo.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vogo.in",
     "industry": "CleanTech & EV",
     "subCategory": "Mobility",
@@ -8572,42 +8817,43 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
-    "id": "way2news",
+    "id": "way2news-b2",
     "name": "Way2News",
-    "slug": "way2news",
-    "tagline": "Hyperlocal short-news platform delivering verified regional language news across South India",
-    "description": "Way2News (Way2Online Interactive India Private Limited) is a vernacular hyperlocal digital media platform headquartered in Hyderabad. Delivering short-form curated news across Telugu, Tamil, and other regional Indian languages, Way2News utilizes an extensive grassroots stringer network paired with AI-driven content moderation to provide real-time village, mandal, and district-level reporting.",
-    "logoUrl": "",
+    "slug": "way2news-b2",
+    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
+    "description": "Way2News is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
+    "logoUrl": "https://img.logo.dev/way2news.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://way2news.com",
-    "industry": "E-Commerce & Consumer",
-    "subCategory": "Media & Entertainment",
+    "industry": "SaaS & Enterprise",
+    "subCategory": "Startup / Company candidate",
     "stage": "Growth / Scaling",
-    "fundingStage": "Series B",
-    "totalFunding": "Series B",
+    "fundingStage": "Bootstrapped",
+    "totalFunding": "Bootstrapped",
     "foundingYear": 2018,
     "teamSize": "Team",
     "location": {
-      "area": "Jubilee Hills",
-      "address": "Plot No. 1202, Road No. 36, Jubilee Hills, Hyderabad, Telangana 500033",
-      "lat": 17.4344,
-      "lng": 78.4012
+      "area": "HITEC City",
+      "address": "HITEC City, Hyderabad, Telangana 500081",
+      "lat": 17.452,
+      "lng": 78.3787
     },
     "founders": [],
     "hiring": true,
     "tags": [
-      "Media & Entertainment",
-      "Jubilee Hills",
-      "Series B",
+      "Startup / Company candidate",
+      "HITEC City",
       "Hiring"
     ],
     "featured": false,
     "verified": true,
-    "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "createdAt": "2026-08-27",
+    "updatedAt": "2026-08-27",
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "web-era",
@@ -8615,7 +8861,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "web-era",
     "tagline": "End-to-end web portal development, domain hosting, and bespoke IT consulting services",
     "description": "WEB ERA (Web Era Infotech) is an established web development and digital transformation consultancy based in Hyderabad. The firm delivers end-to-end enterprise web applications, e-commerce storefronts, CMS deployments, and digital branding solutions for commercial businesses.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/webera.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://webera.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -8642,15 +8888,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "wehouse",
     "name": "Wehouse",
     "slug": "wehouse",
     "tagline": "Tech-enabled end-to-end residential construction and digital site e-monitoring platform",
-    "description": "Wehouse (formerly Hocomoco) is a tech-powered proptech and home construction company. The platform provides full-lifecycle residential and commercial construction services�including architectural design, structural engineering, government approvals, vetted material procurement, and interior design�backed by a proprietary live dashboard and CCTV e-monitoring system that offers fixed-price and milestone transparency to home builders.",
-    "logoUrl": "",
+    "description": "Wehouse (formerly Hocomoco) is a tech-powered proptech and home construction company. The platform provides full-lifecycle residential and commercial construction services\u2229\u2510\u255cincluding architectural design, structural engineering, government approvals, vetted material procurement, and interior design\u2229\u2510\u255cbacked by a proprietary live dashboard and CCTV e-monitoring system that offers fixed-price and milestone transparency to home builders.",
+    "logoUrl": "https://img.logo.dev/wehouse.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://wehouse.in",
     "industry": "E-Commerce & Consumer",
     "subCategory": "PropTech",
@@ -8677,7 +8924,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhZiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "wexa-ai",
@@ -8685,7 +8933,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "wexa-ai",
     "tagline": "Context governance plane, enterprise graph memory, and autonomous AI coworker orchestration",
     "description": "Wexa AI is an enterprise context governance and AI coworker orchestration platform. Built to make autonomous AI agents enterprise-ready, Wexa operates a high-speed native context graph engine that connects live business data from ERPs, CRMs, and databases into governed context planes. The system enforces real-time policy gates, human-in-the-loop approvals, and immutable hash-chained audit trails before agents execute high-risk enterprise actions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/wexa.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://wexa.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "AI / DeepTech",
@@ -8712,7 +8960,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FkYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "windo",
@@ -8720,7 +8969,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "windo",
     "tagline": "Mobile-first SaaS storefront builder for Instagram sellers, creators, and D2C brands",
     "description": "Windo is a mobile-first e-commerce storefront builder and social commerce platform operated by Rare Bits Technology. It empowers micro-entrepreneurs, Instagram creators, solopreneurs, and D2C brands to launch customizable online stores in minutes directly from their Instagram feed, manage inventories, integrate regional payment gateways, and automate last-mile order logistics.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/getwindo.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://getwindo.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -8747,7 +8996,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzViMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "wisdomoverseas",
@@ -8755,7 +9005,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "wisdomoverseas",
     "tagline": "International medical education consulting, university admissions, and student visa guidance",
     "description": "Wisdom Overseas (Wisdom Overseas Educational Services) is a global higher education and overseas admission consultancy headquartered in Hyderabad. The consultancy provides end-to-end guidance for Indian students seeking MBBS and medical degrees in universities across Europe, Central Asia, and the Americas, handling university selection, visa processing, and documentation.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/wisdomoverseas.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://wisdomoverseas.com",
     "industry": "EdTech",
     "subCategory": "EdTech",
@@ -8782,7 +9032,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdkMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "xdlinx-space-labs",
@@ -8790,7 +9041,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "xdlinx-space-labs",
     "tagline": "Advanced satellite platforms for intelligence, surveillance, reconnaissance, and space communications",
     "description": "XDLINX Space Labs is a deeptech spacetech venture specializing in the design, manufacture, and deployment of high-performance small satellites and orbital payloads. The company builds sovereign ISR satellite systems, advanced optical payloads, and reliable communication buses for defense and commercial space missions.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/xdlinx.space?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://xdlinx.space",
     "industry": "DeepTech & Aerospace",
     "subCategory": "SpaceTech",
@@ -8817,7 +9068,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhOSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5YPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "xtremeict",
@@ -8825,7 +9077,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "xtremeict",
     "tagline": "Managed IT infrastructure services, enterprise networking, and cybersecurity solutions",
     "description": "XtremeICT (Xtreme ICT Solutions) is an information and communications technology services provider based in Hyderabad. The company delivers enterprise network infrastructure setup, managed cybersecurity, server administration, cloud backup, and IT consulting services for commercial enterprises.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/xtremeict.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://xtremeict.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -8852,7 +9104,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzhiYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5YPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "yapan-bio",
@@ -8860,7 +9113,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "yapan-bio",
     "tagline": "Contract development and manufacturing organization (CDMO) for vaccines, gene therapies, and biologics",
     "description": "Yapan Bio (Yapan Bio Private Limited, a Piramal Pharma associate) is a high-tech CDMO headquartered in Genome Valley, Hyderabad. The company specializes in end-to-end bioprocess development, scale-up, and cGMP clinical manufacturing for advanced biotherapeutics, recombinant proteins, viral vectors, RNA platforms, and human vaccines.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/yapanbio.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://yapanbio.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "BioTech",
@@ -8887,7 +9140,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5ZPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zaggle",
@@ -8895,7 +9149,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zaggle",
     "tagline": "B2B SaaS-fintech platform digitizing corporate spend management",
     "description": "Zaggle (Zaggle Prepaid Ocean Services Ltd) is a publicly listed fintech SaaS enterprise delivering automated corporate spend management, accounts payable automation, employee rewards, and commercial card solutions. The company partners with major banking networks (including IndusInd, Yes Bank, and NSDL Payments Bank) to combine automated workflow software with enterprise payment cards.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zaggle.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zaggle.in",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -8906,7 +9160,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "teamSize": "Team",
     "location": {
       "area": "HITEC City",
-      "address": "15th Floor � Western Block, Vamsiram � Suvarna Durga Tech Park, Nanakramguda Village, Serilingampally, Hyderabad, Telangana 500032",
+      "address": "15th Floor \u2229\u2510\u255c Western Block, Vamsiram \u2229\u2510\u255c Suvarna Durga Tech Park, Nanakramguda Village, Serilingampally, Hyderabad, Telangana 500032",
       "lat": 17.4230254,
       "lng": 78.3463477
     },
@@ -8922,7 +9176,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTczMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zebi",
@@ -8930,7 +9185,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zebi",
     "tagline": "Blockchain-driven big data security, tamper-proof record management, and consent compliance",
     "description": "Zebi (Zebi Data India Private Limited) is a blockchain and big data cybersecurity infrastructure company founded in Hyderabad. The platform provides tamper-proof, immutable data logging systems (Zebi Chain) and secure identity verification architectures for government registries, land records, education credentials, and enterprise databases.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zebi.io?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zebi.io",
     "industry": "AI & Machine Learning",
     "subCategory": "Cybersecurity",
@@ -8957,7 +9212,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zenoti",
@@ -8965,7 +9221,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zenoti",
     "tagline": "All-in-one business management software for salons, spas, and med spas",
     "description": "Zenoti grew out of founder Sudheer Koneru's own Hyderabad spa and fitness chain, built to solve the operational gaps he experienced running it. It became India's first unicorn in the wellness-tech category, serving 1,000+ brands across 50+ countries.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zenoti.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zenoti.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -8992,7 +9248,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOTgzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zenwork",
@@ -9000,7 +9257,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zenwork",
     "tagline": "Digital tax compliance automation, IRS e-filing, 1099/W-2 reporting, and vendor onboarding platform",
     "description": "Zenwork is an enterprise tax compliance automation and regulatory reporting SaaS platform. Through its flagship products Tax1099 and Compliancely, Zenwork powers automated IRS/state tax reporting, W-2/1099 e-filings, real-time TIN matching, vendor onboarding, and global compliance workflows for over 150,000 businesses and 30,000+ CPA firms across the United States, anchored by its core engineering and product innovation hub in Hyderabad.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zenwork.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zenwork.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -9027,7 +9284,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzgzMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zettamine",
@@ -9035,7 +9293,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zettamine",
     "tagline": "Premier SAP consulting partner, enterprise digital transformation, and cloud ERP solutions",
     "description": "ZettaMine (ZettaMine Labs Private Limited) is an SAP Silver Partner and enterprise consulting firm headquartered in Hyderabad. The company delivers end-to-end SAP implementations, S/4HANA migrations, SAP BTP cloud integrations, supply chain optimization, and specialized analytics solutions for manufacturing, pharma, and retail conglomerates.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zettamine.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zettamine.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -9062,7 +9320,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zodhya",
@@ -9070,7 +9329,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zodhya",
     "tagline": "Asset-light AI platform for building energy efficiency and HVAC optimization",
     "description": "Zodhya develops plug-and-play, non-intrusive AI and IoT solutions (SaverX and Soul) that optimize HVAC power consumption, reduce enterprise electricity bills by up to 30%, and monitor power quality in real time without requiring operational downtime or electrical retrofitting.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zodhyatech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zodhyatech.com",
     "industry": "CleanTech & EV",
     "subCategory": "ClimateTech",
@@ -9097,15 +9356,16 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjEzNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zomato",
     "name": "Zomato",
     "slug": "zomato",
     "tagline": "India's leading restaurant discovery, food delivery, and quick-commerce ecosystem",
-    "description": "Zomato is a multinational food-tech and consumer internet enterprise connecting millions of consumers with restaurants, delivery services, and B2B supplies. Operating under four core pillars�Food Delivery, Blinkit (Quick Commerce), Hyperpure (B2B Restaurant Supplies), and District (Going-out & Live Events)�it completed one of India's landmark tech IPOs on NSE/BSE in July 2021.",
-    "logoUrl": "",
+    "description": "Zomato is a multinational food-tech and consumer internet enterprise connecting millions of consumers with restaurants, delivery services, and B2B supplies. Operating under four core pillars\u2229\u2510\u255cFood Delivery, Blinkit (Quick Commerce), Hyperpure (B2B Restaurant Supplies), and District (Going-out & Live Events)\u2229\u2510\u255cit completed one of India's landmark tech IPOs on NSE/BSE in July 2021.",
+    "logoUrl": "https://img.logo.dev/zomato.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zomato.com",
     "industry": "AgriTech & FoodTech",
     "subCategory": "FoodTech",
@@ -9132,7 +9392,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zuddl",
@@ -9140,7 +9401,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zuddl",
     "tagline": "All-in-one event management and webinar platform for B2B enterprises",
     "description": "Zuddl is a unified B2B event marketing and management platform built for organizing large-scale virtual, hybrid, and in-person conferences. It provides enterprise event organizers with drag-and-drop landing page builders, registration pipelines, live broadcasting studios, interactive attendee networking, and automated CRM integrations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zuddl.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zuddl.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -9167,7 +9428,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQwYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zype-digital",
@@ -9175,7 +9437,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zype-digital",
     "tagline": "Full-funnel digital marketing, performance advertising, and custom web growth architectures",
     "description": "Zype Digital (Zype Digital Private Limited) is a digital agency and technology marketing firm based in Hyderabad. The agency specializes in digital brand strategy, targeted performance advertising, search engine optimization (SEO), social media campaigns, and custom conversion-oriented web development.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zypedigital.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zypedigital.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise SaaS",
@@ -9202,7 +9464,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zyppys",
@@ -9210,7 +9473,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zyppys",
     "tagline": "App-based car rental aggregator and intercity/outstation mobility marketplace",
     "description": "Zyppys is an online car rental aggregator and mobility booking platform. It connects travelers and enterprise clients with vetted car rental vendors, offering transparent price comparison, self-drive rentals, chauffeur-driven outstation cabs, and EV transfers across major Indian destinations.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zyppys.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zyppys.com",
     "industry": "CleanTech & EV",
     "subCategory": "Mobility",
@@ -9237,7 +9500,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-26",
     "updatedAt": "2026-08-26",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjEzYyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "verizon-com",
@@ -9245,7 +9509,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "verizon-com",
     "tagline": "Global telecommunications and technology leader powering enterprise innovation.",
     "description": "Verizon is a leading GCC operating in Financial District, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/verizon.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.verizon.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "GCC",
@@ -9281,7 +9545,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ghx-com",
@@ -9289,7 +9554,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ghx-com",
     "tagline": "Healthcare supply chain technology enabling smarter patient care.",
     "description": "GHX is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ghx.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.ghx.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -9325,7 +9590,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNzAzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "innovasolutions-com",
@@ -9333,7 +9599,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "innovasolutions-com",
     "tagline": "Global technology and digital transformation services provider.",
     "description": "Innova Solutions is a leading Enterprise operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/innovasolutions.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.innovasolutions.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -9369,7 +9635,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNzRiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "renesas-com",
@@ -9377,7 +9644,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "renesas-com",
     "tagline": "Semiconductor solutions powering automotive, industrial, and IoT innovation.",
     "description": "Renesas is a leading GCC operating in Gachibowli, Hyderabad, specializing in DeepTech & Aerospace.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/renesas.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.renesas.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "GCC",
@@ -9413,7 +9680,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc0MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "randstad-in",
@@ -9421,7 +9689,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "randstad-in",
     "tagline": "Global leader in talent solutions and HR services.",
     "description": "Randstad is a leading Enterprise operating in Begumpet, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/randstad.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.randstad.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -9457,7 +9725,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNmNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "wework-co-in",
@@ -9465,7 +9734,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "wework-co-in",
     "tagline": "Flexible workspace solutions and collaborative office environments.",
     "description": "WeWork is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/wework.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://wework.co.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -9501,7 +9770,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "verisk-com",
@@ -9509,7 +9779,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "verisk-com",
     "tagline": "Data analytics and risk assessment technology for global insurance markets.",
     "description": "Verisk is a leading GCC operating in Financial District, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/verisk.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.verisk.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "GCC",
@@ -9545,7 +9815,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM4OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ust-com",
@@ -9553,7 +9824,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ust-com",
     "tagline": "Digital transformation solutions provider empowering global enterprises.",
     "description": "UST is a leading Enterprise operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ust.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.ust.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -9589,7 +9860,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkyYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5VPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "fujitsu-com",
@@ -9597,7 +9869,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "fujitsu-com",
     "tagline": "Global information technology and communications equipment manufacturer.",
     "description": "Fujitsu is a leading GCC operating in Gachibowli, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/fujitsu.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.fujitsu.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "GCC",
@@ -9633,7 +9905,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FkYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "synchrony-com",
@@ -9641,7 +9914,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "synchrony-com",
     "tagline": "Premier consumer financial services company powering digital payments.",
     "description": "Synchrony is a leading GCC operating in HITEC City, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/synchrony.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.synchrony.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "GCC",
@@ -9689,7 +9962,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "₹25L - ₹40L",
+        "salaryRange": "\u0393\u00e9\u256325L - \u0393\u00e9\u256340L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9703,7 +9976,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "₹30L - ₹50L",
+        "salaryRange": "\u0393\u00e9\u256330L - \u0393\u00e9\u256350L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9717,7 +9990,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Mid-Level",
-        "salaryRange": "₹12L - ₹18L",
+        "salaryRange": "\u0393\u00e9\u256312L - \u0393\u00e9\u256318L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9731,7 +10004,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "₹18L - ₹28L",
+        "salaryRange": "\u0393\u00e9\u256318L - \u0393\u00e9\u256328L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9745,7 +10018,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Lead / Executive",
-        "salaryRange": "₹40L - ₹65L",
+        "salaryRange": "\u0393\u00e9\u256340L - \u0393\u00e9\u256365L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9759,7 +10032,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "₹28L - ₹45L",
+        "salaryRange": "\u0393\u00e9\u256328L - \u0393\u00e9\u256345L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9773,7 +10046,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Telangana, India",
         "type": "Full-time",
         "experienceLevel": "Lead / Executive",
-        "salaryRange": "₹35L - ₹55L",
+        "salaryRange": "\u0393\u00e9\u256335L - \u0393\u00e9\u256355L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9787,7 +10060,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "₹25L - ₹40L",
+        "salaryRange": "\u0393\u00e9\u256325L - \u0393\u00e9\u256340L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       },
@@ -9801,7 +10074,7 @@ export const INITIAL_STARTUPS: Startup[] = [
         "location": "Hyderabad, India",
         "type": "Full-time",
         "experienceLevel": "Senior",
-        "salaryRange": "₹24L - ₹38L",
+        "salaryRange": "\u0393\u00e9\u256324L - \u0393\u00e9\u256338L",
         "applyUrl": "https://www.synchronycareers.com/search-jobs/Hyderabad%2C%20Telangana/49398/4/1269750-1254788-1269844-1269843/17x38405/78x45636/100/2",
         "postedAt": "2026-08-26"
       }
@@ -9818,7 +10091,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE4MyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pwc-in",
@@ -9826,7 +10100,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pwc-in",
     "tagline": "Leading professional services firm providing consulting and advisory.",
     "description": "PwC is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pwc.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.pwc.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -9862,7 +10136,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "buzzworks-com",
@@ -9870,7 +10145,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "buzzworks-com",
     "tagline": "Flexible workspace and modern co-working infrastructure provider.",
     "description": "Buzzworks is a leading Scale-up operating in Madhapur, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/buzzworks.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://buzzworks.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Scale-up",
@@ -9906,7 +10181,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNTViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "itcinfotech-com",
@@ -9914,7 +10190,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "itcinfotech-com",
     "tagline": "Specialized global technology solutions provider.",
     "description": "ITC Infotech is a leading Enterprise operating in Begumpet, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/itcinfotech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.itcinfotech.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -9950,7 +10226,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "smartworksoffice-com",
@@ -9958,7 +10235,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "smartworksoffice-com",
     "tagline": "India's largest provider of tech-enabled managed workspaces for enterprises.",
     "description": "Smartworks is a leading Scale-up operating in Financial District, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/smartworksoffice.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.smartworksoffice.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Scale-up",
@@ -9994,7 +10271,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkyMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cyient-com",
@@ -10002,7 +10280,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cyient-com",
     "tagline": "Global engineering, manufacturing, geospatial, and digital technology company.",
     "description": "Cyient is a leading Enterprise operating in Gachibowli, Hyderabad, specializing in DeepTech & Aerospace.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cyient.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.cyient.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Enterprise",
@@ -10038,7 +10316,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYTkzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "atos-net",
@@ -10046,7 +10325,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "atos-net",
     "tagline": "Global leader in digital transformation, cybersecurity, and cloud computing.",
     "description": "Atos is a leading Enterprise operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/atos.net?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.atos.net",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -10082,7 +10361,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "artech-com",
@@ -10090,7 +10370,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "artech-com",
     "tagline": "Largest women-owned IT staffing and technology workforce solutions firm.",
     "description": "Artech is a leading Enterprise operating in Begumpet, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/artech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.artech.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -10126,7 +10406,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "alvarezandmarsal-com",
@@ -10134,7 +10415,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "alvarezandmarsal-com",
     "tagline": "Global professional services firm known for turnaround management and consulting.",
     "description": "Alvarez & Marsal is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/alvarezandmarsal.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.alvarezandmarsal.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -10170,7 +10451,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2E5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "colliers-com",
@@ -10178,7 +10460,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "colliers-com",
     "tagline": "Leading diversified professional services and investment management company.",
     "description": "Colliers is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/colliers.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.colliers.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -10214,7 +10496,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM5MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "concentrix-com",
@@ -10222,7 +10505,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "concentrix-com",
     "tagline": "Global customer experience technology and services leader.",
     "description": "Concentrix is a leading Enterprise operating in Kondapur, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/concentrix.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.concentrix.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -10258,7 +10541,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzOSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bain-com",
@@ -10266,7 +10550,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bain-com",
     "tagline": "Top-tier global management consulting firm advising industry leaders.",
     "description": "Bain & Company is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bain.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.bain.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "GCC",
@@ -10302,7 +10586,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNGFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bcg-com",
@@ -10310,7 +10595,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bcg-com",
     "tagline": "Global management consulting firm partnering with leaders in business and society.",
     "description": "Boston Consulting Group is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bcg.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.bcg.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "GCC",
@@ -10346,7 +10631,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "dxc-com",
@@ -10354,7 +10640,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "dxc-com",
     "tagline": "Global IT services leader running mission-critical systems for enterprise clients.",
     "description": "DXC Technology is a leading Enterprise operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/dxc.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.dxc.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -10390,7 +10676,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "evalueserve-com",
@@ -10398,7 +10685,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "evalueserve-com",
     "tagline": "Global analytics and AI-powered product provider transforming business decision-making.",
     "description": "Evalueserve is a leading Enterprise operating in HITEC City, Hyderabad, specializing in AI & Machine Learning.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/evalueserve.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.evalueserve.com",
     "industry": "AI & Machine Learning",
     "subCategory": "Enterprise",
@@ -10434,7 +10721,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc2MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "accenture-com",
@@ -10442,7 +10730,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "accenture-com",
     "tagline": "Global professional services company with leading capabilities in digital, cloud, and security.",
     "description": "Accenture is a leading Enterprise operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/accenture.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.accenture.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -10478,7 +10766,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdiYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "larsentoubro",
@@ -10486,7 +10775,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "larsentoubro",
     "tagline": "Indian multinational technology, engineering, construction, and manufacturing conglomerate.",
     "description": "Larsen & Toubro is a leading Enterprise operating in Madhapur, Hyderabad, specializing in DeepTech & Aerospace.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/larsentoubro.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.larsentoubro.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Enterprise",
@@ -10522,51 +10811,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
-  },
-  {
-    "id": "ctrls-in",
-    "name": "CtrlS Datacenters",
-    "slug": "ctrls-in",
-    "tagline": "Asia's largest Rated-4 hyperscale datacenter provider.",
-    "description": "CtrlS Datacenters is a leading Enterprise operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
-    "website": "https://www.ctrls.in",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Enterprise",
-    "stage": "Established / Public",
-    "fundingStage": "Private Equity",
-    "totalFunding": "Established",
-    "totalFundingAmountUsd": 0,
-    "foundingYear": 2010,
-    "teamSize": "1,000+ employees",
-    "location": {
-      "area": "HITEC City",
-      "address": "CtrlS Building, HITEC City, Hyderabad",
-      "lat": 17.4504,
-      "lng": 78.3808
-    },
-    "founders": [],
-    "hiring": true,
-    "hiringRoles": [
-      "Engineering Lead",
-      "Product Manager",
-      "Data Scientist"
-    ],
-    "jobOpenings": [],
-    "tags": [
-      "SaaS & Enterprise",
-      "HITEC City",
-      "Enterprise",
-      "Hiring"
-    ],
-    "socialLinks": {
-      "linkedin": "https://www.linkedin.com/company/ctrls-datacenters"
-    },
-    "featured": true,
-    "verified": true,
-    "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "novartis-com",
@@ -10574,7 +10820,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "novartis-com",
     "tagline": "Global healthcare company harnessing science and technology to improve lives.",
     "description": "Novartis is a leading GCC operating in Genome Valley / Uppal, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/novartis.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.novartis.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -10610,7 +10856,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxODEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cloudninehospitals-com",
@@ -10618,7 +10865,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cloudninehospitals-com",
     "tagline": "India's leading maternity, childcare, and fertility hospital network.",
     "description": "Cloudnine Hospital is a leading Enterprise operating in Jubilee Hills, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cloudninehospitals.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.cloudninehospitals.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "Enterprise",
@@ -10654,7 +10901,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ltfs-com",
@@ -10662,7 +10910,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ltfs-com",
     "tagline": "Leading non-banking financial company offering retail financial products.",
     "description": "L&T Finance is a leading Enterprise operating in Begumpet, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ltfs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.ltfs.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "Enterprise",
@@ -10698,7 +10946,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNzAzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cotiviti-com",
@@ -10706,7 +10955,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cotiviti-com",
     "tagline": "Healthcare analytics solutions helping payers improve clinical and financial outcomes.",
     "description": "Cotiviti is a leading GCC operating in Financial District, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cotiviti.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.cotiviti.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -10742,7 +10991,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zelis-com",
@@ -10750,7 +11000,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zelis-com",
     "tagline": "Healthcare financial technology company modernizing the healthcare payor ecosystem.",
     "description": "Zelis is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zelis.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.zelis.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -10786,7 +11036,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE4MSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "solenis-com",
@@ -10794,7 +11045,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "solenis-com",
     "tagline": "Leading global producer of specialty chemicals for water-intensive industries.",
     "description": "Solenis is a leading GCC operating in Gachibowli, Hyderabad, specializing in CleanTech & Energy.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/solenis.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.solenis.com",
     "industry": "CleanTech & Energy",
     "subCategory": "GCC",
@@ -10830,7 +11081,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNWIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "dazn-com",
@@ -10838,7 +11090,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "dazn-com",
     "tagline": "World's leading sports entertainment streaming platform.",
     "description": "DAZN is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in E-Commerce & Consumer.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/dazn.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://dazn.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "GCC",
@@ -10874,7 +11126,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNGEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "thomsonreuters-com",
@@ -10882,7 +11135,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "thomsonreuters-com",
     "tagline": "Global provider of business information services for legal, tax, and accounting.",
     "description": "Thomson Reuters is a leading GCC operating in Financial District, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/thomsonreuters.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.thomsonreuters.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "GCC",
@@ -10918,7 +11171,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNjgzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "progress-com",
@@ -10926,7 +11180,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "progress-com",
     "tagline": "Infrastructure software enabling organizations to develop, deploy, and manage applications.",
     "description": "Progress Software is a leading GCC operating in HITEC City, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/progress.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.progress.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "GCC",
@@ -10962,7 +11216,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "thermofisher-com",
@@ -10970,7 +11225,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "thermofisher-com",
     "tagline": "World leader in serving science through life sciences research and diagnostics.",
     "description": "Thermo Fisher Scientific is a leading GCC operating in Genome Valley / Uppal, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/thermofisher.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.thermofisher.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -11006,7 +11261,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNzRiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rsmus-com",
@@ -11014,7 +11270,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rsmus-com",
     "tagline": "Leading provider of audit, tax, and consulting services focused on middle-market businesses.",
     "description": "RSM US is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rsmus.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://rsmus.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "GCC",
@@ -11050,7 +11306,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzODNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "experian-in",
@@ -11058,7 +11315,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "experian-in",
     "tagline": "Global information services leader providing credit reporting and data analytics.",
     "description": "Experian is a leading GCC operating in HITEC City, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/experian.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.experian.in",
     "industry": "FinTech & InsurTech",
     "subCategory": "GCC",
@@ -11094,7 +11351,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "lilly-com",
@@ -11102,7 +11360,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "lilly-com",
     "tagline": "Global pharmaceutical leader discovering life-changing medicines.",
     "description": "Eli Lilly is a leading GCC operating in Genome Valley / Uppal, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/lilly.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.lilly.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -11138,51 +11396,43 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
-    "id": "paltech-com",
-    "name": "Paltech",
-    "slug": "paltech-com",
-    "tagline": "Digital engineering and enterprise solution partner.",
-    "description": "Paltech is a leading Scale-up operating in Madhapur, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "id": "paltech",
+    "name": "PalTech",
+    "slug": "paltech",
+    "tagline": "Technology company based in Hyderabad, Telangana.",
+    "description": "PalTech is a Technology company headquartered in Hyderabad, Telangana, India.",
+    "logoUrl": "https://img.logo.dev/paltech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://paltech.com",
     "industry": "SaaS & Enterprise",
-    "subCategory": "Scale-up",
+    "subCategory": "Technology",
     "stage": "Growth / Scaling",
-    "fundingStage": "Series B",
-    "totalFunding": "Growth",
-    "totalFundingAmountUsd": 0,
-    "foundingYear": 2010,
-    "teamSize": "200+ employees",
+    "fundingStage": "Bootstrapped",
+    "totalFunding": "Bootstrapped",
+    "foundingYear": 2018,
+    "teamSize": "Team",
     "location": {
-      "area": "Madhapur",
-      "address": "Madhapur, HITEC City, Hyderabad",
-      "lat": 17.4483,
-      "lng": 78.3915
+      "area": "HITEC City",
+      "address": "HITEC City, Hyderabad, Telangana 500081",
+      "lat": 17.4442,
+      "lng": 78.3814
     },
     "founders": [],
     "hiring": true,
-    "hiringRoles": [
-      "Engineering Lead",
-      "Product Manager",
-      "Data Scientist"
-    ],
-    "jobOpenings": [],
     "tags": [
-      "SaaS & Enterprise",
-      "Madhapur",
-      "Scale-up",
+      "Technology",
+      "HITEC City",
       "Hiring"
     ],
-    "socialLinks": {
-      "linkedin": "https://www.linkedin.com/company/paltech"
-    },
     "featured": false,
     "verified": true,
-    "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "createdAt": "2026-08-27",
+    "updatedAt": "2026-08-27",
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNmUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sharechat-com",
@@ -11190,7 +11440,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sharechat-com",
     "tagline": "India's leading vernacular social media platform and Moj short-video app.",
     "description": "ShareChat is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in E-Commerce & Consumer.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sharechat.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://sharechat.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Enterprise",
@@ -11226,7 +11476,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTdiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "juspay-in",
@@ -11234,7 +11485,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "juspay-in",
     "tagline": "Pioneering mobile payments infrastructure powering top Indian apps.",
     "description": "Juspay is a leading Scale-up operating in Gachibowli, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/juspay.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://juspay.in",
     "industry": "FinTech & InsurTech",
     "subCategory": "Scale-up",
@@ -11270,7 +11521,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNmViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5KPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "razorpay-com",
@@ -11278,7 +11530,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "razorpay-com",
     "tagline": "Full-stack financial services platform powering online payment acceptance for businesses.",
     "description": "Razorpay is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/razorpay.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://razorpay.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "Enterprise",
@@ -11314,7 +11566,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FkMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "scryanalytics",
@@ -11322,7 +11575,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "scryanalytics",
     "tagline": "Enterprise AI products platform for predictive analytics and workflow automation.",
     "description": "Scry Analytics is a leading Startup operating in HITEC City, Hyderabad, specializing in AI & Machine Learning.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/scryanalytics.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://scryanalytics.ai",
     "industry": "AI & Machine Learning",
     "subCategory": "Startup",
@@ -11358,7 +11611,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg5MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "truveta-com",
@@ -11366,7 +11620,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "truveta-com",
     "tagline": "EHR healthcare data analytics platform saving lives with data.",
     "description": "Truveta is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/truveta.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.truveta.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -11402,7 +11656,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOWNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "udaan-com",
@@ -11410,7 +11665,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "udaan-com",
     "tagline": "India's largest B2B e-commerce platform connecting small businesses.",
     "description": "Udaan is a leading Enterprise operating in Madhapur, Hyderabad, specializing in E-Commerce & Consumer.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/udaan.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://udaan.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Enterprise",
@@ -11446,7 +11701,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZjYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5VPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "getvymo-com",
@@ -11454,7 +11710,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "getvymo-com",
     "tagline": "Intelligent sales engagement platform for financial institutions.",
     "description": "Vymo is a leading Scale-up operating in Gachibowli, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/getvymo.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://getvymo.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Scale-up",
@@ -11490,7 +11746,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNDYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "xpressbees-com",
@@ -11498,7 +11755,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "xpressbees-com",
     "tagline": "Leading end-to-end e-commerce logistics service provider in India.",
     "description": "XpressBees is a leading Enterprise operating in Begumpet, Hyderabad, specializing in Logistics & Supply Chain.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/xpressbees.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.xpressbees.com",
     "industry": "Logistics & Supply Chain",
     "subCategory": "Enterprise",
@@ -11534,7 +11791,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOGUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5YPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "yulu-bike",
@@ -11542,7 +11800,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "yulu-bike",
     "tagline": "Electric micro-mobility and EV charging infrastructure pioneer.",
     "description": "Yulu is a leading Scale-up operating in Knowledge City / T-Hub, Hyderabad, specializing in CleanTech & EV.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/yulu.bike?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.yulu.bike",
     "industry": "CleanTech & EV",
     "subCategory": "Scale-up",
@@ -11578,7 +11836,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5ZPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "zolostays",
@@ -11586,7 +11845,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "zolostays",
     "tagline": "India's largest co-living brand providing fully managed housing.",
     "description": "ZoloStays is a leading Scale-up operating in Kondapur, Hyderabad, specializing in E-Commerce & Consumer.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/zolostays.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://zolostays.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Scale-up",
@@ -11622,7 +11881,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5aPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nanoheal-com",
@@ -11630,7 +11890,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nanoheal-com",
     "tagline": "Predictive device management and autonomous workspace self-healing platform.",
     "description": "NanoHeal is a leading Scale-up operating in Madhapur, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nanoheal.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.nanoheal.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Scale-up",
@@ -11666,7 +11926,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNmViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "agribazaar-com",
@@ -11674,7 +11935,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "agribazaar-com",
     "tagline": "India's leading agritech marketplace connecting farmers and buyers.",
     "description": "AgriBazaar is a leading Scale-up operating in Gachibowli, Hyderabad, specializing in AgriTech & FoodTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/agribazaar.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.agribazaar.com",
     "industry": "AgriTech & FoodTech",
     "subCategory": "Scale-up",
@@ -11710,7 +11971,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOThiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bitkraft-co",
@@ -11718,7 +11980,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bitkraft-co",
     "tagline": "Software product development and cloud solution provider.",
     "description": "Bitkraft Technologies is a leading Startup operating in Madhapur, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bitkraft.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.bitkraft.co",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup",
@@ -11754,7 +12016,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "druva-com",
@@ -11762,7 +12025,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "druva-com",
     "tagline": "SaaS cloud data protection and data resiliency platform unicorn.",
     "description": "Druva is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/druva.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.druva.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -11798,7 +12061,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzNSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ecomexpress-in",
@@ -11806,7 +12070,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ecomexpress-in",
     "tagline": "Technology-enabled e-commerce logistics and fulfillment services.",
     "description": "Ecom Express is a leading Enterprise operating in Begumpet, Hyderabad, specializing in Logistics & Supply Chain.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ecomexpress.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ecomexpress.in",
     "industry": "Logistics & Supply Chain",
     "subCategory": "Enterprise",
@@ -11842,7 +12106,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mfine-co",
@@ -11850,7 +12115,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mfine-co",
     "tagline": "AI-powered digital health platform providing instant doctor consultations.",
     "description": "mfine is a leading Scale-up operating in Gachibowli, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mfine.co?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.mfine.co",
     "industry": "HealthTech & BioTech",
     "subCategory": "Scale-up",
@@ -11886,7 +12151,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "go-yubi-com",
@@ -11894,7 +12160,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "go-yubi-com",
     "tagline": "Enterprise debt marketplace technology unifying corporate lending.",
     "description": "Yubi is a leading Enterprise operating in Financial District, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/go-yubi.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.go-yubi.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "Enterprise",
@@ -11930,7 +12196,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNGMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5ZPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "crayondata-com",
@@ -11938,7 +12205,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "crayondata-com",
     "tagline": "AI-driven personalization engine maya.ai empowering banks and merchants.",
     "description": "Crayon Data is a leading Scale-up operating in Knowledge City / T-Hub, Hyderabad, specializing in AI & Machine Learning.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/crayondata.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.crayondata.com",
     "industry": "AI & Machine Learning",
     "subCategory": "Scale-up",
@@ -11974,7 +12241,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzgxMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rebelfoods",
@@ -11982,7 +12250,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rebelfoods",
     "tagline": "World's largest internet restaurant company operating Faasos, Behrouz, and Ovenstory.",
     "description": "Rebel Foods is a leading Enterprise operating in Jubilee Hills, Hyderabad, specializing in FoodTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rebelfoods.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://rebelfoods.com",
     "industry": "FoodTech",
     "subCategory": "Enterprise",
@@ -12018,7 +12286,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYTEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pristyncare-com",
@@ -12026,7 +12295,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pristyncare-com",
     "tagline": "Healthcare unicorn offering elective surgery and advanced medical care.",
     "description": "Pristyn Care is a leading Enterprise operating in Madhapur, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pristyncare.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.pristyncare.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "Enterprise",
@@ -12062,7 +12331,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "qikru-com",
@@ -12070,7 +12340,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "qikru-com",
     "tagline": "Next-gen workflow and business execution platform.",
     "description": "Qikru is a leading Startup operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/qikru.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://qikru.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup",
@@ -12106,7 +12376,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5RPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "retaildaddy-com",
@@ -12114,7 +12385,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "retaildaddy-com",
     "tagline": "Retail management POS and inventory software for Indian merchants.",
     "description": "RetailDaddy is a leading Startup operating in Madhapur, Hyderabad, specializing in E-Commerce & Consumer.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/retaildaddy.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://retaildaddy.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Startup",
@@ -12150,7 +12421,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYWZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "talentrecruit-com",
@@ -12158,7 +12430,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "talentrecruit-com",
     "tagline": "AI-powered recruitment management and applicant tracking software.",
     "description": "TalentRecruit is a leading Scale-up operating in Kondapur, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/talentrecruit.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.talentrecruit.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "Scale-up",
@@ -12194,7 +12466,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzgxMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "uniphore-com",
@@ -12202,7 +12475,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "uniphore-com",
     "tagline": "Conversational AI and enterprise automation platform unicorn.",
     "description": "Uniphore is a leading Enterprise operating in Knowledge City / T-Hub, Hyderabad, specializing in AI & Machine Learning.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/uniphore.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.uniphore.com",
     "industry": "AI & Machine Learning",
     "subCategory": "Enterprise",
@@ -12238,7 +12511,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxODEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5VPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "otis-com",
@@ -12246,7 +12520,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "otis-com",
     "tagline": "World's leading elevator and escalator manufacturing and service company.",
     "description": "OTIS is a leading GCC operating in HITEC City, Hyderabad, specializing in DeepTech & Aerospace.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/otis.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.otis.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "GCC",
@@ -12282,7 +12556,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "amd-com",
@@ -12290,7 +12565,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "amd-com",
     "tagline": "Global high-performance computing, graphics, and semiconductor leader.",
     "description": "AMD is a leading GCC operating in HITEC City, Hyderabad, specializing in DeepTech & Aerospace.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/amd.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.amd.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "GCC",
@@ -12326,7 +12601,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzlhMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "lloydsbankinggroup-com",
@@ -12334,7 +12610,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "lloydsbankinggroup-com",
     "tagline": "Tech and data innovation hub for Lloyds Banking Group in Hyderabad.",
     "description": "Lloyds Technology Centre is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/lloydsbankinggroup.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.lloydsbankinggroup.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "GCC",
@@ -12370,7 +12646,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNlYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "silabs-com",
@@ -12378,7 +12655,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "silabs-com",
     "tagline": "Leader in secure, intelligent wireless technology for a more connected world.",
     "description": "Silicon Labs is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in DeepTech & Aerospace.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/silabs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.silabs.com",
     "industry": "DeepTech & Aerospace",
     "subCategory": "GCC",
@@ -12414,7 +12691,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdmYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mathworks-com",
@@ -12422,7 +12700,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mathworks-com",
     "tagline": "Leading developer of mathematical computing software including MATLAB and Simulink.",
     "description": "MathWorks is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mathworks.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.mathworks.com",
     "industry": "SaaS & Enterprise",
     "subCategory": "GCC",
@@ -12458,7 +12736,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNzRiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "blueyonder-com",
@@ -12466,7 +12745,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "blueyonder-com",
     "tagline": "World leader in digital supply chain and omni-channel commerce fulfillment.",
     "description": "Blue Yonder is a leading GCC operating in HITEC City, Hyderabad, specializing in Logistics & Supply Chain.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/blueyonder.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://blueyonder.com",
     "industry": "Logistics & Supply Chain",
     "subCategory": "GCC",
@@ -12502,7 +12781,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "chubb-com",
@@ -12510,7 +12790,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "chubb-com",
     "tagline": "World's largest publicly traded property and casualty insurance company.",
     "description": "Chubb is a leading GCC operating in Financial District, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/chubb.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.chubb.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "GCC",
@@ -12546,7 +12826,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNmNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tjx-com",
@@ -12554,7 +12835,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tjx-com",
     "tagline": "Leading off-price apparel and home fashions retailer worldwide.",
     "description": "TJX Companies is a leading GCC operating in Financial District, Hyderabad, specializing in E-Commerce & Consumer.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tjx.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.tjx.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "GCC",
@@ -12590,7 +12871,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRhMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "trimont-com",
@@ -12598,7 +12880,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "trimont-com",
     "tagline": "Global commercial real estate financial services and technology provider.",
     "description": "Trimont is a leading GCC operating in Knowledge City / T-Hub, Hyderabad, specializing in FinTech & InsurTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/trimont.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.trimont.com",
     "industry": "FinTech & InsurTech",
     "subCategory": "GCC",
@@ -12634,7 +12916,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxM2UzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "modmed-com",
@@ -12642,7 +12925,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "modmed-com",
     "tagline": "Specialty-specific EHR software and healthcare technology provider.",
     "description": "ModMed is a leading GCC operating in HITEC City, Hyderabad, specializing in HealthTech & BioTech.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/modmed.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.modmed.com",
     "industry": "HealthTech & BioTech",
     "subCategory": "GCC",
@@ -12678,7 +12961,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "isprout-in",
@@ -12686,7 +12970,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "isprout-in",
     "tagline": "Premium co-working and enterprise managed office space provider.",
     "description": "iSprout is a leading Scale-up operating in Kondapur, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/isprout.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://isprout.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Scale-up",
@@ -12722,7 +13006,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": false,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzcyYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mobis-co-kr",
@@ -12730,7 +13015,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mobis-co-kr",
     "tagline": "Global automotive supplier and EV technology R&D center.",
     "description": "Hyundai Mobis is a leading GCC operating in Financial District, Hyderabad, specializing in CleanTech & EV.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mobis.co.kr?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.mobis.co.kr",
     "industry": "CleanTech & EV",
     "subCategory": "GCC",
@@ -12766,7 +13051,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOGIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vensar-in",
@@ -12774,7 +13060,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vensar-in",
     "tagline": "Leading infrastructure development and civil construction firm.",
     "description": "Vensar Constructions is a leading Enterprise operating in Begumpet, Hyderabad, specializing in SaaS & Enterprise.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vensar.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vensar.in",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise",
@@ -12810,7 +13096,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "featured": true,
     "verified": true,
     "createdAt": "2026-08-26",
-    "updatedAt": "2026-08-26"
+    "updatedAt": "2026-08-26",
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM4MyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "fresher-jobs",
@@ -12818,7 +13105,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "fresher-jobs",
     "tagline": "Technology / Jobs company based in Hyderabad, Telangana.",
     "description": "Fresher Jobs is a Technology / Jobs company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/way2fresher.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://way2fresher.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology / Jobs",
@@ -12844,7 +13131,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNTdiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "payswiff",
@@ -12852,7 +13140,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "payswiff",
     "tagline": "FinTech company based in Hyderabad, Telangana.",
     "description": "Payswiff is a FinTech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/payswiff.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.payswiff.com/",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech",
@@ -12878,7 +13166,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkwMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bytexl",
@@ -12886,7 +13175,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bytexl",
     "tagline": "Learning / EdTech company based in Hyderabad, Telangana.",
     "description": "byteXL is a Learning / EdTech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bytexl.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bytexl.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Learning / EdTech",
@@ -12912,7 +13201,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2E1MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mysmartpricecom",
@@ -12920,7 +13210,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mysmartpricecom",
     "tagline": "Consumer Tech company based in Hyderabad, Telangana.",
     "description": "MySmartPrice.com is a Consumer Tech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mysmartprice.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.mysmartprice.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer Tech",
@@ -12946,7 +13236,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mtuity-a-paradigm-company",
@@ -12954,7 +13245,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mtuity-a-paradigm-company",
     "tagline": "Technology Services company based in Hyderabad, Telangana.",
     "description": "Mtuity - A Paradigm Company is a Technology Services company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/quantela.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://quantela.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology Services",
@@ -12980,7 +13271,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOGUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "conneqt-business-solutions-limited",
@@ -12988,7 +13280,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "conneqt-business-solutions-limited",
     "tagline": "Analytics / Services company based in Hyderabad, Telangana.",
     "description": "Conneqt Business Solutions Limited is a Analytics / Services company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/conneqtcorp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://conneqtcorp.com/",
     "industry": "FinTech & InsurTech",
     "subCategory": "Analytics / Services",
@@ -13014,7 +13306,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzcyYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "power-mech-projects-limited",
@@ -13022,7 +13315,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "power-mech-projects-limited",
     "tagline": "Construction company based in Hyderabad, Telangana.",
     "description": "Power Mech Projects Limited is a Construction company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/powermechprojects.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://powermechprojects.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Construction",
@@ -13048,7 +13341,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYWJiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gati-ltd",
@@ -13056,7 +13350,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gati-ltd",
     "tagline": "Logistics company based in Hyderabad, Telangana.",
     "description": "Gati Ltd is a Logistics company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/gati.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.gati.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Logistics",
@@ -13082,7 +13376,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzU3YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "valuelabs",
@@ -13090,7 +13385,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "valuelabs",
     "tagline": "Technology / Analytics company based in Hyderabad, Telangana.",
     "description": "ValueLabs is a Technology / Analytics company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/valuelabs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.valuelabs.com/",
     "industry": "FinTech & InsurTech",
     "subCategory": "Technology / Analytics",
@@ -13116,7 +13411,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdmYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "constelli",
@@ -13124,7 +13420,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "constelli",
     "tagline": "Defense / Space company based in Hyderabad, Telangana.",
     "description": "CONSTELLI is a Defense / Space company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/constelli.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://constelli.com/",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Defense / Space",
@@ -13150,7 +13446,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "medplus-health-services-limited",
@@ -13158,7 +13455,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "medplus-health-services-limited",
     "tagline": "Healthcare / Retail company based in Hyderabad, Telangana.",
     "description": "MedPlus Health Services Limited is a Healthcare / Retail company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/medplusindia.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.medplusindia.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Healthcare / Retail",
@@ -13184,7 +13481,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzgxYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ramky-enviro-engineers-limited",
@@ -13192,7 +13490,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ramky-enviro-engineers-limited",
     "tagline": "Environmental company based in Hyderabad, Telangana.",
     "description": "Ramky Enviro Engineers Limited is a Environmental company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ramkyenviroengineers.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ramkyenviroengineers.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Environmental",
@@ -13218,7 +13516,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gvk",
@@ -13226,7 +13525,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gvk",
     "tagline": "Energy / Infrastructure company based in Hyderabad, Telangana.",
     "description": "GVK is a Energy / Infrastructure company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/gvk.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://gvk.com/",
     "industry": "CleanTech & EV",
     "subCategory": "Energy / Infrastructure",
@@ -13252,7 +13551,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzkzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "laurus-labs",
@@ -13260,7 +13560,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "laurus-labs",
     "tagline": "Pharma company based in Hyderabad, Telangana.",
     "description": "Laurus Labs is a Pharma company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/lauruslabs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.lauruslabs.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Pharma",
@@ -13286,7 +13586,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYTMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "soma",
@@ -13294,7 +13595,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "soma",
     "tagline": "Construction company based in Hyderabad, Telangana.",
     "description": "SOMA is a Construction company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/soma.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://soma.co.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Construction",
@@ -13320,7 +13621,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZhMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ramky-group",
@@ -13328,7 +13630,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ramky-group",
     "tagline": "Construction company based in Hyderabad, Telangana.",
     "description": "Ramky Group is a Construction company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ramky.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ramky.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Construction",
@@ -13354,7 +13656,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aig-hospitals",
@@ -13362,7 +13665,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aig-hospitals",
     "tagline": "Healthcare company based in Hyderabad, Telangana.",
     "description": "AIG Hospitals is a Healthcare company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/aighospitals.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://aighospitals.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Healthcare",
@@ -13388,7 +13691,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOTIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "next-education",
@@ -13396,7 +13700,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "next-education",
     "tagline": "EdTech company based in Hyderabad, Telangana.",
     "description": "Next Education is a EdTech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nexteducation.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.nexteducation.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "EdTech",
@@ -13422,7 +13726,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM1OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "i-pac",
@@ -13430,7 +13735,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "i-pac",
     "tagline": "Services company based in Hyderabad, Telangana.",
     "description": "I-PAC is a Services company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/indianpac.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://indianpac.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Services",
@@ -13456,7 +13761,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mediamint",
@@ -13464,7 +13770,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mediamint",
     "tagline": "Marketing / Services company based in Hyderabad, Telangana.",
     "description": "MediaMint is a Marketing / Services company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mediamint.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://mediamint.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Marketing / Services",
@@ -13490,7 +13796,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ0YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "davita-nephrolife",
@@ -13498,7 +13805,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "davita-nephrolife",
     "tagline": "Healthcare company based in Hyderabad, Telangana.",
     "description": "DaVita Nephrolife is a Healthcare company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nephrolife.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://nephrolife.in/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Healthcare",
@@ -13524,7 +13831,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "jarsh-safety",
@@ -13532,7 +13840,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "jarsh-safety",
     "tagline": "Safety Tech company based in Hyderabad, Telangana.",
     "description": "Jarsh Safety is a Safety Tech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/jarshsafety.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://jarshsafety.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Safety Tech",
@@ -13558,7 +13866,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNzliMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5KPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "keolis-hyderabad-mass-rapid-transit-system",
@@ -13566,7 +13875,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "keolis-hyderabad-mass-rapid-transit-system",
     "tagline": "Transportation company based in Hyderabad, Telangana.",
     "description": "Keolis Hyderabad Mass Rapid Transit System is a Transportation company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/keolishyderabad.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://keolishyderabad.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Transportation",
@@ -13592,7 +13901,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM1OSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "medicover-hospitals",
@@ -13600,7 +13910,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "medicover-hospitals",
     "tagline": "Healthcare company based in Hyderabad, Telangana.",
     "description": "Medicover Hospitals is a Healthcare company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/medicoverhospitals.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.medicoverhospitals.in/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Healthcare",
@@ -13626,7 +13936,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhOSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "unschool",
@@ -13634,7 +13945,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "unschool",
     "tagline": "EdTech company based in Hyderabad, Telangana.",
     "description": "Unschool is a EdTech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/unschool.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://unschool.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "EdTech",
@@ -13660,7 +13971,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTkzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5VPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "medha-servo-drives-pvt-ltd",
@@ -13668,7 +13980,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "medha-servo-drives-pvt-ltd",
     "tagline": "Rail / Engineering company based in Hyderabad, Telangana.",
     "description": "MEDHA SERVO DRIVES PVT LTD is a Rail / Engineering company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/medha.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://medha.com/",
     "industry": "AI & Machine Learning",
     "subCategory": "Rail / Engineering",
@@ -13694,7 +14006,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "piramal-swasthya",
@@ -13702,7 +14015,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "piramal-swasthya",
     "tagline": "Healthcare company based in Hyderabad, Telangana.",
     "description": "Piramal Swasthya is a Healthcare company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/piramalswasthya.org?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://piramalswasthya.org/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Healthcare",
@@ -13728,7 +14041,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5NCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "brane-enterprises",
@@ -13736,7 +14050,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "brane-enterprises",
     "tagline": "Technology Services company based in Hyderabad, Telangana.",
     "description": "Brane Enterprises is a Technology Services company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nslhub.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://nslhub.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology Services",
@@ -13762,7 +14076,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNmEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "deccan-fine-chemicals",
@@ -13770,7 +14085,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "deccan-fine-chemicals",
     "tagline": "Chemicals company based in Hyderabad, Telangana.",
     "description": "Deccan Fine Chemicals is a Chemicals company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/deccanchemicals.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://deccanchemicals.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Chemicals",
@@ -13796,7 +14111,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pramati-technologies",
@@ -13804,7 +14120,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pramati-technologies",
     "tagline": "Technology company based in Hyderabad, Telangana.",
     "description": "Pramati Technologies is a Technology company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pramati.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://pramati.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology",
@@ -13830,7 +14146,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nmdc-limited",
@@ -13838,7 +14155,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nmdc-limited",
     "tagline": "Mining / Resources company based in Hyderabad, Telangana.",
     "description": "NMDC Limited is a Mining / Resources company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nmdc.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.nmdc.co.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Mining / Resources",
@@ -13864,7 +14181,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzN2RiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rotomaker-studio",
@@ -13872,7 +14190,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rotomaker-studio",
     "tagline": "Entertainment company based in Hyderabad, Telangana.",
     "description": "Rotomaker Studio is a Entertainment company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rotomaker.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://rotomaker.com/",
     "industry": "AI & Machine Learning",
     "subCategory": "Entertainment",
@@ -13898,7 +14216,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1MSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cloud4c-services",
@@ -13906,7 +14225,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cloud4c-services",
     "tagline": "Cloud / SaaS company based in Hyderabad, Telangana.",
     "description": "Cloud4C Services is a Cloud / SaaS company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cloud4c.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://cloud4c.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Cloud / SaaS",
@@ -13932,7 +14251,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzU5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vishwa-samudra-engineering",
@@ -13940,7 +14260,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vishwa-samudra-engineering",
     "tagline": "Engineering / Infrastructure company based in Hyderabad, Telangana.",
     "description": "Vishwa Samudra Engineering is a Engineering / Infrastructure company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vishwasamudra.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vishwasamudra.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Engineering / Infrastructure",
@@ -13966,7 +14286,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzY0MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tanla-platforms",
@@ -13974,7 +14295,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tanla-platforms",
     "tagline": "CPaaS / Telecom company based in Hyderabad, Telangana.",
     "description": "Tanla Platforms is a CPaaS / Telecom company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tanla.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.tanla.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "CPaaS / Telecom",
@@ -14000,7 +14321,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "exploring-infinities",
@@ -14008,7 +14330,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "exploring-infinities",
     "tagline": "Education company based in Hyderabad, Telangana.",
     "description": "Exploring Infinities is a Education company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/expinfi.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://expinfi.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Education",
@@ -14034,7 +14356,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM4YiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "amara-raja-infra",
@@ -14042,7 +14365,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "amara-raja-infra",
     "tagline": "Infrastructure / Energy company based in Hyderabad, Telangana.",
     "description": "Amara Raja Infra is a Infrastructure / Energy company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/amararaja.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.amararaja.com/",
     "industry": "CleanTech & EV",
     "subCategory": "Infrastructure / Energy",
@@ -14068,7 +14391,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk0YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "heritage-foods",
@@ -14076,7 +14400,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "heritage-foods",
     "tagline": "Food / Consumer company based in Hyderabad, Telangana.",
     "description": "Heritage Foods is a Food / Consumer company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/heritagefoods.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.heritagefoods.in/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Food / Consumer",
@@ -14102,7 +14426,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzNhMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "woxsen-university",
@@ -14110,7 +14435,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "woxsen-university",
     "tagline": "Education company based in Hyderabad, Telangana.",
     "description": "Woxsen University is a Education company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/woxsen.edu.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://woxsen.edu.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Education",
@@ -14136,7 +14461,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FmMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tv9",
@@ -14144,7 +14470,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tv9",
     "tagline": "Media company based in Hyderabad, Telangana.",
     "description": "TV9 is a Media company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tv9.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.tv9.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Media",
@@ -14170,7 +14496,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1MSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aaseya-it-services",
@@ -14178,7 +14505,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aaseya-it-services",
     "tagline": "Technology company based in Hyderabad, Telangana.",
     "description": "Aaseya IT Services is a Technology company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/aaseya.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://aaseya.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology",
@@ -14204,7 +14531,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzMzViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "welspun-flooring",
@@ -14212,7 +14540,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "welspun-flooring",
     "tagline": "Materials company based in Hyderabad, Telangana.",
     "description": "Welspun Flooring is a Materials company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/welspun.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.welspun.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Materials",
@@ -14238,7 +14566,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "moschip",
@@ -14246,7 +14575,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "moschip",
     "tagline": "Semiconductors company based in Hyderabad, Telangana.",
     "description": "MosChip is a Semiconductors company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/moschip.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://moschip.com/",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Semiconductors",
@@ -14272,7 +14601,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzY2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pps-motors",
@@ -14280,7 +14610,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pps-motors",
     "tagline": "Automotive company based in Hyderabad, Telangana.",
     "description": "PPS Motors is a Automotive company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ppsmotors.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ppsmotors.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Automotive",
@@ -14306,7 +14636,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOTIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "electronics-corporation-of-india-limited",
@@ -14314,7 +14645,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "electronics-corporation-of-india-limited",
     "tagline": "Electronics company based in Hyderabad, Telangana.",
     "description": "Electronics Corporation of India Limited is a Electronics company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ecil.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.ecil.co.in/",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Electronics",
@@ -14340,7 +14671,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2E1MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aparna-constructions-and-estates",
@@ -14348,7 +14680,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aparna-constructions-and-estates",
     "tagline": "Real Estate company based in Hyderabad, Telangana.",
     "description": "Aparna Constructions and Estates is a Real Estate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/aparnaconstructions.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.aparnaconstructions.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Real Estate",
@@ -14374,7 +14706,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3ZiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "icrisat",
@@ -14382,7 +14715,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "icrisat",
     "tagline": "Research / Agriculture company based in Hyderabad, Telangana.",
     "description": "ICRISAT is a Research / Agriculture company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/icrisat.org?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.icrisat.org/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Research / Agriculture",
@@ -14408,7 +14741,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "talentsprint",
@@ -14416,7 +14750,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "talentsprint",
     "tagline": "EdTech company based in Hyderabad, Telangana.",
     "description": "TalentSprint is a EdTech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/talentsprint.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://talentsprint.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "EdTech",
@@ -14442,7 +14776,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzU5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "jk-agri-genetics",
@@ -14450,7 +14785,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "jk-agri-genetics",
     "tagline": "AgriTech / Biotech company based in Hyderabad, Telangana.",
     "description": "JK Agri Genetics is a AgriTech / Biotech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/jkagri.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://jkagri.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "AgriTech / Biotech",
@@ -14476,7 +14811,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE1NyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5KPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "pharma-wisdom-jobs",
@@ -14484,7 +14820,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "pharma-wisdom-jobs",
     "tagline": "Jobs / Pharma company based in Hyderabad, Telangana.",
     "description": "Pharma Wisdom Jobs is a Jobs / Pharma company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/pharmawisdom.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://pharmawisdom.co.in/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Jobs / Pharma",
@@ -14510,7 +14846,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzlhYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ankura-hospital",
@@ -14518,7 +14855,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ankura-hospital",
     "tagline": "Healthcare company based in Hyderabad, Telangana.",
     "description": "Ankura Hospital is a Healthcare company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ankurahospital.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ankurahospital.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Healthcare",
@@ -14544,7 +14881,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gus-education-india",
@@ -14552,7 +14890,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gus-education-india",
     "tagline": "Education company based in Hyderabad, Telangana.",
     "description": "GUS Education India is a Education company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/guseducationindia.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://guseducationindia.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Education",
@@ -14578,7 +14916,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNlYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "focus-softnet",
@@ -14586,7 +14925,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "focus-softnet",
     "tagline": "Enterprise Software company based in Hyderabad, Telangana.",
     "description": "Focus Softnet is a Enterprise Software company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/focussoftnet.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://focussoftnet.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Enterprise Software",
@@ -14612,7 +14951,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzkwYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "apollo-247",
@@ -14620,7 +14960,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "apollo-247",
     "tagline": "HealthTech company based in Hyderabad, Telangana.",
     "description": "Apollo 24|7 is a HealthTech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/apollo247.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.apollo247.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "HealthTech",
@@ -14646,7 +14986,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "jntuh-college-of-engineering-hyderabad",
@@ -14654,7 +14995,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "jntuh-college-of-engineering-hyderabad",
     "tagline": "Education company based in Hyderabad, Telangana.",
     "description": "JNTUH College of Engineering Hyderabad is a Education company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/jntuhceh.ac.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://jntuhceh.ac.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Education",
@@ -14680,7 +15021,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTkzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5KPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "soctronics",
@@ -14688,7 +15030,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "soctronics",
     "tagline": "Semiconductors company based in Hyderabad, Telangana.",
     "description": "Soctronics is a Semiconductors company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/soctronics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://soctronics.com/",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Semiconductors",
@@ -14714,7 +15056,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FiMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "dukes-india",
@@ -14722,7 +15065,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "dukes-india",
     "tagline": "Food company based in Hyderabad, Telangana.",
     "description": "Dukes India is a Food company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/dukesindia.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://dukesindia.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Food",
@@ -14748,7 +15091,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "jocata",
@@ -14756,7 +15100,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "jocata",
     "tagline": "FinTech / Data company based in Hyderabad, Telangana.",
     "description": "Jocata is a FinTech / Data company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/jocata.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://jocata.com/",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech / Data",
@@ -14782,7 +15126,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5KPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "trigeo-technologies",
@@ -14790,7 +15135,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "trigeo-technologies",
     "tagline": "Technology company based in Hyderabad, Telangana.",
     "description": "TriGeo Technologies is a Technology company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/trigeo.net?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://trigeo.net/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology",
@@ -14816,7 +15161,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "fhpl",
@@ -14824,7 +15170,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "fhpl",
     "tagline": "Insurance / Healthcare company based in Hyderabad, Telangana.",
     "description": "FHPL is a Insurance / Healthcare company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/fhpl.net?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://fhpl.net/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Insurance / Healthcare",
@@ -14850,7 +15196,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE3ZCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "merilytics",
@@ -14858,7 +15205,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "merilytics",
     "tagline": "Analytics company based in Hyderabad, Telangana.",
     "description": "Merilytics is a Analytics company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/merilytics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://merilytics.com/",
     "industry": "FinTech & InsurTech",
     "subCategory": "Analytics",
@@ -14884,7 +15231,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "foundit",
@@ -14892,7 +15240,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "foundit",
     "tagline": "Jobs / HR Tech company based in Hyderabad, Telangana.",
     "description": "foundit is a Jobs / HR Tech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/foundit.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.foundit.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Jobs / HR Tech",
@@ -14918,7 +15266,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdmYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "absolute-barbecues",
@@ -14926,7 +15275,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "absolute-barbecues",
     "tagline": "Food company based in Hyderabad, Telangana.",
     "description": "Absolute Barbecues is a Food company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/absolute-barbecue.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://absolute-barbecue.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Food",
@@ -14952,7 +15301,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNmEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hrh-next-services",
@@ -14960,7 +15310,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hrh-next-services",
     "tagline": "Services company based in Hyderabad, Telangana.",
     "description": "HRH NEXT SERVICES is a Services company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hrhnext.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hrhnext.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Services",
@@ -14986,7 +15336,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2FmMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "innomatics-research-labs",
@@ -14994,7 +15345,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "innomatics-research-labs",
     "tagline": "EdTech / Data company based in Hyderabad, Telangana.",
     "description": "Innomatics Research Labs is a EdTech / Data company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/innomatics.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://innomatics.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "EdTech / Data",
@@ -15020,7 +15371,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdiYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gangavaram-port",
@@ -15028,7 +15380,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gangavaram-port",
     "tagline": "Logistics / Maritime company based in Hyderabad, Telangana.",
     "description": "Gangavaram Port is a Logistics / Maritime company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/gangavaram.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://gangavaram.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Logistics / Maritime",
@@ -15054,7 +15406,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM5YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gmr-aero-technic",
@@ -15062,7 +15415,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gmr-aero-technic",
     "tagline": "Aerospace company based in Hyderabad, Telangana.",
     "description": "GMR Aero Technic is a Aerospace company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/gmraerotech.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://gmraerotech.in/",
     "industry": "DeepTech & Aerospace",
     "subCategory": "Aerospace",
@@ -15088,7 +15441,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzN2JiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "bbg",
@@ -15096,7 +15450,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "bbg",
     "tagline": "Real Estate company based in Hyderabad, Telangana.",
     "description": "BBG is a Real Estate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bbgindia.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bbgindia.com/",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Real Estate",
@@ -15122,7 +15476,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxM2MzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mahindra-university",
@@ -15130,7 +15485,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mahindra-university",
     "tagline": "Education company based in Hyderabad, Telangana.",
     "description": "Mahindra University is a Education company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mahindrauniversity.edu.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.mahindrauniversity.edu.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Education",
@@ -15156,7 +15511,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5MCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "fractal-enterprises",
@@ -15164,7 +15520,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "fractal-enterprises",
     "tagline": "Technology company based in Hyderabad, Telangana.",
     "description": "Fractal Enterprises is a Technology company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/fractalenterprises.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://fractalenterprises.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology",
@@ -15190,7 +15546,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOWFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rain-industries",
@@ -15198,7 +15555,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rain-industries",
     "tagline": "Materials / Chemicals company based in Hyderabad, Telangana.",
     "description": "Rain Industries is a Materials / Chemicals company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rain-industries.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.rain-industries.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Materials / Chemicals",
@@ -15224,7 +15581,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYTEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "telebu-communications",
@@ -15232,7 +15590,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "telebu-communications",
     "tagline": "Telecom company based in Hyderabad, Telangana.",
     "description": "Telebu Communications is a Telecom company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/telebu.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://telebu.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Telecom",
@@ -15258,7 +15616,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3ZiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "codtech-it-solutions",
@@ -15266,7 +15625,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "codtech-it-solutions",
     "tagline": "Technology Services company based in Hyderabad, Telangana.",
     "description": "CODTECH IT SOLUTIONS is a Technology Services company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/codtechitsolutions.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://codtechitsolutions.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Technology Services",
@@ -15292,7 +15651,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNDYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vsoft-technologies",
@@ -15300,7 +15660,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vsoft-technologies",
     "tagline": "FinTech / Software company based in Hyderabad, Telangana.",
     "description": "VSoft Technologies is a FinTech / Software company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vsoft.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vsoft.co.in/",
     "industry": "FinTech & InsurTech",
     "subCategory": "FinTech / Software",
@@ -15326,7 +15686,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOWUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "icmr-national-institute-of-nutrition",
@@ -15334,7 +15695,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "icmr-national-institute-of-nutrition",
     "tagline": "Research / Health company based in Hyderabad, Telangana.",
     "description": "ICMR-National Institute of Nutrition is a Research / Health company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nin.res.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.nin.res.in/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Research / Health",
@@ -15360,7 +15721,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxM2MzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gmr-hyderabad-international-airport",
@@ -15368,7 +15730,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gmr-hyderabad-international-airport",
     "tagline": "Aviation company based in Hyderabad, Telangana.",
     "description": "GMR Hyderabad International Airport is a Aviation company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hyderabad.aero?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.hyderabad.aero/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Aviation",
@@ -15394,7 +15756,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNGUzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vivimed-labs",
@@ -15402,7 +15765,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vivimed-labs",
     "tagline": "Pharma company based in Hyderabad, Telangana.",
     "description": "Vivimed Labs is a Pharma company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vivimedlabs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://vivimedlabs.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Pharma",
@@ -15428,7 +15791,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "celon-labs",
@@ -15436,7 +15800,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "celon-labs",
     "tagline": "Pharma company based in Hyderabad, Telangana.",
     "description": "Celon Labs is a Pharma company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/celonlabs.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://celonlabs.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Pharma",
@@ -15462,7 +15826,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk0YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "biophore-india-pharmaceuticals",
@@ -15470,7 +15835,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "biophore-india-pharmaceuticals",
     "tagline": "Pharma company based in Hyderabad, Telangana.",
     "description": "Biophore India Pharmaceuticals is a Pharma company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/biophore.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://biophore.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Pharma",
@@ -15496,7 +15861,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM0OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5CPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "shriram-bioseed-genetics",
@@ -15504,7 +15870,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "shriram-bioseed-genetics",
     "tagline": "Agri / Biotech company based in Hyderabad, Telangana.",
     "description": "Shriram Bioseed Genetics is a Agri / Biotech company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/bioseed.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://bioseed.com/",
     "industry": "HealthTech & BioTech",
     "subCategory": "Agri / Biotech",
@@ -15530,211 +15896,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "paltech",
-    "name": "PalTech",
-    "slug": "paltech",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "PalTech is a Technology company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
-    "website": "https://pal.tech/",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4442,
-      "lng": 78.3814
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "way2news-b2",
-    "name": "Way2News",
-    "slug": "way2news-b2",
-    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
-    "description": "Way2News is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
-    "website": "https://way2news.co/",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Startup / Company candidate",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.452,
-      "lng": 78.3787
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Startup / Company candidate",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "enmovil-b2",
-    "name": "Enmovil",
-    "slug": "enmovil-b2",
-    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
-    "description": "Enmovil is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
-    "website": "https://enmovil.com/",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Startup / Company candidate",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4453,
-      "lng": 78.3882
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Startup / Company candidate",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "spadeworks-b2",
-    "name": "SpadeWorks",
-    "slug": "spadeworks-b2",
-    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
-    "description": "SpadeWorks is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
-    "website": "https://spadeworks.com/",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Startup / Company candidate",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4519,
-      "lng": 78.3837
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Startup / Company candidate",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "deccan-ai-b2",
-    "name": "Deccan AI",
-    "slug": "deccan-ai-b2",
-    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
-    "description": "Deccan AI is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
-    "website": "https://deccanai.com/",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Startup / Company candidate",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4578,
-      "lng": 78.3801
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Startup / Company candidate",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "hesa-b2",
-    "name": "Hesa",
-    "slug": "hesa-b2",
-    "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
-    "description": "Hesa is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
-    "website": "https://www.hesaglobal.com/",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Startup / Company candidate",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4503,
-      "lng": 78.3829
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Startup / Company candidate",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzcyYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mivi",
@@ -15742,7 +15905,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mivi",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Mivi is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mivi.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.mivi.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -15768,7 +15931,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOWFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "donatekart",
@@ -15776,7 +15940,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "donatekart",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Donatekart is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/donatekart.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.donatekart.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -15802,7 +15966,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNzAzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ozonetel",
@@ -15810,7 +15975,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ozonetel",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Ozonetel is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ozonetel.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ozonetel.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -15836,7 +16001,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOTgzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5PPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "doctorc",
@@ -15844,7 +16010,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "doctorc",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "DoctorC is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/doctorc.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://doctorc.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -15870,7 +16036,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxOGIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "eunimart",
@@ -15878,7 +16045,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "eunimart",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Eunimart is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/eunimart.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.eunimart.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -15904,7 +16071,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nowpurchase",
@@ -15912,7 +16080,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nowpurchase",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "NowPurchase is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nowpurchase.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.nowpurchase.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -15938,7 +16106,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg5MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "grabon",
@@ -15946,7 +16115,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "grabon",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "GrabOn is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/grabon.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.grabon.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -15972,7 +16141,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "fretbox",
@@ -15980,7 +16150,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "fretbox",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "FretBox is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/fretbox.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://fretbox.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16006,7 +16176,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzRhMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "svaya-robotics",
@@ -16014,7 +16185,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "svaya-robotics",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Svaya Robotics is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/svayarobotics.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.svayarobotics.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16040,7 +16211,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNmViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "doosra",
@@ -16048,7 +16220,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "doosra",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Doosra is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/doosra.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://doosra.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16074,7 +16246,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYWZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5EPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hugosave",
@@ -16082,7 +16255,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hugosave",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Hugosave is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hugosave.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hugosave.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16108,7 +16281,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzhiMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tartan",
@@ -16116,7 +16290,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tartan",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Tartan is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tartanapp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.tartanapp.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16142,7 +16316,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hubble",
@@ -16150,7 +16325,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hubble",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Hubble is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hubble.money?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.hubble.money/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16176,7 +16351,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hirexai",
@@ -16184,7 +16360,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hirexai",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Hirex.ai is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hirex.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hirex.ai/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16210,7 +16386,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYTViMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "carestack",
@@ -16218,7 +16395,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "carestack",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "CareStack is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/carestack.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://carestack.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16244,7 +16421,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM1NyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "clinikk",
@@ -16252,7 +16430,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "clinikk",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Clinikk is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/clinikk.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://clinikk.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16278,7 +16456,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzVmMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "lifecell",
@@ -16286,7 +16465,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "lifecell",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "LifeCell is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/lifecell.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.lifecell.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16312,7 +16491,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNzZiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5MPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "freshtohome",
@@ -16320,7 +16500,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "freshtohome",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "FreshToHome is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/freshtohome.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.freshtohome.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16346,7 +16526,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3MiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5GPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "vahdam",
@@ -16354,7 +16535,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "vahdam",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Vahdam is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/vahdamteas.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.vahdamteas.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16380,7 +16561,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM1YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mygate",
@@ -16388,7 +16570,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mygate",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "MyGate is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mygate.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://mygate.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16414,7 +16596,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNGEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "homelane",
@@ -16422,7 +16605,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "homelane",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "HomeLane is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/homelane.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.homelane.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16448,7 +16631,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE5YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "nobroker",
@@ -16456,7 +16640,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "nobroker",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "NoBroker is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/nobroker.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.nobroker.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16482,7 +16666,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzNzJiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "teachmint",
@@ -16490,7 +16675,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "teachmint",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Teachmint is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/teachmint.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.teachmint.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16516,7 +16701,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2YyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "we-hub",
@@ -16524,7 +16710,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "we-hub",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "WE Hub is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/wehub.telangana.gov.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://wehub.telangana.gov.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16550,7 +16736,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxYWYzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5XPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "rich",
@@ -16558,7 +16745,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "rich",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "RICH is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/rich.telangana.gov.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://rich.telangana.gov.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16584,7 +16771,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2MSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5SPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ananth-technologies",
@@ -16592,7 +16780,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ananth-technologies",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Ananth Technologies is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ananthtech.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://ananthtech.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16618,7 +16806,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNTEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "astra-microwave-products",
@@ -16626,7 +16815,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "astra-microwave-products",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Astra Microwave Products is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/astramwp.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.astramwp.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16652,7 +16841,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxNzIzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "mtar-technologies",
@@ -16660,7 +16850,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "mtar-technologies",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "MTAR Technologies is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/mtar.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://mtar.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16686,7 +16876,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzMzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "indian-immunologicals",
@@ -16694,7 +16885,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "indian-immunologicals",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Indian Immunologicals is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/indimmune.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.indimmune.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16720,7 +16911,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzOWFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "aurobindo-pharma",
@@ -16728,7 +16920,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "aurobindo-pharma",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Aurobindo Pharma is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/aurobindo.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.aurobindo.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16754,7 +16946,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzVkYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sai-life-sciences",
@@ -16762,7 +16955,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sai-life-sciences",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Sai Life Sciences is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sailife.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.sailife.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16788,7 +16981,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "granules-india",
@@ -16796,7 +16990,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "granules-india",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Granules India is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/granulesindia.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://granulesindia.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16822,7 +17016,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNjMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "gland-pharma",
@@ -16830,7 +17025,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "gland-pharma",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Gland Pharma is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/glandpharma.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://glandpharma.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16856,7 +17051,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxM2MzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5HPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "natco-pharma",
@@ -16864,7 +17060,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "natco-pharma",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Natco Pharma is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/natcopharma.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.natcopharma.co.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16890,7 +17086,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzZlYjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5OPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "yashoda-hospitals",
@@ -16898,7 +17095,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "yashoda-hospitals",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Yashoda Hospitals is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/yashodahospitals.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.yashodahospitals.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16924,7 +17121,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5ZPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "care-hospitals",
@@ -16932,7 +17130,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "care-hospitals",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "CARE Hospitals is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/carehospitals.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.carehospitals.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16958,7 +17156,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc0YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "kims-hospitals",
@@ -16966,7 +17165,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "kims-hospitals",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "KIMS Hospitals is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/kimshospitals.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.kimshospitals.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -16992,7 +17191,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM3NiIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5LPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "virinchi-hospitals",
@@ -17000,7 +17200,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "virinchi-hospitals",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Virinchi Hospitals is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/virinchihospitals.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.virinchihospitals.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17026,7 +17226,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzg1YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5WPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "yellowai",
@@ -17034,7 +17235,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "yellowai",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Yellow.ai is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/yellow.ai?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://yellow.ai/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17060,7 +17261,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iI2IxMzM2ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5ZPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "phenom",
@@ -17068,7 +17270,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "phenom",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Phenom is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/phenom.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.phenom.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17094,7 +17296,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzk2YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxQTFBMUEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5QPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "innominds",
@@ -17102,7 +17305,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "innominds",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Innominds is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/innominds.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.innominds.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17128,7 +17331,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0YSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5JPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "sahaj-software",
@@ -17136,7 +17340,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "sahaj-software",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Sahaj Software is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/sahajsoft.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.sahajsoft.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17162,7 +17366,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzQ2MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5TPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cloud4c",
@@ -17170,7 +17375,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cloud4c",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Cloud4C is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cloud4c.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.cloud4c.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17196,7 +17401,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzNlMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "cigniti",
@@ -17204,7 +17410,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "cigniti",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Cigniti is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/cigniti.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.cigniti.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17230,7 +17436,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE2ZSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5DPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "ecil",
@@ -17238,7 +17445,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "ecil",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "ECIL is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/ecil.co.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.ecil.co.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17264,7 +17471,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5FPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "midhani",
@@ -17272,7 +17480,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "midhani",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "MIDHANI is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/midhani-india.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://midhani-india.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17298,7 +17506,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzc5YjEzMyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5NPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "amara-raja-energy-and-mobility",
@@ -17306,7 +17515,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "amara-raja-energy-and-mobility",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "Amara Raja Energy and Mobility is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/amararaja.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://www.amararaja.com/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17332,7 +17541,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzdkMzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5BPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "tie-hyderabad",
@@ -17340,7 +17550,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "tie-hyderabad",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "TiE Hyderabad is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/tiehyderabad.org?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://tiehyderabad.org/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17366,7 +17576,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzM3MzNiMSIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5UPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "hysea",
@@ -17374,7 +17585,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "hysea",
     "tagline": "Startup / Company candidate company based in Hyderabad, Telangana.",
     "description": "HYSEA is a Startup / Company candidate company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/hysea.in?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://hysea.in/",
     "industry": "SaaS & Enterprise",
     "subCategory": "Startup / Company candidate",
@@ -17400,7 +17611,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjFhNyIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   },
   {
     "id": "happi-mobiles",
@@ -17408,7 +17620,7 @@ export const INITIAL_STARTUPS: Startup[] = [
     "slug": "happi-mobiles",
     "tagline": "Consumer electronics retail and mobile accessories brand headquartered in Madhapur.",
     "description": "Happi Mobiles is a consumer electronics and mobile accessories company with its corporate office located at Ayyappa Society, Madhapur, Hyderabad. The brand operates retail outlets across Telangana offering smartphones, accessories, and related consumer electronics.",
-    "logoUrl": "",
+    "logoUrl": "https://img.logo.dev/happimobiles.com?token=pk_Nk1GfpWcRUi2-1EQZzhuwA&size=256&format=png",
     "website": "https://happimobiles.com",
     "industry": "E-Commerce & Consumer",
     "subCategory": "Consumer Electronics & Retail",
@@ -17435,5515 +17647,8 @@ export const INITIAL_STARTUPS: Startup[] = [
     "verified": true,
     "createdAt": "2026-08-27",
     "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "detente-technologies-pvt-ltd",
-    "name": "Detente Technologies Pvt Ltd",
-    "slug": "detente-technologies-pvt-ltd",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Detente Technologies Pvt Ltd is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Detente%20Technologies%20Pvt%20Ltd&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4514,
-      "lng": 78.3787
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "gasreliefcom",
-    "name": "GasRelief.com",
-    "slug": "gasreliefcom",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GasRelief.com is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GasRelief.com&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4543,
-      "lng": 78.3762
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "intellogi-global-solutions-pvt-ltd",
-    "name": "Intellogi Global Solutions Pvt Ltd",
-    "slug": "intellogi-global-solutions-pvt-ltd",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Intellogi Global Solutions Pvt Ltd is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Intellogi%20Global%20Solutions%20Pvt%20Ltd&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4527,
-      "lng": 78.3829
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "actlogica-solutions",
-    "name": "actlogica solutions",
-    "slug": "actlogica-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "actlogica solutions is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=actlogica%20solutions&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4438,
-      "lng": 78.385
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "adiabatic-technologies",
-    "name": "Adiabatic Technologies",
-    "slug": "adiabatic-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Adiabatic Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Adiabatic%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4484,
-      "lng": 78.3771
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "hesa-enterprises",
-    "name": "Hesa Enterprises",
-    "slug": "hesa-enterprises",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Hesa Enterprises is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Hesa%20Enterprises&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4424,
-      "lng": 78.3826
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "publicvibe",
-    "name": "PublicVibe",
-    "slug": "publicvibe",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "PublicVibe is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=PublicVibe&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4536,
-      "lng": 78.3805
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "rational-technologies",
-    "name": "Rational Technologies",
-    "slug": "rational-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Rational Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Rational%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4576,
-      "lng": 78.3738
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "myclassboard",
-    "name": "MyClassboard",
-    "slug": "myclassboard",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "MyClassboard is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=MyClassboard&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4539,
-      "lng": 78.3768
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "fresh-prints",
-    "name": "Fresh Prints",
-    "slug": "fresh-prints",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Fresh Prints is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Fresh%20Prints&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4462,
-      "lng": 78.3767
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "cloudqa",
-    "name": "CloudQA",
-    "slug": "cloudqa",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "CloudQA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=CloudQA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4547,
-      "lng": 78.3776
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "placta",
-    "name": "PLACTA",
-    "slug": "placta",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "PLACTA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=PLACTA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4549,
-      "lng": 78.3882
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "appincubator-technologies",
-    "name": "AppIncubator Technologies",
-    "slug": "appincubator-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "AppIncubator Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=AppIncubator%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4476,
-      "lng": 78.3863
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ekshvaku-tech-innovations",
-    "name": "Ekshvaku Tech Innovations",
-    "slug": "ekshvaku-tech-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Ekshvaku Tech Innovations is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Ekshvaku%20Tech%20Innovations&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4554,
-      "lng": 78.3779
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ewoke",
-    "name": "Ewoke",
-    "slug": "ewoke",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Ewoke is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Ewoke&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4511,
-      "lng": 78.3774
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "switchnov",
-    "name": "SwitchNov",
-    "slug": "switchnov",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SwitchNov is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SwitchNov&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.454,
-      "lng": 78.3881
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "pandoras-box",
-    "name": "Pandora's Box",
-    "slug": "pandoras-box",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Pandora's Box is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Pandora's%20Box&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4582,
-      "lng": 78.3737
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "bombay-farming-co",
-    "name": "Bombay Farming Co",
-    "slug": "bombay-farming-co",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Bombay Farming Co is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Bombay%20Farming%20Co&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4453,
-      "lng": 78.379
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "7seas-entertainment",
-    "name": "7Seas Entertainment",
-    "slug": "7seas-entertainment",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "7Seas Entertainment is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=7Seas%20Entertainment&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4558,
-      "lng": 78.3818
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "kellton",
-    "name": "Kellton",
-    "slug": "kellton",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Kellton is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Kellton&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4448,
-      "lng": 78.3823
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "maruti-shanker",
-    "name": "Maruti Shanker",
-    "slug": "maruti-shanker",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Maruti Shanker is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Maruti%20Shanker&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4451,
-      "lng": 78.3731
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "awiros",
-    "name": "Awiros",
-    "slug": "awiros",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Awiros is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Awiros&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4471,
-      "lng": 78.3887
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "head-digital-works",
-    "name": "Head Digital Works",
-    "slug": "head-digital-works",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Head Digital Works is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Head%20Digital%20Works&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4432,
-      "lng": 78.3783
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "vitrana",
-    "name": "Vitrana",
-    "slug": "vitrana",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Vitrana is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Vitrana&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4513,
-      "lng": 78.3802
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "dr-reddys-research",
-    "name": "Dr Reddy's Research",
-    "slug": "dr-reddys-research",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Dr Reddy's Research is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Dr%20Reddy's%20Research&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4504,
-      "lng": 78.3819
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "anus-laboratories",
-    "name": "Anu's Laboratories",
-    "slug": "anus-laboratories",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Anu's Laboratories is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Anu's%20Laboratories&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4543,
-      "lng": 78.3787
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "aizant-drug-research",
-    "name": "Aizant Drug Research",
-    "slug": "aizant-drug-research",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Aizant Drug Research is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Aizant%20Drug%20Research&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4434,
-      "lng": 78.3854
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "suven-pharma",
-    "name": "Suven Pharma",
-    "slug": "suven-pharma",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Suven Pharma is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Suven%20Pharma&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4534,
-      "lng": 78.3778
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "sms-pharmaceuticals",
-    "name": "SMS Pharmaceuticals",
-    "slug": "sms-pharmaceuticals",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SMS Pharmaceuticals is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SMS%20Pharmaceuticals&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4441,
-      "lng": 78.3821
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "virchow-laboratories",
-    "name": "Virchow Laboratories",
-    "slug": "virchow-laboratories",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Virchow Laboratories is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Virchow%20Laboratories&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4507,
-      "lng": 78.3819
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "apollo-health-and-lifestyle",
-    "name": "Apollo Health and Lifestyle",
-    "slug": "apollo-health-and-lifestyle",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Apollo Health and Lifestyle is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Apollo%20Health%20and%20Lifestyle&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4476,
-      "lng": 78.3848
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "continental-hospitals",
-    "name": "Continental Hospitals",
-    "slug": "continental-hospitals",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Continental Hospitals is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Continental%20Hospitals&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4512,
-      "lng": 78.3855
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "sunshine-hospitals",
-    "name": "Sunshine Hospitals",
-    "slug": "sunshine-hospitals",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Sunshine Hospitals is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Sunshine%20Hospitals&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.454,
-      "lng": 78.3832
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "aware-gleneagles-global-hospitals",
-    "name": "Aware Gleneagles Global Hospitals",
-    "slug": "aware-gleneagles-global-hospitals",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Aware Gleneagles Global Hospitals is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Aware%20Gleneagles%20Global%20Hospitals&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4498,
-      "lng": 78.3858
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "fernandez-foundation",
-    "name": "Fernandez Foundation",
-    "slug": "fernandez-foundation",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Fernandez Foundation is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Fernandez%20Foundation&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4495,
-      "lng": 78.3847
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "sreshta-diagnostics",
-    "name": "Sreshta Diagnostics",
-    "slug": "sreshta-diagnostics",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Sreshta Diagnostics is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Sreshta%20Diagnostics&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4562,
-      "lng": 78.3864
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "vijaya-diagnostic-centre",
-    "name": "Vijaya Diagnostic Centre",
-    "slug": "vijaya-diagnostic-centre",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Vijaya Diagnostic Centre is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Vijaya%20Diagnostic%20Centre&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4426,
-      "lng": 78.3868
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "lucid-diagnostics",
-    "name": "Lucid Diagnostics",
-    "slug": "lucid-diagnostics",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Lucid Diagnostics is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Lucid%20Diagnostics&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4517,
-      "lng": 78.3804
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "4basecare",
-    "name": "4baseCare",
-    "slug": "4basecare",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "4baseCare is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=4baseCare&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4498,
-      "lng": 78.3779
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "healthkon",
-    "name": "Healthkon",
-    "slug": "healthkon",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Healthkon is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Healthkon&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4428,
-      "lng": 78.3808
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "aidia-health",
-    "name": "Aidia Health",
-    "slug": "aidia-health",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Aidia Health is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Aidia%20Health&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4453,
-      "lng": 78.3868
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "hclub-medical-services",
-    "name": "HClub Medical Services",
-    "slug": "hclub-medical-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "HClub Medical Services is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=HClub%20Medical%20Services&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4522,
-      "lng": 78.3858
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ameyaa-tech-solutions",
-    "name": "Ameyaa Tech Solutions",
-    "slug": "ameyaa-tech-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Ameyaa Tech Solutions is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Ameyaa%20Tech%20Solutions&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4576,
-      "lng": 78.3829
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "telekha-networking-technologies",
-    "name": "Telekha Networking Technologies",
-    "slug": "telekha-networking-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Telekha Networking Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Telekha%20Networking%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4576,
-      "lng": 78.378
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "naturesani",
-    "name": "Naturesani",
-    "slug": "naturesani",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Naturesani is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Naturesani&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4507,
-      "lng": 78.3845
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "learnograph-e-learning-india",
-    "name": "Learnograph E-Learning India",
-    "slug": "learnograph-e-learning-india",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Learnograph E-Learning India is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Learnograph%20E-Learning%20India&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4527,
-      "lng": 78.3736
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "bharathi-tech-services",
-    "name": "Bharathi Tech Services",
-    "slug": "bharathi-tech-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Bharathi Tech Services is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Bharathi%20Tech%20Services&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4528,
-      "lng": 78.3733
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "rakshideep-consultancy-services",
-    "name": "Rakshideep Consultancy Services",
-    "slug": "rakshideep-consultancy-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Rakshideep Consultancy Services is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Rakshideep%20Consultancy%20Services&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4507,
-      "lng": 78.3845
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ormal-foods",
-    "name": "Orm�al Foods",
-    "slug": "ormal-foods",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Orm�al Foods is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Orm%C3%A9al%20Foods&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4536,
-      "lng": 78.3872
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ducere-technologies",
-    "name": "Ducere Technologies",
-    "slug": "ducere-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Ducere Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Ducere%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.451,
-      "lng": 78.3875
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "reckon-green-innovations",
-    "name": "Reckon Green Innovations",
-    "slug": "reckon-green-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Reckon Green Innovations is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Reckon%20Green%20Innovations&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4486,
-      "lng": 78.3768
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "autonomous-logistics-technologies",
-    "name": "Autonomous Logistics Technologies",
-    "slug": "autonomous-logistics-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Autonomous Logistics Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Autonomous%20Logistics%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4538,
-      "lng": 78.3858
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "feel-good-innovations",
-    "name": "Feel Good Innovations",
-    "slug": "feel-good-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Feel Good Innovations is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Feel%20Good%20Innovations&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4519,
-      "lng": 78.3838
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "creactos-projects",
-    "name": "Creactos Projects",
-    "slug": "creactos-projects",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Creactos Projects is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Creactos%20Projects&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4571,
-      "lng": 78.3798
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "sumvn",
-    "name": "SUMVN",
-    "slug": "sumvn",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SUMVN is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SUMVN&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4535,
-      "lng": 78.3796
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "sensworx-systems-india",
-    "name": "Sensworx Systems India",
-    "slug": "sensworx-systems-india",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Sensworx Systems India is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Sensworx%20Systems%20India&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4554,
-      "lng": 78.3869
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "rregulus-technologies-solutions",
-    "name": "RRegulus Technologies Solutions",
-    "slug": "rregulus-technologies-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "RRegulus Technologies Solutions is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=RRegulus%20Technologies%20Solutions&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4491,
-      "lng": 78.3808
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "saycheez-solutions",
-    "name": "Saycheez Solutions",
-    "slug": "saycheez-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Saycheez Solutions is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Saycheez%20Solutions&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4577,
-      "lng": 78.3878
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "bodes-technologies",
-    "name": "Bodes Technologies",
-    "slug": "bodes-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Bodes Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Bodes%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4508,
-      "lng": 78.3799
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "safetyon-apparels",
-    "name": "Safetyon Apparels",
-    "slug": "safetyon-apparels",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Safetyon Apparels is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Safetyon%20Apparels&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4466,
-      "lng": 78.3775
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "tough-troops",
-    "name": "Tough Troops",
-    "slug": "tough-troops",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Tough Troops is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Tough%20Troops&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4511,
-      "lng": 78.3862
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "1health-integrated-services",
-    "name": "1Health Integrated Services",
-    "slug": "1health-integrated-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "1Health Integrated Services is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=1Health%20Integrated%20Services&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4525,
-      "lng": 78.3847
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "prescription-pack",
-    "name": "Prescription Pack",
-    "slug": "prescription-pack",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Prescription Pack is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Prescription%20Pack&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4436,
-      "lng": 78.3788
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "humblegreen-solutions",
-    "name": "Humblegreen Solutions",
-    "slug": "humblegreen-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Humblegreen Solutions is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Humblegreen%20Solutions&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4444,
-      "lng": 78.373
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "lourdu-technologies",
-    "name": "Lourdu Technologies",
-    "slug": "lourdu-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Lourdu Technologies is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Lourdu%20Technologies&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4536,
-      "lng": 78.3843
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "proedu-academy",
-    "name": "ProEdu Academy",
-    "slug": "proedu-academy",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ProEdu Academy is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ProEdu%20Academy&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4494,
-      "lng": 78.3805
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "archelite-construction-services-llp",
-    "name": "ARCHELITE CONSTRUCTION SERVICES LLP",
-    "slug": "archelite-construction-services-llp",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ARCHELITE CONSTRUCTION SERVICES LLP is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ARCHELITE%20CONSTRUCTION%20SERVICES%20LLP&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4582,
-      "lng": 78.3841
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "favo-construction-technologies",
-    "name": "FAVO CONSTRUCTION TECHNOLOGIES",
-    "slug": "favo-construction-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "FAVO CONSTRUCTION TECHNOLOGIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=FAVO%20CONSTRUCTION%20TECHNOLOGIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4473,
-      "lng": 78.3826
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "tscon-projects",
-    "name": "TSCON PROJECTS",
-    "slug": "tscon-projects",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "TSCON PROJECTS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=TSCON%20PROJECTS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4507,
-      "lng": 78.373
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ojasyaa-infra-solutions",
-    "name": "ojasyaa infra solutions",
-    "slug": "ojasyaa-infra-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ojasyaa infra solutions is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ojasyaa%20infra%20solutions&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4454,
-      "lng": 78.3854
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "c-square-group",
-    "name": "C SQUARE GROUP",
-    "slug": "c-square-group",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "C SQUARE GROUP is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=C%20SQUARE%20GROUP&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4582,
-      "lng": 78.3881
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "teamtech-formwork-solutions",
-    "name": "TEAMTECH FORMWORK SOLUTIONS",
-    "slug": "teamtech-formwork-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "TEAMTECH FORMWORK SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=TEAMTECH%20FORMWORK%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4521,
-      "lng": 78.3776
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "kreayotoo-solutions",
-    "name": "KREAYOTOO SOLUTIONS",
-    "slug": "kreayotoo-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "KREAYOTOO SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=KREAYOTOO%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4529,
-      "lng": 78.3882
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ab-offshore-trading",
-    "name": "AB OFFSHORE TRADING",
-    "slug": "ab-offshore-trading",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "AB OFFSHORE TRADING is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=AB%20OFFSHORE%20TRADING&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4574,
-      "lng": 78.3813
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "beforest-lifestyle-solutions",
-    "name": "BEFOREST LIFESTYLE SOLUTIONS",
-    "slug": "beforest-lifestyle-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "BEFOREST LIFESTYLE SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=BEFOREST%20LIFESTYLE%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4454,
-      "lng": 78.3841
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "surein-projects",
-    "name": "SUREIN PROJECTS",
-    "slug": "surein-projects",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SUREIN PROJECTS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SUREIN%20PROJECTS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4451,
-      "lng": 78.3865
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "lsb-temerity-infra",
-    "name": "LSB TEMERITY INFRA",
-    "slug": "lsb-temerity-infra",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "LSB TEMERITY INFRA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=LSB%20TEMERITY%20INFRA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4568,
-      "lng": 78.3828
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "deeksha-projects-and-staffing",
-    "name": "DEEKSHA PROJECTS AND STAFFING",
-    "slug": "deeksha-projects-and-staffing",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "DEEKSHA PROJECTS AND STAFFING is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=DEEKSHA%20PROJECTS%20AND%20STAFFING&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4498,
-      "lng": 78.3824
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "vinro-techcon-solutions",
-    "name": "VINRO TECHCON SOLUTIONS",
-    "slug": "vinro-techcon-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "VINRO TECHCON SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=VINRO%20TECHCON%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4528,
-      "lng": 78.3755
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "cims-project-management-consultants",
-    "name": "CIMS PROJECT MANAGEMENT CONSULTANTS",
-    "slug": "cims-project-management-consultants",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "CIMS PROJECT MANAGEMENT CONSULTANTS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=CIMS%20PROJECT%20MANAGEMENT%20CONSULTANTS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4498,
-      "lng": 78.3845
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "vananir-bim",
-    "name": "VANANIR BIM",
-    "slug": "vananir-bim",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "VANANIR BIM is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=VANANIR%20BIM&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4464,
-      "lng": 78.382
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "urbanelectric-infra-services",
-    "name": "URBANELECTRIC INFRA SERVICES",
-    "slug": "urbanelectric-infra-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "URBANELECTRIC INFRA SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=URBANELECTRIC%20INFRA%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4537,
-      "lng": 78.3866
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "skathi-infrastructure",
-    "name": "SKATHI INFRASTRUCTURE",
-    "slug": "skathi-infrastructure",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SKATHI INFRASTRUCTURE is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SKATHI%20INFRASTRUCTURE&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4436,
-      "lng": 78.3855
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "av-zero-touch",
-    "name": "AV ZERO TOUCH",
-    "slug": "av-zero-touch",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "AV ZERO TOUCH is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=AV%20ZERO%20TOUCH&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4495,
-      "lng": 78.3739
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ssmeet-infrastructure",
-    "name": "SSMEET INFRASTRUCTURE",
-    "slug": "ssmeet-infrastructure",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SSMEET INFRASTRUCTURE is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SSMEET%20INFRASTRUCTURE&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4572,
-      "lng": 78.3772
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "savin-delta-products",
-    "name": "SAVIN DELTA PRODUCTS",
-    "slug": "savin-delta-products",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SAVIN DELTA PRODUCTS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SAVIN%20DELTA%20PRODUCTS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4479,
-      "lng": 78.3823
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "bmss-engineers",
-    "name": "BMSS ENGINEERS",
-    "slug": "bmss-engineers",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "BMSS ENGINEERS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=BMSS%20ENGINEERS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4547,
-      "lng": 78.3858
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "asara-corporation",
-    "name": "ASARA CORPORATION",
-    "slug": "asara-corporation",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ASARA CORPORATION is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ASARA%20CORPORATION&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4498,
-      "lng": 78.3831
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "flytta-innovations",
-    "name": "FLYTTA INNOVATIONS",
-    "slug": "flytta-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "FLYTTA INNOVATIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=FLYTTA%20INNOVATIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4499,
-      "lng": 78.3737
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "next-drive-transportation-and-services",
-    "name": "NEXT DRIVE TRANSPORTATION AND SERVICES",
-    "slug": "next-drive-transportation-and-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "NEXT DRIVE TRANSPORTATION AND SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=NEXT%20DRIVE%20TRANSPORTATION%20AND%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4469,
-      "lng": 78.3739
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "shiv-durga-tours-and-travels",
-    "name": "SHIV DURGA TOURS AND TRAVELS",
-    "slug": "shiv-durga-tours-and-travels",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SHIV DURGA TOURS AND TRAVELS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SHIV%20DURGA%20TOURS%20AND%20TRAVELS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4449,
-      "lng": 78.3856
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "roppen-transportation-services",
-    "name": "ROPPEN TRANSPORTATION SERVICES",
-    "slug": "roppen-transportation-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ROPPEN TRANSPORTATION SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ROPPEN%20TRANSPORTATION%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4499,
-      "lng": 78.3768
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "lithius-energy",
-    "name": "LITHIUS ENERGY",
-    "slug": "lithius-energy",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "LITHIUS ENERGY is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=LITHIUS%20ENERGY&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4515,
-      "lng": 78.3837
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "pickkup",
-    "name": "Pickkup",
-    "slug": "pickkup",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Pickkup is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Pickkup&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4517,
-      "lng": 78.3779
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "exprs-techno-logistics",
-    "name": "EXPRS TECHNO LOGISTICS",
-    "slug": "exprs-techno-logistics",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "EXPRS TECHNO LOGISTICS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=EXPRS%20TECHNO%20LOGISTICS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4433,
-      "lng": 78.3872
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "zipzap-logistics",
-    "name": "ZIPZAP LOGISTICS",
-    "slug": "zipzap-logistics",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ZIPZAP LOGISTICS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ZIPZAP%20LOGISTICS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4481,
-      "lng": 78.3842
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "forgepath",
-    "name": "FORGEPATH",
-    "slug": "forgepath",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "FORGEPATH is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=FORGEPATH&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.449,
-      "lng": 78.3823
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "eternalgreen-innovations",
-    "name": "ETERNALGREEN INNOVATIONS",
-    "slug": "eternalgreen-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ETERNALGREEN INNOVATIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ETERNALGREEN%20INNOVATIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4448,
-      "lng": 78.3838
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "cmora-cargotech",
-    "name": "CMORA CARGOTECH",
-    "slug": "cmora-cargotech",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "CMORA CARGOTECH is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=CMORA%20CARGOTECH&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.451,
-      "lng": 78.3752
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "trugo-logistics-solutions",
-    "name": "TRUGO LOGISTICS SOLUTIONS",
-    "slug": "trugo-logistics-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "TRUGO LOGISTICS SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=TRUGO%20LOGISTICS%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.451,
-      "lng": 78.3792
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "booktranspo-india",
-    "name": "BOOKTRANSPO INDIA",
-    "slug": "booktranspo-india",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "BOOKTRANSPO INDIA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=BOOKTRANSPO%20INDIA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4432,
-      "lng": 78.3783
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "whizzy-logistic-technologies",
-    "name": "WHIZZY LOGISTIC TECHNOLOGIES",
-    "slug": "whizzy-logistic-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "WHIZZY LOGISTIC TECHNOLOGIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=WHIZZY%20LOGISTIC%20TECHNOLOGIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4452,
-      "lng": 78.375
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "poovadan-brothers",
-    "name": "POOVADAN BROTHERS",
-    "slug": "poovadan-brothers",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "POOVADAN BROTHERS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=POOVADAN%20BROTHERS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4443,
-      "lng": 78.3846
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "gaido-technologies",
-    "name": "GAIDO TECHNOLOGIES",
-    "slug": "gaido-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GAIDO TECHNOLOGIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GAIDO%20TECHNOLOGIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4452,
-      "lng": 78.3817
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "hoppica-eco-solutions",
-    "name": "HOPPICA ECO SOLUTIONS",
-    "slug": "hoppica-eco-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "HOPPICA ECO SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=HOPPICA%20ECO%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4572,
-      "lng": 78.3854
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "deusexvolt-electric",
-    "name": "DEUSEXVOLT ELECTRIC",
-    "slug": "deusexvolt-electric",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "DEUSEXVOLT ELECTRIC is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=DEUSEXVOLT%20ELECTRIC&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4572,
-      "lng": 78.3807
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "whistledrive",
-    "name": "WHISTLEDRIVE",
-    "slug": "whistledrive",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "WHISTLEDRIVE is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=WHISTLEDRIVE&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4483,
-      "lng": 78.3764
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "hurryr-logistics-services",
-    "name": "HURRYR LOGISTICS SERVICES",
-    "slug": "hurryr-logistics-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "HURRYR LOGISTICS SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=HURRYR%20LOGISTICS%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4564,
-      "lng": 78.3798
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "vihave-innovations",
-    "name": "VIHAVE INNOVATIONS",
-    "slug": "vihave-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "VIHAVE INNOVATIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=VIHAVE%20INNOVATIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4498,
-      "lng": 78.3767
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "augmented-byte",
-    "name": "AUGMENTED BYTE",
-    "slug": "augmented-byte",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "AUGMENTED BYTE is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=AUGMENTED%20BYTE&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4424,
-      "lng": 78.3866
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "forever-with-u",
-    "name": "FOREVER WITH U",
-    "slug": "forever-with-u",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "FOREVER WITH U is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=FOREVER%20WITH%20U&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4568,
-      "lng": 78.3775
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "augmented-in-roots-tech",
-    "name": "AUGMENTED IN ROOTS TECH",
-    "slug": "augmented-in-roots-tech",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "AUGMENTED IN ROOTS TECH is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=AUGMENTED%20IN%20ROOTS%20TECH&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.457,
-      "lng": 78.3764
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "misplaced-minds",
-    "name": "Misplaced Minds",
-    "slug": "misplaced-minds",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Misplaced Minds is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Misplaced%20Minds&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4498,
-      "lng": 78.3853
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "visionxr",
-    "name": "VISIONXR",
-    "slug": "visionxr",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "VISIONXR is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=VISIONXR&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4516,
-      "lng": 78.3884
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "my-gold-work",
-    "name": "MY GOLD WORK",
-    "slug": "my-gold-work",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "MY GOLD WORK is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=MY%20GOLD%20WORK&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4472,
-      "lng": 78.3811
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "godi-india",
-    "name": "GODI INDIA",
-    "slug": "godi-india",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GODI INDIA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GODI%20INDIA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4449,
-      "lng": 78.3773
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "tenacious-power-solutions",
-    "name": "TENACIOUS POWER SOLUTIONS",
-    "slug": "tenacious-power-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "TENACIOUS POWER SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=TENACIOUS%20POWER%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4538,
-      "lng": 78.3805
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "genii-engineering-and-services",
-    "name": "GENII ENGINEERING and SERVICES",
-    "slug": "genii-engineering-and-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GENII ENGINEERING and SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GENII%20ENGINEERING%20and%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4543,
-      "lng": 78.3833
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ignitium-services",
-    "name": "IGNITIUM SERVICES",
-    "slug": "ignitium-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "IGNITIUM SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=IGNITIUM%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4572,
-      "lng": 78.3821
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "medical-innovation",
-    "name": "MEDICAL INNOVATION",
-    "slug": "medical-innovation",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "MEDICAL INNOVATION is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=MEDICAL%20INNOVATION&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4491,
-      "lng": 78.3772
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "sprouts-energy",
-    "name": "SPROUTS ENERGY",
-    "slug": "sprouts-energy",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SPROUTS ENERGY is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SPROUTS%20ENERGY&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4572,
-      "lng": 78.3855
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ascasd-tech",
-    "name": "ASCASD TECH",
-    "slug": "ascasd-tech",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ASCASD TECH is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ASCASD%20TECH&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4555,
-      "lng": 78.3808
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "soaron-aerospace-innovations",
-    "name": "SOARON AEROSPACE INNOVATIONS",
-    "slug": "soaron-aerospace-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SOARON AEROSPACE INNOVATIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SOARON%20AEROSPACE%20INNOVATIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4464,
-      "lng": 78.3729
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "y2tion-enterprises",
-    "name": "Y2TION ENTERPRISES",
-    "slug": "y2tion-enterprises",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Y2TION ENTERPRISES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Y2TION%20ENTERPRISES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4452,
-      "lng": 78.3738
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "adyaha-ways",
-    "name": "ADYAHA WAYS",
-    "slug": "adyaha-ways",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ADYAHA WAYS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ADYAHA%20WAYS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4464,
-      "lng": 78.3828
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "astra-rafael-comsys",
-    "name": "ASTRA RAFAEL COMSYS",
-    "slug": "astra-rafael-comsys",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ASTRA RAFAEL COMSYS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ASTRA%20RAFAEL%20COMSYS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4503,
-      "lng": 78.3766
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "gem-pressure-systems",
-    "name": "GEM PRESSURE SYSTEMS",
-    "slug": "gem-pressure-systems",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GEM PRESSURE SYSTEMS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GEM%20PRESSURE%20SYSTEMS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4429,
-      "lng": 78.3885
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "sansi-rf-and-communication-systems",
-    "name": "SANSI RF AND COMMUNICATION SYSTEMS",
-    "slug": "sansi-rf-and-communication-systems",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SANSI RF AND COMMUNICATION SYSTEMS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SANSI%20RF%20AND%20COMMUNICATION%20SYSTEMS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4499,
-      "lng": 78.3805
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "aries-solutions",
-    "name": "ARIES SOLUTIONS",
-    "slug": "aries-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ARIES SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ARIES%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4567,
-      "lng": 78.373
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "garudaastra-aeroinventive-solutions",
-    "name": "GARUDAASTRA AEROINVENTIVE SOLUTIONS",
-    "slug": "garudaastra-aeroinventive-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GARUDAASTRA AEROINVENTIVE SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GARUDAASTRA%20AEROINVENTIVE%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4573,
-      "lng": 78.3822
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "dskn-aerospace-engineering-india",
-    "name": "DSKN AEROSPACE ENGINEERING INDIA",
-    "slug": "dskn-aerospace-engineering-india",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "DSKN AEROSPACE ENGINEERING INDIA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=DSKN%20AEROSPACE%20ENGINEERING%20INDIA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4557,
-      "lng": 78.3856
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "renuka-precision-systems",
-    "name": "RENUKA PRECISION SYSTEMS",
-    "slug": "renuka-precision-systems",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "RENUKA PRECISION SYSTEMS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=RENUKA%20PRECISION%20SYSTEMS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4477,
-      "lng": 78.3776
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "eap-cad-engineering-designs",
-    "name": "EAP CAD Engineering Designs",
-    "slug": "eap-cad-engineering-designs",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "EAP CAD Engineering Designs is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=EAP%20CAD%20Engineering%20Designs&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4572,
-      "lng": 78.3878
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "jatayu-drones",
-    "name": "JATAYU DRONES",
-    "slug": "jatayu-drones",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "JATAYU DRONES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=JATAYU%20DRONES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4444,
-      "lng": 78.3823
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "gedov-transmissions",
-    "name": "GEDOV TRANSMISSIONS",
-    "slug": "gedov-transmissions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GEDOV TRANSMISSIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GEDOV%20TRANSMISSIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4452,
-      "lng": 78.3846
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "wvijju-solutions",
-    "name": "WVIJJU SOLUTIONS",
-    "slug": "wvijju-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "WVIJJU SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=WVIJJU%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4538,
-      "lng": 78.3747
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ghm-works",
-    "name": "GHM WORKS",
-    "slug": "ghm-works",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "GHM WORKS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=GHM%20WORKS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4547,
-      "lng": 78.3781
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "saibaba-polymer-technologies",
-    "name": "SAIBABA POLYMER TECHNOLOGIES",
-    "slug": "saibaba-polymer-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SAIBABA POLYMER TECHNOLOGIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SAIBABA%20POLYMER%20TECHNOLOGIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4492,
-      "lng": 78.3742
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "varcas-automobiles",
-    "name": "VARCAS AUTOMOBILES",
-    "slug": "varcas-automobiles",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "VARCAS AUTOMOBILES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=VARCAS%20AUTOMOBILES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4438,
-      "lng": 78.3851
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "neoplatron-india",
-    "name": "NEOPLATRON INDIA",
-    "slug": "neoplatron-india",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "NEOPLATRON INDIA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=NEOPLATRON%20INDIA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4558,
-      "lng": 78.3738
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "uton-energia",
-    "name": "UTON ENERGIA",
-    "slug": "uton-energia",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "UTON ENERGIA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=UTON%20ENERGIA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4488,
-      "lng": 78.373
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "mouktik-consulting-services",
-    "name": "MOUKTIK CONSULTING SERVICES",
-    "slug": "mouktik-consulting-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "MOUKTIK CONSULTING SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=MOUKTIK%20CONSULTING%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4467,
-      "lng": 78.3876
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "adapt-motors",
-    "name": "ADAPT MOTORS",
-    "slug": "adapt-motors",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "ADAPT MOTORS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=ADAPT%20MOTORS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4464,
-      "lng": 78.3814
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "temsrax-india",
-    "name": "TEMSRAX INDIA",
-    "slug": "temsrax-india",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "TEMSRAX INDIA is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=TEMSRAX%20INDIA&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.457,
-      "lng": 78.3792
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "autozilla-solutions",
-    "name": "AUTOZILLA SOLUTIONS",
-    "slug": "autozilla-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "AUTOZILLA SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=AUTOZILLA%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4503,
-      "lng": 78.3798
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "dalekometni-electromob-motors",
-    "name": "Dalekometni Electromob Motors",
-    "slug": "dalekometni-electromob-motors",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Dalekometni Electromob Motors is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Dalekometni%20Electromob%20Motors&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.451,
-      "lng": 78.3744
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "razen-motors",
-    "name": "RAZEN MOTORS",
-    "slug": "razen-motors",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "RAZEN MOTORS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=RAZEN%20MOTORS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4569,
-      "lng": 78.3834
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "eboon-motors",
-    "name": "EBOON MOTORS",
-    "slug": "eboon-motors",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "EBOON MOTORS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=EBOON%20MOTORS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.451,
-      "lng": 78.373
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "carnomy-technologies",
-    "name": "CARNOMY TECHNOLOGIES",
-    "slug": "carnomy-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "CARNOMY TECHNOLOGIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=CARNOMY%20TECHNOLOGIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4546,
-      "lng": 78.3763
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "basamitra-safeties",
-    "name": "BASAMITRA SAFETIES",
-    "slug": "basamitra-safeties",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "BASAMITRA SAFETIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=BASAMITRA%20SAFETIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4475,
-      "lng": 78.3862
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "pit-shop",
-    "name": "PIT SHOP",
-    "slug": "pit-shop",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "PIT SHOP is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=PIT%20SHOP&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4451,
-      "lng": 78.3791
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "beerala-information-technologies",
-    "name": "BEERALA INFORMATION TECHNOLOGIES",
-    "slug": "beerala-information-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "BEERALA INFORMATION TECHNOLOGIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=BEERALA%20INFORMATION%20TECHNOLOGIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4507,
-      "lng": 78.3759
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "future-dizicare-enterprises",
-    "name": "FUTURE DIZICARE ENTERPRISES",
-    "slug": "future-dizicare-enterprises",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "FUTURE DIZICARE ENTERPRISES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=FUTURE%20DIZICARE%20ENTERPRISES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4507,
-      "lng": 78.3866
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "nuronics-labs",
-    "name": "NURONICS LABS",
-    "slug": "nuronics-labs",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "NURONICS LABS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=NURONICS%20LABS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4516,
-      "lng": 78.3738
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ebhasha-setu-language-services",
-    "name": "EBHASHA SETU LANGUAGE SERVICES",
-    "slug": "ebhasha-setu-language-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "EBHASHA SETU LANGUAGE SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=EBHASHA%20SETU%20LANGUAGE%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4488,
-      "lng": 78.373
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "ibeyonde-cloud-services",
-    "name": "IBEYONDE CLOUD SERVICES",
-    "slug": "ibeyonde-cloud-services",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "IBEYONDE CLOUD SERVICES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=IBEYONDE%20CLOUD%20SERVICES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4534,
-      "lng": 78.377
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "nkk-innovations",
-    "name": "NKK Innovations",
-    "slug": "nkk-innovations",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "NKK Innovations is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=NKK%20Innovations&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4495,
-      "lng": 78.3828
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "stellar-software-technologies",
-    "name": "STELLAR SOFTWARE TECHNOLOGIES",
-    "slug": "stellar-software-technologies",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "STELLAR SOFTWARE TECHNOLOGIES is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=STELLAR%20SOFTWARE%20TECHNOLOGIES&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4516,
-      "lng": 78.3773
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "aitechex-quantum-innovative-solutions",
-    "name": "AITECHEX QUANTUM INNOVATIVE SOLUTIONS",
-    "slug": "aitechex-quantum-innovative-solutions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "AITECHEX QUANTUM INNOVATIVE SOLUTIONS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=AITECHEX%20QUANTUM%20INNOVATIVE%20SOLUTIONS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4572,
-      "lng": 78.3739
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "activation-functions",
-    "name": "Activation Functions",
-    "slug": "activation-functions",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "Activation Functions is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=Activation%20Functions&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4515,
-      "lng": 78.3846
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "vils-ait",
-    "name": "VILS AIT",
-    "slug": "vils-ait",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "VILS AIT is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=VILS%20AIT&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.447,
-      "lng": 78.3886
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
-  },
-  {
-    "id": "srilin-electronics",
-    "name": "SRILIN ELECTRONICS",
-    "slug": "srilin-electronics",
-    "tagline": "Technology company based in Hyderabad, Telangana.",
-    "description": "SRILIN ELECTRONICS is a  company headquartered in Hyderabad, Telangana, India.",
-    "logoUrl": "https://ui-avatars.com/api/?name=SRILIN%20ELECTRONICS&background=6366f1&color=fff&bold=true",
-    "website": "",
-    "industry": "SaaS & Enterprise",
-    "subCategory": "Technology",
-    "stage": "Growth / Scaling",
-    "fundingStage": "Bootstrapped",
-    "totalFunding": "Bootstrapped",
-    "foundingYear": 2018,
-    "teamSize": "Team",
-    "location": {
-      "area": "HITEC City",
-      "address": "HITEC City, Hyderabad, Telangana 500081",
-      "lat": 17.4509,
-      "lng": 78.3807
-    },
-    "founders": [],
-    "hiring": true,
-    "tags": [
-      "Technology",
-      "HITEC City",
-      "Hiring"
-    ],
-    "featured": false,
-    "verified": true,
-    "createdAt": "2026-08-27",
-    "updatedAt": "2026-08-27",
-    "jobOpenings": []
+    "jobOpenings": [],
+    "svgAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2Ij4KPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHJ4PSIzMiIgZmlsbD0iIzMzYjE0OCIvPgo8dGV4dCB4PSIxMjgiIHk9IjEyOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRkZGRkYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj5IPC90ZXh0Pgo8L3N2Zz4="
   }
 ];
 

@@ -100,6 +100,7 @@ export interface Startup {
   tagline: string;
   description: string;
   logoUrl: string;
+  svgAvatar?: string;
   coverUrl?: string;
   website: string;
   industry: IndustryCategory;

@@ -1,10 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
-import { Search, Map, Grid, Briefcase, SlidersHorizontal, X, Plus } from 'lucide-react';
-import { FilterState, JobOpening } from '@/types/startup';
+import React, { useState, useEffect } from 'react';
+import {
+  Search, Map, LayoutGrid, SlidersHorizontal, X, Plus,
+} from 'lucide-react';
+import { FilterState } from '@/types/startup';
 import { HYDERABAD_AREAS } from '@/data/startups';
-import { INITIAL_JOBS } from '@/data/jobs';
 
 interface FloatingHeaderBarProps {
   filters: FilterState;
@@ -12,16 +13,8 @@ interface FloatingHeaderBarProps {
   displayView: 'map' | 'grid' | 'list';
   onViewChange: (view: 'map' | 'grid' | 'list') => void;
   onOpenSubmit: () => void;
-  onOpenJobs?: () => void;
   totalStartupsCount: number;
   totalJobsCount?: number;
-  selectedField?: string;
-  onSelectField?: (field: string) => void;
-  selectedLevel?: string;
-  onSelectLevel?: (level: string) => void;
-  isJobMode?: boolean;
-  onToggleJobMode?: (active: boolean) => void;
-  jobs?: JobOpening[];
 }
 
 export default function FloatingHeaderBar({
@@ -30,23 +23,18 @@ export default function FloatingHeaderBar({
   displayView,
   onViewChange,
   onOpenSubmit,
-  onOpenJobs,
-  totalJobsCount,
-  selectedField = 'All',
-  onSelectField,
-  selectedLevel = 'All',
-  onSelectLevel,
-  isJobMode = false,
-  onToggleJobMode,
-  jobs = [],
+  totalStartupsCount,
 }: FloatingHeaderBarProps) {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  const activeJobsList = jobs && jobs.length > 0 ? jobs : INITIAL_JOBS;
-  const realJobsCount = totalJobsCount || activeJobsList.length;
+  useEffect(() => {
+    const t = setTimeout(() => setMounted(true), 80);
+    return () => clearTimeout(t);
+  }, []);
 
   const industries = [
-    'All sectors',
+    'All',
     'SaaS & Enterprise',
     'AI & Machine Learning',
     'FinTech & InsurTech',
@@ -56,300 +44,233 @@ export default function FloatingHeaderBar({
     'E-Commerce & Consumer',
   ];
 
-  const fundingStages = ['All stages', 'Seed', 'Pre-Series A', 'Series A', 'Series B', 'Series B+', 'Unicorn'];
-  const areaList = ['All areas', ...HYDERABAD_AREAS.map((a) => a.name)];
-  const typesList = ['All types', 'Startups', 'Incubators', 'Investors', 'Hiring Now'];
+  const fundingStages = ['All', 'Seed', 'Pre-Series A', 'Series A', 'Series B', 'Series B+', 'Unicorn'];
+  const areaList = ['All', ...HYDERABAD_AREAS.map((a) => a.name)];
 
-  // Genuine dynamic role counts calculated directly from activeJobsList
-  const fields = [
-    { label: 'Engineering', count: activeJobsList.filter(j => (j.category as string) === 'Engineering').length },
-    { label: 'Data & AI', count: activeJobsList.filter(j => (j.category as string) === 'AI & Data').length },
-    { label: 'Product', count: activeJobsList.filter(j => (j.category as string) === 'Product').length },
-    { label: 'Design', count: activeJobsList.filter(j => (j.category as string) === 'Design').length },
-    { label: 'Sales & Marketing', count: activeJobsList.filter(j => (j.category as string) === 'Sales' || (j.category as string) === 'Marketing').length },
-    { label: 'Operations', count: activeJobsList.filter(j => (j.category as string) === 'Operations').length },
-    { label: 'Other', count: activeJobsList.filter(j => !['Engineering', 'AI & Data', 'Product', 'Design', 'Sales', 'Marketing', 'Operations'].includes(j.category as string)).length },
-  ];
-
-  const levels = [
-    { label: 'Fresher', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Fresher').length },
-    { label: 'Junior', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Junior').length },
-    { label: 'Mid', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Mid-Level' || (j.experienceLevel as string) === 'Mid').length },
-    { label: 'Senior', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Senior').length },
-    { label: 'Lead', count: activeJobsList.filter(j => (j.experienceLevel as string) === 'Lead / Executive' || (j.experienceLevel as string) === 'Lead').length },
-    { label: 'Unspecified', count: activeJobsList.filter(j => !['Fresher', 'Junior', 'Mid-Level', 'Mid', 'Senior', 'Lead / Executive', 'Lead'].includes(j.experienceLevel as string)).length },
-  ];
-
-  const selectClass =
-    'bg-gray-100 hover:bg-gray-200/80 border border-gray-200 text-xs font-medium text-gray-700 px-3 py-1.5 rounded-full focus:outline-none cursor-pointer transition-all w-full sm:w-auto';
-
-  const handleJobButtonToggle = () => {
-    const nextState = !isJobMode;
-    if (onToggleJobMode) onToggleJobMode(nextState);
-    onFilterChange({ ...filters, hiringOnly: nextState });
-  };
+  const selectCls =
+    'h-7 text-xs bg-transparent border-none rounded-full px-2.5 text-muted-foreground hover:text-foreground hover:bg-muted/50 focus:outline-none cursor-pointer transition-colors';
 
   return (
-    <header className="absolute top-2 left-2 right-2 sm:top-3 sm:left-4 sm:right-4 z-[100] bg-white/95 backdrop-blur-md rounded-2xl sm:rounded-3xl shadow-xl border border-gray-200/90 text-gray-800 transition-all font-sans">
-      
-      {/* ── TOP BAR: Logo (Restored /logo.png), Search, Dropdowns, View Toggle, Job Toggle & Submit ── */}
-      <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 px-3 py-2 sm:px-4 sm:py-2.5">
-        
-        {/* Restored Original Logo /logo.png */}
-        <div className="flex items-center gap-1.5 shrink-0">
-          <img
-            src="/logo.png"
-            alt="Hyderabad Startup Map Logo"
-            className="w-9 h-9 sm:w-10 sm:h-10 object-contain drop-shadow-sm"
-          />
-          <span className="font-extrabold text-sm sm:text-base tracking-tight text-gray-900 whitespace-nowrap hidden xs:block">
-            Hyd <span className="text-orange-600 font-semibold sm:hidden">Map</span>
-            <span className="text-orange-600 font-semibold hidden sm:inline"> Startup Map</span>
-          </span>
-        </div>
+    <header
+      className={`fixed top-2.5 sm:top-4 inset-x-0 mx-auto z-50 w-full px-2 sm:px-0 sm:w-fit max-w-full sm:max-w-[95vw] pointer-events-none flex flex-col items-center gap-1.5 transition-all duration-500 ${
+        mounted ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
+      }`}
+    >
+      {/* ── Main Pill Bar ── */}
+      <div className="pointer-events-auto w-full sm:w-auto flex items-center justify-between sm:justify-start gap-1 sm:gap-2.5 rounded-full border border-border/80 bg-white/95 p-1 sm:p-1.5 pl-2 sm:pl-3 text-xs text-muted-foreground shadow-lg shadow-black/5 backdrop-blur-md">
 
-        {/* Global Search Bar */}
-        <div className="relative flex-1 min-w-[140px]">
+        {/* Logo */}
+        <a
+          href="/"
+          className="flex items-center gap-1.5 sm:gap-2 shrink-0 select-none pr-0.5 sm:pr-1 group"
+          aria-label="Hyderabad Startup Map home"
+        >
+          <div className="relative w-5 h-5 sm:w-6 sm:h-6 rounded-full overflow-hidden shrink-0 transition-transform group-hover:scale-105">
+            <img
+              src="/logo.png"
+              alt="Hyd startups map logo"
+              className="w-full h-full object-contain"
+              loading="lazy"
+            />
+          </div>
+          <span className="font-semibold text-xs sm:text-[13px] text-foreground hidden md:inline-block">
+            Hyd Startups
+          </span>
+        </a>
+
+        {/* Separator */}
+        <span className="hidden xs:block h-3.5 sm:h-4 w-[1px] bg-border/80 shrink-0" />
+
+        {/* Search */}
+        <div className="relative flex items-center flex-1 min-w-[75px] max-w-[140px] xs:max-w-[180px] sm:max-w-[210px]">
+          <Search
+            className="absolute left-2 text-muted-foreground pointer-events-none"
+            width={12}
+            height={12}
+            aria-hidden="true"
+          />
           <input
+            id="startup-search"
             type="text"
             value={filters.search}
             onChange={(e) => onFilterChange({ ...filters, search: e.target.value })}
-            placeholder="Search startups, sectors, founders..."
-            className="w-full pl-3.5 pr-8 py-1.5 bg-gray-50 border border-gray-200 focus:border-orange-500 focus:bg-white rounded-full text-xs text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500/20 transition-all"
+            placeholder="Search…"
             suppressHydrationWarning
+            className="min-w-0 h-6 sm:h-7 pl-6 pr-5 text-[11px] sm:text-xs bg-transparent border-none rounded-full transition-colors placeholder:text-muted-foreground/70 focus:outline-none focus:bg-muted/40 w-full text-foreground"
           />
-          <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-400 pointer-events-none" />
+          {filters.search && (
+            <button
+              onClick={() => onFilterChange({ ...filters, search: '' })}
+              className="absolute right-1.5 text-muted-foreground hover:text-foreground transition-colors"
+              aria-label="Clear search"
+            >
+              <X width={10} height={10} />
+            </button>
+          )}
         </div>
 
-        {/* ── DEFAULT MODE DROPDOWNS (Matching Image 2) ── */}
-        {!isJobMode && (
-          <div className="hidden lg:flex items-center gap-1.5 shrink-0">
-            {/* Types */}
-            <select
-              value={filters.hiringOnly ? 'Hiring Now' : 'All types'}
-              onChange={(e) => {
-                const val = e.target.value;
-                onFilterChange({ ...filters, hiringOnly: val === 'Hiring Now' });
-              }}
-              className={selectClass}
-              suppressHydrationWarning
-            >
-              {typesList.map((t) => <option key={t} value={t}>{t}</option>)}
-            </select>
-
-            {/* Areas */}
-            <select
-              value={filters.area === 'All' ? 'All areas' : filters.area}
-              onChange={(e) => {
-                const val = e.target.value;
-                onFilterChange({ ...filters, area: val === 'All areas' ? 'All' : val });
-              }}
-              className={selectClass}
-              suppressHydrationWarning
-            >
-              {areaList.map((a) => <option key={a} value={a}>{a}</option>)}
-            </select>
-
-            {/* Stages */}
-            <select
-              value={filters.fundingStage === 'All' ? 'All stages' : filters.fundingStage}
-              onChange={(e) => {
-                const val = e.target.value;
-                onFilterChange({ ...filters, fundingStage: val === 'All stages' ? 'All' : val });
-              }}
-              className={selectClass}
-              suppressHydrationWarning
-            >
-              {fundingStages.map((s) => <option key={s} value={s}>{s}</option>)}
-            </select>
-
-            {/* Sectors */}
-            <select
-              value={filters.industry === 'All' ? 'All sectors' : filters.industry}
-              onChange={(e) => {
-                const val = e.target.value;
-                onFilterChange({ ...filters, industry: val === 'All sectors' ? 'All' : val });
-              }}
-              className={selectClass}
-              suppressHydrationWarning
-            >
-              {industries.map((ind) => <option key={ind} value={ind}>{ind}</option>)}
-            </select>
-          </div>
-        )}
-
-        {/* View Toggle Pill */}
-        <div className="flex items-center bg-gray-100 p-0.5 rounded-full border border-gray-200 text-xs shrink-0">
-          <button
-            onClick={() => onViewChange('map')}
-            className={`px-3 py-1 rounded-full font-bold transition-all ${
-              displayView === 'map' ? 'bg-black text-white shadow-sm' : 'text-gray-600 hover:text-gray-900'
-            }`}
+        {/* Desktop filter selects (lg+) */}
+        <div className="hidden lg:flex items-center gap-1.5 border-l border-border/80 pl-2 shrink-0">
+          {/* Sector */}
+          <select
+            id="filter-sector"
+            value={filters.industry}
+            onChange={(e) => onFilterChange({ ...filters, industry: e.target.value })}
+            className={selectCls}
             suppressHydrationWarning
           >
-            Map
-          </button>
-          <button
-            onClick={() => onViewChange('grid')}
-            className={`px-3 py-1 rounded-full font-bold transition-all ${
-              displayView === 'grid' ? 'bg-black text-white shadow-sm' : 'text-gray-600 hover:text-gray-900'
-            }`}
+            {industries.map((ind) => (
+              <option key={ind} value={ind}>
+                {ind === 'All' ? 'All sectors' : ind}
+              </option>
+            ))}
+          </select>
+
+          {/* Stage */}
+          <select
+            id="filter-stage"
+            value={filters.fundingStage}
+            onChange={(e) => onFilterChange({ ...filters, fundingStage: e.target.value })}
+            className={selectCls}
             suppressHydrationWarning
           >
-            Grid
-          </button>
+            {fundingStages.map((s) => (
+              <option key={s} value={s}>
+                {s === 'All' ? 'All stages' : s}
+              </option>
+            ))}
+          </select>
+
+          {/* Area */}
+          <select
+            id="filter-area"
+            value={filters.area}
+            onChange={(e) => onFilterChange({ ...filters, area: e.target.value })}
+            className={selectCls}
+            suppressHydrationWarning
+          >
+            {areaList.map((a) => (
+              <option key={a} value={a}>
+                {a === 'All' ? 'All areas' : a}
+              </option>
+            ))}
+          </select>
         </div>
 
-        {/* Mobile Filters Toggle Button */}
+        {/* Mobile filter icon (hidden lg+) */}
         <button
+          id="mobile-filter-toggle"
+          type="button"
+          aria-label="Toggle Filters"
           onClick={() => setMobileFiltersOpen((v) => !v)}
-          className={`flex items-center gap-1 px-2.5 py-1.5 rounded-full border text-xs font-semibold transition-all shrink-0 lg:hidden ${
-            mobileFiltersOpen ? 'bg-orange-500 text-white border-orange-500' : 'bg-gray-100 text-gray-600 border-gray-200'
+          className={`relative lg:hidden p-1.5 rounded-full transition-colors shrink-0 ${
+            mobileFiltersOpen
+              ? 'text-foreground bg-muted'
+              : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
           }`}
-          suppressHydrationWarning
         >
-          {mobileFiltersOpen ? <X className="w-3.5 h-3.5" /> : <SlidersHorizontal className="w-3.5 h-3.5" />}
+          <SlidersHorizontal width={12} height={12} aria-hidden="true" />
         </button>
 
-        {/* ── JOB TOGGLE BUTTON ── */}
-        <button
-          onClick={handleJobButtonToggle}
-          className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-extrabold transition-all shrink-0 border ${
-            isJobMode
-              ? 'bg-orange-500 text-white border-orange-500 shadow-md shadow-orange-500/30'
-              : 'bg-white hover:bg-gray-50 text-gray-700 border-gray-300 shadow-sm'
-          }`}
-          suppressHydrationWarning
-        >
-          <Briefcase className={`w-3.5 h-3.5 ${isJobMode ? 'text-white' : 'text-orange-500'}`} />
-          {isJobMode ? 'Hiring' : `${realJobsCount} jobs`}
-        </button>
+        {/* Separator */}
+        <span className="h-3.5 sm:h-4 w-[1px] bg-border/80 shrink-0" />
 
-        {/* Submit Startup Button */}
-        {!isJobMode && (
+        {/* View toggle pill */}
+        <div className="bg-muted/60 p-0.5 rounded-full flex items-center border border-border/40 shrink-0">
           <button
-            onClick={onOpenSubmit}
-            className="flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-bold text-white bg-orange-500 hover:bg-orange-600 active:scale-95 shadow-md shadow-orange-500/20 transition-all shrink-0"
-            suppressHydrationWarning
+            id="view-map"
+            type="button"
+            aria-label="Map View"
+            onClick={() => onViewChange('map')}
+            className={`relative p-1 sm:p-1.5 rounded-full transition-colors duration-150 cursor-pointer ${
+              displayView === 'map' ? 'text-foreground font-medium' : 'text-muted-foreground hover:text-foreground'
+            }`}
           >
-            <Plus className="w-3.5 h-3.5 stroke-[3]" />
-            <span className="hidden sm:inline">Submit</span>
+            {displayView === 'map' && (
+              <div className="absolute inset-0 bg-background rounded-full border border-border/60 shadow-xs" />
+            )}
+            <span className="relative z-10 block">
+              <Map width={12} height={12} aria-hidden="true" />
+            </span>
           </button>
-        )}
+          <button
+            id="view-grid"
+            type="button"
+            aria-label="Grid View"
+            onClick={() => onViewChange('grid')}
+            className={`relative p-1 sm:p-1.5 rounded-full transition-colors duration-150 cursor-pointer ${
+              displayView === 'grid' ? 'text-foreground font-medium' : 'text-muted-foreground hover:text-foreground'
+            }`}
+          >
+            {displayView === 'grid' && (
+              <div className="absolute inset-0 bg-background rounded-full border border-border/60 shadow-xs" />
+            )}
+            <span className="relative z-10 block">
+              <LayoutGrid width={12} height={12} aria-hidden="true" />
+            </span>
+          </button>
+        </div>
+
+        {/* Submit button */}
+        <a
+          id="submit-startup-btn"
+          href="#"
+          onClick={(e) => { e.preventDefault(); onOpenSubmit(); }}
+          className="inline-flex items-center gap-1 rounded-full bg-slate-900 px-2 sm:px-3 py-1.5 text-xs font-medium text-white shadow-xs hover:opacity-90 transition-opacity shrink-0"
+        >
+          <Plus width={12} height={12} aria-hidden="true" />
+          <span className="hidden sm:inline">Submit</span>
+        </a>
       </div>
 
-      {/* ── JOB MODE FILTER ROWS WITH GENUINE DYNAMIC COUNTS ── */}
-      {isJobMode && (
-        <div className="px-3 py-2 sm:px-4 sm:py-2.5 border-t border-gray-100 space-y-2 text-xs">
-          
-          {/* FIELD ROW */}
-          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none pb-0.5">
-            <span className="font-bold text-[10px] text-gray-400 uppercase tracking-widest shrink-0 w-12">
-              FIELD
-            </span>
-            <div className="flex items-center gap-1.5 flex-nowrap shrink-0">
-              {fields.map((f) => {
-                const isActive = selectedField === f.label;
-                return (
-                  <button
-                    key={f.label}
-                    onClick={() => {
-                      const next = isActive ? 'All' : f.label;
-                      if (onSelectField) onSelectField(next);
-                    }}
-                    className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1 border ${
-                      isActive
-                        ? 'bg-black text-white border-black shadow-sm'
-                        : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border-gray-200'
-                    }`}
-                  >
-                    <span>{f.label}</span>
-                    <span className={isActive ? 'text-gray-300 text-[10px]' : 'text-gray-400 text-[10px]'}>
-                      {f.count}
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* LEVEL ROW */}
-          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none">
-            <span className="font-bold text-[10px] text-gray-400 uppercase tracking-widest shrink-0 w-12">
-              LEVEL
-            </span>
-            <div className="flex items-center gap-1.5 flex-nowrap shrink-0">
-              {levels.map((lvl) => {
-                const isActive = selectedLevel === lvl.label;
-                return (
-                  <button
-                    key={lvl.label}
-                    onClick={() => {
-                      const next = isActive ? 'All' : lvl.label;
-                      if (onSelectLevel) onSelectLevel(next);
-                    }}
-                    className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1 border ${
-                      isActive
-                        ? 'bg-black text-white border-black shadow-sm'
-                        : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border-gray-200'
-                    }`}
-                  >
-                    <span>{lvl.label}</span>
-                    <span className={isActive ? 'text-gray-300 text-[10px]' : 'text-gray-400 text-[10px]'}>
-                      {lvl.count}
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-        </div>
-      )}
-
-      {/* Mobile Dropdowns Drawer (in Default Mode) */}
-      {!isJobMode && mobileFiltersOpen && (
-        <div className="px-3 py-2 sm:px-4 sm:py-2.5 border-t border-gray-100 flex flex-wrap gap-2 lg:hidden">
+      {/* ── Mobile filter drawer ── */}
+      {mobileFiltersOpen && (
+        <div className="pointer-events-auto w-full sm:w-auto flex flex-wrap items-center gap-1.5 rounded-2xl border border-border/80 bg-white/95 backdrop-blur-md px-3 py-2 shadow-lg shadow-black/5 lg:hidden">
           <select
-            value={filters.hiringOnly ? 'Hiring Now' : 'All types'}
-            onChange={(e) => {
-              const val = e.target.value;
-              onFilterChange({ ...filters, hiringOnly: val === 'Hiring Now' });
-            }}
-            className={selectClass}
+            value={filters.industry}
+            onChange={(e) => onFilterChange({ ...filters, industry: e.target.value })}
+            className="flex-1 min-w-[120px] h-7 text-xs rounded-lg border border-border/60 bg-muted/40 px-2 text-foreground focus:outline-none"
+            suppressHydrationWarning
           >
-            {typesList.map((t) => <option key={t} value={t}>{t}</option>)}
+            {industries.map((ind) => (
+              <option key={ind} value={ind}>
+                {ind === 'All' ? 'All sectors' : ind}
+              </option>
+            ))}
           </select>
           <select
-            value={filters.area === 'All' ? 'All areas' : filters.area}
-            onChange={(e) => {
-              const val = e.target.value;
-              onFilterChange({ ...filters, area: val === 'All areas' ? 'All' : val });
-            }}
-            className={selectClass}
+            value={filters.fundingStage}
+            onChange={(e) => onFilterChange({ ...filters, fundingStage: e.target.value })}
+            className="flex-1 min-w-[100px] h-7 text-xs rounded-lg border border-border/60 bg-muted/40 px-2 text-foreground focus:outline-none"
+            suppressHydrationWarning
           >
-            {areaList.map((a) => <option key={a} value={a}>{a}</option>)}
+            {fundingStages.map((s) => (
+              <option key={s} value={s}>
+                {s === 'All' ? 'All stages' : s}
+              </option>
+            ))}
           </select>
           <select
-            value={filters.fundingStage === 'All' ? 'All stages' : filters.fundingStage}
-            onChange={(e) => {
-              const val = e.target.value;
-              onFilterChange({ ...filters, fundingStage: val === 'All stages' ? 'All' : val });
-            }}
-            className={selectClass}
+            value={filters.area}
+            onChange={(e) => onFilterChange({ ...filters, area: e.target.value })}
+            className="flex-1 min-w-[100px] h-7 text-xs rounded-lg border border-border/60 bg-muted/40 px-2 text-foreground focus:outline-none"
+            suppressHydrationWarning
           >
-            {fundingStages.map((s) => <option key={s} value={s}>{s}</option>)}
+            {areaList.map((a) => (
+              <option key={a} value={a}>
+                {a === 'All' ? 'All areas' : a}
+              </option>
+            ))}
           </select>
-          <select
-            value={filters.industry === 'All' ? 'All sectors' : filters.industry}
-            onChange={(e) => {
-              const val = e.target.value;
-              onFilterChange({ ...filters, industry: val === 'All sectors' ? 'All' : val });
-            }}
-            className={selectClass}
-          >
-            {industries.map((ind) => <option key={ind} value={ind}>{ind}</option>)}
-          </select>
+          <label className="flex items-center gap-1.5 text-xs text-muted-foreground cursor-pointer">
+            <input
+              type="checkbox"
+              checked={filters.hiringOnly}
+              onChange={(e) => onFilterChange({ ...filters, hiringOnly: e.target.checked })}
+              className="rounded"
+            />
+            Hiring only
+          </label>
         </div>
       )}
     </header>

@@ -58,7 +58,7 @@ export default function StartupList({
                         src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
                         alt={startup.name}
                         className="w-10 h-10 rounded-xl object-contain bg-white border border-slate-700 p-1"
-                        onError={(e) => handleLogoError(e, startup.name)}
+                        onError={(e) => handleLogoError(e, startup.name, startup.website, startup.svgAvatar)}
                       />
                       <div>
                         <div className="flex items-center gap-1.5">

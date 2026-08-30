@@ -73,7 +73,7 @@ export default function StartupDetailModal({
                 src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
                 alt={startup.name}
                 className="w-16 h-16 rounded-2xl object-contain bg-white border-2 border-indigo-500/40 p-1 shadow-lg"
-                onError={(e) => handleLogoError(e, startup.name)}
+                onError={(e) => handleLogoError(e, startup.name, startup.website, startup.svgAvatar)}
               />
               <div>
                 <div className="flex items-center gap-2">
@@ -262,7 +262,7 @@ export default function StartupDetailModal({
                           src={getCompanyLogoUrl(sim.website, sim.name, sim.logoUrl)}
                           alt={sim.name}
                           className="w-8 h-8 rounded-lg object-contain bg-white p-0.5"
-                          onError={(e) => handleLogoError(e, sim.name)}
+                          onError={(e) => handleLogoError(e, sim.name, sim.website, sim.svgAvatar)}
                         />
                         <div className="overflow-hidden">
                           <h5 className="text-xs font-bold text-white truncate">{sim.name}</h5>

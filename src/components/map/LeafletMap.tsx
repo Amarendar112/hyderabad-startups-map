@@ -5,7 +5,7 @@ import Supercluster from 'supercluster';
 import { Startup } from '@/types/startup';
 import { HYDERABAD_AREAS } from '@/data/startups';
 import { Flame } from 'lucide-react';
-import { getCompanyLogoUrl, getLogoFallbackUrl, extractDomain } from '@/utils/logo';
+import { getCompanyLogoUrl } from '@/utils/logo';
 import { INITIAL_JOBS } from '@/data/jobs';
 
 interface LeafletMapProps {
@@ -183,6 +183,41 @@ export default function LeafletMap({
     });
   }, [mapStyle]);
 
+  // Register global logo-fallback map so inline onerror handlers can look up
+  // clean fallback URLs without embedding SVG data URIs in HTML attribute strings.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    // Populate the global lookup table keyed by startup id
+    type WinExt = typeof window & {
+      __logoFallback?: Record<string, { google: string; final: string }>;
+      __logoError?: (img: HTMLImageElement) => void;
+    };
+    const w = window as WinExt;
+    if (!w.__logoFallback) w.__logoFallback = {};
+    startups.forEach((s) => {
+      const googleFav = s.website
+        ? `https://www.google.com/s2/favicons?domain=${s.website.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}&sz=256`
+        : null;
+      const finalUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(s.name)}&background=1e293b&color=38bdf8&bold=true&size=128`;
+      w.__logoFallback![s.id] = { google: googleFav || finalUrl, final: finalUrl };
+    });
+    // Global handler called from inline onerror on map pins
+    w.__logoError = function (img: HTMLImageElement) {
+      const id = img.dataset.sid || '';
+      const fb = w.__logoFallback?.[id];
+      if (!fb) { img.onerror = null; return; }
+      const src = img.src || '';
+      if (!src.includes('s2/favicons') && !src.includes('ui-avatars')) {
+        // First failure: try Google S2
+        img.onerror = function () { img.onerror = null; img.src = fb.final; };
+        img.src = fb.google;
+      } else {
+        img.onerror = null;
+        img.src = fb.final;
+      }
+    };
+  }, [startups]);
+
   // Update Clusters & Markers on Map View Change
   useEffect(() => {
     if (!leafletMapInstance.current || !mapReady || !markersLayerGroupRef.current) return;
@@ -251,9 +286,9 @@ export default function LeafletMap({
             const startup: Startup = cluster.properties.startup;
             const color = getIndustryColor(startup.industry);
             const logoUrl = getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl);
-            const finalFallback = getLogoFallbackUrl(startup.name);
             const safeName = startup.name.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-            const onerror = `this.onerror=null;this.src='${finalFallback}';`;
+            // Use global __logoError to avoid embedding SVG data URIs in HTML strings
+            const onerror = `if(window.__logoError)window.__logoError(this);`;
 
             const matchingJobs = (startup.jobOpenings && startup.jobOpenings.length > 0)
               ? startup.jobOpenings
@@ -263,17 +298,18 @@ export default function LeafletMap({
             const iconHtml = `
               <div style="position:relative;display:inline-block;cursor:pointer;">
                 <div style="
-                  width:38px;height:38px;border-radius:50%;
-                  background:#fff;border:2.5px solid ${color};
-                  box-shadow:0 3px 10px rgba(0,0,0,0.22);
+                  width:40px;height:40px;border-radius:12px;
+                  background:#ffffff;border:2.5px solid ${color};
+                  box-shadow:0 4px 12px rgba(0,0,0,0.25);
                   display:flex;align-items:center;justify-content:center;
                   overflow:hidden;padding:3px;
                 ">
-                  <img
+                   <img
                     src="${logoUrl}"
                     alt="${safeName}"
+                    data-sid="${startup.id}"
                     width="32" height="32"
-                    style="width:100%;height:100%;object-fit:contain;border-radius:50%;"
+                    style="width:100%;height:100%;object-fit:contain;border-radius:8px;"
                     onerror="${onerror}"
                   />
                 </div>
@@ -288,17 +324,17 @@ export default function LeafletMap({
             const customIcon = L.divIcon({
               html: iconHtml,
               className: 'startup-pin-badge',
-              iconSize: [38, 38],
-              iconAnchor: [19, 19],
+              iconSize: [40, 40],
+              iconAnchor: [20, 20],
             });
 
             const marker = L.marker([lat, lng], { icon: customIcon });
 
             const popupHtml = `
-              <div style="padding:12px;max-width:230px;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:#1e293b;background:#fff;border-radius:18px;box-shadow:0 12px 28px rgba(0,0,0,0.18);">
-                <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
-                  <div style="width:34px;height:34px;border-radius:50%;background:#fff;border:1.5px solid #e2e8f0;overflow:hidden;padding:2px;flex-shrink:0;">
-                    <img src="${logoUrl}" width="30" height="30" style="width:100%;height:100%;object-fit:contain;" onerror="${onerror}" />
+              <div style="padding:14px;max-width:240px;font-family:-apple-system,BlinkMacSystemFont,sans-serif;color:#1e293b;background:#fff;border-radius:18px;box-shadow:0 12px 28px rgba(0,0,0,0.18);">
+                <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+                  <div style="width:38px;height:38px;border-radius:10px;background:#fff;border:1.5px solid #e2e8f0;overflow:hidden;padding:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
+                    <img src="${logoUrl}" data-sid="${startup.id}" width="32" height="32" style="width:100%;height:100%;object-fit:contain;border-radius:6px;" onerror="${onerror}" />
                   </div>
                   <div style="overflow:hidden;">
                     <h4 style="font-weight:800;font-size:14px;color:#0f172a;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${startup.name}</h4>

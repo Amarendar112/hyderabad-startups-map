@@ -55,7 +55,7 @@ export default function StartupCard({
                 src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
                 alt={startup.name}
                 className="w-12 h-12 rounded-xl object-contain bg-white border border-slate-700 p-1 shadow-md group-hover:scale-105 transition-transform"
-                onError={(e) => handleLogoError(e, startup.name)}
+                onError={(e) => handleLogoError(e, startup.name, startup.website, startup.svgAvatar)}
               />
               {startup.verified && (
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 bg-slate-950 rounded-full absolute -bottom-1 -right-1" />

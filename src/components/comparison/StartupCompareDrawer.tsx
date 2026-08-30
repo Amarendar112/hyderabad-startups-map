@@ -39,7 +39,7 @@ export default function StartupCompareDrawer({
                 src={getCompanyLogoUrl(s.website, s.name, s.logoUrl)}
                 alt={s.name}
                 className="w-7 h-7 rounded-lg object-contain bg-white border border-slate-700 p-0.5"
-                onError={(e) => handleLogoError(e, s.name)}
+                onError={(e) => handleLogoError(e, s.name, s.website, s.svgAvatar)}
               />
               <button
                 onClick={() => onRemoveFromCompare(s.id)}
@@ -96,7 +96,7 @@ export default function StartupCompareDrawer({
                         src={getCompanyLogoUrl(s.website, s.name, s.logoUrl)}
                         alt={s.name}
                         className="w-12 h-12 rounded-2xl object-contain bg-white mx-auto border border-slate-700 p-0.5"
-                        onError={(e) => handleLogoError(e, s.name)}
+                        onError={(e) => handleLogoError(e, s.name, s.website, s.svgAvatar)}
                       />
                       <h3 className="font-bold text-sm text-white">{s.name}</h3>
                       <button
