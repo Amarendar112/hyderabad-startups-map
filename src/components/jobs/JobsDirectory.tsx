@@ -72,26 +72,43 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
     return `https://ui-avatars.com/api/?name=${encodeURIComponent(companyName)}&background=1e293b&color=94a3b8&size=80&bold=true`;
   };
 
-  const filteredJobs = activeJobs.filter((j) => {
-    if (search.trim()) {
-      const q = search.toLowerCase();
-      const matchTitle = j.title.toLowerCase().includes(q);
-      const matchStartup = j.startupName.toLowerCase().includes(q);
-      const matchLoc = j.location.toLowerCase().includes(q);
-      if (!matchTitle && !matchStartup && !matchLoc) return false;
-    }
-    if (selectedCategory !== 'All' && j.category !== selectedCategory) {
-      return false;
-    }
-    if (selectedCompany !== 'All Companies' && j.startupName !== selectedCompany) {
-      return false;
-    }
-    return true;
-  });
+  const filteredJobs = React.useMemo(() => {
+    return activeJobs.filter((j) => {
+      if (!j) return false;
 
-  const filteredCsvCompanies = CSV_COMPANIES.filter(
-    (c) => !search.trim() || c.name.toLowerCase().includes(search.toLowerCase())
-  );
+      if (search.trim()) {
+        const q = search.toLowerCase();
+        const matchTitle = (j.title || '').toLowerCase().includes(q);
+        const matchStartup = (j.startupName || '').toLowerCase().includes(q);
+        const matchLoc = (j.location || '').toLowerCase().includes(q);
+        if (!matchTitle && !matchStartup && !matchLoc) return false;
+      }
+
+      if (selectedCategory !== 'All') {
+        const cat = (j.category || '').toLowerCase();
+        const sel = selectedCategory.toLowerCase();
+        if (sel === 'ai & data') {
+          if (!cat.includes('ai') && !cat.includes('data') && !cat.includes('ml')) return false;
+        } else if (!cat.includes(sel)) {
+          return false;
+        }
+      }
+
+      if (selectedCompany !== 'All Companies') {
+        if (normalizeName(j.startupName || '') !== normalizeName(selectedCompany)) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+  }, [activeJobs, search, selectedCategory, selectedCompany]);
+
+  const filteredCsvCompanies = React.useMemo(() => {
+    return CSV_COMPANIES.filter(
+      (c) => !search.trim() || (c.name || '').toLowerCase().includes(search.toLowerCase())
+    );
+  }, [search]);
 
   const resetFilters = () => {
     setSearch('');
@@ -122,8 +139,11 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
         {/* Tab Switcher Pills */}
         <div className="flex flex-wrap items-center bg-slate-950/90 p-1.5 rounded-2xl border border-slate-800 text-xs font-semibold gap-1 shrink-0 shadow-inner">
           <button
-            onClick={() => setActiveTab('openings')}
-            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all ${
+            onClick={() => {
+              setActiveTab('openings');
+              if (filteredJobs.length === 0) resetFilters();
+            }}
+            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all cursor-pointer ${
               activeTab === 'openings'
                 ? 'bg-emerald-500 text-slate-950 font-bold shadow-md shadow-emerald-500/20'
                 : 'text-slate-400 hover:text-white'
@@ -135,7 +155,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
 
           <button
             onClick={() => setActiveTab('companies')}
-            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all ${
+            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all cursor-pointer ${
               activeTab === 'companies'
                 ? 'bg-emerald-500 text-slate-950 font-bold shadow-md shadow-emerald-500/20'
                 : 'text-slate-400 hover:text-white'
@@ -197,7 +217,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all border ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all border cursor-pointer ${
                   selectedCategory === cat
                     ? 'bg-emerald-600 border-emerald-500 text-white shadow-sm shadow-emerald-600/30'
                     : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white hover:border-slate-700'
@@ -220,7 +240,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
               <Briefcase className="w-4 h-4 text-emerald-400" />
               Recently Posted Openings ({filteredJobs.length})
             </h3>
-            <span className="text-xs text-slate-400">Direct Apply to Careers Page</span>
+            <span className="text-xs text-slate-400">Direct Apply to Official Careers Page</span>
           </div>
 
           {filteredJobs.length === 0 ? (
@@ -228,20 +248,21 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
               <p className="text-sm text-slate-400">No job openings found matching your current filters.</p>
               <button
                 onClick={resetFilters}
-                className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-white transition-all"
+                className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white transition-all cursor-pointer"
               >
-                Clear all filters
+                Show All {activeJobs.length} Openings
               </button>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {filteredJobs.map((job) => {
+              {filteredJobs.map((job, index) => {
                 const startup = startups.find((s) => s.id === job.startupId);
                 const careersUrl = job.applyUrl || (startup ? getCareersUrl(startup.website) : '#');
+                const uniqueKey = `${job.id || 'job'}-${index}`;
 
                 return (
                   <div
-                    key={job.id}
+                    key={uniqueKey}
                     className="group bg-slate-900/90 border border-slate-800/80 hover:border-emerald-500/50 p-5 rounded-2xl shadow-lg hover:shadow-emerald-950/20 transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between"
                   >
                     <div className="space-y-3.5">
@@ -250,25 +271,27 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
                         <div className="flex items-start gap-3 min-w-0">
                           <img
                             src={getCompanyLogoUrl(startup?.website, job.startupName, job.startupLogo)}
-                            alt={job.startupName}
+                            alt={job.startupName || 'Startup'}
                             className="w-11 h-11 rounded-xl object-contain bg-white border border-slate-700/60 p-1 shrink-0 shadow-sm"
-                            onError={(e) => handleLogoError(e, job.startupName)}
+                            onError={(e) => handleLogoError(e, job.startupName || 'Startup')}
                           />
                           <div className="min-w-0">
                             <h4 className="font-bold text-sm text-white group-hover:text-emerald-400 transition-colors line-clamp-2 leading-snug">
-                              {job.title}
+                              {job.title || 'Software Role'}
                             </h4>
                             <button
+                              type="button"
                               onClick={() => startup && onSelectStartup(startup)}
-                              className="text-xs text-indigo-400 hover:text-indigo-300 hover:underline flex items-center gap-1 mt-0.5 font-medium truncate"
+                              className="text-xs text-indigo-400 hover:text-indigo-300 hover:underline flex items-center gap-1 mt-0.5 font-medium truncate cursor-pointer"
                             >
-                              {job.startupName} <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                              {job.startupName || startup?.name || 'Hyderabad Venture'}{' '}
+                              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                             </button>
                           </div>
                         </div>
 
                         <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-500/10 text-emerald-300 border border-emerald-500/30 shrink-0">
-                          {job.category}
+                          {job.category || 'Engineering'}
                         </span>
                       </div>
 
@@ -276,7 +299,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
                       <div className="flex flex-wrap items-center gap-2 text-xs">
                         <span className="inline-flex items-center gap-1 text-slate-300 bg-slate-950/70 px-2.5 py-1 rounded-lg border border-slate-800">
                           <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                          <span className="truncate max-w-[140px]">{job.location}</span>
+                          <span className="truncate max-w-[140px]">{job.location || 'Hyderabad'}</span>
                         </span>
                         {job.salaryRange && (
                           <span className="font-semibold text-emerald-400 bg-emerald-950/50 border border-emerald-800/40 px-2.5 py-1 rounded-lg">
@@ -284,7 +307,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
                           </span>
                         )}
                         <span className="text-slate-300 bg-slate-950/70 border border-slate-800 px-2.5 py-1 rounded-lg">
-                          {job.experienceLevel}
+                          {job.experienceLevel || 'Mid-Level'}
                         </span>
                         {job.type && (
                           <span className="text-slate-400 bg-slate-950/40 border border-slate-800/60 px-2 py-1 rounded-lg text-[11px]">
@@ -297,7 +320,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
                     {/* Bottom Row: Date & Apply Link */}
                     <div className="pt-3 mt-3 border-t border-slate-800/80 flex items-center justify-between text-xs gap-2">
                       <span className="text-slate-500 font-medium text-[11px]">
-                        Posted {job.postedAt}
+                        Posted {job.postedAt || 'Recently'}
                       </span>
                       <a
                         href={careersUrl}
@@ -333,12 +356,13 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5">
-            {filteredCsvCompanies.map((company) => {
+            {filteredCsvCompanies.map((company, index) => {
               const logoSrc = getDirectoryLogoForCompany(company.name, company.careersUrl);
+              const uniqueKey = `${company.name}-${index}`;
 
               return (
                 <div
-                  key={company.name}
+                  key={uniqueKey}
                   className="p-4 bg-slate-900/90 border border-slate-800/80 hover:border-emerald-500/50 rounded-2xl flex items-center justify-between gap-3 transition-all hover:-translate-y-0.5 shadow-md group"
                 >
                   <div className="flex items-center gap-3 overflow-hidden min-w-0">
