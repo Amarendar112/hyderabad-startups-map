@@ -35,6 +35,10 @@ export default function LeafletMap({
   const [showHeatmap, setShowHeatmap] = useState<boolean>(false);
   const [mapReady, setMapReady] = useState<boolean>(false);
 
+  // Exact totals from the provided Hyderabad openings workbook.
+  const totalOpeningsCount = 984;
+  const hiringCompanyCount = 99;
+
   // Industry color mapping for circular pin rings & badges
   const getIndustryColor = (industry: string) => {
     switch (industry) {
@@ -346,7 +350,7 @@ export default function LeafletMap({
                   />
                 </div>
                 ${openRolesCount > 0 ? `
-                  <span style="position:absolute;top:-4px;right:-4px;min-width:18px;height:18px;padding:0 4px;background:#FF5722;color:#fff;border:2px solid #fff;border-radius:999px;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 5px rgba(0,0,0,0.3);z-index:10;">
+                  <span style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);min-width:22px;height:22px;padding:0 6px;background:#ef4444;color:#fff;border:2px solid #fff;border-radius:999px;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 8px rgba(239,68,68,0.35);z-index:10;line-height:1;">
                     ${openRolesCount}
                   </span>
                 ` : ''}
@@ -374,7 +378,7 @@ export default function LeafletMap({
                   </div>
                 </div>
                 ${openRolesCount > 0 ? `
-                  <div style="background:#FFF3E0;color:#C2410C;border:1px solid #FFE0B2;padding:2px 8px;border-radius:999px;font-size:10px;font-weight:700;margin-bottom:6px;display:inline-block;">
+                  <div style="background:#fee2e2;color:#b91c1c;border:1px solid #fecaca;padding:2px 8px;border-radius:999px;font-size:10px;font-weight:700;margin-bottom:6px;display:inline-block;">
                     ${openRolesCount} open roles
                   </div>
                 ` : ''}
@@ -436,6 +440,8 @@ export default function LeafletMap({
     <div className="relative w-full h-full overflow-hidden bg-slate-100">
       {/* Leaflet Map DOM Element */}
       <div ref={mapRef} className="w-full h-full z-0" />
+
+
 
       {/* Floating Bottom Right Map Controls */}
       <div className="absolute bottom-12 sm:bottom-4 right-14 z-10 flex flex-wrap items-center gap-1.5 sm:gap-2 bg-white/90 backdrop-blur-md p-1 rounded-full shadow-lg border border-gray-200 text-xs max-w-[calc(100vw-5rem)]">

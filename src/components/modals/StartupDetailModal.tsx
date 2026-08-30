@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Startup } from '@/types/startup';
 import { getCompanyLogoUrl, handleLogoError } from '@/utils/logo';
 import { INITIAL_JOBS } from '@/data/jobs';
@@ -31,6 +31,7 @@ interface StartupDetailModalProps {
   onToggleFavorite: (id: string) => void;
   isComparing: boolean;
   onToggleCompare: (startup: Startup) => void;
+  initialActiveTab?: 'overview' | 'founders' | 'jobs' | 'location';
 }
 
 export default function StartupDetailModal({
@@ -42,8 +43,13 @@ export default function StartupDetailModal({
   onToggleFavorite,
   isComparing,
   onToggleCompare,
+  initialActiveTab = 'overview',
 }: StartupDetailModalProps) {
-  const [activeTab, setActiveTab] = useState<'overview' | 'founders' | 'jobs' | 'location'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'founders' | 'jobs' | 'location'>(initialActiveTab);
+
+  useEffect(() => {
+    setActiveTab(initialActiveTab);
+  }, [initialActiveTab, startup?.id]);
 
   if (!startup) return null;
 

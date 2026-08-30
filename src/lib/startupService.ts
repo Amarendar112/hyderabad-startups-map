@@ -1,6 +1,7 @@
 import { Startup, Incubator, Investor, JobOpening, FilterState, SubmissionFormState } from '@/types/startup';
 import { INITIAL_STARTUPS, INITIAL_INCUBATORS, INITIAL_INVESTORS } from '@/data/startups';
 import { INITIAL_JOBS } from '@/data/jobs';
+import { generateAllStartupJobs } from '@/utils/jobsGenerator';
 
 const LOCAL_STORAGE_STARTUPS_KEY = 'hyd_startup_map_startups_v14_cleared';
 const LOCAL_STORAGE_FAVORITES_KEY = 'hyd_startup_map_favorites_v1';
@@ -267,9 +268,21 @@ export class StartupService {
     return INITIAL_INVESTORS;
   }
 
-  // Returns all hardcoded verified job openings with direct career page links
-  static getAllJobs(_startups?: Startup[]): JobOpening[] {
-    return INITIAL_JOBS;
+  // Returns active hiring jobs derived from the current startup dataset.
+  static getAllJobs(startups?: Startup[]): JobOpening[] {
+    const source = startups && startups.length > 0 ? startups : INITIAL_STARTUPS;
+    const generated = generateAllStartupJobs(source);
+    const combined: JobOpening[] = [...INITIAL_JOBS];
+    const seen = new Set(combined.map((j) => j.id));
+
+    generated.forEach((j) => {
+      if (!seen.has(j.id)) {
+        combined.push(j);
+        seen.add(j.id);
+      }
+    });
+
+    return combined;
   }
 
   // Update ATS Configuration & Live Jobs for a Startup

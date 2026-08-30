@@ -55,56 +55,97 @@ export function getCareersUrl(websiteUrl: string): string {
 }
 
 /**
- * Dynamically generates 120+ verified startup job openings across hiring Hyderabad ventures.
- * Guarantees direct links to official company careers portals.
+ * Dynamically generates the active hiring list from the real Hyderabad dataset.
+ * It prefers explicit startup hiring roles and stored job openings, and only falls
+ * back to generic templates when a company is marked as hiring without detailed roles.
  */
+function inferRoleCategory(title: string): JobOpening['category'] {
+  const lower = title.toLowerCase();
+
+  if (/(product|manager|strategy|roadmap|growth)/.test(lower)) return 'Product';
+  if (/(design|ux|ui|figma|brand|creative)/.test(lower)) return 'Design';
+  if (/(sales|business development|account|revenue|ae|sdr|bdm)/.test(lower)) return 'Sales';
+  if (/(marketing|content|seo|social|growth|brand)/.test(lower)) return 'Marketing';
+  if (/(ai|ml|llm|data|analytics|vision|research|scientist|model)/.test(lower)) return 'AI & Data';
+
+  return 'Engineering';
+}
+
+function inferExperienceLevel(title: string): JobOpening['experienceLevel'] {
+  const lower = title.toLowerCase();
+
+  if (/(lead|principal|director|head|architect)/.test(lower)) return 'Lead / Executive';
+  if (/(senior|staff|sr\.|manager)/.test(lower)) return 'Senior';
+  if (/(junior|associate|intern|graduate)/.test(lower)) return 'Junior';
+
+  return 'Mid-Level';
+}
+
+function inferRoleTemplate(title: string, fallback: RoleTemplate): RoleTemplate {
+  return {
+    title,
+    category: inferRoleCategory(title),
+    experienceLevel: inferExperienceLevel(title),
+    type: fallback.type,
+    salaryRange: fallback.salaryRange,
+  };
+}
+
 export function generateAllStartupJobs(startups: Startup[]): JobOpening[] {
   const jobs: JobOpening[] = [];
+  const seenIds = new Set<string>();
 
-  // First collect existing hardcoded job openings
-  startups.forEach((s) => {
-    if (s.jobOpenings && s.jobOpenings.length > 0) {
-      jobs.push(...s.jobOpenings);
+  const pushJob = (job: JobOpening) => {
+    if (!seenIds.has(job.id)) {
+      jobs.push(job);
+      seenIds.add(job.id);
+    }
+  };
+
+  startups.forEach((startup) => {
+    if (startup.jobOpenings && startup.jobOpenings.length > 0) {
+      startup.jobOpenings.forEach((job) => {
+        pushJob({
+          ...job,
+          startupLogo: job.startupLogo || startup.logoUrl || '',
+          startupName: job.startupName || startup.name,
+          startupId: job.startupId || startup.id,
+        });
+      });
     }
   });
 
-  // Filter startups that are hiring or have hiring roles
-  const hiringStartups = startups.filter((s) => s.hiring || (s.hiringRoles && s.hiringRoles.length > 0));
+  const hiringStartups = startups.filter((startup) => startup.hiring || (startup.hiringRoles && startup.hiringRoles.length > 0));
 
-  // Use top hiring startups to generate 120+ structured job listings
-  hiringStartups.slice(0, 60).forEach((startup, sIndex) => {
-    // Select 2-3 roles per startup
-    const rolesToAssign = [
-      ROLE_TEMPLATES[sIndex % ROLE_TEMPLATES.length],
-      ROLE_TEMPLATES[(sIndex + 7) % ROLE_TEMPLATES.length],
-    ];
+  hiringStartups.slice(0, 80).forEach((startup, sIndex) => {
+    const startupRoles = startup.hiringRoles && startup.hiringRoles.length > 0
+      ? startup.hiringRoles
+      : [ROLE_TEMPLATES[sIndex % ROLE_TEMPLATES.length].title, ROLE_TEMPLATES[(sIndex + 7) % ROLE_TEMPLATES.length].title];
 
-    if (sIndex % 2 === 0) {
-      rolesToAssign.push(ROLE_TEMPLATES[(sIndex + 13) % ROLE_TEMPLATES.length]);
-    }
+    startupRoles.slice(0, 3).forEach((roleTitle, rIndex) => {
+      const cleanedTitle = roleTitle.trim();
+      if (!cleanedTitle) return;
 
-    rolesToAssign.forEach((role, rIndex) => {
-      const jobId = `job_${startup.id}_${rIndex}`;
-      // Prevent duplicate job IDs
-      if (!jobs.some((j) => j.id === jobId)) {
-        const areaName = startup.location?.area || 'HITEC City';
-        const careersLink = getCareersUrl(startup.website);
+      const fallbackTemplate = ROLE_TEMPLATES[(sIndex + rIndex) % ROLE_TEMPLATES.length];
+      const role = inferRoleTemplate(cleanedTitle, fallbackTemplate);
+      const areaName = startup.location?.area || 'HITEC City';
+      const careersLink = getCareersUrl(startup.website);
+      const jobId = `job_${startup.id}_${cleanedTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 
-        jobs.push({
-          id: jobId,
-          startupId: startup.id,
-          startupName: startup.name,
-          startupLogo: startup.logoUrl || '',
-          title: role.title,
-          category: role.category,
-          location: `${areaName}, Hyderabad`,
-          type: role.type,
-          experienceLevel: role.experienceLevel,
-          salaryRange: role.salaryRange,
-          applyUrl: careersLink,
-          postedAt: rIndex === 0 ? '1 day ago' : rIndex === 1 ? '3 days ago' : '5 days ago',
-        });
-      }
+      pushJob({
+        id: jobId,
+        startupId: startup.id,
+        startupName: startup.name,
+        startupLogo: startup.logoUrl || '',
+        title: role.title,
+        category: role.category,
+        location: `${areaName}, Hyderabad`,
+        type: role.type,
+        experienceLevel: role.experienceLevel,
+        salaryRange: role.salaryRange,
+        applyUrl: careersLink,
+        postedAt: rIndex === 0 ? '1 day ago' : rIndex === 1 ? '3 days ago' : '5 days ago',
+      });
     });
   });
 

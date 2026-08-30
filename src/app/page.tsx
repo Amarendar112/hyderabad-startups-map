@@ -22,7 +22,13 @@ import AnalyticsDashboard from '@/components/analytics/AnalyticsDashboard';
 import AdminDashboard from '@/components/admin/AdminDashboard';
 import SubmitStartupModal from '@/components/forms/SubmitStartupModal';
 
-export default function Home() {
+export default function Home({
+  initialStartupSlug,
+  initialHiringOpen,
+}: {
+  initialStartupSlug?: string;
+  initialHiringOpen?: boolean;
+} = {}) {
   // View State
   const [displayView, setDisplayView] = useState<'map' | 'grid' | 'list'>('map');
   const [activeModalTab, setActiveModalTab] = useState<'none' | 'jobs' | 'ecosystem' | 'analytics' | 'admin'>('none');
@@ -63,6 +69,33 @@ export default function Home() {
   useEffect(() => {
     loadEcosystemData();
   }, []);
+
+  useEffect(() => {
+    if (!startups.length) return;
+
+    const params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null;
+    const directSlug =
+      initialStartupSlug ||
+      params?.get('company') ||
+      params?.get('startup') ||
+      (typeof window !== 'undefined' && window.location.pathname.match(/^\/company\/([^/]+)$/)?.[1]) ||
+      null;
+
+    if (!directSlug) return;
+
+    const targetStartup = startups.find((startup) => {
+      const normalized = startup.slug.toLowerCase();
+      const querySlug = directSlug.toLowerCase();
+      return normalized === querySlug || startup.name.toLowerCase().replace(/[^a-z0-9]+/g, '-') === querySlug;
+    });
+
+    if (!targetStartup) return;
+
+    setSelectedStartup(targetStartup);
+    if (initialHiringOpen || params?.get('hiring') === '1') {
+      setActiveModalTab('none');
+    }
+  }, [startups, initialStartupSlug, initialHiringOpen]);
 
   // Filtered Startups List
   const filteredStartups = StartupService.filterStartups(startups, filters);
@@ -126,8 +159,9 @@ export default function Home() {
           setActiveModalTab('none');
         }}
         onOpenSubmit={() => setIsSubmitOpen(true)}
+        onOpenJobs={() => setActiveModalTab('jobs')}
         totalStartupsCount={filteredStartups.length}
-        totalJobsCount={allJobs.length || 140}
+        totalJobsCount={1005}
       />
 
       {/* 2. Primary Full-Screen View Container */}
@@ -231,6 +265,13 @@ export default function Home() {
         onToggleFavorite={handleToggleFavorite}
         isComparing={selectedStartup ? compareList.some((s) => s.id === selectedStartup.id) : false}
         onToggleCompare={handleToggleCompare}
+        initialActiveTab={
+          selectedStartup && (
+            initialHiringOpen || (typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('hiring') === '1')
+          )
+            ? 'jobs'
+            : 'overview'
+        }
       />
 
       {/* Founder Submission Form Modal */}
