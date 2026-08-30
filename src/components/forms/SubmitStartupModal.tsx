@@ -72,35 +72,35 @@ export default function SubmitStartupModal({ isOpen, onClose, onSubmit }: Submit
   };
 
   return (
-    <div className="fixed inset-0 z-[2000] flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-fade-in">
+    <div className="fixed inset-0 z-[2000] flex items-center justify-center p-2.5 sm:p-4 bg-slate-950/85 backdrop-blur-md animate-fade-in">
       <div
-        className="relative w-full max-w-2xl max-h-[90vh] bg-slate-900 border border-slate-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col"
+        className="relative w-full max-w-2xl max-h-[92vh] sm:max-h-[90vh] bg-slate-900 border border-slate-800 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="p-6 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+        <div className="p-4 sm:p-6 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-indigo-400" />
-            <h2 className="text-xl font-bold text-white">Submit Your Hyderabad Startup</h2>
+            <Sparkles className="w-5 h-5 text-indigo-400 shrink-0" />
+            <h2 className="text-base sm:text-xl font-bold text-white">Submit Your Hyderabad Startup</h2>
           </div>
           <button
             onClick={() => {
               setSubmittedSuccess(false);
               onClose();
             }}
-            className="p-2 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white"
+            className="p-1.5 sm:p-2 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white"
           >
-            <X className="w-5 h-5" />
+            <X className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
         </div>
 
         {/* Success Screen */}
         {submittedSuccess ? (
-          <div className="p-10 text-center space-y-4 my-auto">
+          <div className="p-6 sm:p-10 text-center space-y-4 my-auto">
             <div className="w-16 h-16 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mx-auto">
               <CheckCircle2 className="w-10 h-10" />
             </div>
-            <h3 className="text-xl font-bold text-white">Startup Submitted Successfully!</h3>
+            <h3 className="text-lg sm:text-xl font-bold text-white">Startup Submitted Successfully!</h3>
             <p className="text-xs text-slate-300 max-w-md mx-auto">
               Thank you for submitting your venture to the Hyderabad Startup Map. Our admin team will verify details and publish it live shortly.
             </p>
@@ -116,9 +116,9 @@ export default function SubmitStartupModal({ isOpen, onClose, onSubmit }: Submit
           </div>
         ) : (
           /* Form Content */
-          <form onSubmit={handleSubmit} className="p-6 overflow-y-auto space-y-4 text-xs text-slate-300">
+          <form onSubmit={handleSubmit} className="p-4 sm:p-6 overflow-y-auto space-y-3.5 sm:space-y-4 text-xs text-slate-300">
             {/* Startup Info */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               <div>
                 <label className="block font-semibold text-slate-400 mb-1">Startup Name *</label>
                 <input

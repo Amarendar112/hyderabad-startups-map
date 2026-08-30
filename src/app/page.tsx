@@ -182,15 +182,15 @@ export default function Home({
 
         {/* GRID / LIST VIEW */}
         {(displayView === 'grid' || displayView === 'list') && (
-          <div className="w-full h-full pt-24 sm:pt-20 pb-8 px-3 sm:px-6 overflow-y-auto bg-[#f8f9fa] text-slate-900">
-            <div className="max-w-7xl mx-auto space-y-6">
-              <div className="flex items-center justify-between border-b border-slate-200 pb-4">
+          <div className="w-full h-full pt-16 sm:pt-20 pb-8 px-2.5 sm:px-6 overflow-y-auto bg-[#f8f9fa] text-slate-900">
+            <div className="max-w-7xl mx-auto space-y-4 sm:space-y-6">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 border-b border-slate-200 pb-3 sm:pb-4">
                 <div>
-                  <h2 className="text-xl font-extrabold text-slate-900">Hyderabad Startup Directory</h2>
+                  <h2 className="text-lg sm:text-xl font-extrabold text-slate-900">Hyderabad Startup Directory</h2>
                   <p className="text-xs text-slate-500">Showing {filteredStartups.length} verified startups</p>
                 </div>
                 {filters.area !== 'All' && (
-                  <span className="px-3 py-1 rounded-full bg-orange-500/10 text-orange-600 border border-orange-500/20 text-xs font-semibold">
+                  <span className="px-2.5 sm:px-3 py-1 rounded-full bg-orange-500/10 text-orange-600 border border-orange-500/20 text-xs font-semibold shrink-0">
                     📍 {filters.area} Hub
                   </span>
                 )}
@@ -212,8 +212,8 @@ export default function Home({
 
       {/* 3. Modal Tab Overlay (Jobs, Ecosystem, Analytics, Admin) */}
       {activeModalTab !== 'none' && (
-        <div className="fixed inset-0 z-[2000] bg-white/90 backdrop-blur-md overflow-y-auto pt-24 sm:pt-20 p-3 sm:p-6 animate-in fade-in">
-          <div className="max-w-7xl mx-auto space-y-4">
+        <div className="fixed inset-0 z-[2000] bg-white/90 backdrop-blur-md overflow-y-auto pt-16 sm:pt-20 p-2 sm:p-6 animate-in fade-in">
+          <div className="max-w-7xl mx-auto space-y-3 sm:space-y-4">
             <div className="flex items-center justify-between bg-white p-3 sm:p-4 rounded-2xl border border-slate-200 shadow-sm">
               <h3 className="text-sm sm:text-base font-bold text-slate-900 uppercase tracking-wider truncate pr-2">
                 {activeModalTab === 'jobs' && '💼 Startup Jobs'}

@@ -130,8 +130,8 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
   return (
     <div className="w-full space-y-6 pb-6">
       {/* 1. Header Banner */}
-      <div className="bg-gradient-to-r from-emerald-950/80 via-slate-900 to-indigo-950/80 p-6 sm:p-7 rounded-3xl border border-slate-800 shadow-xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5">
-        <div className="space-y-2">
+      <div className="bg-gradient-to-r from-emerald-950/80 via-slate-900 to-indigo-950/80 p-4 sm:p-7 rounded-2xl sm:rounded-3xl border border-slate-800 shadow-xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 sm:gap-5">
+        <div className="space-y-1.5 sm:space-y-2">
           <div className="flex flex-wrap items-center gap-2">
             <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 flex items-center gap-1.5 animate-pulse">
               <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
@@ -139,7 +139,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
             </span>
             <span className="text-xs text-slate-400 font-medium">Hyderabad Tech Talent Portal</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+          <h2 className="text-xl sm:text-3xl font-extrabold text-white tracking-tight">
             Hyderabad Startup Job Board
           </h2>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
@@ -148,13 +148,13 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
         </div>
 
         {/* Tab Switcher Pills */}
-        <div className="flex flex-wrap items-center bg-slate-950/90 p-1.5 rounded-2xl border border-slate-800 text-xs font-semibold gap-1 shrink-0 shadow-inner">
+        <div className="flex flex-wrap items-center bg-slate-950/90 p-1.5 rounded-2xl border border-slate-800 text-xs font-semibold gap-1 shrink-0 shadow-inner w-full sm:w-auto">
           <button
             onClick={() => {
               setActiveTab('openings');
               if (filteredJobs.length === 0) resetFilters();
             }}
-            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all cursor-pointer ${
+            className={`flex-1 sm:flex-none justify-center flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all cursor-pointer ${
               activeTab === 'openings'
                 ? 'bg-emerald-500 text-slate-950 font-bold shadow-md shadow-emerald-500/20'
                 : 'text-slate-400 hover:text-white'
@@ -166,7 +166,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
 
           <button
             onClick={() => setActiveTab('companies')}
-            className={`flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all cursor-pointer ${
+            className={`flex-1 sm:flex-none justify-center flex items-center gap-1.5 px-3.5 py-2 rounded-xl transition-all cursor-pointer ${
               activeTab === 'companies'
                 ? 'bg-emerald-500 text-slate-950 font-bold shadow-md shadow-emerald-500/20'
                 : 'text-slate-400 hover:text-white'
@@ -179,7 +179,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
       </div>
 
       {/* 2. Search & Filters Bar */}
-      <div className="bg-slate-900/90 border border-slate-800/80 p-4 rounded-2xl shadow-md space-y-3">
+      <div className="bg-slate-900/90 border border-slate-800/80 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-md space-y-3">
         <div className="flex flex-col md:flex-row items-center gap-3">
           {/* Search Box */}
           <div className="relative flex-1 w-full">
@@ -220,7 +220,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
 
         {/* Category Pills Filter */}
         {activeTab === 'openings' && (
-          <div className="flex items-center gap-2 overflow-x-auto pt-1 pb-0.5 scrollbar-none">
+          <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pt-1 pb-0.5 scrollbar-none">
             <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider shrink-0 pr-1">
               Category:
             </span>
@@ -259,7 +259,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
               <p className="text-sm text-slate-400">No job openings found matching your current filters.</p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
               {filteredJobs.map((job, index) => {
                 const startup = startups.find((s) => s.id === job.startupId);
                 const careersUrl = job.applyUrl || (startup ? getCareersUrl(startup.website) : '#');
@@ -268,7 +268,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
                 return (
                   <div
                     key={uniqueKey}
-                    className="group bg-slate-900/90 border border-slate-800/80 hover:border-emerald-500/50 p-5 rounded-2xl shadow-lg hover:shadow-emerald-950/20 transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between"
+                    className="group bg-slate-900/90 border border-slate-800/80 hover:border-emerald-500/50 p-4 sm:p-5 rounded-xl sm:rounded-2xl shadow-lg hover:shadow-emerald-950/20 transition-all duration-200 hover:-translate-y-1 flex flex-col justify-between"
                   >
                     <div className="space-y-3.5">
                       {/* Top Row: Logo, Title, Category Badge */}

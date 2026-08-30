@@ -23,8 +23,8 @@ export default function StartupCompareDrawer({
   return (
     <>
       {/* Floating Sticky Bottom Bar */}
-      <div className="fixed bottom-4 left-2 right-2 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-auto z-40 bg-slate-900/95 border border-indigo-500/40 backdrop-blur-xl px-4 py-3 rounded-2xl shadow-2xl flex items-center gap-3 sm:gap-4">
-        <div className="flex items-center gap-2 shrink-0">
+      <div className="fixed bottom-3 sm:bottom-4 left-2 right-2 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 sm:w-auto z-40 bg-slate-900/95 border border-indigo-500/40 backdrop-blur-xl px-3 sm:px-4 py-2 sm:py-3 rounded-xl sm:rounded-2xl shadow-2xl flex items-center gap-2 sm:gap-4">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <GitCompare className="w-4 h-4 text-indigo-400" />
           <span className="text-xs font-bold text-white whitespace-nowrap">
             <span className="text-indigo-400">{compareList.length}</span>/3 Startups
@@ -32,18 +32,18 @@ export default function StartupCompareDrawer({
         </div>
 
         {/* Selected Startup Avatars */}
-        <div className="flex items-center gap-1.5 border-l border-r border-slate-800 px-3">
+        <div className="flex items-center gap-1.5 border-l border-r border-slate-800 px-2 sm:px-3 overflow-x-auto scrollbar-none">
           {compareList.map((s) => (
-            <div key={s.id} className="relative group">
+            <div key={s.id} className="relative group shrink-0">
               <img
                 src={getCompanyLogoUrl(s.website, s.name, s.logoUrl)}
                 alt={s.name}
-                className="w-7 h-7 rounded-lg object-contain bg-white border border-slate-700 p-0.5"
+                className="w-6 h-6 sm:w-7 sm:h-7 rounded-lg object-contain bg-white border border-slate-700 p-0.5"
                 onError={(e) => handleLogoError(e, s.name, s.website, s.svgAvatar)}
               />
               <button
                 onClick={() => onRemoveFromCompare(s.id)}
-                className="absolute -top-1.5 -right-1.5 w-4 h-4 rounded-full bg-slate-950 text-slate-400 hover:text-white border border-slate-700 flex items-center justify-center text-[10px]"
+                className="absolute -top-1.5 -right-1.5 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full bg-slate-950 text-slate-400 hover:text-white border border-slate-700 flex items-center justify-center text-[9px] sm:text-[10px]"
               >
                 <X className="w-2.5 h-2.5" />
               </button>
@@ -51,10 +51,10 @@ export default function StartupCompareDrawer({
           ))}
         </div>
 
-        <div className="flex items-center gap-2 ml-auto sm:ml-0">
+        <div className="flex items-center gap-1.5 sm:gap-2 ml-auto sm:ml-0 shrink-0">
           <button
             onClick={() => setIsOpenModal(true)}
-            className="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md shadow-indigo-600/30 transition-all whitespace-nowrap"
+            className="px-2.5 sm:px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md shadow-indigo-600/30 transition-all whitespace-nowrap"
           >
             Compare
           </button>
@@ -69,24 +69,24 @@ export default function StartupCompareDrawer({
 
       {/* Side-by-Side Comparison Modal */}
       {isOpenModal && (
-        <div className="fixed inset-0 z-[2000] flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-fade-in">
-          <div className="relative w-full max-w-5xl max-h-[90vh] bg-slate-900 border border-slate-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col">
+        <div className="fixed inset-0 z-[2000] flex items-center justify-center p-2.5 sm:p-4 bg-slate-950/85 backdrop-blur-md animate-fade-in">
+          <div className="relative w-full max-w-5xl max-h-[92vh] sm:max-h-[90vh] bg-slate-900 border border-slate-800 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden flex flex-col">
             {/* Header */}
-            <div className="p-6 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
+            <div className="p-4 sm:p-6 bg-slate-950 border-b border-slate-800 flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <GitCompare className="w-5 h-5 text-indigo-400" />
-                <h2 className="text-xl font-bold text-white">Startup Side-by-Side Comparison</h2>
+                <GitCompare className="w-5 h-5 text-indigo-400 shrink-0" />
+                <h2 className="text-base sm:text-xl font-bold text-white">Startup Side-by-Side Comparison</h2>
               </div>
               <button
                 onClick={() => setIsOpenModal(false)}
-                className="p-2 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white"
+                className="p-1.5 sm:p-2 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white"
               >
-                <X className="w-5 h-5" />
+                <X className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
             </div>
 
             {/* Comparison Grid Table */}
-            <div className="p-6 overflow-y-auto overflow-x-auto space-y-6">
+            <div className="p-4 sm:p-6 overflow-y-auto overflow-x-auto space-y-6">
               <div className="min-w-[600px]">
                 <div className="grid grid-cols-4 gap-4 border-b border-slate-800 pb-4">
                   <div className="font-bold text-xs text-slate-400 uppercase tracking-wider self-end">Metrics & Specs</div>

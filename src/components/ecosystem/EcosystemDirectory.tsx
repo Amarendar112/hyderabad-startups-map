@@ -33,24 +33,24 @@ export default function EcosystemDirectory({
 
   return (
     <div className="w-full space-y-6">
-      {/* Ecosystem Header */}
-      <div className="bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 p-6 rounded-3xl border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      {/* Ecosystem Banner */}
+      <div className="bg-gradient-to-r from-amber-950/70 via-slate-900 to-indigo-950/70 p-4 sm:p-6 rounded-2xl sm:rounded-3xl border border-slate-800 shadow-xl flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 sm:gap-5">
         <div>
           <div className="flex items-center gap-2 mb-1">
             <Sparkles className="w-4 h-4 text-amber-400" />
             <span className="text-xs text-amber-300 font-semibold uppercase tracking-wider">Hyderabad Innovation Backbone</span>
           </div>
-          <h2 className="text-2xl font-bold text-white">Incubators, Investors & Founders</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-white">Incubators, Investors & Founders</h2>
           <p className="text-xs text-slate-300 max-w-xl">
             Discover world-class innovation engines like T-Hub 2.0, state accelerators, angel networks, and visionary tech leaders driving Hyderabad.
           </p>
         </div>
 
         {/* Tab Selection */}
-        <div className="flex items-center bg-slate-950 p-1.5 rounded-2xl border border-slate-800 text-xs font-semibold">
+        <div className="flex items-center bg-slate-950 p-1.5 rounded-2xl border border-slate-800 text-xs font-semibold overflow-x-auto scrollbar-none w-full sm:w-auto gap-1">
           <button
             onClick={() => setActiveTab('incubators')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl transition-all ${
+            className={`flex-1 sm:flex-none justify-center flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
               activeTab === 'incubators'
                 ? 'bg-amber-500 text-slate-950 font-bold shadow-md'
                 : 'text-slate-400 hover:text-white'
@@ -62,7 +62,7 @@ export default function EcosystemDirectory({
 
           <button
             onClick={() => setActiveTab('investors')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl transition-all ${
+            className={`flex-1 sm:flex-none justify-center flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
               activeTab === 'investors'
                 ? 'bg-amber-500 text-slate-950 font-bold shadow-md'
                 : 'text-slate-400 hover:text-white'
@@ -74,7 +74,7 @@ export default function EcosystemDirectory({
 
           <button
             onClick={() => setActiveTab('founders')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl transition-all ${
+            className={`flex-1 sm:flex-none justify-center flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
               activeTab === 'founders'
                 ? 'bg-amber-500 text-slate-950 font-bold shadow-md'
                 : 'text-slate-400 hover:text-white'
@@ -88,7 +88,7 @@ export default function EcosystemDirectory({
 
       {/* TAB 1: INCUBATORS */}
       {activeTab === 'incubators' && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-5">
           {incubators.map((inc) => (
             <div
               key={inc.id}

@@ -444,7 +444,7 @@ export default function LeafletMap({
 
 
       {/* Floating Bottom Right Map Controls */}
-      <div className="absolute bottom-12 sm:bottom-4 right-14 z-10 flex flex-wrap items-center gap-1.5 sm:gap-2 bg-white/90 backdrop-blur-md p-1 rounded-full shadow-lg border border-gray-200 text-xs max-w-[calc(100vw-5rem)]">
+      <div className="absolute bottom-12 sm:bottom-4 right-3 sm:right-14 z-10 flex items-center gap-1 sm:gap-2 bg-white/90 backdrop-blur-md p-1 rounded-full shadow-lg border border-gray-200 text-xs max-w-[calc(100vw-2rem)] overflow-x-auto scrollbar-none">
         <button
           onClick={() => setMapStyle('light')}
           className={`px-2.5 sm:px-3 py-1 rounded-full font-semibold transition-all ${

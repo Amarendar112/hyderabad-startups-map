@@ -44,17 +44,17 @@ export default function StartupCard({
   };
 
   return (
-    <div className="group relative bg-slate-900/90 hover:bg-slate-900 border border-slate-800 hover:border-indigo-500/50 rounded-2xl p-5 shadow-xl transition-all duration-300 flex flex-col justify-between hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1">
+    <div className="group relative bg-slate-900/90 hover:bg-slate-900 border border-slate-800 hover:border-indigo-500/50 rounded-2xl p-4 sm:p-5 shadow-xl transition-all duration-300 flex flex-col justify-between hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1">
       <div>
         {/* Top Badges & Actions */}
         <div className="flex items-start justify-between gap-2 mb-3">
           {/* Logo & Name */}
-          <div className="flex items-center gap-3">
-            <div className="relative">
+          <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+            <div className="relative shrink-0">
               <img
                 src={getCompanyLogoUrl(startup.website, startup.name, startup.logoUrl)}
                 alt={startup.name}
-                className="w-12 h-12 rounded-xl object-contain bg-white border border-slate-700 p-1 shadow-md group-hover:scale-105 transition-transform"
+                className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl object-contain bg-white border border-slate-700 p-1 shadow-md group-hover:scale-105 transition-transform"
                 onError={(e) => handleLogoError(e, startup.name, startup.website, startup.svgAvatar)}
               />
               {startup.verified && (

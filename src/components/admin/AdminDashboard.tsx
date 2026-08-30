@@ -142,23 +142,23 @@ export default function AdminDashboard({ startups, onReloadData }: AdminDashboar
   return (
     <div className="w-full space-y-6 text-slate-200 font-sans">
       {/* Admin Header */}
-      <div className="bg-gradient-to-r from-slate-950 via-indigo-950/60 to-slate-950 p-6 rounded-3xl border border-indigo-500/30 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-2xl">
+      <div className="bg-gradient-to-r from-slate-950 via-indigo-950/60 to-slate-950 p-4 sm:p-6 rounded-2xl sm:rounded-3xl border border-indigo-500/30 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 shadow-2xl">
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <ShieldCheck className="w-5 h-5 text-indigo-400" />
+            <ShieldCheck className="w-5 h-5 text-indigo-400 shrink-0" />
             <span className="text-xs text-indigo-300 font-semibold uppercase tracking-wider">Hyderabad Ecosystem Admin</span>
           </div>
-          <h2 className="text-2xl font-bold text-white">Verification & ATS Job Sync Portal</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-white">Verification & ATS Job Sync Portal</h2>
           <p className="text-xs text-slate-300 max-w-xl">
             Configure ATS integrations (Greenhouse, Lever, Ashby), verify submissions, and manage live hiring sync.
           </p>
         </div>
 
         {/* Tab Controls */}
-        <div className="flex flex-wrap items-center bg-slate-950 p-1.5 rounded-2xl border border-slate-800 text-xs font-semibold">
+        <div className="flex items-center bg-slate-950 p-1.5 rounded-2xl border border-slate-800 text-xs font-semibold overflow-x-auto scrollbar-none w-full lg:w-auto gap-1">
           <button
             onClick={() => setActiveTab('pending')}
-            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl transition-all ${
+            className={`flex-1 lg:flex-none justify-center flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
               activeTab === 'pending' ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -167,7 +167,7 @@ export default function AdminDashboard({ startups, onReloadData }: AdminDashboar
 
           <button
             onClick={() => setActiveTab('manage')}
-            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl transition-all ${
+            className={`flex-1 lg:flex-none justify-center flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
               activeTab === 'manage' ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -176,7 +176,7 @@ export default function AdminDashboard({ startups, onReloadData }: AdminDashboar
 
           <button
             onClick={() => setActiveTab('ats')}
-            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl transition-all ${
+            className={`flex-1 lg:flex-none justify-center flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
               activeTab === 'ats' ? 'bg-orange-500 text-white shadow-md shadow-orange-500/20' : 'text-slate-400 hover:text-white'
             }`}
           >
@@ -186,7 +186,7 @@ export default function AdminDashboard({ startups, onReloadData }: AdminDashboar
 
           <button
             onClick={() => setActiveTab('data')}
-            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl transition-all ${
+            className={`flex-1 lg:flex-none justify-center flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-2 rounded-xl transition-all whitespace-nowrap shrink-0 ${
               activeTab === 'data' ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
             }`}
           >
