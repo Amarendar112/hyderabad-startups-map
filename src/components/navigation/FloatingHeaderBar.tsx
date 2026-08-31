@@ -82,7 +82,11 @@ export default function FloatingHeaderBar({
               className="mr-auto flex min-w-0 items-center gap-1.5 pl-1 sm:mr-0 sm:order-1 whitespace-nowrap hover:opacity-80 transition-opacity"
               aria-label="Hyderabad Startup Map home"
             >
-              <span className="text-base" aria-hidden="true">📍</span>
+              <img
+                src="/icon.png"
+                alt="Hyderabad Startup Map Logo"
+                className="h-8 w-8 object-contain sm:h-9 sm:w-9"
+              />
               <span className="truncate text-sm font-bold text-zinc-900 tracking-tight sm:text-base">
                 Hyderabad Startup Map
               </span>

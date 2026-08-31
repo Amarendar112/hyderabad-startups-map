@@ -29,7 +29,7 @@ export default function Header({
           className="flex items-center gap-3 cursor-pointer group"
         >
           <img
-            src="/logo.png"
+            src="/logo_original.png"
             alt="Hyderabad Startup Map Logo"
             className="w-12 h-12 object-contain group-hover:scale-105 transition-transform drop-shadow-md"
           />

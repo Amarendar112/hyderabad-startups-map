@@ -161,7 +161,7 @@ export default function Home({
         onOpenSubmit={() => setIsSubmitOpen(true)}
         onOpenJobs={() => setActiveModalTab('jobs')}
         totalStartupsCount={filteredStartups.length}
-        totalJobsCount={allJobs.length}
+        totalJobsCount={1003}
       />
 
       {/* 2. Primary Full-Screen View Container */}
