@@ -31,7 +31,7 @@ interface StartupDetailModalProps {
   onToggleFavorite: (id: string) => void;
   isComparing: boolean;
   onToggleCompare: (startup: Startup) => void;
-  initialActiveTab?: 'overview' | 'founders' | 'jobs' | 'location';
+  initialActiveTab?: 'overview' | 'founders' | 'location';
 }
 
 export default function StartupDetailModal({
@@ -45,7 +45,7 @@ export default function StartupDetailModal({
   onToggleCompare,
   initialActiveTab = 'overview',
 }: StartupDetailModalProps) {
-  const [activeTab, setActiveTab] = useState<'overview' | 'founders' | 'jobs' | 'location'>(initialActiveTab);
+  const [activeTab, setActiveTab] = useState<'overview' | 'founders' | 'location'>(initialActiveTab);
 
   useEffect(() => {
     setActiveTab(initialActiveTab);
@@ -155,17 +155,6 @@ export default function StartupDetailModal({
               }`}
             >
               Founders ({startup.founders.length})
-            </button>
-
-            <button
-              onClick={() => setActiveTab('jobs')}
-              className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs font-semibold transition-all whitespace-nowrap shrink-0 ${
-                activeTab === 'jobs'
-                  ? 'bg-indigo-600 text-white shadow-md'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
-              }`}
-            >
-              Jobs {startup.jobOpenings ? `(${startup.jobOpenings.length})` : ''}
             </button>
 
             <button
@@ -311,112 +300,6 @@ export default function StartupDetailModal({
             </div>
           )}
 
-          {/* TAB 3: JOBS */}
-          {activeTab === 'jobs' && (() => {
-            const startupJobs = (startup.jobOpenings && startup.jobOpenings.length > 0)
-              ? startup.jobOpenings
-              : INITIAL_JOBS.filter(j => j.startupId === startup.id || j.startupName.toLowerCase() === startup.name.toLowerCase());
-
-            const careersUrl = startupJobs[0]?.applyUrl || (
-              startup.website.endsWith('/')
-                ? `${startup.website}careers`
-                : `${startup.website}/careers`
-            );
-
-            return (
-              <div className="space-y-4">
-                {/* Permanent Official Career Portal Banner */}
-                <div className="p-4 bg-gradient-to-r from-orange-950/40 via-slate-900 to-indigo-950/60 border border-slate-800 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-lg">
-                  <div className="space-y-1">
-                    <div className="flex items-center gap-2">
-                      <Briefcase className="w-4 h-4 text-orange-400" />
-                      <h5 className="font-bold text-sm text-white">{startup.name} Official Careers Portal</h5>
-                    </div>
-                    <p className="text-xs text-slate-300">
-                      Explore all verified career opportunities, internships, and hiring updates directly on {startup.name}&apos;s recruitment portal.
-                    </p>
-                  </div>
-                  <a
-                    href={careersUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="px-4 py-2.5 rounded-xl bg-orange-500 hover:bg-orange-600 text-white text-xs font-bold shadow-lg shadow-orange-500/20 transition-all flex items-center justify-center gap-1.5 whitespace-nowrap"
-                  >
-                    Visit Careers Portal
-                    <ArrowUpRight className="w-4 h-4" />
-                  </a>
-                </div>
-
-                {startupJobs.length > 0 ? (
-                  <>
-                    <div className="flex items-center justify-between pt-2">
-                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">
-                        {startupJobs.length} OPEN ROLES IN HYDERABAD
-                      </h4>
-                      <span className="px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex items-center gap-1.5">
-                        <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                        Active Listings
-                      </span>
-                    </div>
-
-                    <div className="space-y-3">
-                      {startupJobs.map((job) => (
-                        <div
-                          key={job.id}
-                          className="p-4 bg-slate-950/90 border border-slate-800/90 hover:border-slate-700 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition-all"
-                        >
-                          <div className="space-y-1.5">
-                            <h5 className="font-bold text-sm text-white">{job.title}</h5>
-                            <div className="flex flex-wrap items-center gap-2 text-[11px]">
-                              <span className="px-2.5 py-0.5 rounded-md bg-slate-800 text-slate-300 border border-slate-700 font-medium">
-                                {job.category}
-                              </span>
-                              <span className="px-2.5 py-0.5 rounded-md bg-slate-800 text-slate-300 border border-slate-700 font-medium">
-                                {job.experienceLevel}
-                              </span>
-                              {job.salaryRange && (
-                                <span className="font-semibold text-emerald-400 pl-1">
-                                  {job.salaryRange}
-                                </span>
-                              )}
-                            </div>
-                          </div>
-                          <a
-                            href={job.applyUrl || careersUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="px-4 py-2 rounded-xl bg-orange-500 hover:bg-orange-600 active:scale-95 text-white text-xs font-bold shadow-md shadow-orange-500/20 inline-flex items-center justify-center gap-1 shrink-0"
-                          >
-                            Apply
-                            <ArrowUpRight className="w-3.5 h-3.5" />
-                          </a>
-                        </div>
-                      ))}
-                    </div>
-                  </>
-                ) : (
-                  <div className="p-8 text-center bg-slate-950/40 rounded-2xl border border-slate-800 space-y-3">
-                    <Briefcase className="w-10 h-10 text-slate-600 mx-auto" />
-                    <div>
-                      <h5 className="text-sm font-bold text-white">Direct Recruitment Page Available</h5>
-                      <p className="text-xs text-slate-400 max-w-sm mx-auto mt-1">
-                        Visit {startup.name}&apos;s official careers portal to explore open roles and submit your application.
-                      </p>
-                    </div>
-                    <a
-                      href={careersUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="px-4 py-2 rounded-xl bg-orange-500 hover:bg-orange-600 text-white text-xs font-bold inline-flex items-center gap-1.5 shadow-md shadow-orange-500/20"
-                    >
-                      Open Careers Portal
-                      <ArrowUpRight className="w-3.5 h-3.5" />
-                    </a>
-                  </div>
-                )}
-              </div>
-            );
-          })()}
 
           {/* TAB 4: LOCATION */}
           {activeTab === 'location' && (
