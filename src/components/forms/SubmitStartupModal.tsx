@@ -88,6 +88,7 @@ export default function SubmitStartupModal({ isOpen, onClose, onSubmit }: Submit
               setSubmittedSuccess(false);
               onClose();
             }}
+            aria-label="Close modal"
             className="p-1.5 sm:p-2 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white"
           >
             <X className="w-4 h-4 sm:w-5 sm:h-5" />

@@ -161,7 +161,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
             }`}
           >
             <Briefcase className="w-3.5 h-3.5" />
-            <span>Posted Recently (254)</span>
+            <span>Posted Recently ({activeJobs.length})</span>
           </button>
 
           <button
@@ -249,7 +249,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
           <div className="flex items-center justify-between px-1">
             <h3 className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
               <Briefcase className="w-4 h-4 text-emerald-400" />
-              Posted Recently 254
+              Posted Recently ({filteredJobs.length})
             </h3>
             <span className="text-xs text-slate-400">Direct Apply to Official Careers Page</span>
           </div>
@@ -287,6 +287,7 @@ export default function JobsDirectory({ jobs, startups, onSelectStartup }: JobsD
                             <button
                               type="button"
                               onClick={() => startup && onSelectStartup(startup)}
+                              aria-label={`View ${job.startupName || startup?.name || 'startup'} profile`}
                               className="text-xs text-indigo-400 hover:text-indigo-300 hover:underline flex items-center gap-1 mt-0.5 font-medium truncate cursor-pointer"
                             >
                               {job.startupName || startup?.name || 'Hyderabad Venture'}{' '}

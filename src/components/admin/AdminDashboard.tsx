@@ -309,6 +309,7 @@ export default function AdminDashboard({ startups, onReloadData }: AdminDashboar
                     <td className="p-4 text-right">
                       <button
                         onClick={() => handleDelete(startup.id)}
+                        aria-label={`Delete ${startup.name}`}
                         className="p-2 rounded-lg bg-rose-500/10 border border-rose-500/20 text-rose-400 hover:bg-rose-600 hover:text-white transition-all"
                       >
                         <Trash2 className="w-4 h-4" />

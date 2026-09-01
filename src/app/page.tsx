@@ -161,7 +161,7 @@ export default function Home({
         onOpenSubmit={() => setIsSubmitOpen(true)}
         onOpenJobs={() => setActiveModalTab('jobs')}
         totalStartupsCount={filteredStartups.length}
-        totalJobsCount={1003}
+        totalJobsCount={allJobs.length}
       />
 
       {/* 2. Primary Full-Screen View Container */}
@@ -223,6 +223,7 @@ export default function Home({
               </h3>
               <button
                 onClick={() => setActiveModalTab('none')}
+                aria-label="Close modal overlay"
                 className="px-4 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-xs font-bold text-slate-700 transition-all"
               >
                 Close ✕

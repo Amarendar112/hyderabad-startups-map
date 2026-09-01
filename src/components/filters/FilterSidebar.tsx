@@ -68,6 +68,7 @@ export default function FilterSidebar({
         </div>
         <button
           onClick={onResetFilters}
+          aria-label="Reset all filters"
           className="flex items-center gap-1 text-xs text-slate-400 hover:text-rose-400 transition-colors"
         >
           <RotateCcw className="w-3 h-3" />
@@ -88,6 +89,7 @@ export default function FilterSidebar({
         {filters.search && (
           <button
             onClick={() => updateFilter('search', '')}
+            aria-label="Clear search"
             className="absolute right-2.5 top-2.5 text-slate-400 hover:text-white"
           >
             <X className="w-4 h-4" />
@@ -99,6 +101,7 @@ export default function FilterSidebar({
       <div className="grid grid-cols-2 gap-2 pt-1">
         <button
           onClick={() => updateFilter('hiringOnly', !filters.hiringOnly)}
+          aria-label="Toggle hiring only filter"
           className={`flex items-center justify-center gap-2 p-2 rounded-xl border text-xs font-semibold transition-all ${
             filters.hiringOnly
               ? 'bg-emerald-500/20 border-emerald-500 text-emerald-300 shadow-md shadow-emerald-500/10'
@@ -111,6 +114,7 @@ export default function FilterSidebar({
 
         <button
           onClick={() => updateFilter('incubationOnly', !filters.incubationOnly)}
+          aria-label="Toggle incubation only filter"
           className={`flex items-center justify-center gap-2 p-2 rounded-xl border text-xs font-semibold transition-all ${
             filters.incubationOnly
               ? 'bg-amber-500/20 border-amber-500 text-amber-300 shadow-md shadow-amber-500/10'

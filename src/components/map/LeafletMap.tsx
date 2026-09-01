@@ -447,6 +447,7 @@ export default function LeafletMap({
       <div className="absolute bottom-12 sm:bottom-4 right-3 sm:right-14 z-10 flex items-center gap-1 sm:gap-2 bg-white/90 backdrop-blur-md p-1 rounded-full shadow-lg border border-gray-200 text-xs max-w-[calc(100vw-2rem)] overflow-x-auto scrollbar-none">
         <button
           onClick={() => setMapStyle('light')}
+          aria-label="Light map style"
           className={`px-2.5 sm:px-3 py-1 rounded-full font-semibold transition-all ${
             mapStyle === 'light' ? 'bg-orange-500 text-white shadow-sm' : 'text-gray-600 hover:text-gray-900'
           }`}
@@ -456,6 +457,7 @@ export default function LeafletMap({
         </button>
         <button
           onClick={() => setMapStyle('dark')}
+          aria-label="Dark map style"
           className={`px-2.5 sm:px-3 py-1 rounded-full font-semibold transition-all ${
             mapStyle === 'dark' ? 'bg-orange-500 text-white shadow-sm' : 'text-gray-600 hover:text-gray-900'
           }`}
@@ -465,6 +467,7 @@ export default function LeafletMap({
         </button>
         <button
           onClick={() => setMapStyle('satellite')}
+          aria-label="Satellite map style"
           className={`px-2.5 sm:px-3 py-1 rounded-full font-semibold transition-all ${
             mapStyle === 'satellite' ? 'bg-orange-500 text-white shadow-sm' : 'text-gray-600 hover:text-gray-900'
           }`}
@@ -474,6 +477,7 @@ export default function LeafletMap({
         </button>
         <button
           onClick={() => setShowHeatmap(!showHeatmap)}
+          aria-label="Toggle Heatmap"
           className={`flex items-center gap-1 px-2.5 sm:px-3 py-1 rounded-full font-semibold border transition-all ${
             showHeatmap
               ? 'bg-amber-100 border-amber-300 text-amber-700'

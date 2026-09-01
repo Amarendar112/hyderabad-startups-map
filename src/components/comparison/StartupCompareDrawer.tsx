@@ -43,6 +43,7 @@ export default function StartupCompareDrawer({
               />
               <button
                 onClick={() => onRemoveFromCompare(s.id)}
+                aria-label={`Remove ${s.name} from comparison`}
                 className="absolute -top-1.5 -right-1.5 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full bg-slate-950 text-slate-400 hover:text-white border border-slate-700 flex items-center justify-center text-[9px] sm:text-[10px]"
               >
                 <X className="w-2.5 h-2.5" />
@@ -54,12 +55,14 @@ export default function StartupCompareDrawer({
         <div className="flex items-center gap-1.5 sm:gap-2 ml-auto sm:ml-0 shrink-0">
           <button
             onClick={() => setIsOpenModal(true)}
+            aria-label="Open comparison modal"
             className="px-2.5 sm:px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md shadow-indigo-600/30 transition-all whitespace-nowrap"
           >
             Compare
           </button>
           <button
             onClick={onClearCompare}
+            aria-label="Clear all comparisons"
             className="text-xs text-slate-400 hover:text-rose-400 transition-colors p-1"
           >
             Clear
@@ -79,6 +82,7 @@ export default function StartupCompareDrawer({
               </div>
               <button
                 onClick={() => setIsOpenModal(false)}
+                aria-label="Close comparison modal"
                 className="p-1.5 sm:p-2 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white"
               >
                 <X className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -101,6 +105,7 @@ export default function StartupCompareDrawer({
                       <h3 className="font-bold text-sm text-white">{s.name}</h3>
                       <button
                         onClick={() => onRemoveFromCompare(s.id)}
+                        aria-label={`Remove ${s.name} from comparison`}
                         className="text-[10px] text-rose-400 hover:underline"
                       >
                         Remove

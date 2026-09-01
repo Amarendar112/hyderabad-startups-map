@@ -115,6 +115,7 @@ export default function StartupList({
                     <div className="flex items-center justify-end gap-1.5" onClick={(e) => e.stopPropagation()}>
                       <button
                         onClick={() => onToggleFavorite(startup.id)}
+                        aria-label={isFavorite ? `Remove ${startup.name} from favorites` : `Add ${startup.name} to favorites`}
                         className={`p-1.5 rounded-lg border transition-all ${
                           isFavorite
                             ? 'bg-amber-500/20 border-amber-500/50 text-amber-400'
@@ -126,6 +127,7 @@ export default function StartupList({
 
                       <button
                         onClick={() => onToggleCompare(startup)}
+                        aria-label={isComparing ? `Remove ${startup.name} from comparison` : `Add ${startup.name} to comparison`}
                         className={`p-1.5 rounded-lg border transition-all ${
                           isComparing
                             ? 'bg-indigo-600 border-indigo-500 text-white'
@@ -137,6 +139,7 @@ export default function StartupList({
 
                       <button
                         onClick={() => onSelectStartup(startup)}
+                        aria-label={`View details for ${startup.name}`}
                         className="p-1.5 rounded-lg bg-indigo-600/80 hover:bg-indigo-600 text-white transition-all"
                       >
                         <ArrowRight className="w-3.5 h-3.5" />

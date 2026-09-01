@@ -12,6 +12,7 @@ export default function JobAlertsFloatingButton({ onClick, jobCount }: JobAlerts
   return (
     <button
       onClick={onClick}
+      aria-label="Get job alerts"
       className="absolute bottom-20 sm:bottom-16 left-3 sm:left-4 z-40 flex items-center gap-2 bg-gradient-to-r from-orange-500 to-rose-500 hover:from-orange-600 hover:to-rose-600 text-white text-xs font-bold px-3 sm:px-4 py-2.5 rounded-full shadow-xl shadow-orange-500/25 active:scale-95 transition-all group"
       suppressHydrationWarning
     >

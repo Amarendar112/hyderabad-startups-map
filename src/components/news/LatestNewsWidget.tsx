@@ -43,6 +43,7 @@ export default function LatestNewsWidget() {
       {/* Toggle button — always visible */}
       <button
         onClick={() => setIsOpen((v) => !v)}
+        aria-label="Toggle Latest News"
         className={`flex items-center gap-1.5 px-3 py-2 rounded-full shadow-lg border text-xs font-bold transition-all ${
           isOpen
             ? 'bg-orange-500 text-white border-orange-500 shadow-orange-500/20'
@@ -74,6 +75,7 @@ export default function LatestNewsWidget() {
             </div>
             <button
               onClick={() => setIsOpen(false)}
+              aria-label="Close latest news"
               className="p-1 rounded-full text-gray-400 hover:text-gray-700 hover:bg-gray-100 transition-all"
               title="Close"
               suppressHydrationWarning
@@ -117,6 +119,7 @@ export default function LatestNewsWidget() {
             </span>
             <button
               onClick={() => setPage((prev) => (prev + 1) % totalPages)}
+              aria-label="Next news page"
               className="flex items-center gap-1 font-bold text-gray-900 hover:text-orange-600 bg-gray-100 hover:bg-orange-100 px-2.5 py-1 rounded-full transition-all"
               suppressHydrationWarning
             >

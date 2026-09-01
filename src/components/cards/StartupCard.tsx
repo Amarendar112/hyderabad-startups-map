@@ -83,6 +83,7 @@ export default function StartupCard({
                 e.stopPropagation();
                 onToggleFavorite(startup.id);
               }}
+              aria-label={isFavorite ? `Remove ${startup.name} from favorites` : `Add ${startup.name} to favorites`}
               title={isFavorite ? 'Remove Favorite' : 'Save Favorite'}
               className={`p-1.5 rounded-lg border transition-all ${
                 isFavorite
@@ -98,6 +99,7 @@ export default function StartupCard({
                 e.stopPropagation();
                 onToggleCompare(startup);
               }}
+              aria-label={isComparing ? `Remove ${startup.name} from comparison` : `Add ${startup.name} to comparison`}
               title={isComparing ? 'Remove from Compare' : 'Add to Compare'}
               className={`p-1.5 rounded-lg border transition-all ${
                 isComparing

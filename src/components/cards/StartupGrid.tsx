@@ -39,6 +39,7 @@ export default function StartupGrid({
         {onResetFilters && (
           <button
             onClick={onResetFilters}
+            aria-label="Reset all filters"
             className="flex items-center gap-2 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-lg shadow-indigo-600/25 transition-all"
           >
             <RefreshCw className="w-3.5 h-3.5" />

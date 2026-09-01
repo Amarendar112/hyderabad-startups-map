@@ -96,6 +96,7 @@ export default function FloatingHeaderBar({
               <button
                 id="submit-startup-btn"
                 type="button"
+                aria-label="Submit a startup"
                 onClick={onOpenSubmit}
                 className="shrink-0 rounded-full bg-[#ff5a1f] px-3.5 py-1.5 text-xs font-medium text-white transition hover:opacity-90 sm:text-sm whitespace-nowrap cursor-pointer shadow-sm"
                 suppressHydrationWarning
@@ -137,6 +138,7 @@ export default function FloatingHeaderBar({
                   key={v}
                   type="button"
                   id={`view-${v}-btn`}
+                  aria-label={`Switch to ${v} view`}
                   onClick={() => onViewChange(v)}
                   className={`rounded-full px-2.5 sm:px-3 py-1 text-xs sm:text-sm capitalize transition font-medium cursor-pointer ${
                     displayView === v
@@ -154,6 +156,7 @@ export default function FloatingHeaderBar({
             <button
               id="jobs-modal-button"
               type="button"
+              aria-label={`View ${totalJobsCount.toLocaleString()} startup job openings`}
               onClick={onOpenJobs}
               className="animate-hiring-pulse shrink-0 rounded-full border border-[#ff5a1f] bg-white px-2.5 sm:px-3 py-1.5 text-xs font-semibold text-[#ff5a1f] transition hover:bg-orange-50 whitespace-nowrap cursor-pointer sm:order-4"
               suppressHydrationWarning
@@ -267,6 +270,7 @@ export default function FloatingHeaderBar({
                       sortBy: 'featured',
                     })
                   }
+                  aria-label="Reset all filters"
                   className="text-orange-600 font-semibold hover:underline cursor-pointer"
                 >
                   Reset filters

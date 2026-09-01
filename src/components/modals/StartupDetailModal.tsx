@@ -31,7 +31,7 @@ interface StartupDetailModalProps {
   onToggleFavorite: (id: string) => void;
   isComparing: boolean;
   onToggleCompare: (startup: Startup) => void;
-  initialActiveTab?: 'overview' | 'founders' | 'location';
+  initialActiveTab?: 'overview' | 'founders' | 'location' | 'jobs';
 }
 
 export default function StartupDetailModal({
@@ -45,13 +45,17 @@ export default function StartupDetailModal({
   onToggleCompare,
   initialActiveTab = 'overview',
 }: StartupDetailModalProps) {
-  const [activeTab, setActiveTab] = useState<'overview' | 'founders' | 'location'>(initialActiveTab);
+  const [activeTab, setActiveTab] = useState<'overview' | 'founders' | 'location' | 'jobs'>(initialActiveTab);
 
   useEffect(() => {
     setActiveTab(initialActiveTab);
   }, [initialActiveTab, startup?.id]);
 
   if (!startup) return null;
+
+  const startupJobs = INITIAL_JOBS.filter(
+    (job) => job.startupId === startup.id || job.startupName.toLowerCase() === startup.name.toLowerCase()
+  ).slice(0, 6);
 
   // Filter similar startups in same category or area
   const similarStartups = allStartups
@@ -68,6 +72,7 @@ export default function StartupDetailModal({
         <div className="relative bg-gradient-to-r from-slate-950 via-indigo-950/50 to-slate-950 p-4 sm:p-6 border-b border-slate-800">
           <button
             onClick={onClose}
+            aria-label="Close modal"
             className="absolute top-3.5 sm:top-4 right-3.5 sm:right-4 p-1.5 sm:p-2 rounded-full bg-slate-900/80 border border-slate-700 text-slate-400 hover:text-white hover:bg-slate-800 transition-all z-10"
           >
             <X className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -99,6 +104,7 @@ export default function StartupDetailModal({
             <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap w-full sm:w-auto justify-end sm:justify-start pt-1 sm:pt-0">
               <button
                 onClick={() => onToggleFavorite(startup.id)}
+                aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
                 className={`p-2 sm:p-2.5 rounded-xl border transition-all ${
                   isFavorite
                     ? 'bg-amber-500/20 border-amber-500 text-amber-400'
@@ -111,6 +117,7 @@ export default function StartupDetailModal({
 
               <button
                 onClick={() => onToggleCompare(startup)}
+                aria-label={isComparing ? 'Remove from comparison' : 'Add to comparison'}
                 className={`p-2 sm:p-2.5 rounded-xl border transition-all ${
                   isComparing
                     ? 'bg-indigo-600 border-indigo-500 text-white'
@@ -155,6 +162,17 @@ export default function StartupDetailModal({
               }`}
             >
               Founders ({startup.founders.length})
+            </button>
+
+            <button
+              onClick={() => setActiveTab('jobs')}
+              className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-xs font-semibold transition-all whitespace-nowrap shrink-0 ${
+                activeTab === 'jobs'
+                  ? 'bg-indigo-600 text-white shadow-md'
+                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+              }`}
+            >
+              Jobs ({startupJobs.length})
             </button>
 
             <button
@@ -300,6 +318,48 @@ export default function StartupDetailModal({
             </div>
           )}
 
+
+          {/* TAB 3: JOBS */}
+          {activeTab === 'jobs' && (
+            <div className="space-y-4">
+              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Open roles at {startup.name}</h4>
+              {startupJobs.length > 0 ? (
+                <div className="space-y-3">
+                  {startupJobs.map((job) => (
+                    <a
+                      key={job.id}
+                      href={job.applyUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="block p-4 bg-slate-950/80 border border-slate-800 rounded-2xl hover:border-indigo-500/50 hover:bg-slate-900 transition-all"
+                    >
+                      <div className="flex items-start justify-between gap-3">
+                        <div>
+                          <h5 className="font-bold text-sm text-white">{job.title}</h5>
+                          <div className="mt-1 flex flex-wrap items-center gap-2 text-[11px] text-slate-400">
+                            <span>{job.type}</span>
+                            <span>•</span>
+                            <span>{job.experienceLevel}</span>
+                            <span>•</span>
+                            <span>{job.location}</span>
+                          </div>
+                        </div>
+                        <span className="text-[10px] uppercase tracking-wider text-indigo-300">Apply</span>
+                      </div>
+                      <div className="mt-3 flex items-center justify-between gap-3 text-[11px] text-slate-300">
+                        <span>{job.salaryRange}</span>
+                        <span className="text-slate-400">{job.postedAt}</span>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <div className="p-4 bg-slate-950/80 border border-slate-800 rounded-2xl text-sm text-slate-300">
+                  No open roles are currently listed for this startup.
+                </div>
+              )}
+            </div>
+          )}
 
           {/* TAB 4: LOCATION */}
           {activeTab === 'location' && (

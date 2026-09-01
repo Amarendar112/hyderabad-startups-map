@@ -111,6 +111,7 @@ export default function EcosystemDirectory({
                     href={inc.website}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label={`Visit ${inc.name} website`}
                     className="p-2 rounded-xl bg-slate-950 border border-slate-800 text-slate-400 hover:text-white"
                   >
                     <ExternalLink className="w-4 h-4" />
@@ -235,6 +236,7 @@ export default function EcosystemDirectory({
                   <span className="text-xs text-indigo-400 font-medium block">{founder.role}</span>
                   <button
                     onClick={() => startup && onSelectStartup(startup)}
+                    aria-label={`View ${founder.startupName} profile`}
                     className="text-[11px] text-slate-300 hover:text-white flex items-center gap-1 font-semibold pt-1"
                   >
                     <img
