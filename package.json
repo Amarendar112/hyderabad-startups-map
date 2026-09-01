@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "allowScripts": {
+    "unrs-resolver": true
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.3",
     "@types/canvas-confetti": "^1.9.0",
