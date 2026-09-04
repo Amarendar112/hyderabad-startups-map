@@ -66,8 +66,19 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px]">
-          <span>© {new Date().getFullYear()} Hyderabad Startup Map. Built for the Hyderabad Technology & Startup Ecosystem.</span>
+        <div className="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px] text-center sm:text-left">
+          <span>
+            © 2026 Hyderabad Startup Map. Created &amp; maintained by{' '}
+            <a
+              href="https://amarendar-ui-ux-portfolio.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-300 hover:text-indigo-400 underline underline-offset-2 transition-colors font-medium"
+            >
+              Amarendar Jaalthari
+            </a>{' '}
+            - Founder,Full-Stack Developer &amp; UI/UX Designer
+          </span>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1 text-slate-400">
               Crafted with <Heart className="w-3 h-3 text-rose-500 fill-rose-500" /> for Hyderabad

@@ -24,6 +24,18 @@ export default function LiveStatusBar({ startupCount }: LiveStatusBarProps) {
           </span>
           <span className="text-[9px] text-muted-foreground">startups</span>
         </div>
+        <span className="text-[9px] text-muted-foreground">|</span>
+        <span className="text-[9px] text-muted-foreground">
+          © 2026{' '}
+          <a
+            href="https://amarendar-ui-ux-portfolio.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-foreground underline underline-offset-2 hover:text-primary"
+          >
+            Amarendar Jaalthari
+          </a>
+        </span>
       </div>
     </aside>
   );

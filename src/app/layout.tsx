@@ -3,6 +3,7 @@ import { Inter, Roboto } from "next/font/google";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 import SeoContent from "@/components/seo/SeoContent";
+import Footer from "@/components/navigation/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -137,6 +138,7 @@ export default function RootLayout({
       <body className="h-full w-full font-sans bg-[#f8f9fa] text-slate-900" suppressHydrationWarning>
         <SeoContent />
         {children}
+        <Footer />
         <SpeedInsights />
       </body>
     </html>

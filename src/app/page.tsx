@@ -21,6 +21,7 @@ import EcosystemDirectory from '@/components/ecosystem/EcosystemDirectory';
 import AnalyticsDashboard from '@/components/analytics/AnalyticsDashboard';
 import AdminDashboard from '@/components/admin/AdminDashboard';
 import SubmitStartupModal from '@/components/forms/SubmitStartupModal';
+import Footer from '@/components/navigation/Footer';
 
 export default function Home({
   initialStartupSlug,
@@ -148,7 +149,7 @@ export default function Home({
   };
 
   return (
-    <main className="relative h-screen w-screen overflow-hidden bg-[#f8f9fa] text-foreground font-sans">
+    <main className="relative min-h-screen w-screen overflow-hidden bg-[#f8f9fa] text-foreground font-sans">
       {/* 1. Floating Top Navigation & Filter Bar */}
       <FloatingHeaderBar
         filters={filters}
@@ -165,7 +166,7 @@ export default function Home({
       />
 
       {/* 2. Primary Full-Screen View Container */}
-      <div className="relative w-full h-full">
+      <div className="relative w-full h-screen">
         {/* MAP VIEW */}
         {displayView === 'map' && (
           <div className="w-full h-full">
@@ -205,6 +206,9 @@ export default function Home({
                 onToggleCompare={handleToggleCompare}
                 onResetFilters={handleResetFilters}
               />
+            </div>
+            <div className="mt-12 -mx-2.5 sm:-mx-6 -mb-8">
+              <Footer />
             </div>
           </div>
         )}
